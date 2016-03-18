@@ -1,0 +1,5776 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: C++ Graph Representation Problem - GIDForums
+Date: Mon, 1 Nov 2010 11:31:54 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CB79B8.62918B40"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/t-20285.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den dir=3Dltr =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>C++ Graph =
+Representation Problem - GIDForums</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3DISO-8859-1">
+<META content=3Dnoarchive name=3Drobots>
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR>
+<META=20
+content=3D"C++ Graph Representation Problem, webmaster,web design,web =
+site,website design,website =
+reviews,graphics,programming,php,mysql,database,scripts,c,c++,c plus =
+plus,website promotion,search engine =
+optimization,google,inktomi,yahoo,msn,search =
+engines,directories,seo,advertising,affiliates,web hosting,web =
+servers,apache,free web hosts,web host reviews,computers,computer =
+hardware,computer software,windows,linux,unix,pc =
+games,game,open,discussion,board,forums,message,members,feedback,info,ads=
+ and offers,trade,users,xhtml,html,css,javascript,code"=20
+name=3Dkeywords>
+<META content=3D"C++ Graph Representation Problem C++ Forum" =
+name=3Ddescription><!-- CSS Stylesheet --><LINK id=3Dvbulletin_css=20
+href=3D"http://www.gidforums.com/clientscript/vbulletin_css/style-4e65dd2=
+e-00001.css"=20
+type=3Dtext/css rel=3Dstylesheet><!-- / CSS Stylesheet -->
+<SCRIPT type=3Dtext/javascript>
+<!--
+var SESSIONURL =3D "";
+var IMGDIR_MISC =3D "images/misc";
+// -->
+</SCRIPT>
+
+<SCRIPT =
+src=3D"http://www.gidforums.com/clientscript/vbulletin_global.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT src=3D"http://www.gidforums.com/clientscript/vbulletin_menu.js"=20
+type=3Dtext/javascript rel=3D"nofollow"></SCRIPT>
+<LINK title=3D"GIDForums RSS Feed" href=3D"external.php?type=3DRSS2"=20
+type=3Dapplication/rss+xml rel=3Dalternate>
+<SCRIPT src=3D"http://www.gidforums.com/pphlogger.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT =
+src=3D"http://partner.googleadservices.com/gampad/google_service.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>GS_googleAddAdSenseService( =
+"ca-pub-6718186524237536" ); GS_googleEnableAllServices();</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>var gam_fid=3D"28"; var =
+gam_tid=3D"20285";</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>GA_googleAddAttr( "ref_is_se", "0" =
+);GA_googleAddAttr( "f", "28" );</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>GA_googleAddSlot( =
+"ca-pub-6718186524237536", "gidforums_top_right_728_90_programming" =
+);GA_googleAddSlot( "ca-pub-6718186524237536", =
+"gidforums_incontent_728_90" );GA_googleAddSlot( =
+"ca-pub-6718186524237536", "gidforums_cube_showthread_bottom_1" =
+);GA_googleAddSlot( "ca-pub-6718186524237536", =
+"gidforums_cube_showthread_bottom_3" );GA_googleAddSlot( =
+"ca-pub-6718186524237536", "gidforums_cube_showthread_bottom" =
+);GA_googleAddSlot( "ca-pub-6718186524237536", =
+"gidforums_cube_showthread_bottom_2" );GA_googleAddAdSenseSlotAttr( =
+"gidforums_incontent_728_90", "google_color_link", "0000FF" =
+);GA_googleAddAdSenseSlotAttr( "gidforums_incontent_728_90", =
+"google_ad_channel", "3818031906" );GA_googleAddAdSenseSlotAttr( =
+"gidforums_incontent_728_90", "google_color_url", "000000" );</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>GA_googleFetchAds();</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript><!--
+if( parent.frames.length > 0 ) top.location.replace( document.location =
+); //--></SCRIPT>
+</HEAD>
+<BODY onload=3D""><!-- logo --><A name=3Dtop></A>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dleft><A href=3D"http://www.gidforums.com/"><IMG =
+alt=3DGIDForums=20
+      src=3D"http://www.gidforums.com/images/gid/gidforums-1.gif" =
+border=3D0></A></TD>
+    <TD align=3Dright>&nbsp;</TD></TR></TBODY></TABLE><!-- /logo --><!-- =
+content table --><!-- open content container -->
+<DIV align=3Dcenter>
+<DIV class=3Dpage style=3D"WIDTH: 100%; TEXT-ALIGN: left">
+<DIV=20
+style=3D"PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px">
+<SCRIPT type=3Dtext/javascript>
+<!--
+	function log_out()
+	{
+		ht =3D document.getElementsByTagName("html");
+		ht[0].style.filter =3D =
+"progid:DXImageTransform.Microsoft.BasicImage(grayscale=3D1)";
+		if (confirm('Are you sure you want to log out?'))
+		{
+			return true;
+		}
+		else
+		{
+			ht[0].style.filter =3D "";
+			return false;
+		}
+	}
+//-->
+</SCRIPT>
+<BR><!-- breadcrumb, login, pm info -->
+<TABLE class=3Dtborder cellSpacing=3D1 cellPadding=3D6 width=3D"100%" =
+align=3Dcenter=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dalt1 width=3D"100%">
+      <TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR vAlign=3Dbottom>
+          <TD><A onclick=3D"history.back(1); return false;"=20
+            href=3D"http://www.gidforums.com/t-20285.html#" =
+rel=3Dnofollow><IMG=20
+            alt=3D"Go Back"=20
+            =
+src=3D"http://www.gidforums.com/images/misc/navbits_start.gif"=20
+            border=3D0></A></TD>
+          <TD>&nbsp;</TD>
+          <TD width=3D"100%"><SPAN class=3Dnavbar><A accessKey=3D1=20
+            href=3D"http://www.gidforums.com/">GIDForums</A></SPAN> =
+<SPAN=20
+            class=3Dnavbar>&gt; <A=20
+            href=3D"http://www.gidforums.com/f-36.html">Computer =
+Programming=20
+            Forums</A></SPAN> <SPAN class=3Dnavbar>&gt; <A=20
+            href=3D"http://www.gidforums.com/f-28.html">C++ =
+Forum</A></SPAN>=20
+</TD></TR>
+        <TR>
+          <TD class=3Dnavbar style=3D"FONT-SIZE: 10pt; PADDING-TOP: 1px" =
+
+            colSpan=3D3><A =
+href=3D"http://www.gidforums.com/t-20285.html"><IMG=20
+            class=3Dinlineimg alt=3D"Reload this Page"=20
+            =
+src=3D"http://www.gidforums.com/images/misc/navbits_finallink.gif"=20
+            border=3D0></A> <STRONG>C++ Graph Representation Problem=20
+        </STRONG></TD></TR></TBODY></TABLE></TD>
+    <TD class=3Dalt2=20
+    style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px"=20
+    noWrap><!-- login form -->
+      <FORM=20
+      =
+onsubmit=3Dmd5hash(vb_login_password,vb_login_md5password,vb_login_md5pas=
+sword_utf)=20
+      action=3Dlogin.php method=3Dpost>
+      <SCRIPT =
+src=3D"http://www.gidforums.com/clientscript/vbulletin_md5.js"=20
+      type=3Dtext/javascript></SCRIPT>
+
+      <TABLE cellSpacing=3D3 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dsmallfont>User Name</TD>
+          <TD><INPUT class=3Dbginput id=3Dnavbar_username =
+style=3D"FONT-SIZE: 11px"=20
+            onfocus=3D"if (this.value =3D=3D 'User Name') this.value =3D =
+'';"=20
+            accessKey=3Du tabIndex=3D1 size=3D10 value=3D"User Name"=20
+            name=3Dvb_login_username></TD>
+          <TD class=3Dsmallfont noWrap colSpan=3D2><LABEL=20
+            for=3Dcb_cookieuser_navbar><INPUT id=3Dcb_cookieuser_navbar =
+accessKey=3Dc=20
+            tabIndex=3D3 type=3Dcheckbox CHECKED value=3D1 =
+name=3Dcookieuser>Remember=20
+            Me?</LABEL></TD></TR>
+        <TR>
+          <TD class=3Dsmallfont>Password</TD>
+          <TD><INPUT class=3Dbginput style=3D"FONT-SIZE: 11px" =
+accessKey=3Dp=20
+            tabIndex=3D2 type=3Dpassword size=3D10 =
+name=3Dvb_login_password></TD>
+          <TD><INPUT class=3Dbutton title=3D"Enter your username and =
+password in the boxes provided to login, or click the 'register' button =
+to create a profile for yourself." accessKey=3Ds tabIndex=3D4 =
+type=3Dsubmit value=3D"Log in"></TD></TR></TBODY></TABLE><INPUT=20
+      type=3Dhidden name=3Ds> <INPUT type=3Dhidden value=3Dlogin =
+name=3Ddo> <INPUT=20
+      type=3Dhidden name=3Dvb_login_md5password> <INPUT type=3Dhidden=20
+      name=3Dvb_login_md5password_utf>=20
+</FORM><!-- / login form --></TD></TR></TBODY></TABLE><!-- / breadcrumb, =
+login, pm info --><!-- nav buttons bar -->
+<DIV align=3Dcenter>
+<TABLE class=3Dtborder style=3D"BORDER-TOP-WIDTH: 0px" cellSpacing=3D0 =
+cellPadding=3D6=20
+width=3D"100%" align=3Dcenter border=3D0>
+  <TBODY>
+  <TR align=3Dmiddle>
+    <TD class=3Dvbmenu_control><A =
+href=3D"http://www.gidforums.com/register.php"=20
+      rel=3Dnofollow>Register</A></TD>
+    <TD class=3Dvbmenu_control><A accessKey=3D5=20
+      href=3D"http://www.gidforums.com/faq.php" =
+rel=3Dnofollow>FAQ</A></TD>
+    <TD class=3Dvbmenu_control><A =
+href=3D"http://www.gidforums.com/memberlist.php"=20
+      rel=3Dnofollow>Members List</A></TD>
+    <TD class=3Dvbmenu_control><A =
+href=3D"http://www.gidforums.com/calendar.php"=20
+      rel=3Dnofollow>Calendar</A></TD>
+    <TD class=3Dvbmenu_control><A accessKey=3D2=20
+      href=3D"http://www.gidforums.com/search.php?do=3Dgetdaily"=20
+      rel=3Dnofollow>Today's Posts</A></TD>
+    <TD class=3Dvbmenu_control id=3Dnavbar_search><A accessKey=3D4=20
+      href=3D"http://www.gidforums.com/search.php" =
+rel=3Dnofollow>Search</A>
+      <SCRIPT type=3Dtext/javascript> vbmenu_register("navbar_search"); =
+</SCRIPT>
+       </TD></TR></TBODY></TABLE></DIV><!-- / nav buttons bar -->
+<TABLE id=3DtableGAMTop cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <TBODY>
+  <TR>
+    <TD>
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_top_right_728_90_programming" );</SCRIPT>
+    </TD></TR></TBODY></TABLE><BR><!-- NAVBAR POPUP MENUS --><!-- header =
+quick search form -->
+<DIV class=3Dvbmenu_popup id=3Dnavbar_search_menu style=3D"DISPLAY: =
+none">
+<TABLE cellSpacing=3D1 cellPadding=3D4 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>Search Forums</TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option title=3Dnohilite>
+      <FORM action=3Dsearch.php method=3Dpost><INPUT type=3Dhidden =
+value=3Dprocess=20
+      name=3Ddo> <INPUT type=3Dhidden value=3D0 name=3Dshowposts> <INPUT =
+type=3Dhidden=20
+      value=3D1 name=3Dquicksearch> <INPUT class=3Dbginput =
+name=3Dquery><INPUT class=3Dbutton type=3Dsubmit =
+value=3DGo><BR></FORM></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option><A accessKey=3D4=20
+      href=3D"http://www.gidforums.com/search.php" =
+rel=3Dnofollow>Advanced=20
+    Search</A></TD></TR></TBODY></TABLE></DIV><!-- / header quick search =
+form --><!-- / NAVBAR POPUP MENUS --><!-- PAGENAV POPUP -->
+<DIV class=3Dvbmenu_popup id=3Dpagenav_menu style=3D"DISPLAY: none">
+<TABLE cellSpacing=3D1 cellPadding=3D4 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead noWrap>Go to Page...</TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option title=3Dnohilite>
+      <FORM id=3Dpagenav_form onsubmit=3D"return this.gotopage()" =
+action=3Dindex.php=20
+      method=3Dget><INPUT class=3Dbginput id=3Dpagenav_itxt =
+style=3D"FONT-SIZE: 11px"=20
+      size=3D4> <INPUT class=3Dbutton id=3Dpagenav_ibtn type=3Dbutton =
+value=3DGo>=20
+    </FORM></TD></TR></TBODY></TABLE></DIV><!-- / PAGENAV POPUP --><A =
+id=3Dpoststop=20
+name=3Dpoststop></A><!-- controls above postbits -->
+<TABLE style=3D"MARGIN-BOTTOM: 3px" cellSpacing=3D0 cellPadding=3D0 =
+width=3D"100%"=20
+border=3D0>
+  <TBODY>
+  <TR vAlign=3Dbottom>
+    <TD class=3Dsmallfont>&nbsp;</TD></TR></TBODY></TABLE><!-- / =
+controls above postbits --><!-- toolbar -->
+<TABLE class=3Dtborder style=3D"BORDER-BOTTOM-WIDTH: 0px" =
+cellSpacing=3D1=20
+cellPadding=3D6 width=3D"100%" align=3Dcenter border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dtcat width=3D"100%">
+      <DIV class=3Dsmallfont> </DIV></TD>
+    <TD class=3Dvbmenu_control id=3Dthreadtools noWrap><A accessKey=3D3=20
+      =
+href=3D"http://www.gidforums.com/t-20285.html?nojs=3D1#goto_threadtools" =
+
+      rel=3Dnofollow>Thread Tools</A>
+      <SCRIPT type=3Dtext/javascript> vbmenu_register("threadtools"); =
+</SCRIPT>
+       </TD>
+    <TD class=3Dvbmenu_control id=3Dthreadsearch noWrap><A=20
+      =
+href=3D"http://www.gidforums.com/t-20285.html?nojs=3D1#goto_threadsearch"=
+=20
+      rel=3Dnofollow>Search this Thread</A>
+      <SCRIPT type=3Dtext/javascript> vbmenu_register("threadsearch"); =
+</SCRIPT>
+       </TD>
+    <TD class=3Dvbmenu_control id=3Dthreadrating noWrap><A=20
+      =
+href=3D"http://www.gidforums.com/t-20285.html?nojs=3D1#goto_threadrating"=
+=20
+      rel=3Dnofollow>Rate Thread</A>
+      <SCRIPT type=3Dtext/javascript> vbmenu_register("threadrating"); =
+</SCRIPT>
+      =20
+</TD></TR></TBODY></TABLE><!-- / toolbar --><!-- end content table =
+--></DIV></DIV></DIV><!-- / close content container --><!-- / end =
+content table -->
+<DIV id=3Dposts><!-- post #79305 --><!-- open content container -->
+<DIV align=3Dcenter>
+<DIV class=3Dpage style=3D"WIDTH: 100%; TEXT-ALIGN: left">
+<DIV=20
+style=3D"PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px">
+<DIV id=3Dedit79305=20
+style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; =
+PADDING-TOP: 0px"><!-- this is not the last post shown on the page -->
+<TABLE class=3Dtborder id=3Dpost79305 cellSpacing=3D1 cellPadding=3D6 =
+width=3D"100%"=20
+align=3Dcenter border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>
+      <DIV class=3Dnormal style=3D"FLOAT: right">&nbsp; #<A =
+id=3Dpostcount79305=20
+      =
+href=3D"http://www.gidforums.com/showpost.php?p=3D79305&amp;postcount=3D1=
+"=20
+      target=3Dnew rel=3Dnofollow name=3D1><STRONG>1</STRONG></A> &nbsp; =
+</DIV>
+      <DIV class=3Dnormal><!-- status icon and date --><A =
+name=3Dpost79305><IMG=20
+      class=3Dinlineimg alt=3DOld=20
+      src=3D"http://www.gidforums.com/images/statusicon/post_old.gif"=20
+      border=3D0></A> 13-Jan-2009, 23:57=20
+  <!-- / status icon and date --></DIV></TD></TR>
+  <TR>
+    <TD class=3Dalt1=20
+    style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px"><!-- user info -->
+      <TABLE cellSpacing=3D6 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD noWrap>
+            <DIV id=3Dpostmenu_79305><A class=3Dbigusername=20
+            href=3D"http://www.gidforums.com/member.php?u=3D14536"=20
+            rel=3Dnofollow><SPAN title=3D"Member: Level 1"=20
+            style=3D"COLOR: #4b4b4b">Peter_APIIT</SPAN></A> <IMG =
+class=3Dinlineimg=20
+            alt=3D"Peter_APIIT is offline"=20
+            =
+src=3D"http://www.gidforums.com/images/statusicon/user_offline.gif"=20
+            border=3D0>
+            <SCRIPT type=3Dtext/javascript> =
+vbmenu_register("postmenu_79305", true); </SCRIPT>
+             </DIV>
+            <DIV class=3Dsmallfont>Regular Member</DIV>
+            <DIV class=3Dsmallfont><IMG alt=3D""=20
+            =
+src=3D"http://www.gidforums.com/images/gid/ranks/rank1_5.gif"=20
+            border=3D0></DIV></TD>
+          <TD width=3D"100%">&nbsp;</TD>
+          <TD vAlign=3Dtop noWrap>
+            <DIV class=3Dsmallfont>
+            <DIV>Join Date: May 2007</DIV>
+            <DIV>Location: Malaysia</DIV>
+            <DIV>Posts: 545 </DIV>
+            <DIV><IMG class=3Dinlineimg alt=3D"Peter_APIIT can only hope =
+to improve"=20
+            =
+src=3D"http://www.gidforums.com/images/reputation/reputation_neg.gif"=20
+            border=3D0></DIV>
+            <DIV></DIV></DIV></TD></TR></TBODY></TABLE><!-- / user info =
+--></TD></TR>
+  <TR>
+    <TD class=3Dalt2 id=3Dtd_post_79305 style=3D"PADDING-BOTTOM: =
+21px"><!-- message, attachments, sig --><!-- icon and title -->
+      <DIV class=3Dsmallfont>
+      <H2>C++ Graph Representation Problem</H2></DIV>
+      <HR style=3D"COLOR: #d1d1e1" SIZE=3D1>
+<!-- / icon and title -->
+      <DIV id=3DEchoTopic><!-- message -->
+      <DIV id=3Dpost_message_79305>Hello to all, i have difficulties in =
+coding the=20
+      graph problem. <BR><BR>Assume that the graph contain following=20
+      value.<BR>1[2]: 2-3<BR>2[2]: 1-4<BR>3[1]: 1<BR>4[1]: 2<BR><BR>[1] =
+=3D This=20
+      represent the degree that edges incident from a particular=20
+      vertex..<BR><BR>And now i want to remove vertex two(2).<BR><BR>As =
+shown in=20
+      the diagram above, i need to remove incident vertex edge from two =
+which is=20
+      the edge from two to one and two to four.<BR><BR>I have no problem =
+remove=20
+      a single particular vertex 2 in this case but i do have a problem =
+remove=20
+      edge of from two to one and two to four.<BR><BR>I try following =
+code.=20
+      <BR><BR>
+      <DIV style=3D"MARGIN: 5px 20px 20px">
+      <DIV class=3D"smallfont gctitle"><B><ABBR=20
+      title=3D"C++ or C plus plus">CPP</ABBR> / <ABBR=20
+      title=3D"C++ Programming Language">C++</ABBR> / <ABBR=20
+      title=3D"C Programming Language">C</ABBR> Code:</B></DIV><CODE=20
+      style=3D"MARGIN: 0px"><PRE class=3D"gid cpp"><SPAN =
+class=3Dk>if</SPAN> (!myIncidentEdge.empty())
+{
+myIncidentEdge.erase(startIte, endtIte);=09
+}
+<SPAN class=3Dk>else</SPAN>=20
+{
+	cerr &lt;&lt; <SPAN class=3Dq>"Empty Incident Edge Remove\n"</SPAN>;
+}
+
+</PRE></CODE></DIV><BR>Remove was successful in myIncidentEdge variable=20
+      but not in the vertex class incidentEdge. In others words, the =
+remove is=20
+      not reflected in an object that contain all vertex where each =
+vertex=20
+      contains edge(allVertex).<BR><BR>Remove not successful but the =
+below does=20
+      remove the target edges.<BR><BR>The incidentEdge has change from =
+private=20
+      to public in vertex class in this case. <BR><BR>
+      <DIV style=3D"MARGIN: 5px 20px 20px">
+      <DIV class=3D"smallfont gctitle"><B><ABBR=20
+      title=3D"C++ or C plus plus">CPP</ABBR> / <ABBR=20
+      title=3D"C++ Programming Language">C++</ABBR> / <ABBR=20
+      title=3D"C Programming Language">C</ABBR> Code:</B></DIV><CODE=20
+      style=3D"MARGIN: 0px"><PRE class=3D"gid cpp">
+<SPAN class=3Dk>if</SPAN> (!myIncidentEdge.empty())
+{
+allVertex[loop]-&gt;incidentEdge.erase(
+     allVertex[loop]-&gt;incidentEdge.begin(),=20
+     allVertex[loop]-&gt;incidentEdge.end());
+}
+<SPAN class=3Dk>else</SPAN>=20
+{
+	cerr &lt;&lt; <SPAN class=3Dq>"Empty Incident Edge Remove\n"</SPAN>;
+}
+
+</PRE></CODE></DIV><BR>Does this related to ownership management of =
+smart=20
+      pointer since i use boost::shared_ptr from boost? <BR><BR>As an=20
+      references, the insert() function was attached at below section. =
+<BR><BR>
+      <DIV style=3D"MARGIN: 5px 20px 20px">
+      <DIV class=3D"smallfont gctitle"><B><ABBR=20
+      title=3D"C++ or C plus plus">CPP</ABBR> / <ABBR=20
+      title=3D"C++ Programming Language">C++</ABBR> / <ABBR=20
+      title=3D"C Programming Language">C</ABBR> Code:</B></DIV><CODE=20
+      style=3D"MARGIN: 0px"><PRE class=3D"gid cpp" style=3D"HEIGHT: =
+390px">
+<SPAN class=3Dk>typedef</SPAN> boost::shared_ptr&lt;vertex&lt;T&gt; &gt; =
+
+		vertexPtr;
+	std::vector&lt;vertexPtr &gt; allVertex;
+
+<SPAN class=3Dk>template</SPAN> &lt;<SPAN class=3Dk>typename</SPAN> T, =
+<SPAN class=3Dk>class</SPAN> edgeType&gt;
+<SPAN class=3Dk>void</SPAN> graph&lt;T, edgeType&gt;::Insert(<SPAN =
+class=3Dk>const</SPAN> T&amp; infoVertex,=20
+			<SPAN class=3Dk>const</SPAN> std::string&amp; vertexName,
+			<SPAN class=3Dk>const</SPAN> std::string&amp; linkVertexID,
+			<SPAN class=3Dk>const</SPAN> <SPAN class=3Dk>float</SPAN> userCost)
+{
+	vertexPtr userVertex(<SPAN class=3Dk>new</SPAN> =
+vertex&lt;T&gt;(infoVertex));
+	userVertex-&gt;setVertexID(vertexName);
+
+	<SPAN class=3Dk>if</SPAN> (<SPAN =
+class=3Dk>this</SPAN>-&gt;allVertex.size() =3D=3D <SPAN =
+class=3Dn>0</SPAN>=20
+		&amp;&amp; linkVertexID =3D=3D <SPAN class=3Dq>""</SPAN>
+		&amp;&amp; userCost =3D=3D <SPAN class=3Dn>0</SPAN>)
+	{
+		allVertex.push_back(userVertex);
+	}
+	<SPAN class=3Dk>else</SPAN>
+	{
+		<SPAN class=3Dk>for</SPAN> (size_t loop=3D<SPAN =
+class=3Dn>0</SPAN>;loop&lt;allVertex.size();
+			++loop)
+		{
+			<SPAN class=3Dk>if</SPAN> (allVertex[loop]-&gt;getVertexID()=20
+				=3D=3D linkVertexID)
+			{
+				<SPAN class=3Dc>// First set
+</SPAN>				shared_ptr&lt;edge&gt; firstEdge(<SPAN class=3Dk>new</SPAN> =
+edge());
+			=09
+				firstEdge-&gt;setWeightage(userCost);
+				firstEdge-&gt;setFirstVertexID(allVertex[loop]-&gt;getVertexID());
+				firstEdge-&gt;setSecondVertexID(vertexName);
+			=09
+				allVertex[loop]-&gt;setIncidentEdge(firstEdge);
+				allVertex[loop]-&gt;setDegree();
+
+
+				<SPAN class=3Dc>// Second set
+</SPAN>				shared_ptr&lt;edge&gt; secondEdge(<SPAN class=3Dk>new</SPAN> =
+edge());
+
+				secondEdge-&gt;setWeightage(userCost);
+				secondEdge-&gt;setFirstVertexID(vertexName);
+				secondEdge-&gt;setSecondVertexID(allVertex[loop]-&gt;getVertexID());
+			=09
+				<SPAN class=3Dc>// here
+</SPAN>				allVertex.push_back(userVertex);
+				allVertex.at(allVertex.size()-<SPAN =
+class=3Dn>1</SPAN>)-&gt;setIncidentEdge(secondEdge);
+				allVertex[allVertex.size()-<SPAN =
+class=3Dn>1</SPAN>]-&gt;setDegree();
+			}
+		}
+	}
+}
+
+
+</PRE></CODE></DIV><BR>This is all my complete code.<BR><BR>
+      <DIV style=3D"MARGIN: 5px 20px 20px">
+      <DIV class=3D"smallfont gctitle"><B><ABBR=20
+      title=3D"C++ or C plus plus">CPP</ABBR> / <ABBR=20
+      title=3D"C++ Programming Language">C++</ABBR> / <ABBR=20
+      title=3D"C Programming Language">C</ABBR> Code:</B></DIV><CODE=20
+      style=3D"MARGIN: 0px"><PRE class=3D"gid cpp" style=3D"HEIGHT: =
+390px">
+
+<SPAN class=3Dk>class</SPAN> edge
+{
+<SPAN class=3Dk>private</SPAN>:
+	<SPAN class=3Dc>// Path's cost
+</SPAN>	<SPAN class=3Dk>float</SPAN> weightage;
+	std::string firstVertexID;
+	std::string secondVertexID;
+
+	<SPAN class=3Dc>/*	An edge in an undirected graph=20
+		is a set of two vertices
+	=09
+		An edge is placed twice, once for A-&gt;B
+		B-&gt;A
+=09
+	*/</SPAN>
+
+<SPAN class=3Dk>public</SPAN>:
+	edge();
+	edge(<SPAN class=3Dk>float</SPAN>);
+	edge(<SPAN class=3Dk>const</SPAN> edge&amp;);
+	edge&amp; <SPAN class=3Dk>operator</SPAN>=3D(<SPAN =
+class=3Dk>const</SPAN> edge&amp;);
+
+	<SPAN class=3Dk>void</SPAN> setWeightage(<SPAN class=3Dk>float</SPAN>);
+	<SPAN class=3Dk>float</SPAN> getWeightage();
+
+	<SPAN class=3Dk>void</SPAN> setFirstVertexID(<SPAN =
+class=3Dk>const</SPAN> std::string&amp;);
+	<SPAN class=3Dk>void</SPAN> setSecondVertexID(<SPAN =
+class=3Dk>const</SPAN> std::string&amp;);
+
+	std::string getFirstVertexID();
+	std::string getSecondVertexID();
+
+	~edge();
+};
+
+
+<SPAN class=3Dk>#include</SPAN> &lt;boost/shared_ptr.hpp&gt;
+<SPAN class=3Dk>#include</SPAN> &lt;vector&gt;
+
+<SPAN class=3Dk>#include</SPAN> &lt;string&gt;
+<SPAN class=3Dk>#include</SPAN> <SPAN class=3Dq>"Edge.h"</SPAN>
+
+<SPAN class=3Dk>typedef</SPAN> boost::shared_ptr&lt;edge&gt; edgePtr;
+
+<SPAN class=3Dk>template</SPAN> &lt;<SPAN class=3Dk>typename</SPAN> =
+T&gt;
+<SPAN class=3Dk>class</SPAN> vertex
+{
+<SPAN class=3Dk>private</SPAN>:
+	<SPAN class=3Dc>// Number of edge incident from this vertex
+</SPAN>	<SPAN class=3Dk>int</SPAN> degree;
+	<SPAN class=3Dc>// Vertex name
+</SPAN>	std::string vertexID;
+	<SPAN class=3Dc>// Vertex information
+</SPAN>	T element;
+=09
+
+=09
+	<SPAN class=3Dc>/*=20
+		This used to represent/store all edges=20
+		incident(attach/link) from/to this vertex
+	*/</SPAN>=09
+=09
+<SPAN class=3Dk>public</SPAN>:
+	std::vector&lt;edgePtr&gt; incidentEdge;
+
+	vertex();
+	vertex(<SPAN class=3Dk>const</SPAN> T&amp; );
+
+	<SPAN class=3Dk>void</SPAN> decreaseDegree();
+
+	<SPAN class=3Dk>void</SPAN> setDegree();
+	<SPAN class=3Dk>void</SPAN> setDegree(<SPAN class=3Dk>int</SPAN>);
+	<SPAN class=3Dk>void</SPAN> setVertexID(<SPAN class=3Dk>const</SPAN> =
+std::string&amp; );
+	<SPAN class=3Dk>void</SPAN> setElement(<SPAN class=3Dk>const</SPAN> =
+T&amp;);
+	<SPAN class=3Dk>void</SPAN> =
+setIncidentEdge(boost::shared_ptr&lt;edge&gt;&amp; );
+
+	<SPAN class=3Dk>int</SPAN> getDegree();
+	<SPAN class=3Dk>const</SPAN> std::string getVertexID();
+	<SPAN class=3Dk>const</SPAN> T getElement();
+	std::vector&lt;edgePtr&gt;&amp; getIncidentEdge();
+
+=09
+	~vertex();
+};
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+vertex&lt;T&gt;::vertex() : degree(<SPAN class=3Dn>0</SPAN>),=20
+				vertexID(std::string(<SPAN class=3Dq>""</SPAN>)),=20
+				element(T()),=20
+				incidentEdge(vector&lt;edgePtr&gt;())
+{
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+vertex&lt;T&gt;::vertex(<SPAN class=3Dk>const</SPAN> T&amp; info) : =
+degree(<SPAN class=3Dn>0</SPAN>),=20
+				vertexID(std::string()),=20
+				element(info),
+				incidentEdge(vector&lt;edgePtr&gt;())
+{
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+vertex&lt;T&gt;::~vertex()
+{
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> vertex&lt;T&gt;::decreaseDegree()
+{
+	--degree;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> vertex&lt;T&gt;::setDegree()
+{
+	++degree;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> vertex&lt;T&gt;::setDegree(<SPAN =
+class=3Dk>int</SPAN> myDegree)
+{
+	degree =3D myDegree;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> vertex&lt;T&gt;::setVertexID(<SPAN =
+class=3Dk>const</SPAN> std::string&amp; vertexName)
+{
+	vertexID =3D vertexName;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> vertex&lt;T&gt;::setElement(<SPAN =
+class=3Dk>const</SPAN> T&amp; info)
+{
+	element =3D info;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>void</SPAN> =
+vertex&lt;T&gt;::setIncidentEdge(boost::shared_ptr&lt;edge&gt;&amp; =
+userEdge)
+{
+	incidentEdge.push_back(userEdge);
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>int</SPAN> vertex&lt;T&gt;::getDegree()
+{
+	<SPAN class=3Dk>return</SPAN> <SPAN class=3Dk>this</SPAN>-&gt;degree;
+}=09
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>const</SPAN> std::string vertex&lt;T&gt;::getVertexID()
+{
+	<SPAN class=3Dk>return</SPAN> <SPAN class=3Dk>this</SPAN>-&gt;vertexID;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+<SPAN class=3Dk>const</SPAN> T vertex&lt;T&gt;::getElement()
+{
+	<SPAN class=3Dk>return</SPAN> <SPAN class=3Dk>this</SPAN>-&gt;element;
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T&gt;
+std::vector&lt;edgePtr&gt;&amp; vertex&lt;T&gt;::getIncidentEdge()
+{
+	<SPAN class=3Dk>return</SPAN> <SPAN =
+class=3Dk>this</SPAN>-&gt;incidentEdge;
+}
+
+
+
+<SPAN class=3Dk>#include</SPAN> &lt;vector&gt;
+
+
+<SPAN class=3Dc>// Forward Declaration minimize file dependecies
+</SPAN><SPAN class=3Dk>class</SPAN> edge;
+
+<SPAN class=3Dk>template</SPAN> &lt;<SPAN class=3Dk>typename</SPAN> =
+T&gt;
+<SPAN class=3Dk>class</SPAN> vertex;
+
+<SPAN class=3Dk>template</SPAN> &lt;<SPAN class=3Dk>typename</SPAN> T, =
+<SPAN class=3Dk>class</SPAN> edgeType =3D edge&gt;
+<SPAN class=3Dk>class</SPAN> graph
+{
+<SPAN class=3Dk>private</SPAN>:
+
+<SPAN class=3Dc>// shared_ptr's template parameter is object=20
+</SPAN>	<SPAN class=3Dk>typedef</SPAN> =
+boost::shared_ptr&lt;vertex&lt;T&gt; &gt;=20
+		vertexPtr;
+	std::vector&lt;vertexPtr &gt; allVertex;
+=09
+<SPAN class=3Dk>public</SPAN>:
+	graph();
+
+	<SPAN class=3Dk>void</SPAN> Insert(<SPAN class=3Dk>const</SPAN> T&amp;, =
+<SPAN class=3Dk>const</SPAN> std::string&amp;,=20
+		 <SPAN class=3Dk>const</SPAN> std::string&amp;, <SPAN =
+class=3Dk>const</SPAN> <SPAN class=3Dk>float</SPAN>);
+	<SPAN class=3Dk>void</SPAN> Remove(<SPAN class=3Dk>const</SPAN> =
+std::string&amp;);
+
+	<SPAN class=3Dk>void</SPAN> display()<SPAN class=3Dk>const</SPAN>;
+
+	~graph();
+};
+
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T, <SPAN class=3Dk>class</SPAN> edgeType&gt;
+graph&lt;T, edgeType&gt;::graph()=20
+	: allVertex(vector&lt;vertexPtr&gt;())=20
+{
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T, <SPAN class=3Dk>class</SPAN> edgeType&gt;
+graph&lt;T, edgeType&gt;::~graph()
+{
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T, <SPAN class=3Dk>class</SPAN> edgeType&gt;
+<SPAN class=3Dk>void</SPAN> graph&lt;T, edgeType&gt;::Insert(<SPAN =
+class=3Dk>const</SPAN> T&amp; infoVertex,=20
+			<SPAN class=3Dk>const</SPAN> std::string&amp; vertexName,
+			<SPAN class=3Dk>const</SPAN> std::string&amp; linkVertexID,
+			<SPAN class=3Dk>const</SPAN> <SPAN class=3Dk>float</SPAN> userCost)
+{
+	vertexPtr userVertex(<SPAN class=3Dk>new</SPAN> =
+vertex&lt;T&gt;(infoVertex));
+	userVertex-&gt;setVertexID(vertexName);
+
+	<SPAN class=3Dk>if</SPAN> (<SPAN =
+class=3Dk>this</SPAN>-&gt;allVertex.size() =3D=3D <SPAN =
+class=3Dn>0</SPAN>=20
+		&amp;&amp; linkVertexID =3D=3D <SPAN class=3Dq>""</SPAN>
+		&amp;&amp; userCost =3D=3D <SPAN class=3Dn>0</SPAN>)
+	{
+		allVertex.push_back(userVertex);
+	}
+	<SPAN class=3Dk>else</SPAN>
+	{
+		<SPAN class=3Dk>for</SPAN> (size_t loop=3D<SPAN =
+class=3Dn>0</SPAN>;loop&lt;allVertex.size();
+			++loop)
+		{
+			<SPAN class=3Dk>if</SPAN> (allVertex[loop]-&gt;getVertexID()=20
+				=3D=3D linkVertexID)
+			{
+				<SPAN class=3Dc>// First set
+</SPAN>				shared_ptr&lt;edge&gt; firstEdge(<SPAN class=3Dk>new</SPAN> =
+edge());
+			=09
+				firstEdge-&gt;setWeightage(userCost);
+				firstEdge-&gt;setFirstVertexID(allVertex[loop]-&gt;getVertexID());
+				firstEdge-&gt;setSecondVertexID(vertexName);
+			=09
+				allVertex[loop]-&gt;setIncidentEdge(firstEdge);
+				allVertex[loop]-&gt;setDegree();
+
+
+				<SPAN class=3Dc>// Second set
+</SPAN>				shared_ptr&lt;edge&gt; secondEdge(<SPAN class=3Dk>new</SPAN> =
+edge());
+
+				secondEdge-&gt;setWeightage(userCost);
+				secondEdge-&gt;setFirstVertexID(vertexName);
+				secondEdge-&gt;setSecondVertexID(allVertex[loop]-&gt;getVertexID());
+			=09
+				<SPAN class=3Dc>// here
+</SPAN>				allVertex.push_back(userVertex);
+				allVertex.at(allVertex.size()-<SPAN =
+class=3Dn>1</SPAN>)-&gt;setIncidentEdge(secondEdge);
+				allVertex[allVertex.size()-<SPAN =
+class=3Dn>1</SPAN>]-&gt;setDegree();
+			}
+		}
+	}
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T, <SPAN class=3Dk>class</SPAN> edgeType&gt;
+<SPAN class=3Dk>void</SPAN> graph&lt;T, edgeType&gt;::Remove(<SPAN =
+class=3Dk>const</SPAN> std::string&amp; vertexID)
+{
+=09
+	<SPAN class=3Dk>typedef</SPAN> vector&lt;vertexPtr&gt;::iterator =
+aVeIte;
+	aVeIte removeIte =3D allVertex.begin();
+	aVeIte endIte =3D allVertex.end();
+=09
+	size_t allVertexSize =3D allVertex.size();
+
+	size_t loop=3D<SPAN class=3Dn>0</SPAN>;
+	<SPAN class=3Dk>bool</SPAN> IsRemove =3D <SPAN class=3Dk>false</SPAN>;
+	<SPAN class=3Dk>while</SPAN> (loop&lt;allVertexSize &amp;&amp; =
+!IsRemove)
+	{
+		<SPAN class=3Dk>if</SPAN> (allVertex[loop]-&gt;getVertexID()=20
+			=3D=3D vertexID)
+		{
+			<SPAN class=3Dc>// Get all incident edge from target remove vertex
+</SPAN>			std::vector&lt;edgePtr&gt; myIncidentEdge;
+			myIncidentEdge =3D=20
+				allVertex[loop]-&gt;getIncidentEdge();
+		=09
+			<SPAN class=3Dc>/*=20
+				Get all vertex incident from=20
+				target remove vertex=09
+			=09
+			*/</SPAN>
+			vector&lt;string&gt; decreaseVertex;
+			<SPAN class=3Dk>for</SPAN> (size_t myLoop=3D<SPAN class=3Dn>0</SPAN>;
+					myLoop&lt;myIncidentEdge.size();
+					++myLoop)
+			{
+				decreaseVertex.push_back
+					(myIncidentEdge[myLoop]-&gt;getSecondVertexID());
+			}
+			=09
+			<SPAN class=3Dk>typedef</SPAN> vector&lt;edgePtr&gt;::iterator =
+vecIte;=20
+			vecIte	startIte =3D myIncidentEdge.begin();
+			vecIte endtIte =3D myIncidentEdge.end();
+		=09
+			<SPAN class=3Dc>// Remove incident edge from target vertex
+</SPAN>			<SPAN class=3Dc>// Error delete in myIncidentEdge but not =
+allVertex
+</SPAN>			<SPAN class=3Dk>if</SPAN> (!myIncidentEdge.empty())
+			{
+				myIncidentEdge.erase(startIte, endtIte);
+				allVertex[loop]-&gt;incidentEdge.erase(
+					allVertex[loop]-&gt;incidentEdge.begin(),=20
+					allVertex[loop]-&gt;incidentEdge.end());
+			}
+			<SPAN class=3Dk>else</SPAN>=20
+			{
+				cerr &lt;&lt; <SPAN class=3Dq>"Empty Incident Edge Remove\n"</SPAN>;
+			}
+
+			<SPAN class=3Dc>// To decrease degree
+</SPAN>			<SPAN class=3Dk>for</SPAN> (size_t outerLoop=3D<SPAN =
+class=3Dn>0</SPAN>;
+				outerLoop&lt;allVertex.size();++outerLoop)
+			{
+				<SPAN class=3Dk>for</SPAN> (size_t sentinel=3D<SPAN =
+class=3Dn>0</SPAN>;
+					sentinel&lt;decreaseVertex.size();
+					++sentinel)
+				{
+					<SPAN class=3Dk>if</SPAN> (allVertex[outerLoop]-&gt;getVertexID()=20
+						=3D=3D decreaseVertex[sentinel])
+					{
+						allVertex[outerLoop]-&gt;decreaseDegree();
+					}
+				}
+			}
+			<SPAN class=3Dc>// Remove Target vertex
+</SPAN>		<SPAN class=3Dc>//	allVertex.erase(allVertex.begin() + loop);
+</SPAN>			IsRemove =3D <SPAN class=3Dk>true</SPAN>;
+		}
+		++loop;=09
+	}
+}
+<SPAN class=3Dc>// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+</SPAN><SPAN class=3Dk>template</SPAN> &lt;<SPAN =
+class=3Dk>typename</SPAN> T, <SPAN class=3Dk>class</SPAN> edgeType&gt;
+<SPAN class=3Dk>void</SPAN> graph&lt;T, edgeType&gt;:: display()<SPAN =
+class=3Dk>const</SPAN>
+{
+	cout &lt;&lt; <SPAN class=3Dq>"\n\n"</SPAN>;
+	size_t vertexSize =3D allVertex.size();
+=09
+	<SPAN class=3Dk>for</SPAN> (size_t loop=3D<SPAN =
+class=3Dn>0</SPAN>;loop&lt;vertexSize;++loop)
+	{
+		cout &lt;&lt; allVertex[loop]-&gt;getVertexID()
+			&lt;&lt; <SPAN class=3Dq>"["</SPAN>
+			&lt;&lt; allVertex[loop]-&gt;getDegree()
+			&lt;&lt; <SPAN class=3Dq>"]"</SPAN>
+			&lt;&lt; <SPAN class=3Dq>" :"</SPAN>;=20
+
+		std::vector&lt;edgePtr&gt; myIncidentEdge;
+		myIncidentEdge =3D allVertex[loop]-&gt;getIncidentEdge();
+	=09
+		size_t incidentEdgeSize =3D myIncidentEdge.size();
+		<SPAN class=3Dk>for</SPAN> (size_t sentinel=3D<SPAN =
+class=3Dn>0</SPAN>;sentinel&lt;incidentEdgeSize;++sentinel)
+		{
+			cout &lt;&lt; <SPAN class=3Dq>" "</SPAN> ;
+			cout &lt;&lt; myIncidentEdge[sentinel]-&gt;getSecondVertexID(); =09
+		}
+		cout &lt;&lt; std::endl;
+	}
+}
+
+
+</PRE></CODE></DIV><BR>2. Does my code look correct to you in terms of=20
+      graph implementation ?<BR><BR>
+      <DIV style=3D"MARGIN: 5px 20px 20px">
+      <DIV class=3D"smallfont gctitle"><B><ABBR=20
+      title=3D"C++ or C plus plus">CPP</ABBR> / <ABBR=20
+      title=3D"C++ Programming Language">C++</ABBR> / <ABBR=20
+      title=3D"C Programming Language">C</ABBR> Code:</B></DIV><CODE=20
+      style=3D"MARGIN: 0px"><PRE class=3D"gid =
+cpp">std::vector&lt;edgePtr&gt; incidentEdge;
+
+</PRE></CODE></DIV><BR><BR>I found this quite difficult for me to do=20
+      searching. Instead of storing edges, i think i should change to =
+storing=20
+      vertices.<BR>Then, vertex class can store a bool =
+IsVisited;<BR><BR>What do=20
+      you think ?<BR><BR>Thanks.</DIV><!-- / message --></DIV><!-- edit =
+note -->
+      <DIV class=3Dsmallfont>
+      <DIV class=3Deditedby>Last edited by LuciWiz : 14-Jan-2009 at =
+<SPAN=20
+      class=3Dtime>05:58</SPAN>. Reason: Please insert your C++ code =
+between [cpp]=20
+      &amp; [/cpp] tags </DIV></DIV><!-- / edit note --><!-- message, =
+attachments, sig --></TD></TR>
+  <TR>
+    <TD class=3D"alt2 lbmid">
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_incontent_728_90" );</SCRIPT>
+    </TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV><!-- / close =
+content container --><!-- / post #79305 --><!-- post #79331 --><!-- open =
+content container -->
+<DIV align=3Dcenter>
+<DIV class=3Dpage style=3D"WIDTH: 100%; TEXT-ALIGN: left">
+<DIV=20
+style=3D"PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px">
+<DIV id=3Dedit79331=20
+style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; =
+PADDING-TOP: 0px">
+<TABLE class=3Dtborder id=3Dpost79331 cellSpacing=3D1 cellPadding=3D6 =
+width=3D"100%"=20
+align=3Dcenter border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>
+      <DIV class=3Dnormal style=3D"FLOAT: right">&nbsp; #<A =
+id=3Dpostcount79331=20
+      =
+href=3D"http://www.gidforums.com/showpost.php?p=3D79331&amp;postcount=3D2=
+"=20
+      target=3Dnew rel=3Dnofollow name=3D2><STRONG>2</STRONG></A> &nbsp; =
+</DIV>
+      <DIV class=3Dnormal><!-- status icon and date --><A =
+name=3Dpost79331><IMG=20
+      class=3Dinlineimg alt=3DOld=20
+      src=3D"http://www.gidforums.com/images/statusicon/post_old.gif"=20
+      border=3D0></A> 15-Jan-2009, 06:14=20
+  <!-- / status icon and date --></DIV></TD></TR>
+  <TR>
+    <TD class=3Dalt1=20
+    style=3D"PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px"><!-- user info -->
+      <TABLE cellSpacing=3D6 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD noWrap>
+            <DIV id=3Dpostmenu_79331><A class=3Dbigusername=20
+            href=3D"http://www.gidforums.com/member.php?u=3D14536"=20
+            rel=3Dnofollow><SPAN title=3D"Member: Level 1"=20
+            style=3D"COLOR: #4b4b4b">Peter_APIIT</SPAN></A> <IMG =
+class=3Dinlineimg=20
+            alt=3D"Peter_APIIT is offline"=20
+            =
+src=3D"http://www.gidforums.com/images/statusicon/user_offline.gif"=20
+            border=3D0>
+            <SCRIPT type=3Dtext/javascript> =
+vbmenu_register("postmenu_79331", true); </SCRIPT>
+             </DIV>
+            <DIV class=3Dsmallfont>Regular Member</DIV>
+            <DIV class=3Dsmallfont><IMG alt=3D""=20
+            =
+src=3D"http://www.gidforums.com/images/gid/ranks/rank1_5.gif"=20
+            border=3D0></DIV></TD>
+          <TD width=3D"100%">&nbsp;</TD>
+          <TD vAlign=3Dtop noWrap>
+            <DIV class=3Dsmallfont>
+            <DIV>Join Date: May 2007</DIV>
+            <DIV>Location: Malaysia</DIV>
+            <DIV>Posts: 545 </DIV>
+            <DIV><IMG class=3Dinlineimg alt=3D"Peter_APIIT can only hope =
+to improve"=20
+            =
+src=3D"http://www.gidforums.com/images/reputation/reputation_neg.gif"=20
+            border=3D0></DIV>
+            <DIV></DIV></DIV></TD></TR></TBODY></TABLE><!-- / user info =
+--></TD></TR>
+  <TR>
+    <TD class=3Dalt2 id=3Dtd_post_79331 style=3D"PADDING-BOTTOM: =
+21px"><!-- message, attachments, sig --><!-- icon and title -->
+      <DIV class=3Dsmallfont>
+      <H3>Re: C++ Graph Representation Problem</H3></DIV>
+      <HR style=3D"COLOR: #d1d1e1" SIZE=3D1>
+<!-- / icon and title -->
+      <DIV id=3DEchoTopic><!-- message -->
+      <DIV id=3Dpost_message_79331>I really need you all help.</DIV><!-- =
+/ message --></DIV><!-- message, attachments, sig =
+--></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV><!-- / close =
+content container --><!-- / post #79331 -->
+<DIV id=3Dlastpost></DIV></DIV><!-- start content table --><!-- open =
+content container -->
+<DIV align=3Dcenter>
+<DIV class=3Dpage style=3D"WIDTH: 100%; TEXT-ALIGN: left">
+<DIV=20
+style=3D"PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px"><!-- / start content table --><!-- controls below =
+postbits -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR vAlign=3Dtop>
+    <TD class=3Dsmallfont>&nbsp;</TD></TR></TBODY></TABLE><!-- / =
+controls below postbits -->
+<TABLE id=3DtableGAMBottomST cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3DGBST1>
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_cube_showthread_bottom_1" );</SCRIPT>
+    </TD>
+    <TD class=3DGBST1>
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_cube_showthread_bottom_3" );</SCRIPT>
+    </TD>
+    <TD style=3D"WIDTH: auto">&nbsp;</TD>
+    <TD class=3DGBST0>
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_cube_showthread_bottom" );</SCRIPT>
+    </TD>
+    <TD class=3DGBST0>
+      <SCRIPT type=3Dtext/javascript>GA_googleFillSlot( =
+"gidforums_cube_showthread_bottom_2" );</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV class=3Dsmallfont align=3Dcenter><STRONG>=AB</STRONG> <A=20
+href=3D"http://www.gidforums.com/t-20285.html?goto=3Dnextoldest"=20
+rel=3Dnofollow>Previous Thread</A> | <A=20
+href=3D"http://www.gidforums.com/t-20285.html?goto=3Dnextnewest" =
+rel=3Dnofollow>Next=20
+Thread</A> <STRONG>=BB</STRONG> </DIV>
+<P id=3DpGIDBlog><SPAN id=3DspanA><A title=3D"Start a Blog"=20
+href=3D"http://gidblog.com/">Recent GIDBlog</A></SPAN><SPAN =
+id=3DspanB><A=20
+title=3D"Posted by: LocalTech on Thu, 14 Jul 2011 19:36:33 -0500"=20
+href=3D"http://localtech.gidblog.com/2011/07/15/google-plus-cheatsheet/">=
+<IMG=20
+alt=3D""=20
+src=3D"http://www.gidnetwork.com/images/buttons/gidblog-bullet-9x15.png">=
+Google+=20
+Cheat Sheet</A> by LocalTech</SPAN> </P><!-- currently active users =
+--><!-- end currently active users --><!-- popup menu contents =
+--><BR><!-- thread tools menu -->
+<DIV class=3Dvbmenu_popup id=3Dthreadtools_menu style=3D"DISPLAY: none">
+<FORM name=3Dthreadadminform action=3Dpostings.php method=3Dpost>
+<TABLE cellSpacing=3D1 cellPadding=3D4 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>Thread Tools<A =
+name=3Dgoto_threadtools></A></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option><IMG class=3Dinlineimg alt=3D"Show =
+Printable Version"=20
+      src=3D"http://www.gidforums.com/images/buttons/printer.gif"> <A =
+accessKey=3D3=20
+      href=3D"http://www.gidforums.com/printthread.php?t=3D20285" =
+rel=3Dnofollow>Show=20
+      Printable Version</A></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option><IMG class=3Dinlineimg alt=3D"Email this =
+Page"=20
+      src=3D"http://www.gidforums.com/images/buttons/sendtofriend.gif"> =
+<A=20
+      =
+href=3D"http://www.gidforums.com/sendmessage.php?do=3Dsendtofriend&amp;t=3D=
+20285"=20
+      rel=3Dnofollow>Email this =
+Page</A></TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread tools menu =
+--><!-- **************************************************** --><!-- =
+thread search menu -->
+<DIV class=3Dvbmenu_popup id=3Dthreadsearch_menu style=3D"DISPLAY: =
+none">
+<FORM action=3Dsearch.php method=3Dpost>
+<TABLE cellSpacing=3D1 cellPadding=3D4 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>Search this Thread<A =
+name=3Dgoto_threadsearch></A></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option title=3Dnohilite><INPUT type=3Dhidden =
+name=3Ds> <INPUT=20
+      type=3Dhidden value=3Dprocess name=3Ddo> <INPUT type=3Dhidden =
+value=3D1=20
+      name=3Dsearchthread> <INPUT type=3Dhidden value=3D1 =
+name=3Dshowposts> <INPUT=20
+      type=3Dhidden value=3D20285 name=3Dsearchthreadid> <INPUT =
+class=3Dbginput=20
+      name=3Dquery><INPUT class=3Dbutton type=3Dsubmit =
+value=3DGo><BR></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option><A =
+href=3D"http://www.gidforums.com/search.php"=20
+      rel=3Dnofollow>Advanced =
+Search</A></TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread search =
+menu --><!-- **************************************************** =
+--><!-- thread rating menu -->
+<DIV class=3Dvbmenu_popup id=3Dthreadrating_menu style=3D"DISPLAY: =
+none">
+<FORM action=3Dthreadrate.php method=3Dpost>
+<TABLE cellSpacing=3D1 cellPadding=3D4 border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dthead>Rate This Thread<A =
+name=3Dgoto_threadrating></A></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option title=3Dnohilite>
+      <DIV><IMG class=3Dinlineimg alt=3DExcellent=20
+      src=3D"http://www.gidforums.com/images/rating/rating_5.gif"><LABEL =
+
+      for=3Dvote5><INPUT id=3Dvote5 type=3Dradio value=3D5=20
+      name=3Dvote>Excellent</LABEL></DIV>
+      <DIV><IMG class=3Dinlineimg alt=3DGood=20
+      src=3D"http://www.gidforums.com/images/rating/rating_4.gif"><LABEL =
+
+      for=3Dvote4><INPUT id=3Dvote4 type=3Dradio value=3D4 =
+name=3Dvote>Good</LABEL></DIV>
+      <DIV><IMG class=3Dinlineimg alt=3DAverage=20
+      src=3D"http://www.gidforums.com/images/rating/rating_3.gif"><LABEL =
+
+      for=3Dvote3><INPUT id=3Dvote3 type=3Dradio value=3D3=20
+      name=3Dvote>Average</LABEL></DIV>
+      <DIV><IMG class=3Dinlineimg alt=3DBad=20
+      src=3D"http://www.gidforums.com/images/rating/rating_2.gif"><LABEL =
+
+      for=3Dvote2><INPUT id=3Dvote2 type=3Dradio value=3D2 =
+name=3Dvote>Bad</LABEL></DIV>
+      <DIV><IMG class=3Dinlineimg alt=3DTerrible=20
+      src=3D"http://www.gidforums.com/images/rating/rating_1.gif"><LABEL =
+
+      for=3Dvote1><INPUT id=3Dvote1 type=3Dradio value=3D1=20
+      name=3Dvote>Terrible</LABEL></DIV></TD></TR>
+  <TR>
+    <TD class=3Dvbmenu_option title=3Dnohilite align=3Dmiddle><INPUT =
+type=3Dhidden=20
+      value=3D795dca218b7e79659c3d13f0d8962b01 name=3Ds> <INPUT =
+type=3Dhidden=20
+      value=3D20285 name=3Dt> <INPUT type=3Dhidden value=3D10 name=3Dpp> =
+<INPUT=20
+      type=3Dhidden value=3D1 name=3Dpage> <INPUT class=3Dbutton =
+type=3Dsubmit value=3D"Vote Now">=20
+</TD></TR></TBODY></TABLE></FORM></DIV><!-- / thread rating menu --><!-- =
+/ popup menu contents --><!-- forum rules and admin links -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter =
+border=3D0>
+  <TBODY>
+  <TR vAlign=3Dbottom>
+    <TD class=3Dsmallfont align=3Dleft>
+      <TABLE class=3Dtborder cellSpacing=3D1 cellPadding=3D6 width=3D180 =
+border=3D0>
+        <THEAD>
+        <TR>
+          <TD class=3Dthead><A style=3D"FLOAT: right"=20
+            onclick=3D"return toggle_collapse('forumrules')"=20
+            href=3D"http://www.gidforums.com/t-20285.html#top"><IMG=20
+            id=3Dcollapseimg_forumrules alt=3D""=20
+            =
+src=3D"http://www.gidforums.com/images/buttons/collapse_thead.gif"=20
+            border=3D0></A> Posting Rules </TD></TR></THEAD>
+        <TBODY id=3Dcollapseobj_forumrules>
+        <TR>
+          <TD class=3Dalt1 noWrap>
+            <DIV class=3Dsmallfont>
+            <DIV>You <STRONG>may not</STRONG> post new threads</DIV>
+            <DIV>You <STRONG>may not</STRONG> post replies</DIV>
+            <DIV>You <STRONG>may not</STRONG> post attachments</DIV>
+            <DIV>You <STRONG>may not</STRONG> edit your posts</DIV>
+            <HR>
+
+            <DIV><A =
+href=3D"http://www.gidforums.com/misc.php?do=3Dbbcode"=20
+            target=3D_blank>vB code</A> is <STRONG>On</STRONG></DIV>
+            <DIV><A =
+href=3D"http://www.gidforums.com/misc.php?do=3Dshowsmilies"=20
+            target=3D_blank>Smilies</A> are <STRONG>On</STRONG></DIV>
+            <DIV><A =
+href=3D"http://www.gidforums.com/misc.php?do=3Dbbcode#imgcode"=20
+            target=3D_blank>[IMG]</A> code is <STRONG>On</STRONG></DIV>
+            <DIV>HTML code is=20
+      <STRONG>Off</STRONG></DIV></DIV></TD></TR></TBODY></TABLE></TD>
+    <TD class=3Dsmallfont align=3Dright>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3Dsmallfont style=3D"WHITE-SPACE: nowrap; =
+TEXT-ALIGN: left">
+            <FORM action=3Dforumdisplay.php method=3Dget><INPUT =
+type=3Dhidden name=3Ds>=20
+            <INPUT type=3Dhidden name=3Ddaysprune> <STRONG>Forum=20
+            Jump</STRONG><BR><SELECT onchange=3Dthis.form.submit(); =
+name=3Df>=20
+              <OPTGROUP label=3D"Site Areas"> <OPTION value=3Dcp>User =
+Control=20
+                Panel</OPTION> <OPTION value=3Dpm>Private =
+Messages</OPTION>=20
+                <OPTION value=3Dsubs>Subscriptions</OPTION> <OPTION=20
+                value=3Dwol>Who's Online</OPTION> <OPTION =
+value=3Dsearch>Search=20
+                Forums</OPTION> <OPTION value=3Dhome>Forums =
+Home</OPTION>=20
+              </OPTGROUP> <OPTGROUP label=3DForums> <OPTION =
+class=3Dfjdpth0=20
+                value=3D1>Webmaster Forums</OPTION> <OPTION =
+class=3Dfjdpth1=20
+                value=3D7>&nbsp; &nbsp; Web Design Forum</OPTION> =
+<OPTION=20
+                class=3Dfjdpth2 value=3D58>&nbsp; &nbsp; &nbsp; &nbsp; =
+Webmaster /=20
+                Web Designing Advertisements &amp; Offers</OPTION> =
+<OPTION=20
+                class=3Dfjdpth1 value=3D6>&nbsp; &nbsp; Websites =
+Reviewed=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D9>&nbsp; =
+&nbsp;=20
+                Graphics Forum</OPTION> <OPTION class=3Dfjdpth1 =
+value=3D47>&nbsp;=20
+                &nbsp; eCommerce / Merchant Account Forum</OPTION> =
+<OPTION=20
+                class=3Dfjdpth0 value=3D36>Computer Programming =
+Forums</OPTION>=20
+                <OPTION class=3Dfjsel value=3D28 selected>&nbsp; &nbsp; =
+C++=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D41>&nbsp; =
+&nbsp; C=20
+                Programming Language</OPTION> <OPTION class=3Dfjdpth1=20
+                value=3D46>&nbsp; &nbsp; MS Visual C++ / MFC =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D54>&nbsp; &nbsp; Java =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D48>&nbsp; &nbsp; FLTK =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D49>&nbsp; &nbsp; .NET =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D52>&nbsp; &nbsp; Python=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D63>&nbsp; =
+&nbsp;=20
+                OpenGL Programming</OPTION> <OPTION class=3Dfjdpth1=20
+                value=3D64>&nbsp; &nbsp; Assembly Language</OPTION> =
+<OPTION=20
+                class=3Dfjdpth1 value=3D2>&nbsp; &nbsp; MySQL / PHP =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth2 value=3D14>&nbsp; &nbsp; &nbsp; =
+&nbsp; PHP=20
+                Code Library</OPTION> <OPTION class=3Dfjdpth1 =
+value=3D55>&nbsp;=20
+                &nbsp; Miscellaneous Programming Forum</OPTION> <OPTION=20
+                class=3Dfjdpth2 value=3D57>&nbsp; &nbsp; &nbsp; &nbsp; =
+Computer=20
+                Programming Advertisements &amp; Offers</OPTION> <OPTION =
+
+                class=3Dfjdpth0 value=3D38>Web Promotion Forums</OPTION> =
+<OPTION=20
+                class=3Dfjdpth1 value=3D37>&nbsp; &nbsp; Search Engine =
+Optimization=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D39>&nbsp; =
+&nbsp;=20
+                Advertising &amp; Affiliates Forum</OPTION> <OPTION=20
+                class=3Dfjdpth1 value=3D51>&nbsp; &nbsp; AdSense =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth0 value=3D5>Web Hosting =
+Forums</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D10>&nbsp; &nbsp; Web =
+Hosting=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D24>&nbsp; =
+&nbsp; Web=20
+                Hosting Advertisements &amp; Offers</OPTION> <OPTION=20
+                class=3Dfjdpth2 value=3D59>&nbsp; &nbsp; &nbsp; &nbsp; =
+Managed /=20
+                Dedicated Servers</OPTION> <OPTION class=3Dfjdpth2 =
+value=3D60>&nbsp;=20
+                &nbsp; &nbsp; &nbsp; Reseller Hosting</OPTION> <OPTION=20
+                class=3Dfjdpth2 value=3D11>&nbsp; &nbsp; &nbsp; &nbsp; =
+Free Web=20
+                Hosting</OPTION> <OPTION class=3Dfjdpth1 =
+value=3D19>&nbsp; &nbsp;=20
+                Apache Web Server Forum</OPTION> <OPTION class=3Dfjdpth1 =
+
+                value=3D22>&nbsp; &nbsp; Web Host Review Forum</OPTION> =
+<OPTION=20
+                class=3Dfjdpth0 value=3D30>Computer Forums</OPTION> =
+<OPTION=20
+                class=3Dfjdpth1 value=3D15>&nbsp; &nbsp; Computer =
+Hardware=20
+                Forum</OPTION> <OPTION class=3Dfjdpth1 value=3D16>&nbsp; =
+&nbsp;=20
+                Computer Software Forum - Windows</OPTION> <OPTION =
+class=3Dfjdpth1=20
+                value=3D31>&nbsp; &nbsp; Computer Software Forum - =
+Linux</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D32>&nbsp; &nbsp; =
+Computer Software=20
+                Forum - Games</OPTION> <OPTION class=3Dfjdpth0 =
+value=3D29>Trade=20
+                Forums</OPTION> <OPTION class=3Dfjdpth1 =
+value=3D34>&nbsp; &nbsp;=20
+                Member Announcements, Advertisements &amp; =
+Offers</OPTION>=20
+                <OPTION class=3Dfjdpth0 value=3D12>General =
+Forums</OPTION> <OPTION=20
+                class=3Dfjdpth1 value=3D27>&nbsp; &nbsp; New Member=20
+                Introductions</OPTION> <OPTION class=3Dfjdpth1 =
+value=3D18>&nbsp;=20
+                &nbsp; Open Discussion Forum</OPTION> <OPTION =
+class=3Dfjdpth1=20
+                value=3D50>&nbsp; &nbsp; Sports Forum</OPTION> <OPTION=20
+                class=3Dfjdpth1 value=3D56>&nbsp; &nbsp; Music =
+Forum</OPTION>=20
+                <OPTION class=3Dfjdpth0 value=3D3>Site Info and =
+Feedback</OPTION>=20
+                <OPTION class=3Dfjdpth1 value=3D43>&nbsp; &nbsp;=20
+                GIDNetwork=99</OPTION> <OPTION class=3Dfjdpth2 =
+value=3D33>&nbsp;=20
+                &nbsp; &nbsp; &nbsp; GIDForums=99</OPTION> <OPTION =
+class=3Dfjdpth2=20
+                value=3D42>&nbsp; &nbsp; &nbsp; &nbsp; =
+GIDWebhosts=99</OPTION>=20
+                <OPTION class=3Dfjdpth2 value=3D61>&nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+                GIDBlog</OPTION> <OPTION class=3Dfjdpth2 =
+value=3D45>&nbsp; &nbsp;=20
+                &nbsp; &nbsp; GIDSearch=99</OPTION> <OPTION =
+class=3Dfjdpth2=20
+                value=3D13>&nbsp; &nbsp; &nbsp; &nbsp; =
+GIDTopsites=99</OPTION>=20
+                <OPTION class=3Dfjdpth2 value=3D4>&nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+                Learning Journal by J de Silva</OPTION> =
+</OPTGROUP></SELECT><INPUT class=3Dbutton type=3Dsubmit value=3DGo>=20
+            =
+</FORM></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- =
+/forum rules and admin links --><BR>
+<TABLE class=3Dtborder cellSpacing=3D1 cellPadding=3D6 width=3D"100%" =
+align=3Dcenter=20
+border=3D0>
+  <THEAD>
+  <TR>
+    <TD class=3Dtcat width=3D"100%" colSpan=3D5><A style=3D"FLOAT: =
+right"=20
+      onclick=3D"return toggle_collapse('similarthreads')"=20
+      href=3D"http://www.gidforums.com/t-20285.html#top" =
+rel=3Dnofollow><IMG=20
+      id=3Dcollapseimg_similarthreads alt=3D""=20
+      src=3D"http://www.gidforums.com/images/buttons/collapse_tcat.gif"=20
+      border=3D0></A> Similar Threads<A name=3Dsimilarthreads></A> =
+</TD></TR></THEAD>
+  <TBODY id=3Dcollapseobj_similarthreads>
+  <TR class=3Dthead align=3Dmiddle>
+    <TD class=3Dthead width=3D"40%">Thread</TD>
+    <TD class=3Dthead noWrap width=3D"15%">Thread Starter</TD>
+    <TD class=3Dthead width=3D"20%">Forum</TD>
+    <TD class=3Dthead width=3D"5%">Replies</TD>
+    <TD class=3Dthead width=3D"20%">Last Post</TD></TR>
+  <TR>
+    <TD class=3Dalt1 align=3Dleft><SPAN class=3Dsmallfont><A=20
+      title=3D"My assignment is to output the nodes of a graph using =
+depth first traversal (DFT).  Most of the ADT to do this is provided in =
+the textbook, and I've included them here.  &#10;&#10;Before actually =
+doing the assignment, I wanted to see HOW to load a graph with values. =
+(As a reference, the input file contains..."=20
+      href=3D"http://www.gidforums.com/t-7474.html">Need help =
+reading/creating=20
+      data for a graph</A></SPAN></TD>
+    <TD class=3Dalt2 noWrap><SPAN =
+class=3Dsmallfont>SnackMan78</SPAN></TD>
+    <TD class=3Dalt1 noWrap><SPAN class=3Dsmallfont>C++ =
+Forum</SPAN></TD>
+    <TD class=3Dalt2 align=3Dmiddle><SPAN =
+class=3Dsmallfont>4</SPAN></TD>
+    <TD class=3Dalt1 align=3Dright><SPAN class=3Dsmallfont>31-Oct-2005 =
+<SPAN=20
+      class=3Dtime>18:38</SPAN></SPAN></TD></TR>
+  <TR>
+    <TD class=3Dalt1 align=3Dleft><SPAN class=3Dsmallfont><A=20
+      title=3D"Hi!&#10;&#10;I have a graphic problem with Unreal =
+Tournament 2004 and i don't know if it is a bug or my graphic =
+card.&#10;I have the game patched with the latest patch.&#10;The problem =
+is that the floor, walls and ceiling disapear sometimes. It's not always =
+like that and sometimes it helps if i reload the map...."=20
+      href=3D"http://www.gidforums.com/t-5735.html">Graphic problem in =
+Unreal=20
+      Tournament 2004</A></SPAN></TD>
+    <TD class=3Dalt2 noWrap><SPAN class=3Dsmallfont>zerox</SPAN></TD>
+    <TD class=3Dalt1 noWrap><SPAN class=3Dsmallfont>Computer Software =
+Forum -=20
+      Games</SPAN></TD>
+    <TD class=3Dalt2 align=3Dmiddle><SPAN =
+class=3Dsmallfont>10</SPAN></TD>
+    <TD class=3Dalt1 align=3Dright><SPAN class=3Dsmallfont>09-Oct-2005 =
+<SPAN=20
+      class=3Dtime>12:31</SPAN></SPAN></TD></TR>
+  <TR>
+    <TD class=3Dalt1 align=3Dleft><SPAN class=3Dsmallfont><A=20
+      title=3D"Hi all,&#10;&#10;Has someone tried on something like =
+this?&#10;&#10;I want to implement a concept.&#10;&#10;I want to get a =
+call graph for all functions and loops in an application.&#10;with Call =
+graph  i mean which line in source code was executed at a instant of =
+time.&#10;&#10;The graph would be listing something like"=20
+      href=3D"http://www.gidforums.com/t-5883.html">how to get Call =
+graph for=20
+      applications, anybody knows</A></SPAN></TD>
+    <TD class=3Dalt2 noWrap><SPAN =
+class=3Dsmallfont>bravetanveer</SPAN></TD>
+    <TD class=3Dalt1 noWrap><SPAN class=3Dsmallfont>C Programming=20
+    Language</SPAN></TD>
+    <TD class=3Dalt2 align=3Dmiddle><SPAN =
+class=3Dsmallfont>1</SPAN></TD>
+    <TD class=3Dalt1 align=3Dright><SPAN class=3Dsmallfont>29-Sep-2005 =
+<SPAN=20
+      class=3Dtime>23:27</SPAN></SPAN></TD></TR>
+  <TR>
+    <TD class=3Dalt1 align=3Dleft><SPAN class=3Dsmallfont><A=20
+      title=3D"hi to all&#10;please help me . &#10;i have a significant =
+problem after installing windows Xp . the problem is that when i install =
+windows xp after 1 or 2 or &#10;maybe sometimes 5 restarts or shutdowns =
+my computer doesn't bootup correctly . i mean that it freezes for more =
+than 4 min &#10;on the &quot;Welcome screen&quot;..."=20
+      href=3D"http://www.gidforums.com/t-6463.html">a significant =
+problem after=20
+      installing Xp</A></SPAN></TD>
+    <TD class=3Dalt2 noWrap><SPAN class=3Dsmallfont>mohammad</SPAN></TD>
+    <TD class=3Dalt1 noWrap><SPAN class=3Dsmallfont>Computer Software =
+Forum -=20
+      Windows</SPAN></TD>
+    <TD class=3Dalt2 align=3Dmiddle><SPAN =
+class=3Dsmallfont>10</SPAN></TD>
+    <TD class=3Dalt1 align=3Dright><SPAN class=3Dsmallfont>09-Aug-2005 =
+<SPAN=20
+      class=3Dtime>07:03</SPAN></SPAN></TD></TR></TBODY></TABLE>
+<P class=3Dsmallfont style=3D"TEXT-ALIGN: center">Network Sites: <A=20
+href=3D"http://www.gidnetwork.com/">GIDNetwork</A> =B7 <A=20
+href=3D"http://www.gidwebhosts.com/">GIDWebHosts</A> =B7 <A=20
+href=3D"http://www.gidsearch.com/">GIDSearch</A> =B7 <A=20
+href=3D"http://www.desilva.biz/">Learning Journal by J de Silva, The</A> =
+</P>
+<DIV class=3Dsmallfont align=3Dcenter>All times are GMT -6. The time now =
+is <SPAN=20
+class=3Dtime>23:33</SPAN>.</DIV><BR></DIV></DIV></DIV><!-- / close =
+content container --><!-- /content area table -->
+<FORM action=3Dindex.php method=3Dget>
+<TABLE class=3Dpage cellSpacing=3D0 cellPadding=3D6 width=3D"100%" =
+align=3Dcenter=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dtfoot align=3Dright width=3D"100%">
+      <DIV class=3Dsmallfont><STRONG><A=20
+      href=3D"http://www.gidforums.com/sendmessage.php" =
+rel=3Dnofollow>Contact=20
+      Us</A> - <A href=3D"http://www.gidforums.com/">GIDForums=99</A> - =
+<A=20
+      href=3D"http://www.gidforums.com/gid_archive.php" =
+rel=3Dcontents>Archive</A> -=20
+      <A onclick=3D"self.scrollTo(0, 0); return false;"=20
+      href=3D"http://www.gidforums.com/t-20285.html#top" =
+rel=3Dnofollow>Top</A>=20
+      </STRONG></DIV></TD></TR></TBODY></TABLE><BR>
+<DIV align=3Dcenter>
+<DIV class=3Dsmallfont=20
+align=3Dcenter><!-- Do not remove this copyright notice -->vBulletin, =
+Copyright =A9=20
+2000 - 2011, Jelsoft Enterprises Ltd. <!-- Do not remove this copyright =
+notice --></DIV>
+<DIV class=3Dsmallfont align=3Dcenter><!-- Do not remove  or your =
+scheduled tasks will cease to function --><!-- Do not remove  or your =
+scheduled tasks will cease to function --></DIV></DIV></FORM>
+<SCRIPT type=3Dtext/javascript>
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</SCRIPT>
+<NOSCRIPT><IMG alt=3D""=20
+src=3D"http://www.desilva.biz/logger/pphlogger.php?id=3Dforums&amp;st=3Di=
+mg"></NOSCRIPT>=20
+
+<FORM id=3DfrmGIDAAT name=3DfrmGIDAAT action=3D"" method=3Dpost><INPUT =
+id=3Di type=3Dhidden=20
+name=3Di><INPUT id=3Dd type=3Dhidden value=3D2 name=3Dd><INPUT id=3Dr =
+type=3Dhidden=20
+name=3Dr></FORM>
+<SCRIPT type=3Dtext/javascript>	var gaJsHost =3D (("https:" =3D=3D =
+document.location.protocol) ? "https://ssl." : "http://www.");	=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' =
+type=3D'text/javascript'%3E%3C/script%3E"));</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>	var pageTracker =3D =
+_gat._getTracker("UA-55009-1");	pageTracker._initData();	=
+pageTracker._trackPageview();</SCRIPT>
+<!-- temp -->
+<DIV style=3D"DISPLAY: none"><!-- thread rate --><!-- thread ratings =
+form here --><!-- / thread rate --></DIV><LINK=20
+href=3D"http://ctxt.tribalfusion.com/ctxt/textlinks.css" type=3Dtext/css =
+
+rel=3Dstylesheet>
+<SCRIPT=20
+type=3Dtext/javascript>=0A=
+	var tf_pubSiteId=3D101126;=0A=
+	var tf_maxKeywords=3D5;=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"http://ctxt.tribalfusion.com/ctxt/textlinks.js"=20
+type=3Dtext/javascript></SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/gid/gidforums-1.gif
+
+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
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/misc/navbits_start.gif
+
+R0lGODlhDwAPAPeWANLt/4WZ64GV5oea7X6S4tTu/32R4IeNpMfj/9PV5Iqc7oWY64qf8dfy/8vO
+3ICT48jj/2uA2o6XvGt/12J4y87n/5an/5Wm/c3m/+7v+3WN5YGS41hpt3eN4nmN3MvQ54eZ63qN
+3Mfg/9Lu/8Ld/7a5yXKG0sXe/+Hi7tPq/2J5x73Az2+D0fHy/vHx/JCj93iN3YSX6dr4/2yB2LK7
+32Z4zWBxwoyUudrz/7y9x4ib9M7o/6iw0HqL4HaK2oGV5H6S4Y2d1I2WwM3m9tbX4+zs98XI3M/r
+/5uhuXuQ4dDp/9n0/4OW53aJ1naJ1+D6/2yA0YCV5tfz/4mc746g887m/3mN24eQtbnE7Yib7ri9
+1naK146h9Njy/6a7321/1vLz/n2T6nGG1HSI1Nba732Q4IOMsWd9xYiYyJ2v2X6S5JGZvq2zzVdo
+soyWvEBNiWBxue3u+oGT8MDL6N33/2yB0Yuf8sni/2Z3xYSZ8XqO3JKo2MbJ2aO53oyf+ZafvHSH
+0szo/29/yHiM2YKW55CbtpCj/F5zwt75/5uw2ouUu9Ht/5iq09LV48XK4GJ4yLS92vT0/tPV5bC1
+yVZjmZ6w2fX1/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJYALAAAAAAPAA8A
+QAjJAC0JHEiwoKUgdQYZEBBgip0LeDjYiICCIJhFAAAUKIChipIlPATGOSTGB4wkaqIsGPCGksE5
+UhDtKbGiUQIHRLBo6BAmjw4/hiz0GNIFRyAjAs+w2KKHgIAYIKjA+QIlksGrV138KcQHq8AWJ+6I
+2DHiCAQEMtBMQvLBEaREaSox8tKgQgoAWjKoGGMFCJMBDF7I6fOEDglJlshQaOKBAKEAWbhsaFNj
+RhGBNB6ZcBKizIMfCgRNAESQjZkrN9ZIcKNIyIEclgICADs=
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/misc/navbits_finallink.gif
+
+R0lGODlhHgAPAPeYAAAAAP///4yg8o+j94md8PLz/pSo/5Km+4aEg46j94ea6o2g8Y2WurK404+X
+u4uf8Yqh95uw/19lmbO8z1tmleH//4GZ5oug9Iec8IV4qoeb7JCl+vT//0tYhu7u+2p90+3u+5Kn
+/sDD1JCn/vHx/HyQ4Zuaoo2Xqp6y/4Wa7o2i9eTk7o+k+I+YvJCq/3uT7drb5XeO5bq0somSuImS
+t7rE2JCPjiMjI6mpsYec7rW0q4OY7MnP4YN7mIR7pu/v+ZSn+7Cvq3B1mEZTgZOesJ6u7EdUlZOK
+vO///9LS2q7F/42j/oKFlbm5wb+9saC4/4ib7vL//5KfsFRfnXZsoIWb9MXJ1crN24KX7a3E/4WZ
+6pGk/H6T5Gp7v6e//3KK34ic7LXDwL7L+4iClres077A0cfFwdXW4DdNuZCk9nSP/2R8zLvE64OX
+6X+V8Gdkk7rR07XM4L3D06myxMnIxLG2xIib74GGm8nL2puz//H//8jV7JOn+3uS46itv5ir/46i
++q2yxJCZvXB9wmxpj93d3ome8YyMkIaa7JWq/dre9I+YwKeinsDG2Iifvoyi9oqe8KG4/8TIyIqU
+uaC2/6ixxIqf8cPJ2/X1/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJgALAAAAAAeAA8A
+QAjoADEJHAhgoMGDCBMaLMgQU8EbmIpUecRiwwE+QCIM6nHkzRmEBRUOLBAljAxGAQo5mZKljkiF
+Hr5gSYGBgB0oDyAZGZIw5EtMezgEcGQiwKEyVmCAVCjGRZ4nlFBE8qKkhI0gOtaI+ImQy44cBCwJ
+ELBghIQMHX5wXcv2J4lKc/BgwpGkbcICFfTAkRQgAB00SIi05dHokpwacSackOIHgRkmagK1BeEG
+AqAtIQwY+LNEyBgyFK7YVfTC0AUVCQakSdSHkA8qK+xiYhOjjRZEGsAoGNDlgwXZAhvMcDCJhqAW
+DBbdaYIpIAA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/statusicon/post_old.gif
+
+R0lGODlhCgALAOZJADtDbJep14aWzLzT77LI6YGO1b3U8Ka64bzT7tDp/8/o/4CN1HB/kbzS7nWE
+mc7n/8jg/3uLodHr/1NdioSVqpao1XSDmG99lai98CkzQ29+kU9Zc7HH6Ka468Pb/7rQ+1RghLHH
+51xnfJao1uT//258jaW54JOl34eVyoWVy7rR7bvS7kNMeLrR7svl/0VMcztCa0ZQbXCAk8rk/3mK
+niQqQ2d2kF9siqW5319tfkFJdicyR9jz/y03SbXL9pao5MTc+bvR7SowTtr2/4yb6I+f7TtCbElT
+ZFVheENbigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAEAAEkALAAAAAAKAAsAQAdngEcRGgwMMjQ7SUkgJykCjwIoPzEODysDmAMtEjkWD0EICA0qMy49
+Nj4mB6sHOB9IQjpGALQAMCw1FCQKCb08QBlJDgoIBsYGDUMlFx4cBM8EIRAiNx0jAdgBFRgbE0QL
+BeEFC0UvgQA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/statusicon/user_offline.gif
+
+R0lGODlhDwAPAPexADdHlFZikFVyz2Rull94xm1qdmVvlFNPa0FbsayqoVhiiFxZTEZBNXd3jZCU
+rVt5zlx5yqqllUNXks7LwEBKbtHR38PG0l165lFlu1Jwyk1oxYODikhiuF120YaGj2lpbMvL0efq
++evr8mJrkFl34+jo8ktmtubm736e7U9nqbO1v1ZvrbOzv+Pj7J/B/4ek5EVMXW5rf5aWnJCbzHl5
+ip+fqIKAc0FapYN+fmJiatXW6r/L7ba51meC0tbW5tHV5myG1K2tw62tum1qXsjI0l9vw6KivH2f
+/z5Zt3KX/1xhary8zKbF+09syqWlqT5HbVNv15uts4GAqjZGk0NBVNPV6d7e7IaGkvDw9lllkd7j
+98nJ2lBMaUJascTS8lVhkGV6xUNAQ01qx0JIZtnc7tzc7HKU/7Gxwy0qP6TH/7Ozx+np9FRjla2q
+o3Nzf0Vdx5mZrkxpwdrZ2WiJ25SUoVFsylJkl4aTtFl0uE5nuKCpxUpnwTVGgcfN6NTU4EZgwY6P
+smyO/zpPsZaetlZjkXl2aTtSplVmmubp905rxmtqdaSr1EJbs8vM1zYwKuPo+Zebq9nZ3re3vlFu
+xp+eptLS21dmlZGWtWyGzo+PrT9QlYuKjNDQ3K2+7Fdzx0hFOUtYgm9vjqKo0brF5Y6OojRJqMjE
+vszT6EhUe3d9oWllglpnmZubq5GRrUhGUq2trdTV6vX1/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAALEALAAAAAAPAA8A
+QAjfAGMJFPhDz51BFgYK3MEoQBsinCpsUQOnARUlTC7FelHKQIRXTmRs+MCAQhI+A/skMpHikCU7
+K+b84aFwVJw3GFYpYNMhEAdIAr3k+TIBi4gWlVjQcRMG1REHsYAYyoLjCqlWgKQcGJNmikKBVRbN
+EKXj68BTeDRAIXFBgAQVCrVkEDTARqEhCz6BMoOgUaxHmAAkkBMJhKQaHnI4ItDET6cuI0ydKLHG
+yhJWNFzBcJEqxB5NmygJORPESKZQaKL08BELkZgbhBQViKGKyxMUSMooJANmkicID+oUgTUwIAA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/gid/ranks/rank1_5.gif
+
+R0lGODlhDwAQAIABADhwqAAAACH5BAEAAAEALAAAAAAPABAAAAIfjI+pa+Cc3INNAhrsZHqr7iFg
+mI0R+HWLulqQ+5JKAQA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/reputation/reputation_neg.gif
+
+R0lGODlhCAAKAOYAAJ03Iss6G8s6HMk6HFtZb2Nbacc3G503Icg5G3Fzhts8Gl1ddZ84LlxUZNJF
+KVtabWVXZqc1Hqk1Ha42HdtYPG5vhKc0GqM4K4SFo95qTso5G8w3FnFicdQ6HF5RY3U8OX5BRmpc
+bOBnSWtofMg4GthDImVjelZXbqc2Hp46LM45GICDmGFaaF5hdqc6LF5gel5WZaI5LMk7INdBIMk5
+G9U+HnMxKsfH1FVXbnBicsw7HM07HN5CHtDR4M7P4l5fdNM9HFpTZM85GNQ7G6c1HYo+Q76/zdM7
+G2NUZGVjdgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAAAIAAoAQAdRgDcJPwQECxVGSTYHAAApHyYhFDMBAwgoLDkiPEIqGxYFSDJAOwIa
+Eg0jRS4XMQwgDxwZJZUkEQUQDjU6AjREMB4GCkNHHRNBPSstJzgvGD6BADs=
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidnetwork.com/images/buttons/gidblog-bullet-9x15.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAkAAAAPCAMAAAF2ESWpAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAGUExURZdgOwAAABscl9kAAAACdFJOU/8A
+5bcwSgAAAJNJREFUeNpiYGQECCAGBkaAAGJgBAggBkaAAAJSjAABBESMAAEExAABBEQAAQTkAQQQ
+kAQIIBCfkREggBhAUowAAQQmGAECCCICEEBgEiCAwARAAIFFAQIIrAAggMAEQACBuQABBJYACCAw
+ARBAENUgABBADHAmQAAxMMDYAAHEwABjAwQQQgwggBDqAAIIoRcgwAAiYQBvw3FhNQAAAABJRU5E
+rkJggg==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/buttons/printer.gif
+
+R0lGODlhFQARAPfJAP///6y6v6Wenqu6v4WEjZWUqJaVqIKBjWZkasvHx6+mp7S1vbS0vrC6wHZ1
+foiJlYqJlKKXmK27wcLJzsHIzdPNzcC61dbV2IOCkLWtrdTR0oOCieHg5Z2ZsbWur+Dg4c3Kyunn
+7Z2csa67wHZ2fL+7uuvl9e7u8aaluai1uqmyucvV2vP19n9+ho+Om5Scouzr7pGQnMa+vn59hYqJ
+keTj6Y2Ml6ekvLXDyIaFlP3+/miJZvj3/IF4kK6oqaexuIiIjuHg55GMoqy7wHt5hXV0e8jExGps
+cG1sdMLBy2podY2NmI6KnOnt7qunwcfGz6KZmb28zpuaprCnp31/iJWVobu9wrS0u+rn57KqqWhn
+cpuZq2tsdJSUppKRmJ+orNjW1snBwpqgpent73xvjNLR11/zN5KRom//LYWFjMzW2YqJm4uKmtvd
+38K8vaGprbC7wZGQmtLOzoGAi+Lg4LCvyPz9/e7t89fS0quqtujn76KgtaCnpo2MmvX0+JefpZCO
+n+Pk5o6NlYiNk2ppcrOzvrisrejq7OTi7s7N1JCQlpmfp83W2YqQmqu5voqAl9DJyp+ep7PAxdHR
+0/3+/Y+Ol9DX24GAjna1Yau4vsvGx+vn5ouKnOvq8Jubqs7JyKCpr725u+rq6vf39ubm5t/f46+8
+weXq6+zr65SEperq7YmHl5KRodHZ3Nzh5Le1wdfV3tze4YiHmKCrserp8K+kpbG/xI2MlXx/heXh
+4f7///7+/rS9wmZlbOTf35CPmaCXmaGnq3JxfYiHkdbT1IGAkI+On5mjqOrp76y7wAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAMkALAAAAAAVABEA
+QAj/AJMJTCahFSNLrsYcsrNioMOBjTwtKMRgEoCLuk7ACEGLh59SEx4KXETlTwqRKB3y2lTBFxZU
+pACoSRkgB6AuTjqgwZRqCYRhBDa0KELii0g4ADSBCBPKB5gmKUUGqhVhioJPeFjQ5FQARRQ9JhDB
+SpJHSgwblQQpCubwQTFje4SQ6UFEGKFeuI45ivohi4cSGojt0oEjqsNYGYAJEEDnoi3DAjNRkpPA
+DRQjok5FHTKigYo2MgxBynVxlBUKkh7+kPXqSZkLqoLUQHanE4dEVyJ5ETNwwKozBupY4FOFSR8X
+cX7dopEGyJuBAS6xYXVji5kdjw7MmeEACYIjoEw9DXyBQcQaJVq4DJqVMiAAOw==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/buttons/sendtofriend.gif
+
+R0lGODlhFQARAPfNAOjq/+fo/+fp/+jp/+Xo/9rm/9zm/9Lh/Nnl/+To/+bo/9vm/+fn/+Hn/+np
+/87g+93m/9Li/LG/xLC/xLLBxuzs/9Hh/Mrg+eLn/+Dn//aZjGFqdLXDybnGy7/S3/Lw/7TDyLLB
+x+bo/erq/7G/xezw/87T6Mne+rnFytDY3NLZ3v9SKMzV3s/h+9bk/8vg+fp7Yc7h+5GZqP9PI8fg
++sTd8tjf6szg+tfc7VZYX7TA1NXd6c/g+9La5ODm/tHb59LZ50dJTuzd7sjX7UBCR0BDSM7a5aGo
+t7fN28HM0Njk/8ng+tfi/8jg+e7u+V5lbf1pRtfj/5igrsbV3+7J0NTa57zN1+Dk/8vU3Ht/ienr
+/8Pd9+Xm/qquvrvL1MHW5uHj98bS6s3f+9vg5s3b9MnR1tri+HN7h0tPVd/m/3N6hs3g+rjFy8Tf
++cXf+K69wuTn/1dbY9Pi/LbEyfHx/sjS6FtcY87W3M3U6e/u/8nW4q++w8Hc+MzY5LjIz83e+tnm
+/8Pd9MLd+Ojo/8ff+lBSWMbg+bnHzbTCx8TY8Ofq/9/j6sTT3evp/9Hd9cbf+pudqcHR2tTi/Z+s
+vfePfs/e9mNncObp+M/Z8LfGzWpud9je48Ld+cne+err/+jq8vxwT76/z9bj/+nr89Pi/bPBx+Tl
+++/Hztng6+Dm/3F5g2Rocr7K0cPc8b3Izu3t/9Xj/tDh+77L4dvj/8fW38LX6OPo/7XEy+Pn//5e
+N6y7zbHAxdHX46y7wMvg+tHg/sDS6enq/8fS2uLl7eTm+sPO1tHg/cnS1sPd9bTCyMfY77/T4P9N
+Iay7wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAM0ALAAAAAAVABEA
+QAj/AJsJHEiwmQQUSY6l2LTo0x2ByX5kaJDBDJEgmo5gWlAAAQIlUX4dGggCya2CKFFiuaQFAAAw
+oUS4dDmgZi5mVFgInDDFWIQDlVQ9OTMJ2IsmjwTVWOZnIBBiFRqNcCBgUICrVxkwADUDRhWBbGwI
+GCBAQAAFBAgkwIXBR4NUaWYVE0ihD4ICgBytQhNHhqwDByzE4vGgEwWBbyKd8HVhiaEtrTxk6pVS
+ICJXZVSMGTbKCZ0PeV5V8ORAiIZTOAT2KAEgmKKZsGdCWUGJl8AOqGZCsmOqLFYFCrjAuSJM4Jwd
+aRMksIXBRJcsOYrgMWBgARNWAksZgQCBOscCdaRYQioURhKpA384CCShR5QLWHLIRLCgQ82QB2tu
+XCDEZ4LAPYyI0UIMymygSyI0tIFMLVaEgJIEtHDiRiBfeLFLZQQFBAA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/rating/rating_5.gif
+
+R0lGODlhPAAMAPf/AP//yf//o///g///ZXeSwXmSvu3OcceDEK2wrOWva4udvoabwIGYwoKWv4iW
+tNaNLaZtEnaRwP//y3qTwP//tv//w///r///iJ+krv/inuq1Z8qzkuKfYbFvD+m7Yv//ypumuNrD
+b+HEi6VzG6ltCt2bH6RrEdbEjf/hW+izUv/lQ/TRhvXaVNDHl/7qTNuuZO7Ha4+Xp+zQW32VwJ6k
+sP//spaWpHiSwKSkp9CdZdq0SP/bYc2/g///jPPWV3V6i3WRwP/oTpGgueXMZ///e//rRIGYwIqY
+vP/sjf//mZtuRf//kerQdv/yTZ2murZ4DXyUwZmhrP+4Sf//s5GVqJZmFZmdp4OYv///nP//zqWo
+tIubuv//l///uduPL//RS//qP///pv//wv//t///rv/4rYmZtn6UvLGKXu7bZat9Iv//vv//Yv/m
+if//zf//nf/soP//0NvOhf//zJabsNrBbKSlqKKem7usnphoFf//m5duJ/nlY3yWwv//iffPffjV
+mP/VW4KZwv/miv/ST///k//TW9qZYOHLbIWawaqgjNaNL9CsUqJ/RJihrpSbsq+RdP//Y6Z0GtmZ
+X8OQWqBkEN7Ea6huD9OwT9izRvbfY7iroPPIZv//x6GAT3eSv4OWuuWwa4WWuISXvo1vWfXVdqKI
+YneFofniX45xWn6Xwt/QgnyVwn+XwejLdqZrBfPPg5FwVf//n6efkPPOb7GRbvXMarCuov//z6+w
+p//qQt6uYP+yQvXLaf+1R//WUv/XXqCLbvDLgOnXbKhpDXmKrOTKY/+yRaqvrurYbO7bafjVl9nG
+d/rYmOTOaf/oRbaqn4qZtOnPYP//sf//oPTSc/XeYvbfYP3RT//RTZObs4CVvLGwpf//pKZ7MKV9
+NYqWsoCXwv/wTfLNgfXOf7+LV5+nuZVuLKR/SHmUwnuVwXuVwqRnEP/pnImcvsyIE76KVP//hP//
+htybYHiIqp+BTZ+CUHiSwXiTwYSZvvrmZK6Sdv//vaGLbPDKgXOPvyH5BAEAAP8ALAAAAAA8AAwA
+QAj/AP8JFBjFzMCDAwsiROgo2sKDQmI8HBjxYaImhWCVigPvxsEFTZaMq4ar3KeDicQtEUbLDaUC
+Bye46LECxoccZ2LOrHkz5z85w+owspYkW6Vz3yAEW5XMEiZNSQix2+MNQr9VyoxluqbnF7E8kl6Z
+apFmiA4fWFB0qDKCBDqyZtGqZUvC00FBKkwAmYjXRISJDJ5dwjcxQpAnMwofToxQkb41FAK0mUfn
+4Cw+kCVPenTwDip+FLoNOqTtoBUWXcaEQcLBhmnUqlm7Hmhg1z2BE/5AO2jgBQGBN8htOujqxd9/
+QPzhOXgiBZSBIjYwdw5d+sIv9iYK/FJP+z9sjbwz3VEjnvzEXJEOFJvIbcABehNvDXh3aiIGNiV+
+2Mevf2ArZ37MAQAZAhjCywO19BEOIhdk0QmBgRzzACTrsMKMPFkAYEE8wPiyyD7pEMADERJIMMUF
+O0jhBRqqiEiiiSiqiIY6A8lATQ0VtEPKQjLIgmM7qSwkzRvTVABHLAuFwIUFYpShRJJLNvnkQQgU
+EcoootgCiANUFpFAA6D0sgyXAyGjy5fbcNIMOAeBAIYGRxTgQQZUtPlmnHPWORAOVxykgBMH8ekn
+oAPZkc9B7phzEA1bHGSEFos2OtCjAgUEADs=
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/rating/rating_4.gif
+
+R0lGODlhPAAMAPfbAP//y3aRwP//iP//r9uuZHmSvoqYvP/inpaWpPPWV//4rf//uf/hW///nI+X
+p///jO7bZaVzG///w//oTuizUpumuOXMZ8qzktuPL3qTwP//Ypmdp6WotP//turQdv//wt2bH///
+ppGguXyUwe7Ha32VwP//t+HEi4GYwP/qP9DHl5+krv//e/TRhv//s5tuRf//yv//zn6UvNrDb6t9
+IouburZ4DbFvD56ksHeSwZZmFc2/g9bEjZGVqPXaVP//l//bYeKfYf7qTHV6i9q0SLGKXv+4Sf/s
+jeq1Z///kaltCum7YtCdZf//vYabwKKem6GLbKefkP//ZHyVwvDLgO3NcXeSwP/RS6ZrBf//m/nl
+Y+Wva4CVvIOWuujLdrCuovPOb+nPYNqZYP/qnoCXwqR/SPXOf3eSv///yaSlqPXLaaSkp9OwT7ir
+oNnGd///o8yIE97Pg6RnEP//g+TKY6Z7MP/XXoiVtL+LV///zf/oRXmUwqJ/RJ+nuerYbP/tof/y
+Tf/lQ///hP+1R/TSc4WawXuVwv//hoKWvnmSv4mcvpihrqRrEdaNLZhoFeSva4udvpduJ3eFoYqZ
+tKZtEfniX7Gwpf//Zf/mif//x5Obs7usnt/Qgv//rvPIZt7Ea3iIqv/qQqhpDf/rRPDKgf//n+7b
+aahuD8eCEP//scOQWnWRwPbfY4qWsq6Sdv3RT4GYwpSbsv//mZ+BTf/VW6qvrv//sqGAT4SZvv//
+nfLNgf/wTaZ0Gv//vvbfYNizRq2wrJmhrPjVl//WUn6XwniSwP/ST3uVwXiTwf//z45xWtaNL4OY
+v///pKKIYpFwVYKZwp2muuzQW4KWv//miv+yRdmZX6+RdImZtvrYmOHLbHOPvwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAANsALAAAAAA8AAwA
+QAj/ALcJHEiwoMBg2AwSXDRJ4UARDhwKhCixohNASXQRSobnDMFCu5JQAZNHVSKCGYQ8aEECBhMZ
+KFWydAmz4kBOfj6xYSXLmJxIdShBiWOKzi9fWYaJcsQLizMVECwQSdCAwQ0dEZSUgSqVqlWsSm7Z
+LAgtEKMADmHpOYXMYYAJNkq4hSt3bMEoWnp1eIPJWiyCTyo16dCMmhhNBDf4WGAixJEgCBIvbvw4
+sl2BVQhYEVjMTBuCXgig3baK1CaCPCiMGHjiAmrVrF1fJnhlVsVXfCp6oKGb9+yCli6hAuXwixQ4
+khyu0ABiiHLmzmeT0SYgRqZOc2hVa3TN0BQ3h2KggxkgyM6gZa725NjBAgAAFwKAGMFQhNj69u/j
+zy9ybLa0UrZIMIYyBoWRSyoS/PGMQTP8MMAHCrzAoIMQSvgbMKNsgUgXaghzB0G1hPLINFx4kk0r
+BFWQAhIGFLDEAT2kuGKLL8Y42xrMEARJNASlgQtBivRBEA41EIQCB0MWOdCRAgUEADs=
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/rating/rating_3.gif
+
+R0lGODlhPAAMAPeWAP//y///r3aRwKVzG7Z4Ddq0SP//t///nJZmFX2VwHyUwZGguZ6ksPPWV///
+pv//woGYwHqTwPXaVKt9Iv//YnmSvv//s3eSwZumuO7bZf+4SaWotP/inuXMZ+7Ha//4rf//ysqz
+kv7qTKltCrGKXuq1Z9uPL5mdp//hW///e5tuRem7Yn6UvN2bH//bYeHEi//sjdCdZf//l9rDb/TR
+hpGVqP//iIubuoqYvNDHl3V6i9bEjbFvD5aWpP/oTuKfYf//uc2/g4+Xp///jP/qP+rQduizUp+k
+roqZtISZvpFwVf/qQv3RT3mSv7usntizRv//ydaNL3iTwYKWv///nf//zvDLgH6XwqKIYuSva+nP
+YJihrtqZYP//ZP/toa6Sdv/wTYmcvvbfYKSlqP/XXvPOb3eFofPIZv/WUvrYmOjLdqZ0Gv//zaKe
+m9uuZOTKY///pPDKgf//sf//m3mUwv+1R///w6J/RNnGd+7baaGAT8OQWvniX5Obs5hoFYWawahp
+DaqvroGYwp+nuf//hN7Pg3WRwICVvLCuov//tqZrBf//kf//hv/oRXyVwqhuD8yIE3uVwaR/SP//
+vYqWsv/minOPvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAJYALAAAAAA8AAwA
+QAj/AC0JHEiwoMGDlrYgQShwgRCGlhxCnAjxD5hFVsqw2dOEYAQRQ2h4ABGDhUeQIkmapMiyUJ43
+T8TMQQPIzxpFWHJk6FCgwQEUPBAMGCFJJ0+fQIWO0MOyqSVBjR5JQSjAB4EEVK1iddq0DZ9JieBU
+4tKH4AkJQAw4gPGjh1m0atm65TpRjRsBAg3FcUJwhxEFA1+E6Ps38GC6LJncgVhkAmPHiJsi6gLJ
+DMIjFFrouJx5c2SEjvAwqgIlACEydaJ8oXMhSAoAACzYcKHBBIkrrV/Hnl2bRKTPB7VQkWPHixKD
+M2QEePBBBXLlzJ0DPxhoSZYph86koUQQA5ESOCqsHuBQo/v38OPLTy84JgnBMIMIMrhBEMIG+fQH
+2hcYEAA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/rating/rating_2.gif
+
+R0lGODlhPAAMAOZMAP//y6t9IneSwf//youbun2VwP/sjbZ4Df/oTv7qTPXaVHmSvvPWV4GYwOm7
+Yv//Yv/bYXqTwNrDb9DHl+XMZ5tuRZaWpP//uf/hW4+Xp//intuPL5umuJGVqKWotLFvD5Ggueiz
+UqVzG+rQdu7bZZ6ksP//t///e6ltCp+krt2bH3aRwP//jP//iJmdp//4rf//wtCdZf//l9bEjc2/
+g///poqYvHV6i///nP+4SeKfYeHEi3yUwZZmFf//r+q1Z36UvLGKXtq0SMqzkvTRhv/qP+7Ha///
+s6GAT36XwqR/SHuVwXOPvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAEAAEwALAAAAAA8AAwAQAewgEyCg4SFhoeIhSAZiUyLjZCRjREJLERGAzFAhJSWmJqSoZATJBRC
+DDgYHz0iKEqkpqiqrChIoreJKwgHBYi6vLjBhy4KFyY1BjoWhMTGyMrC0UwzITyDO0OE1NaC2NLf
+IwGN4d/lKQ8qN4jn6eW4AjQnAABHLRA5G0FJ8PL09vhBlrgTJUGGDxgvKhgqeDDhwFscivywscCB
+hg6EIk6sePFhqBIECDXwQAikSJJMAgEAOw==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/rating/rating_1.gif
+
+R0lGODlhPAAMAOZKAP//y///YnaRwHeSwYqYvP7qTHuVwYubunqTwP/sjfXaVP//t/PWV///nOKf
+YerQduq1Z+m7Yu7Ha9bEjZmdp9rDb///wpaWpN2bH82/g+XMZ6GAT///s8qzkpGguf/bYbZ4DbFv
+D///ualtCtq0SKt9In2VwP+4SX6UvP/oTv//jHmSvu7bZZZmFdCdZf//l9DHl5tuRf/inpGVqJ6k
+sOHEi/TRhqVzG///e3yUwY+Xp///yv//pv//r//qP5umuOizUqWotP/hW5+krv/4rYGYwHV6i7GK
+XtuPL///iHOPvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAEAAEoALAAAAAA8AAwAQAd6gEqCg4SFhoeIiYgeOoqOj5CJCAUqNhI7LiiRm5yFMCwaJAwNQiEt
+NyMbnaudAikgJqyymxQKIgs8CQ4Xs72JE0A5gzUdvsaIDyXHy4ZDARhGzMcDGTgAABxJHydIRwbS
+vhUvPRZEMeDGPz4QBCsRMjPovTQHhEVBgoEAOw==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/buttons/collapse_thead.gif
+
+R0lGODlhDQANAOYAAEpgjuDk7FxwmUZlnDdQgjtUgj9bjElpoVFmkjlShDlSg1lul+rs8lpvmFtv
+mVZrlW2ItzZOd1htl6GtxMfO3Pv8/TdQgzhRfLnG3Fp4rUhfjVltl6eyyPLz9197rJinwGh6oKu1
+ytvf6P39/q270jpShFRpk6+913WPu1Nok0JekVJok1hskF1xmYiexGV8p5Kfu5uowZShuenq7GJ1
+nUthjn6Wv0ddjD5Wh1tvmJ2tytHX4kNbikhgjWZ/rNnd515ymlNolFRplOPk5W1/pI6cuISTsqy8
+1kRilj5Whkpgj0Naip2pwjhRgzdRg0lgjnqSvUponbC6zmR3nnONukdejFBlkt7i67PB2UlgjU9l
+klRolNXa5TNKckphjk1kkEtspv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5
+BAAAAAAALAAAAAANAA0AAAehgBYEBDhaEgISVkmCTk0JADkxPx0iEy1PCgoJX0YUGCgZVFg7RV8l
+SwIULmBgYQMHNiM0PAhMGKxhuQYHJxwIGwEQrWFduh4MGw4dGWADBcRdBVEVDgvBYAe5YRcqxwsm
+HEfDxWEGOlJbXlMVUM4RFxEsM0ReN0EwXCQvSD4fQzJCqvTIkgLIhCthAoQAsUKDBiVeAHx50EBA
+gwdfAHipEQgAOw==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gidforums.com/images/buttons/collapse_tcat.gif
+
+R0lGODlhDwAPAOYAAHuSumKBtXWNuE5upXOMt0lnnmaFuT9bjWN/sFBvp4WavzZOd2SBsV99r1V0
+q1NxqTNJccfR4vL0+DNKcs/X5Zutyk9wqGaCsWaCsnyTu83W5Z2uy4KYvYOYvoSZvmiDsmmEsn2a
+yZqryklqpHiQufz9/fHz98bQ4YGXvT1Yh2mDs32Uu2mDslFwqMzV5PT2+Yabv2+JtlFxqT1ViSg+
+aFFxqI+gwn6NsVVzqThRfFd2qzJNg87Q2DRNeVp6sVl4rDFKgXSTw4aizTlQh26HtEhhlVNxp7S9
+zWiFt1Nyqae519DZ6Nzf57vE1E9vqJKr0yEzXZmeq8nS4t3j7UlpoXCPwDFJd3+WvLDB3SM8d3iH
+qnKCouzw9u/z+UJekSE3aic8bXyXxVFyqi9JeitGgH+TuOfr8unt9F5+tJWoyvH0+bjJ4zVPgYqm
+0GiDs198rEZikUNimGqEsmB/sTtUgnKRwjRIeoWhyyk/bi9JgThThGiEs2mEs26ItTpTif///yH5
+BAAAAAAALAAAAAAPAA8AAAffgE4WCRYNMQAKADENCYRONS0OAhUaJn8mFBsCDi0yDz8oEWprTyF3
+SlwRKDoPOBknU20hVX9vcwFLJwJJFyJdQkEBf8NwA0ZnIhgkLlh1aMMTwwdxNi4kHBJhBtATOcN6
+RRIcMCUGPgV0C39eKQtWQCUKHRJIYlRxw38pBzsz4gAa0owYAW0YGzI3NADoU8FMgWEQIPQYBoZJ
+BSIIrkSQ4gcPjTF5vkCJ0gQAAgZ8OkRgssVOliFaeBwp84EBBgwgMmyg8OLPi0wZ5Fy4wEKFCjcE
+VniA4WEFgT0gPrAIBAA7
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.desilva.biz/logger/pphlogger.php?id=forums&st=img
+
+R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAQAICRAEAOw==
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/clientscript/vbulletin_css/style-4e65dd2e-00001.css
+
+BODY {
+	BACKGROUND: #3870a8; MARGIN: 5px 15px 15px; FONT: 10pt =
+verdana,geneva,lucida,'lucida grande', arial, helvetica, sans-serif; =
+COLOR: #000000
+}
+A:link {
+	COLOR: #22229c
+}
+A:visited {
+	COLOR: #22229c
+}
+A:hover {
+	COLOR: #ff4400
+}
+A:active {
+	COLOR: #ff4400
+}
+.page {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+TD {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+TH {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+P {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+LI {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+.tborder {
+	BORDER-RIGHT: #0b198c 1px solid; BORDER-TOP: #0b198c 1px solid; =
+BACKGROUND: #d1d1e1; BORDER-LEFT: #0b198c 1px solid; COLOR: #000000; =
+BORDER-BOTTOM: #0b198c 1px solid
+}
+.tcat {
+	BACKGROUND: url(../../images/gradients/gradient_tcat.gif) #869bbf =
+repeat-x left top; FONT: bold 10pt verdana, geneva, lucida, 'lucida =
+grande', arial, helvetica, sans-serif; COLOR: #ffffff
+}
+.tcat A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tcat A:hover {
+	COLOR: #ffff66; TEXT-DECORATION: underline
+}
+.tcat A:active {
+	COLOR: #ffff66; TEXT-DECORATION: underline
+}
+.thead {
+	BACKGROUND: url(../../images/gradients/gradient_thead.gif) #5c7099 =
+repeat-x left top; FONT: bold 11px tahoma, verdana, geneva, lucida, =
+'lucida grande', arial, helvetica, sans-serif; COLOR: #ffffff
+}
+.thead A:link {
+	COLOR: #ffffff
+}
+.thead A:visited {
+	COLOR: #ffffff
+}
+.thead A:hover {
+	COLOR: #ffff00
+}
+.thead A:active {
+	COLOR: #ffff00
+}
+.tfoot {
+	BACKGROUND: #3e5c92; COLOR: #e0e0f6
+}
+.tfoot A:link {
+	COLOR: #e0e0f6
+}
+.tfoot A:visited {
+	COLOR: #e0e0f6
+}
+.tfoot A:hover {
+	COLOR: #ffff66
+}
+.tfoot A:active {
+	COLOR: #ffff66
+}
+.alt1 {
+	BACKGROUND: #eef2f6; COLOR: #000000
+}
+.alt1Active {
+	BACKGROUND: #eef2f6; COLOR: #000000
+}
+.alt2 {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+.alt2Active {
+	BACKGROUND: #ffffff; COLOR: #000000
+}
+TD.inlinemod {
+	BACKGROUND: #ffffcc; COLOR: #000000
+}
+.wysiwyg {
+	BACKGROUND: #ffffff; FONT: 10pt verdana, geneva, lucida, 'lucida =
+grande', arial, helvetica, sans-serif; COLOR: #000000
+}
+TEXTAREA {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+.bginput {
+	FONT: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+.button {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+SELECT {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+OPTION {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', =
+arial, helvetica, sans-serif
+}
+OPTGROUP {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, geneva, lucida, 'lucida grande', =
+arial, helvetica, sans-serif
+}
+.smallfont {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+.time {
+	COLOR: #666686
+}
+.navbar {
+	FONT: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, =
+sans-serif
+}
+.highlight {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.fjsel {
+	BACKGROUND: #3e5c92; COLOR: #e0e0f6
+}
+.fjdpth0 {
+	BACKGROUND: #f7f7f7; COLOR: #000000
+}
+.panel {
+	BORDER-RIGHT: 2px outset; PADDING-RIGHT: 10px; BORDER-TOP: 2px outset; =
+PADDING-LEFT: 10px; BACKGROUND: =
+url(../../images/gradients/gradient_panel.gif) #e4e7f5 repeat-x left =
+top; PADDING-BOTTOM: 10px; BORDER-LEFT: 2px outset; COLOR: #000000; =
+PADDING-TOP: 10px; BORDER-BOTTOM: 2px outset
+}
+.panelsurround {
+	BACKGROUND: url(../../images/gradients/gradient_panelsurround.gif) =
+#d5d8e5 repeat-x left top; COLOR: #000000
+}
+LEGEND {
+	FONT: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, =
+helvetica, sans-serif; COLOR: #22229c
+}
+.vbmenu_control {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: #738fbf; =
+PADDING-BOTTOM: 3px; FONT: bold 11px tahoma, verdana, geneva, lucida, =
+'lucida grande', arial, helvetica, sans-serif; COLOR: #ffffff; =
+PADDING-TOP: 3px; WHITE-SPACE: nowrap
+}
+.vbmenu_control A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_control A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.vbmenu_control A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.vbmenu_popup {
+	BORDER-RIGHT: #0b198c 1px solid; BORDER-TOP: #0b198c 1px solid; =
+BACKGROUND: #ffffff; BORDER-LEFT: #0b198c 1px solid; COLOR: #000000; =
+BORDER-BOTTOM: #0b198c 1px solid
+}
+.vbmenu_option {
+	BACKGROUND: #bbc7ce; FONT: 11px verdana, geneva, lucida, 'lucida =
+grande', arial, helvetica, sans-serif; CURSOR: pointer; COLOR: #000000; =
+WHITE-SPACE: nowrap
+}
+.vbmenu_option A:link {
+	COLOR: #22229c; TEXT-DECORATION: none
+}
+.vbmenu_option A:visited {
+	COLOR: #22229c; TEXT-DECORATION: none
+}
+.vbmenu_option A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_option A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite {
+	BACKGROUND: #8a949e; FONT: 11px verdana, geneva, lucida, 'lucida =
+grande', arial, helvetica, sans-serif; CURSOR: pointer; COLOR: #ffffff; =
+WHITE-SPACE: nowrap
+}
+.vbmenu_hilite A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vbmenu_hilite A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bigusername {
+	FONT-SIZE: 14pt
+}
+TD.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+DIV.thead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; =
+PADDING-TOP: 4px
+}
+.pagenav A {
+	TEXT-DECORATION: none
+}
+.pagenav TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 2px
+}
+.fieldset {
+	MARGIN-BOTTOM: 6px
+}
+.fieldset {
+	FONT-SIZE: 11px
+}
+.fieldset TD {
+	FONT-SIZE: 11px
+}
+.fieldset P {
+	FONT-SIZE: 11px
+}
+.fieldset LI {
+	FONT-SIZE: 11px
+}
+FORM {
+	DISPLAY: inline
+}
+LABEL {
+	CURSOR: default
+}
+.normal {
+	FONT-WEIGHT: normal
+}
+.inlineimg {
+	VERTICAL-ALIGN: middle
+}
+TABLE#tableGAMTop {
+	MARGIN: 18px auto auto
+}
+TABLE#tableGAMTop TD {
+	BORDER-TOP: #f8f8f8 1px solid; BORDER-BOTTOM: #efefef 2px solid
+}
+A DIV#divGIDAd1 {
+	CURSOR: pointer; COLOR: #22229c; TEXT-DECORATION: none
+}
+DIV#divGIDAd1 {
+	VERTICAL-ALIGN: middle; WIDTH: 728px; FONT-FAMILY: arial,helvetica, =
+sans-serif; HEIGHT: 90px; TEXT-ALIGN: center
+}
+DIV#divGIDAd2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; PADDING-BOTTOM: 5px; PADDING-TOP: =
+12px; TEXT-DECORATION: underline
+}
+DIV#divGIDAd3 {
+	COLOR: black
+}
+TABLE#tableGAMBottomST {
+	MARGIN-BOTTOM: 34px; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+TABLE#tableGAMBottomST TD {
+	BORDER-RIGHT: #000000 0px; PADDING-RIGHT: 0px; BORDER-TOP: #000000 0px; =
+PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: =
+#000000 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #000000 0px
+}
+TABLE#tableGAMBottomST TD.GBST1 {
+	VERTICAL-ALIGN: top; WIDTH: 160px; PADDING-TOP: 3px
+}
+TABLE#tableGAMBottomST TD.GBST0 {
+	PADDING-LEFT: 5px; WIDTH: 130px; PADDING-TOP: 5px
+}
+TABLE#tableGAMBottomST TD.GBST1 {
+	VERTICAL-ALIGN: top; WIDTH: 160px; PADDING-TOP: 3px
+}
+DIV.welcome {
+	FONT: 11px verdana, arial, helvetica, sans-serif; COLOR: black; =
+PADDING-TOP: 1px
+}
+DIV.welcome H2 {
+	PADDING-TOP: 13px
+}
+H1.welcome {
+	MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+DIV.welcome P {
+=09
+}
+H1.welcome {
+	DISPLAY: block; FONT-SIZE: 15px
+}
+H2.welcome {
+	DISPLAY: block; FONT-SIZE: 15px
+}
+DIV#divGoog {
+	VERTICAL-ALIGN: bottom; WIDTH: 468px; PADDING-TOP: 15px; HEIGHT: 45px; =
+BACKGROUND-COLOR: #3870a8; TEXT-ALIGN: right
+}
+DIV#divGoog A {
+	FONT-SIZE: 15px; MARGIN: auto; TEXT-TRANSFORM: capitalize; COLOR: =
+#b9cded; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+DIV#divSTGA728 {
+	MARGIN-TOP: 6px; MARGIN-BOTTOM: 13px; BACKGROUND-COLOR: #ffffff; =
+TEXT-ALIGN: center
+}
+DIV#divSTGA728 TABLE {
+	MARGIN: auto
+}
+TABLE#tableGIDadstgtop {
+	MARGIN: 0px 0px 13px; WIDTH: auto; BACKGROUND-COLOR: white
+}
+TABLE#tableGIDadstgtop TD {
+	BORDER-RIGHT: white 0px; PADDING-RIGHT: 3px; BORDER-TOP: white 0px; =
+PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: white 0px; =
+PADDING-TOP: 3px; BORDER-BOTTOM: white 0px; BACKGROUND-COLOR: white
+}
+TABLE#tableGIDadstgtop A DIV#divGIDAd1 {
+	COLOR: black; TEXT-DECORATION: none
+}
+TABLE#tableGIDadstgtop DIV#divGIDAd1 {
+	FONT: 19px arial,sans-serif; OVERFLOW: hidden; WIDTH: 700px; CURSOR: =
+pointer
+}
+TABLE#tableGIDadstgtop DIV#divGIDAd2 {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 3px; COLOR: #22229c; TEXT-DECORATION: =
+underline
+}
+TABLE#tableGIDadstgtop DIV#divGIDAd3 {
+	FONT-SIZE: 14px
+}
+P#pGIDBlog {
+	MARGIN-TOP: 21px; TEXT-ALIGN: center
+}
+P#pGIDBlog SPAN {
+	BORDER-RIGHT: #0040a4 1px solid; BORDER-TOP: #0040a4 1px solid; =
+FONT-SIZE: 12px; BORDER-LEFT: #0040a4 1px solid; BORDER-BOTTOM: #0040a4 =
+1px solid; FONT-FAMILY: arial,sans-serif; BORDER-COLLAPSE: collapse
+}
+P#pGIDBlog SPAN#spanA {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; BACKGROUND-COLOR: #3870a8
+}
+P#pGIDBlog SPAN#spanB {
+	PADDING-RIGHT: 21px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; =
+PADDING-BOTTOM: 5px; COLOR: #999999; PADDING-TOP: 5px; BACKGROUND-COLOR: =
+#ffffee
+}
+P#pGIDBlog A {
+	TEXT-DECORATION: none
+}
+P#pGIDBlog SPAN#spanA A {
+	COLOR: #ffffff
+}
+P#pGIDBlog IMG {
+	VERTICAL-ALIGN: bottom; WIDTH: 9px; BORDER-TOP-STYLE: none; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 15px; =
+BORDER-BOTTOM-STYLE: none
+}
+DIV.editedby {
+	MARGIN-TOP: 13px; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #666666; =
+FONT-FAMILY: sans-serif
+}
+DIV#fulltop {
+	WIDTH: 468px; COLOR: yellow; HEIGHT: 60px; BACKGROUND-COLOR: navy; =
+TEXT-ALIGN: left
+}
+DIV#fulltop  {
+	FONT-WEIGHT: bold; COLOR: yellow
+}
+H1 {
+	DISPLAY: inline; FONT-SIZE: 13px
+}
+DIV.lbtop {
+	MARGIN: auto; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+TD.lbmid {
+	BORDER-TOP: #f8f8f8 1px solid; PADDING-BOTTOM: 8px; PADDING-TOP: 5px
+}
+DIV.gctitle {
+	MARGIN-BOTTOM: 2px; COLOR: gray
+}
+DIV.snippet {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc =
+2px solid; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 11px; =
+PADDING-BOTTOM: 6px; MARGIN: 3px 0px 8px; BORDER-LEFT: #cccccc 2px =
+solid; COLOR: #595959; PADDING-TOP: 6px; BORDER-BOTTOM: white 1px solid; =
+BACKGROUND-COLOR: transparent
+}
+H2 {
+	DISPLAY: inline; FONT-SIZE: 12px
+}
+H3 {
+	DISPLAY: inline; FONT-SIZE: 11px
+}
+PRE.gid {
+	BORDER-RIGHT: 2px solid; PADDING-RIGHT: 15px; BORDER-TOP: 6px solid; =
+PADDING-LEFT: 15px; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; MARGIN: 0px; =
+OVERFLOW: auto; BORDER-LEFT: 2px solid; WIDTH: 612px; PADDING-TOP: 5px; =
+BORDER-BOTTOM: 2px solid
+}
+PRE.gidmarkup {
+	BORDER-RIGHT: 2px solid; PADDING-RIGHT: 15px; BORDER-TOP: 6px solid; =
+PADDING-LEFT: 15px; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; MARGIN: 0px; =
+OVERFLOW: auto; BORDER-LEFT: 2px solid; WIDTH: 612px; PADDING-TOP: 5px; =
+BORDER-BOTTOM: 2px solid
+}
+PRE.gid {
+	COLOR: #603913; BACKGROUND-COLOR: #fbfaf4
+}
+PRE.gidmarkup {
+	COLOR: #000000; BACKGROUND-COLOR: #fdfffe
+}
+PRE.csharp {
+	BORDER-LEFT-COLOR: #669933; BORDER-BOTTOM-COLOR: #669933; =
+BORDER-TOP-COLOR: #669933; BORDER-RIGHT-COLOR: #669933
+}
+PRE.css {
+	BORDER-LEFT-COLOR: #aa600e; BORDER-BOTTOM-COLOR: #aa600e; =
+BORDER-TOP-COLOR: #aa600e; BORDER-RIGHT-COLOR: #aa600e
+}
+PRE.cpp {
+	BORDER-LEFT-COLOR: navy; BORDER-BOTTOM-COLOR: navy; BORDER-TOP-COLOR: =
+navy; BORDER-RIGHT-COLOR: navy
+}
+PRE.java {
+	BORDER-LEFT-COLOR: darkred; BORDER-BOTTOM-COLOR: darkred; =
+BORDER-TOP-COLOR: darkred; BORDER-RIGHT-COLOR: darkred
+}
+PRE.php {
+	BORDER-LEFT-COLOR: #9999cc; BORDER-BOTTOM-COLOR: #9999cc; =
+BORDER-TOP-COLOR: #9999cc; BORDER-RIGHT-COLOR: #9999cc
+}
+PRE.py {
+	BORDER-LEFT-COLOR: #99ccff; BORDER-BOTTOM-COLOR: #99ccff; =
+BORDER-TOP-COLOR: #99ccff; BORDER-RIGHT-COLOR: #99ccff
+}
+PRE.vb {
+	BORDER-LEFT-COLOR: #ffcc66; BORDER-BOTTOM-COLOR: #ffcc66; =
+BORDER-TOP-COLOR: #ffcc66; BORDER-RIGHT-COLOR: #ffcc66
+}
+PRE.csharp SPAN.c {
+	COLOR: #009900
+}
+PRE.cpp SPAN.c {
+	COLOR: #009900
+}
+PRE.java SPAN.c {
+	COLOR: #009900
+}
+PRE.vb SPAN.c {
+	COLOR: #009900
+}
+PRE.css SPAN.c {
+	COLOR: #ff8000
+}
+PRE.py SPAN.c {
+	COLOR: #ff8000
+}
+PRE.css SPAN.v {
+	COLOR: #5555ff
+}
+PRE.csharp SPAN.q {
+	COLOR: #5555ff
+}
+PRE.cpp SPAN.q {
+	COLOR: #5555ff
+}
+PRE.java SPAN.q {
+	COLOR: #5555ff
+}
+PRE.py SPAN.q {
+	COLOR: #5555ff
+}
+PRE.vb SPAN.q {
+	COLOR: #5555ff
+}
+PRE.css SPAN.q {
+	COLOR: #009900
+}
+PRE.css SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.csharp SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.cpp SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.java SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.py SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.vb SPAN.k {
+	FONT-WEIGHT: bold; COLOR: #800080
+}
+PRE.csharp SPAN.n {
+	COLOR: navy
+}
+PRE.vb SPAN.n {
+	COLOR: navy
+}
+PRE.cpp SPAN.n {
+	COLOR: navy
+}
+PRE.java SPAN.n {
+	COLOR: navy
+}
+SPAN.k SPAN.c {
+	FONT-WEIGHT: normal
+}
+SPAN.nolink {
+=09
+}
+SPAN.sticky {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; =
+PADDING-BOTTOM: 0px; COLOR: yellow; PADDING-TOP: 0px; BACKGROUND-COLOR: =
+darkred
+}
+FORM#gidadcbform {
+	DISPLAY: none
+}
+TD.gidadcb {
+	BORDER-RIGHT: #dadada 2px solid; PADDING-RIGHT: 10px; BORDER-TOP: =
+#eef2f6 1px solid; PADDING-LEFT: 9px; PADDING-BOTTOM: 10px; BORDER-LEFT: =
+#eef2f6 1px solid; WIDTH: 460px; CURSOR: pointer; PADDING-TOP: 9px; =
+BORDER-BOTTOM: #dadada 2px solid; BACKGROUND-COLOR: #eef2f6
+}
+TD.gidadcb TD {
+	FONT-FAMILY: 'Luxi Sans','Bitstream Vera Sans','Lucida =
+Grande',verdana,arial,helvetica,sans-serif
+}
+TD.gidadcbtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: auto; COLOR: #22229c; =
+TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+TD.gidadcburl {
+	FONT-SIZE: 10px; WIDTH: auto; COLOR: gray; TEXT-ALIGN: right
+}
+TD.gidadcburl:hover {
+	COLOR: #3870a8; TEXT-DECORATION: underline
+}
+TD.gidadcbdesc {
+	FONT-SIZE: 11px; WIDTH: 460px; COLOR: #0a0a0a; PADDING-TOP: 3px
+}
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://ctxt.tribalfusion.com/ctxt/textlinks.css
+
+SPAN.tfTextLink:link {
+	FONT-SIZE: 1em; PADDING-BOTTOM: 1px; CURSOR: pointer; COLOR: #991616; =
+BORDER-BOTTOM: #991616 1px solid; TEXT-DECORATION: underline
+}
+SPAN.tfTextLink:hover {
+	FONT-SIZE: 1em; PADDING-BOTTOM: 1px; CURSOR: pointer; COLOR: #991616; =
+BORDER-BOTTOM: #991616 2px solid; TEXT-DECORATION: underline
+}
+SPAN.tfTextLink:visited {
+	FONT-SIZE: 1em; PADDING-BOTTOM: 1px; CURSOR: pointer; COLOR: #991616; =
+BORDER-BOTTOM: #991616 1px solid; TEXT-DECORATION: underline
+}
+.tfAdv {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; =
+PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: =
+0px; BORDER-LEFT: medium none; COLOR: black; PADDING-TOP: 0px; =
+BORDER-BOTTOM: medium none; FONT-STYLE: normal; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+TD.tfAdv {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+.tfAdvBottom {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+.tfAdv-explain {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px
+}
+.tf-textbox-SH {
+	BORDER-RIGHT: #6cbbc5 1px solid; BORDER-TOP: #6cbbc5 1px solid; =
+PADDING-LEFT: 2px; FONT-SIZE: 11px; BORDER-LEFT: #6cbbc5 1px solid; =
+WIDTH: 150px; BORDER-BOTTOM: #6cbbc5 1px solid; FONT-FAMILY: Arial; =
+HEIGHT: 22px; TEXT-DECORATION: none
+}
+.tfAdv-explain-SH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial
+}
+.tfAdv-title-SH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+12px; PADDING-BOTTOM: 3px; COLOR: #2400ff; PADDING-TOP: 0px; =
+FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.tfAdv-title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; COLOR: #2400ff; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.tfAdv-title13 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+13px; COLOR: #2400ff; PADDING-TOP: 0px; FONT-FAMILY: arial; =
+TEXT-DECORATION: underline
+}
+.tfAdv-title13:hover {
+	TEXT-DECORATION: none
+}
+.tfAdv-desc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; FONT-FAMILY: verdana
+}
+.tfAdv-link-price {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #2400ff; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.tfAdv-link-price:hover {
+	TEXT-DECORATION: none
+}
+.tfAdv-desc-mod {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 15px; PADDING-TOP: 0px
+}
+.tfAdv-sponsor {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; COLOR: #046b00; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+A.pgRelLink:link {
+	COLOR: blue
+}
+A.pgRelLink:hover {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A.pgRelLink:visited {
+	COLOR: blue
+}
+.tfAdv_pg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; COLOR: black; PADDING-TOP: 6px; FONT-FAMILY: =
+arial; TEXT-DECORATION: none
+}
+.tfAdv-pgtitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+12px; PADDING-BOTTOM: 0px; COLOR: blue; PADDING-TOP: 0px; FONT-FAMILY: =
+arial; TEXT-DECORATION: underline
+}
+.tfAdv-pgtitle-bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: arial; =
+TEXT-DECORATION: none
+}
+.tfAdv-pgSmalltitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+10px; PADDING-BOTTOM: 0px; COLOR: blue; PADDING-TOP: 0px; FONT-FAMILY: =
+arial; TEXT-DECORATION: underline
+}
+.tfAdv_dice_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; COLOR: black; =
+PADDING-TOP: 10px; FONT-STYLE: normal; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+.tf-dice-bold_10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; =
+FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.tfAdv_title_dice {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; COLOR: #2400ff; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.tfAdv_title_dice:hover {
+	TEXT-DECORATION: none
+}
+.tfAdv_desc_dice {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.tf_dice_rate {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #c20002; FONT-FAMILY: =
+verdana
+}
+.tf_dice_rate_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.tfAdv_dice {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; PADDING-TOP: 6px; =
+FONT-STYLE: normal; FONT-FAMILY: verdana,arial,helvetica,sans-serif; =
+TEXT-DECORATION: none
+}
+.tf-dice-link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #009933; FONT-FAMILY: =
+Arial; TEXT-DECORATION: none
+}
+.tf-dice-link:hover {
+	TEXT-DECORATION: underline
+}
+.tfAdv_pg_grey {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; LINE-HEIGHT: =
+16px; PADDING-TOP: 6px; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.tfAdv_pg_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; PADDING-TOP: 10px; =
+FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.tfAdv_pg_bold_10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-STYLE: normal; =
+FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.tfAdv-title-dice {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+12px; PADDING-BOTTOM: 3px; COLOR: #2400ff; PADDING-TOP: 0px; =
+FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.tf_dice_input {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; =
+PADDING-LEFT: 2px; FONT-SIZE: 11px; BORDER-LEFT: #7f9db9 1px solid; =
+WIDTH: 140px; COLOR: #313131; BORDER-BOTTOM: #7f9db9 1px solid; =
+FONT-FAMILY: tahoma, verdana; HEIGHT: 16px; BACKGROUND-COLOR: #ffffff
+}
+.tf_dice_textfield {
+	FONT-SIZE: 10px; COLOR: #313131; FONT-FAMILY: Verdana, Geneva, Arial, =
+Helvetica, sans-serif
+}
+.tf_dice_select {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; =
+FONT-SIZE: 11px; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 160px; COLOR: =
+#102132; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: Tahoma,Verdana, =
+Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.tf_dice_input1 {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: =
+#7f9db9 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: =
+0px; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 120px; COLOR: #313131; =
+PADDING-TOP: 3px; BORDER-BOTTOM: #7f9db9 1px solid; FONT-FAMILY: tahoma, =
+verdana; HEIGHT: 16px
+}
+.tfAdv_pg_10 {
+	FONT-SIZE: 10px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: =
+verdana; TEXT-DECORATION: none
+}
+.tfPlainText {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: black; PADDING-TOP: 6px; =
+FONT-STYLE: normal; FONT-FAMILY: verdana,arial,helvetica,sans-serif; =
+TEXT-DECORATION: none
+}
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/clientscript/vbulletin_global.js
+
+/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*\=0A=
+|| #################################################################### =
+||=0A=
+|| # vBulletin 3.5.0=0A=
+|| # ---------------------------------------------------------------- # =
+||=0A=
+|| # Copyright =A92000-2005 Jelsoft Enterprises Ltd. All Rights =
+Reserved. ||=0A=
+|| # This file may not be redistributed in whole or significant part. # =
+||=0A=
+|| # ---------------- VBULLETIN IS NOT FREE SOFTWARE ---------------- # =
+||=0A=
+|| # http://www.vbulletin.com | http://www.vbulletin.com/license.html # =
+||=0A=
+|| #################################################################### =
+||=0A=
+\*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Initial setup=0A=
+=0A=
+// ensure SESSIONURL exists=0A=
+if (typeof SESSIONURL =3D=3D 'undefined')=0A=
+{=0A=
+	SESSIONURL =3D '';=0A=
+}=0A=
+=0A=
+// ensure vbphrase exists=0A=
+if (typeof vbphrase =3D=3D 'undefined')=0A=
+{=0A=
+	vbphrase =3D new Array();=0A=
+}=0A=
+=0A=
+// Array of message editor objects=0A=
+var vB_Editor =3D new Array();=0A=
+=0A=
+// Ignore characters within [quote] tags in messages for length check=0A=
+var ignorequotechars =3D false;=0A=
+=0A=
+// Number of pagenav items dealt with so far=0A=
+var pagenavcounter =3D 0;=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Browser detection and limitation workarounds=0A=
+=0A=
+// Define the browser we have instead of multiple calls throughout the =
+file=0A=
+var userAgent =3D navigator.userAgent.toLowerCase();=0A=
+var is_opera  =3D (userAgent.indexOf('opera') !=3D -1);=0A=
+var is_saf    =3D ((userAgent.indexOf('applewebkit') !=3D -1) || =
+(navigator.vendor =3D=3D 'Apple Computer, Inc.'));=0A=
+var is_webtv  =3D (userAgent.indexOf('webtv') !=3D -1);=0A=
+var is_ie     =3D ((userAgent.indexOf('msie') !=3D -1) && (!is_opera) && =
+(!is_saf) && (!is_webtv));=0A=
+var is_ie4    =3D ((is_ie) && (userAgent.indexOf('msie 4.') !=3D -1));=0A=
+var is_moz    =3D ((navigator.product =3D=3D 'Gecko') && (!is_saf));=0A=
+var is_kon    =3D (userAgent.indexOf('konqueror') !=3D -1);=0A=
+var is_ns     =3D ((userAgent.indexOf('compatible') =3D=3D -1) && =
+(userAgent.indexOf('mozilla') !=3D -1) && (!is_opera) && (!is_webtv) && =
+(!is_saf));=0A=
+var is_ns4    =3D ((is_ns) && (parseInt(navigator.appVersion) =3D=3D 4));=0A=
+var is_mac    =3D (userAgent.indexOf('mac') !=3D -1);=0A=
+=0A=
+// Catch possible bugs with WebTV and other older browsers=0A=
+var is_regexp =3D (window.RegExp) ? true : false;=0A=
+=0A=
+// Is the visiting browser compatible with AJAX?=0A=
+var AJAX_Compatible =3D false;=0A=
+=0A=
+// Help out old versions of IE that don't understand =
+element.style.cursor =3D 'pointer'=0A=
+var pointer_cursor =3D (is_ie ? 'hand' : 'pointer');=0A=
+=0A=
+/**=0A=
+* Workaround for heinous IE bug - add special vBlength property to all =
+strings=0A=
+* This method is applied to ALL string objects automatically=0A=
+*=0A=
+* @return	integer=0A=
+*/=0A=
+String.prototype.vBlength =3D function()=0A=
+{=0A=
+	return (is_ie && this.indexOf('\n') !=3D -1) ? this.replace(/\r?\n/g, =
+'_').length : this.length;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Pop function for browsers that don't have it built in=0A=
+*=0A=
+* @param	array	Array from which to pop=0A=
+*=0A=
+* @return	mixed	null on empty, value on success=0A=
+*/=0A=
+function array_pop(a)=0A=
+{=0A=
+	if (typeof a !=3D 'object' || !a.length)=0A=
+	{=0A=
+		return null;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		var response =3D a[a.length - 1];=0A=
+		a.length--;=0A=
+		return response;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Push function for browsers that don't have it built in=0A=
+*=0A=
+* @param	array	Array onto which to push=0A=
+* @param	mixed	Value to push onto array=0A=
+*=0A=
+* @return	integer	Length of array=0A=
+*/=0A=
+function array_push(a, value)=0A=
+{=0A=
+	a[a.length] =3D value;=0A=
+	return a.length;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Function to emulate document.getElementById=0A=
+*=0A=
+* @param	string	Object ID=0A=
+*=0A=
+* @return	mixed	null if not found, object if found=0A=
+*/=0A=
+function fetch_object(idname)=0A=
+{=0A=
+	if (document.getElementById)=0A=
+	{=0A=
+		return document.getElementById(idname);=0A=
+	}=0A=
+	else if (document.all)=0A=
+	{=0A=
+		return document.all[idname];=0A=
+	}=0A=
+	else if (document.layers)=0A=
+	{=0A=
+		return document.layers[idname];=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		return null;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Function to emulate document.getElementsByTagName=0A=
+*=0A=
+* @param	object	Parent tag (eg: document)=0A=
+* @param	string	Tag type (eg: 'td')=0A=
+*=0A=
+* @return	array=0A=
+*/=0A=
+function fetch_tags(parentobj, tag)=0A=
+{=0A=
+	if (typeof parentobj.getElementsByTagName !=3D 'undefined')=0A=
+	{=0A=
+		return parentobj.getElementsByTagName(tag);=0A=
+	}=0A=
+	else if (parentobj.all && parentobj.all.tags)=0A=
+	{=0A=
+		return parentobj.all.tags(tag);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		return null;=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Event handlers=0A=
+=0A=
+/**=0A=
+* Handles the different event models of different browsers and prevents =
+event bubbling=0A=
+*=0A=
+* @param	event	Event object=0A=
+*=0A=
+* @return	event=0A=
+*/=0A=
+function do_an_e(eventobj)=0A=
+{=0A=
+	if (!eventobj || is_ie)=0A=
+	{=0A=
+		window.event.returnValue =3D false;=0A=
+		window.event.cancelBubble =3D true;=0A=
+		return window.event;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		eventobj.stopPropagation();=0A=
+		eventobj.preventDefault();=0A=
+		return eventobj;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Handles the different event models of different browsers and prevents =
+event bubbling in a lesser way than do_an_e()=0A=
+*=0A=
+* @param	event	Event object=0A=
+*=0A=
+* @return	event=0A=
+*/=0A=
+function e_by_gum(eventobj)=0A=
+{=0A=
+	if (!eventobj || is_ie)=0A=
+	{=0A=
+		window.event.cancelBubble =3D true;=0A=
+		return window.event;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		if (eventobj.target.type =3D=3D 'submit')=0A=
+		{=0A=
+			// naughty safari=0A=
+			eventobj.target.form.submit();=0A=
+		}=0A=
+		eventobj.stopPropagation();=0A=
+		return eventobj;=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Message manipulation and validation=0A=
+=0A=
+/**=0A=
+* Checks that a message is valid for submission to PHP=0A=
+*=0A=
+* @param	string	Message text=0A=
+* @param	mixed	Either subject text (if you want to make sure it exists) =
+or 0 if you don't care=0A=
+* @param	integer	Minimum acceptable character limit for the message=0A=
+*=0A=
+* @return	boolean=0A=
+*/=0A=
+function validatemessage(messagetext, subjecttext, minchars)=0A=
+{=0A=
+	if (is_kon || is_saf || is_webtv)=0A=
+	{=0A=
+		// ignore less-than-capable browsers=0A=
+		return true;=0A=
+	}=0A=
+	else if (subjecttext.length < 1)=0A=
+	{=0A=
+		// subject not specified=0A=
+		alert(vbphrase['must_enter_subject']);=0A=
+		return false;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		var stripped =3D PHP.trim(stripcode(messagetext, false, =
+ignorequotechars));=0A=
+=0A=
+		if (stripped.length < minchars)=0A=
+		{=0A=
+			// minimum message length not met=0A=
+			alert(construct_phrase(vbphrase['message_too_short'], minchars));=0A=
+			return false;=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			// everything seems ok=0A=
+			return true;=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Strips quotes and bbcode tags from text=0A=
+*=0A=
+* @param	string	Text to manipulate=0A=
+* @param	boolean	If true, strip <x> otherwise strip [x]=0A=
+* @param	boolean	If true, strip all [quote]...contents...[/quote]=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+function stripcode(str, ishtml, stripquotes)=0A=
+{=0A=
+	if (!is_regexp)=0A=
+	{=0A=
+		return str;=0A=
+	}=0A=
+=0A=
+	if (stripquotes)=0A=
+	{=0A=
+		var start_time =3D new Date().getTime();=0A=
+=0A=
+		while ((startindex =3D PHP.stripos(str, '[quote')) !=3D=3D false)=0A=
+		{=0A=
+			if (new Date().getTime() - start_time > 2000)=0A=
+			{=0A=
+				// while loop has been running for over 2 seconds and has probably =
+gone infinite=0A=
+				break;=0A=
+			}=0A=
+=0A=
+			if ((stopindex =3D PHP.stripos(str, '[/quote]')) !=3D=3D false)=0A=
+			{=0A=
+				fragment =3D str.substr(startindex, stopindex - startindex + 8);=0A=
+				str =3D str.replace(fragment, '');=0A=
+			}=0A=
+			else=0A=
+			{=0A=
+				break;=0A=
+			}=0A=
+			str =3D PHP.trim(str);=0A=
+		}=0A=
+	}=0A=
+=0A=
+	if (ishtml)=0A=
+	{=0A=
+		// exempt image tags -- they need to count as characters in the string=0A=
+		// as the do as BB codes=0A=
+		str =3D str.replace(/<img[^>]+src=3D"([^"]+)"[^>]*>/gi, '$1');=0A=
+=0A=
+		var html1 =3D new RegExp("<(\\w+)[^>]*>", 'gi');=0A=
+		var html2 =3D new RegExp("<\\/\\w+>", 'gi');=0A=
+=0A=
+		str =3D str.replace(html1, '');=0A=
+		str =3D str.replace(html2, '');=0A=
+=0A=
+		var html3 =3D new RegExp('(&nbsp;)', 'gi');=0A=
+		str =3D str.replace(html3, ' ');=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		var bbcode1 =3D new RegExp("\\[(\\w+)[^\\]]*\\]", 'gi');=0A=
+		var bbcode2 =3D new RegExp("\\[\\/(\\w+)\\]", 'gi');=0A=
+=0A=
+		str =3D str.replace(bbcode1, '');=0A=
+		str =3D str.replace(bbcode2, '');=0A=
+	}=0A=
+=0A=
+	return str;=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// vB_PHP_Emulator class=0A=
+// =
+#########################################################################=
+####=0A=
+=0A=
+/**=0A=
+* PHP Function Emulator Class=0A=
+*/=0A=
+function vB_PHP_Emulator()=0A=
+{=0A=
+}=0A=
+=0A=
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=0A=
+// vB_PHP_Emulator Methods=0A=
+=0A=
+/**=0A=
+* Find a string within a string (case insensitive)=0A=
+*=0A=
+* @param	string	Haystack=0A=
+* @param	string	Needle=0A=
+* @param	integer	Offset=0A=
+*=0A=
+* @return	mixed	Not found: false / Found: integer position=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.stripos =3D function(haystack, needle, offset)=0A=
+{=0A=
+	if (typeof offset =3D=3D 'undefined')=0A=
+	{=0A=
+		offset =3D 0;=0A=
+	}=0A=
+=0A=
+	index =3D haystack.toLowerCase().indexOf(needle.toLowerCase(), offset);=0A=
+=0A=
+	return (index =3D=3D -1 ? false : index);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Trims leading whitespace=0A=
+*=0A=
+* @param	string	String to trim=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.ltrim =3D function(str)=0A=
+{=0A=
+	return str.replace(/^\s+/g, '');=0A=
+}=0A=
+=0A=
+/**=0A=
+* Trims trailing whitespace=0A=
+*=0A=
+* @param	string	String to trim=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.rtrim =3D function(str)=0A=
+{=0A=
+	return str.replace(/(\s+)$/g, '');=0A=
+}=0A=
+=0A=
+/**=0A=
+* Trims leading and trailing whitespace=0A=
+*=0A=
+* @param	string	String to trim=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.trim =3D function(str)=0A=
+{=0A=
+	return this.ltrim(this.rtrim(str));=0A=
+}=0A=
+=0A=
+/**=0A=
+* Emulation of PHP's preg_quote()=0A=
+*=0A=
+* @param	string	String to process=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.preg_quote =3D function(str)=0A=
+{=0A=
+	// replace + { } ( ) [ ] | / ? ^ $ \ . =3D ! < > : * with =
+backslash+character=0A=
+	return =
+str.replace(/(\+|\{|\}|\(|\)|\[|\]|\||\/|\?|\^|\$|\\|\.|\=3D|\!|\<|\>|\:|=
+\*)/g, "\\$1");=0A=
+}=0A=
+=0A=
+/**=0A=
+* Emulates unhtmlspecialchars in vBulletin=0A=
+*=0A=
+* @param	string	String to process=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.unhtmlspecialchars =3D function(str)=0A=
+{=0A=
+	f =3D new Array(/&lt;/g, /&gt;/g, /&quot;/g, /&amp;/g);=0A=
+	r =3D new Array('<', '>', '"', '&');=0A=
+=0A=
+	for (var i in f)=0A=
+	{=0A=
+		str =3D str.replace(f[i], r[i]);=0A=
+	}=0A=
+=0A=
+	return str;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Emulates PHP's htmlspecialchars()=0A=
+*=0A=
+* @param	string	String to process=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.htmlspecialchars =3D function(str)=0A=
+{=0A=
+	//var f =3D new Array(/&(?!#[0-9]+;)/g, /</g, />/g, /"/g);=0A=
+	var f =3D new Array(=0A=
+		(is_mac && is_ie ? new RegExp('&', 'g') : new RegExp('&(?!#[0-9]+;)', =
+'g')),=0A=
+		new RegExp('<', 'g'),=0A=
+		new RegExp('>', 'g'),=0A=
+		new RegExp('"', 'g')=0A=
+	);=0A=
+	var r =3D new Array(=0A=
+		'&amp;',=0A=
+		'&lt;',=0A=
+		'&gt;',=0A=
+		'&quot;'=0A=
+	);=0A=
+=0A=
+	for (var i =3D 0; i < f.length; i++)=0A=
+	{=0A=
+		str =3D str.replace(f[i], r[i]);=0A=
+	}=0A=
+=0A=
+	return str;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Searches an array for a value=0A=
+*=0A=
+* @param	string	Needle=0A=
+* @param	array	Haystack=0A=
+* @param	boolean	Case insensitive=0A=
+*=0A=
+* @return	integer	Not found: -1 / Found: integer index=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.in_array =3D function(ineedle, haystack, =
+caseinsensitive)=0A=
+{=0A=
+	var needle =3D new String(ineedle);=0A=
+=0A=
+	if (caseinsensitive)=0A=
+	{=0A=
+		needle =3D needle.toLowerCase();=0A=
+		for (var i in haystack)=0A=
+		{=0A=
+			if (haystack[i].toLowerCase() =3D=3D needle)=0A=
+			{=0A=
+				return i;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		for (var i in haystack)=0A=
+		{=0A=
+			if (haystack[i] =3D=3D needle)=0A=
+			{=0A=
+				return i;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+	return -1;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Emulates PHP's strpad()=0A=
+*=0A=
+* @param	string	Text to pad=0A=
+* @param	integer	Length to pad=0A=
+* @param	string	String with which to pad=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.str_pad =3D function(text, length, padstring)=0A=
+{=0A=
+	text =3D new String(text);=0A=
+	padstring =3D new String(padstring);=0A=
+=0A=
+	if (text.length < length)=0A=
+	{=0A=
+		padtext =3D new String(padstring);=0A=
+=0A=
+		while (padtext.length < (length - text.length))=0A=
+		{=0A=
+			padtext +=3D padstring;=0A=
+		}=0A=
+=0A=
+		text =3D padtext.substr(0, (length - text.length)) + text;=0A=
+	}=0A=
+=0A=
+	return text;=0A=
+}=0A=
+=0A=
+/**=0A=
+* A sort of emulation of PHP's urlencode - not 100% the same, but =
+accomplishes the same thing=0A=
+*=0A=
+* @param	string	String to encode=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.urlencode =3D function(text)=0A=
+{=0A=
+	text =3D text.toString();=0A=
+=0A=
+	// this escapes 128 - 255, as JS uses the unicode code points for them.=0A=
+	// This causes problems with submitting text via AJAX with the UTF-8 =
+charset.=0A=
+	var matches =3D text.match(/[\x90-\xFF]/g);=0A=
+	if (matches)=0A=
+	{=0A=
+		for (var matchid =3D 0; matchid < matches.length; matchid++)=0A=
+		{=0A=
+			var char_code =3D matches[matchid].charCodeAt(0);=0A=
+			text =3D text.replace(matches[matchid], '%u00' + (char_code & =
+0xFF).toString(16).toUpperCase());=0A=
+		}=0A=
+	}=0A=
+=0A=
+	return escape(text).replace(/\+/g, "%2B");=0A=
+}=0A=
+=0A=
+/**=0A=
+* Works a bit like ucfirst, but with some extra options=0A=
+*=0A=
+* @param	string	String with which to work=0A=
+* @param	string	Cut off string before first occurence of this string=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+vB_PHP_Emulator.prototype.ucfirst =3D function(str, cutoff)=0A=
+{=0A=
+	if (typeof cutoff !=3D 'undefined')=0A=
+	{=0A=
+		var cutpos =3D str.indexOf(cutoff);=0A=
+		if (cutpos > 0)=0A=
+		{=0A=
+			str =3D str.substr(0, cutpos);=0A=
+		}=0A=
+	}=0A=
+=0A=
+	str =3D str.split(' ');=0A=
+	for (var i =3D 0; i < str.length; i++)=0A=
+	{=0A=
+		str[i] =3D str[i].substr(0, 1).toUpperCase() + str[i].substr(1);=0A=
+	}=0A=
+	return str.join(' ');=0A=
+}=0A=
+=0A=
+// initialize the PHP emulator=0A=
+var PHP =3D new vB_PHP_Emulator();=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// vB_AJAX_Handler=0A=
+// =
+#########################################################################=
+####=0A=
+=0A=
+/**=0A=
+* XML Sender Class=0A=
+*=0A=
+* @param	boolean	Should connections be asyncronous?=0A=
+*/=0A=
+function vB_AJAX_Handler(async)=0A=
+{=0A=
+	/**=0A=
+	* Should connections be asynchronous?=0A=
+	*=0A=
+	* @var	boolean=0A=
+	*/=0A=
+	this.async =3D async ? true : false;=0A=
+}=0A=
+=0A=
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=0A=
+// vB_AJAX_Handler methods=0A=
+=0A=
+/**=0A=
+* Initializes the XML handler=0A=
+*=0A=
+* @return	boolean	True if handler created OK=0A=
+*/=0A=
+vB_AJAX_Handler.prototype.init =3D function()=0A=
+{=0A=
+	try=0A=
+	{=0A=
+		this.handler =3D new XMLHttpRequest();=0A=
+		return (this.handler.setRequestHeader ? true : false);=0A=
+	}=0A=
+	catch(e)=0A=
+	{=0A=
+		try=0A=
+		{=0A=
+			this.handler =3D eval("new A" + "ctiv" + "eX" + "Ob" + "ject('Micr" + =
+"osoft.XM" + "LHTTP');");=0A=
+			return true;=0A=
+		}=0A=
+		catch(e)=0A=
+		{=0A=
+			return false;=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Detects if the browser is fully compatible=0A=
+*=0A=
+* @return	boolean=0A=
+*/=0A=
+vB_AJAX_Handler.prototype.is_compatible =3D function()=0A=
+{=0A=
+	if (is_ie && !is_ie4) { return true; }=0A=
+	else if (XMLHttpRequest)=0A=
+	{=0A=
+		try { return XMLHttpRequest.prototype.setRequestHeader ? true : false; =
+}=0A=
+		catch(e)=0A=
+		{=0A=
+			try { var tester =3D new XMLHttpRequest(); return =
+tester.setRequestHeader ? true : false; }=0A=
+			catch(e) { return false; }=0A=
+		}=0A=
+	}=0A=
+	else { return false; }=0A=
+}=0A=
+=0A=
+/**=0A=
+* Checks if the system is ready=0A=
+*=0A=
+* @return	boolean	False if ready=0A=
+*/=0A=
+vB_AJAX_Handler.prototype.not_ready =3D function()=0A=
+{=0A=
+	return (this.handler.readyState && (this.handler.readyState < 4));=0A=
+}=0A=
+=0A=
+/**=0A=
+* OnReadyStateChange event handler=0A=
+*=0A=
+* @param	function=0A=
+*/=0A=
+vB_AJAX_Handler.prototype.onreadystatechange =3D function(event)=0A=
+{=0A=
+	if (!this.handler)=0A=
+	{=0A=
+		if  (!this.init())=0A=
+		{=0A=
+			return false;=0A=
+		}=0A=
+	}=0A=
+	if (typeof event =3D=3D 'function')=0A=
+	{=0A=
+		this.handler.onreadystatechange =3D event;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		alert('XML Sender OnReadyState event is not a function');=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Sends data=0A=
+*=0A=
+* @param	string	Destination URL=0A=
+* @param	string	Request Data=0A=
+*=0A=
+* @return	mixed	Return message=0A=
+*/=0A=
+vB_AJAX_Handler.prototype.send =3D function(desturl, datastream)=0A=
+{=0A=
+	if (!this.handler)=0A=
+	{=0A=
+		if (!this.init())=0A=
+		{=0A=
+			return false;=0A=
+		}=0A=
+	}=0A=
+	if (!this.not_ready())=0A=
+	{=0A=
+		this.handler.open('POST', desturl, this.async);=0A=
+		this.handler.setRequestHeader('Content-Type', =
+'application/x-www-form-urlencoded');=0A=
+		this.handler.send(datastream + '&s=3D' + fetch_sessionhash());=0A=
+=0A=
+		if (!this.async && this.handler.readyState =3D=3D 4 && =
+this.handler.status =3D=3D 200)=0A=
+		{=0A=
+			return true;=0A=
+		}=0A=
+	}=0A=
+	return false;=0A=
+}=0A=
+=0A=
+// we can check this variable to see if browser is AJAX compatible=0A=
+var AJAX_Compatible =3D vB_AJAX_Handler.prototype.is_compatible();=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// vB_Hidden_Form=0A=
+// =
+#########################################################################=
+####=0A=
+=0A=
+/**=0A=
+* Form Generator Class=0A=
+*=0A=
+* Builds a form filled with hidden fields for invisible submit via POST=0A=
+*=0A=
+* @param	string	Script (my_target_script.php)=0A=
+*/=0A=
+function vB_Hidden_Form(script)=0A=
+{=0A=
+	this.form =3D document.createElement('form');=0A=
+	this.form.method =3D 'post';=0A=
+	this.form.action =3D script;=0A=
+}=0A=
+=0A=
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=0A=
+// vB_Hidden_Form methods=0A=
+=0A=
+/**=0A=
+* Adds a hidden input field to the form object=0A=
+*=0A=
+* @param	string	Name attribute=0A=
+* @param	string	Value attribute=0A=
+*/=0A=
+vB_Hidden_Form.prototype.add_input =3D function(name, value)=0A=
+{=0A=
+	var inputobj =3D document.createElement('input');=0A=
+=0A=
+	inputobj.type =3D 'hidden';=0A=
+	inputobj.name =3D name;=0A=
+	inputobj.value =3D value;=0A=
+=0A=
+	this.form.appendChild(inputobj);=0A=
+};=0A=
+=0A=
+/**=0A=
+* Fetches all form elements inside an HTML element and performs =
+'add_input()' on them=0A=
+*=0A=
+* @param	object	HTML element to search=0A=
+*/=0A=
+vB_Hidden_Form.prototype.add_inputs_from_object =3D function(obj)=0A=
+{=0A=
+	var inputs =3D fetch_tags(obj, 'input');=0A=
+	for (var i =3D 0; i < inputs.length; i++)=0A=
+	{=0A=
+		switch (inputs[i].type)=0A=
+		{=0A=
+			case 'checkbox':=0A=
+			case 'radio':=0A=
+				if (inputs[i].checked)=0A=
+				{=0A=
+					this.add_input(inputs[i].name, inputs[i].value);=0A=
+				}=0A=
+				break;=0A=
+			case 'text':=0A=
+			case 'hidden':=0A=
+			case 'password':=0A=
+				this.add_input(inputs[i].name, inputs[i].value);=0A=
+				break;=0A=
+			default:=0A=
+				continue;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	var textareas =3D fetch_tags(obj, 'textarea');=0A=
+	for (var i =3D 0; i < textareas.length; i++)=0A=
+	{=0A=
+		this.add_input(textareas[i].name, textareas[i].value);=0A=
+	}=0A=
+=0A=
+	var selects =3D fetch_tags(obj, 'select');=0A=
+	for (var i =3D 0; i < selects.length; i++)=0A=
+	{=0A=
+		if (selects[i].multiple)=0A=
+		{=0A=
+			for (var j =3D 0; j < selects[i].options.length; j++)=0A=
+			{=0A=
+				if (selects[i].options[j].selected)=0A=
+				{=0A=
+					this.add_input(selects[i].name, selects[i].options[j].value);=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			this.add_input(selects[i].name, =
+selects[i].options[selects[i].selectedIndex].value);=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Submits the hidden form object=0A=
+*/=0A=
+vB_Hidden_Form.prototype.submit_form =3D function()=0A=
+{=0A=
+	document.body.appendChild(this.form).submit();=0A=
+};=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Window openers and instant messenger wrappers=0A=
+=0A=
+/**=0A=
+* Opens a generic browser window=0A=
+*=0A=
+* @param	string	URL=0A=
+* @param	integer	Width=0A=
+* @param	integer	Height=0A=
+* @param	string	Optional Window ID=0A=
+*/=0A=
+function openWindow(url, width, height, windowid)=0A=
+{=0A=
+	return window.open(=0A=
+		url,=0A=
+		(typeof windowid =3D=3D 'undefined' ? 'vBPopup' : windowid),=0A=
+		=
+'statusbar=3Dno,menubar=3Dno,toolbar=3Dno,scrollbars=3Dyes,resizable=3Dye=
+s'=0A=
+		+ (typeof width !=3D 'undefined' ? (',width=3D' + width) : '') + =
+(typeof height !=3D 'undefined' ? (',height=3D' + height) : '')=0A=
+	);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Opens control panel help window=0A=
+*=0A=
+* @param	string	Script name=0A=
+* @param	string	Action type=0A=
+* @param	string	Option value=0A=
+*=0A=
+* @return	window=0A=
+*/=0A=
+function js_open_help(scriptname, actiontype, optionval)=0A=
+{=0A=
+	return openWindow(=0A=
+		'help.php?s=3D' + SESSIONHASH + '&do=3Danswer&page=3D' + scriptname + =
+'&pageaction=3D' + actiontype + '&option=3D' + optionval,=0A=
+		600, 450, 'helpwindow'=0A=
+	);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Opens a window to show a list of posters in a thread =
+(misc.php?do=3Dwhoposted)=0A=
+*=0A=
+* @param	integer	Thread ID=0A=
+*=0A=
+* @return	window=0A=
+*/=0A=
+function who(threadid)=0A=
+{=0A=
+	return openWindow(=0A=
+		'misc.php?' + SESSIONURL + 'do=3Dwhoposted&t=3D' + threadid,=0A=
+		230, 300=0A=
+	);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Opens the reputation window=0A=
+*=0A=
+* @param	integer	Post ID=0A=
+*=0A=
+* @return	boolean	false;=0A=
+*/=0A=
+function reputation(postid)=0A=
+{=0A=
+	return openWindow(=0A=
+		'reputation.php?' + SESSIONURL + 'p=3D' + postid,=0A=
+		400, 241, 'Reputation'=0A=
+	);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Opens an IM Window=0A=
+*=0A=
+* @param	string	IM type=0A=
+* @param	integer	User ID=0A=
+* @param	integer	Width of window=0A=
+* @param	integer	Height of window=0A=
+*=0A=
+* @return	window=0A=
+*/=0A=
+function imwindow(imtype, userid, width, height)=0A=
+{=0A=
+	return openWindow(=0A=
+		'sendmessage.php?' + SESSIONURL + 'do=3Dim&type=3D' + imtype + '&u=3D' =
++ userid,=0A=
+		width, height=0A=
+	);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Sends an MSN message=0A=
+*=0A=
+* @param	string	Target MSN handle=0A=
+*=0A=
+* @return	boolean	false=0A=
+*/=0A=
+function SendMSNMessage(name)=0A=
+{=0A=
+	if (!is_ie)=0A=
+	{=0A=
+		alert(vbphrase['msn_functions_only_work_in_ie']);=0A=
+		return false;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		MsgrObj.InstantMessage(name);=0A=
+		return false;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Adds an MSN Contact (requires MSN)=0A=
+*=0A=
+* @param	string	MSN handle=0A=
+*=0A=
+* @return	boolean	false=0A=
+*/=0A=
+function AddMSNContact(name)=0A=
+{=0A=
+	if (!is_ie)=0A=
+	{=0A=
+		alert(vbphrase['msn_functions_only_work_in_ie']);=0A=
+		return false;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		MsgrObj.AddContact(0, name);=0A=
+		return false;=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Cookie handlers=0A=
+=0A=
+/**=0A=
+* Sets a cookie=0A=
+*=0A=
+* @param	string	Cookie name=0A=
+* @param	string	Cookie value=0A=
+* @param	date	Cookie expiry date=0A=
+*/=0A=
+function set_cookie(name, value, expires)=0A=
+{=0A=
+	document.cookie =3D name + '=3D' + escape(value) + '; path=3D/' + =
+(typeof expires !=3D 'undefined' ? '; expires=3D' + =
+expires.toGMTString() : '');=0A=
+}=0A=
+=0A=
+/**=0A=
+* Deletes a cookie=0A=
+*=0A=
+* @param	string	Cookie name=0A=
+*/=0A=
+function delete_cookie(name)=0A=
+{=0A=
+	document.cookie =3D name + '=3D' + '; expires=3DThu, 01-Jan-70 00:00:01 =
+GMT' +  '; path=3D/';=0A=
+}=0A=
+=0A=
+/**=0A=
+* Fetches the value of a cookie=0A=
+*=0A=
+* @param	string	Cookie name=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+function fetch_cookie(name)=0A=
+{=0A=
+	cookie_name =3D name + '=3D';=0A=
+	cookie_length =3D document.cookie.length;=0A=
+	cookie_begin =3D 0;=0A=
+	while (cookie_begin < cookie_length)=0A=
+	{=0A=
+		value_begin =3D cookie_begin + cookie_name.length;=0A=
+		if (document.cookie.substring(cookie_begin, value_begin) =3D=3D =
+cookie_name)=0A=
+		{=0A=
+			var value_end =3D document.cookie.indexOf (';', value_begin);=0A=
+			if (value_end =3D=3D -1)=0A=
+			{=0A=
+				value_end =3D cookie_length;=0A=
+			}=0A=
+			return unescape(document.cookie.substring(value_begin, value_end));=0A=
+		}=0A=
+		cookie_begin =3D document.cookie.indexOf(' ', cookie_begin) + 1;=0A=
+		if (cookie_begin =3D=3D 0)=0A=
+		{=0A=
+			break;=0A=
+		}=0A=
+	}=0A=
+	return null;=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Form element managers (used for 'check all' type systems=0A=
+=0A=
+/**=0A=
+* Sets all checkboxes, radio buttons or selects in a given form to a =
+given state, with exceptions=0A=
+*=0A=
+* @param	object	Form object=0A=
+* @param	string	Target element type (one of 'radio', 'select-one', =
+'checkbox')=0A=
+* @param	string	Selected option in case of 'radio'=0A=
+* @param	array	Array of element names to be excluded=0A=
+* @param	mixed	Value to give to found elements=0A=
+*/=0A=
+function js_toggle_all(formobj, formtype, option, exclude, setto)=0A=
+{=0A=
+	for (var i =3D0; i < formobj.elements.length; i++)=0A=
+	{=0A=
+		var elm =3D formobj.elements[i];=0A=
+		if (elm.type =3D=3D formtype && PHP.in_array(elm.name, exclude, false) =
+=3D=3D -1)=0A=
+		{=0A=
+			switch (formtype)=0A=
+			{=0A=
+				case 'radio':=0A=
+					if (elm.value =3D=3D option) // option =3D=3D '' evaluates true =
+when option =3D 0=0A=
+					{=0A=
+						elm.checked =3D setto;=0A=
+					}=0A=
+				break;=0A=
+				case 'select-one':=0A=
+					elm.selectedIndex =3D setto;=0A=
+				break;=0A=
+				default:=0A=
+					elm.checked =3D setto;=0A=
+				break;=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Sets all <select> elements to the selectedIndex specified by the =
+'selectall' element=0A=
+*=0A=
+* @param	object	Form object=0A=
+*/=0A=
+function js_select_all(formobj)=0A=
+{=0A=
+	exclude =3D new Array();=0A=
+	exclude[0] =3D 'selectall';=0A=
+	js_toggle_all(formobj, 'select-one', '', exclude, =
+formobj.selectall.selectedIndex);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Sets all <input type=3D"checkbox" /> elements to have the same checked =
+status as 'allbox'=0A=
+*=0A=
+* @param	object	Form object=0A=
+*/=0A=
+function js_check_all(formobj)=0A=
+{=0A=
+	exclude =3D new Array();=0A=
+	exclude[0] =3D 'keepattachments';=0A=
+	exclude[1] =3D 'allbox';=0A=
+	exclude[2] =3D 'removeall';=0A=
+	js_toggle_all(formobj, 'checkbox', '', exclude, formobj.allbox.checked);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Sets all <input type=3D"radio" /> groups to have a particular option =
+checked=0A=
+*=0A=
+* @param	object	Form object=0A=
+* @param	mixed	Selected option=0A=
+*/=0A=
+function js_check_all_option(formobj, option)=0A=
+{=0A=
+	exclude =3D new Array();=0A=
+	exclude[0] =3D 'useusergroup';=0A=
+	js_toggle_all(formobj, 'radio', option, exclude, true);=0A=
+}=0A=
+=0A=
+/**=0A=
+* Alias to js_check_all=0A=
+*/=0A=
+function checkall(formobj) { js_check_all(formobj); }=0A=
+=0A=
+/**=0A=
+* Alias to js_check_all_option=0A=
+*/=0A=
+function checkall_option(formobj, option) { js_check_all_option(formobj, =
+option); }=0A=
+=0A=
+/**=0A=
+* Resize function for CP textareas=0A=
+*=0A=
+* @param	integer	If positive, size up, otherwise size down=0A=
+* @param	string	ID of the textarea=0A=
+*=0A=
+* @return	boolean	false=0A=
+*/=0A=
+function resize_textarea(to, id)=0A=
+{=0A=
+	if (to < 0)=0A=
+	{=0A=
+		var rows =3D -5;=0A=
+		var cols =3D -10;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		var rows =3D 5;=0A=
+		var cols =3D 10;=0A=
+	}=0A=
+=0A=
+	var textarea =3D fetch_object(id);=0A=
+=0A=
+	var newrows =3D textarea.rows + rows;=0A=
+	var newcols =3D textarea.cols + cols;=0A=
+=0A=
+	if (newrows >=3D 5 && newcols >=3D 20)=0A=
+	{=0A=
+		textarea.rows =3D newrows;=0A=
+		textarea.cols =3D newcols;=0A=
+	}=0A=
+=0A=
+	return false;=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Collapsible element handlers=0A=
+=0A=
+/**=0A=
+* Toggles the collapse state of an object, and saves state to =
+'vbulletin_collapse' cookie=0A=
+*=0A=
+* @param	string	Unique ID for the collapse group=0A=
+*=0A=
+* @return	boolean	false=0A=
+*/=0A=
+function toggle_collapse(objid)=0A=
+{=0A=
+	if (!is_regexp)=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	obj =3D fetch_object('collapseobj_' + objid);=0A=
+	img =3D fetch_object('collapseimg_' + objid);=0A=
+	cel =3D fetch_object('collapsecel_' + objid);=0A=
+=0A=
+	if (!obj)=0A=
+	{=0A=
+		// nothing to collapse!=0A=
+		if (img)=0A=
+		{=0A=
+			// hide the clicky image if there is one=0A=
+			img.style.display =3D 'none';=0A=
+		}=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	if (obj.style.display =3D=3D 'none')=0A=
+	{=0A=
+		obj.style.display =3D '';=0A=
+		save_collapsed(objid, false);=0A=
+		if (img)=0A=
+		{=0A=
+			img_re =3D new RegExp("_collapsed\\.gif$");=0A=
+			img.src =3D img.src.replace(img_re, '.gif');=0A=
+		}=0A=
+		if (cel)=0A=
+		{=0A=
+			cel_re =3D new RegExp("^(thead|tcat)(_collapsed)$");=0A=
+			cel.className =3D cel.className.replace(cel_re, '$1');=0A=
+		}=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		obj.style.display =3D 'none';=0A=
+		save_collapsed(objid, true);=0A=
+		if (img)=0A=
+		{=0A=
+			img_re =3D new RegExp("\\.gif$");=0A=
+			img.src =3D img.src.replace(img_re, '_collapsed.gif');=0A=
+		}=0A=
+		if (cel)=0A=
+		{=0A=
+			cel_re =3D new RegExp("^(thead|tcat)$");=0A=
+			cel.className =3D cel.className.replace(cel_re, '$1_collapsed');=0A=
+		}=0A=
+	}=0A=
+	return false;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Updates vbulletin_collapse cookie with collapse preferences=0A=
+*=0A=
+* @param	string	Unique ID for the collapse group=0A=
+* @param	boolean	Add a cookie=0A=
+*/=0A=
+function save_collapsed(objid, addcollapsed)=0A=
+{=0A=
+	var collapsed =3D fetch_cookie('vbulletin_collapse');=0A=
+	var tmp =3D new Array();=0A=
+=0A=
+	if (collapsed !=3D null)=0A=
+	{=0A=
+		collapsed =3D collapsed.split('\n');=0A=
+=0A=
+		for (var i in collapsed)=0A=
+		{=0A=
+			if (collapsed[i] !=3D objid && collapsed[i] !=3D '')=0A=
+			{=0A=
+				tmp[tmp.length] =3D collapsed[i];=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+=0A=
+	if (addcollapsed)=0A=
+	{=0A=
+		tmp[tmp.length] =3D objid;=0A=
+	}=0A=
+=0A=
+	expires =3D new Date();=0A=
+	expires.setTime(expires.getTime() + (1000 * 86400 * 365));=0A=
+	set_cookie('vbulletin_collapse', tmp.join('\n'), expires);=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Event Handlers for PageNav menus=0A=
+=0A=
+/**=0A=
+* Class to handle pagenav events=0A=
+*/=0A=
+function vBpagenav()=0A=
+{=0A=
+}=0A=
+=0A=
+/**=0A=
+* Handles clicks on pagenav menu control objects=0A=
+*/=0A=
+vBpagenav.prototype.controlobj_onclick =3D function(e)=0A=
+{=0A=
+	this._onclick(e);=0A=
+	var inputs =3D fetch_tags(this.menu.menuobj, 'input');=0A=
+	for (var i =3D 0; i < inputs.length; i++)=0A=
+	{=0A=
+		if (inputs[i].type =3D=3D 'text')=0A=
+		{=0A=
+			inputs[i].focus();=0A=
+			break;=0A=
+		}=0A=
+	}=0A=
+};=0A=
+=0A=
+/**=0A=
+* Submits the pagenav form... sort of=0A=
+*/=0A=
+vBpagenav.prototype.form_gotopage =3D function(e)=0A=
+{=0A=
+	if ((pagenum =3D parseInt(fetch_object('pagenav_itxt').value, 10)) > 0)=0A=
+	{=0A=
+		window.location =3D this.addr + '&page=3D' + pagenum;=0A=
+	}=0A=
+	return false;=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles clicks on the 'Go' button in pagenav popups=0A=
+*/=0A=
+vBpagenav.prototype.ibtn_onclick =3D function(e)=0A=
+{=0A=
+	return this.form.gotopage();=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles keypresses in the text input of pagenav popups=0A=
+*/=0A=
+vBpagenav.prototype.itxt_onkeypress =3D function(e)=0A=
+{=0A=
+	return ((e ? e : window.event).keyCode =3D=3D 13 ? this.form.gotopage() =
+: true);=0A=
+};=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// DHTML Popup Menu Handling (complements vbulletin_menu.js)=0A=
+=0A=
+/**=0A=
+* Wrapper for vBmenu.register=0A=
+*=0A=
+* @param	string	Control ID=0A=
+* @param	boolean	No image (true)=0A=
+* @param	boolean	Does nothing any more=0A=
+*/=0A=
+function vbmenu_register(controlid, noimage, datefield)=0A=
+{=0A=
+	if (typeof vBmenu =3D=3D 'object')=0A=
+	{=0A=
+		vBmenu.register(controlid, noimage);=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Stuff that really doesn't fit anywhere else=0A=
+=0A=
+/**=0A=
+* Sets an element and all its children to be 'unselectable'=0A=
+*=0A=
+* @param	object	Object to be made unselectable=0A=
+*/=0A=
+function set_unselectable(obj)=0A=
+{=0A=
+	if (!is_ie4 && typeof obj.tagName !=3D 'undefined')=0A=
+	{=0A=
+		if (obj.hasChildNodes())=0A=
+		{=0A=
+			for (var i =3D 0; i < obj.childNodes.length; i++)=0A=
+			{=0A=
+				set_unselectable(obj.childNodes[i]);=0A=
+			}=0A=
+		}=0A=
+		obj.unselectable =3D 'on';=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Fetches the sessionhash from the SESSIONURL variable=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+function fetch_sessionhash()=0A=
+{=0A=
+	return (SESSIONURL =3D=3D '' ? '' : SESSIONURL.substr(2, 32));=0A=
+}=0A=
+=0A=
+/**=0A=
+* Emulates the PHP version of vBulletin's construct_phrase() sprintf =
+wrapper=0A=
+*=0A=
+* @param	string	String containing %1$s type replacement markers=0A=
+* @param	string	First replacement=0A=
+* @param	string	Nth replacement=0A=
+*=0A=
+* @return	string=0A=
+*/=0A=
+function construct_phrase()=0A=
+{=0A=
+	if (!arguments || arguments.length < 1 || !is_regexp)=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	var args =3D arguments;=0A=
+	var str =3D args[0];=0A=
+	var re;=0A=
+=0A=
+	for (var i =3D 1; i < args.length; i++)=0A=
+	{=0A=
+		re =3D new RegExp("%" + i + "\\$s", 'gi');=0A=
+		str =3D str.replace(re, args[i]);=0A=
+	}=0A=
+	return str;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Handles the quick style/language options in the footer=0A=
+*=0A=
+* @param	object	Select object=0A=
+* @param	string	Type (style or language)=0A=
+*/=0A=
+function switch_id(selectobj, type)=0A=
+{=0A=
+	var id =3D selectobj.options[selectobj.selectedIndex].value;=0A=
+=0A=
+	if (id =3D=3D '')=0A=
+	{=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	var url =3D new String(window.location);=0A=
+	var fragment =3D new String('');=0A=
+=0A=
+	// get rid of fragment=0A=
+	url =3D url.split('#');=0A=
+=0A=
+	// deal with the fragment first=0A=
+	if (url[1])=0A=
+	{=0A=
+		fragment =3D '#' + url[1];=0A=
+	}=0A=
+=0A=
+	// deal with the main url=0A=
+	url =3D url[0];=0A=
+=0A=
+	// remove id=3Dx& from main bit=0A=
+	if (url.indexOf(type + 'id=3D') !=3D -1 && is_regexp)=0A=
+	{=0A=
+		re =3D new RegExp(type + "id=3D\\d+&?");=0A=
+		url =3D url.replace(re, '');=0A=
+	}=0A=
+=0A=
+	// add the ? to the url if needed=0A=
+	if (url.indexOf('?') =3D=3D -1)=0A=
+	{=0A=
+		url +=3D '?';=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		// make sure that we have a valid character to join our id bit=0A=
+		lastchar =3D url.substr(url.length - 1);=0A=
+		if (lastchar !=3D '&' && lastchar !=3D '?')=0A=
+		{=0A=
+			url +=3D '&';=0A=
+		}=0A=
+	}=0A=
+=0A=
+	window.location =3D url + type + 'id=3D' + id + fragment;=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Initialize a PostBit=0A=
+=0A=
+/**=0A=
+* This function runs all the necessary Javascript code on a PostBit=0A=
+* after it has been loaded via AJAX. Don't use this method before a=0A=
+* complete page load or you'll have problems.=0A=
+*=0A=
+* @param	object	Object containing postbits=0A=
+*/=0A=
+function PostBit_Init(obj)=0A=
+{=0A=
+	if (typeof vBmenu !=3D 'undefined')=0A=
+	{=0A=
+		// init profile menu(s)=0A=
+		var divs =3D fetch_tags(obj, 'div');=0A=
+		for (var i =3D 0; i < divs.length; i++)=0A=
+		{=0A=
+			if (divs[i].id && divs[i].id.substr(0, 9) =3D=3D 'postmenu_')=0A=
+			{=0A=
+				vBmenu.register(divs[i].id, true);=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+=0A=
+	if (typeof vB_QuickEditor !=3D 'undefined')=0A=
+	{=0A=
+		// init quick edit controls=0A=
+		vB_AJAX_QuickEdit_Init(obj);=0A=
+	}=0A=
+=0A=
+	if (typeof vB_QuickReply !=3D 'undefined')=0A=
+	{=0A=
+		// init quick reply button=0A=
+		qr_init_buttons(obj);=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Main vBulletin Javascript Initialization=0A=
+=0A=
+/**=0A=
+* This function runs (almost) at the end of script loading on most =
+vBulletin pages=0A=
+*=0A=
+* It sets up things like image alt->title tags, turns on the popup menu =
+system etc.=0A=
+*=0A=
+* @return	boolean=0A=
+*/=0A=
+function vBulletin_init()=0A=
+{=0A=
+	// don't bother doing any exciting stuff for WebTV=0A=
+	if (is_webtv)=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	// set 'title' tags for image elements=0A=
+	var imgs =3D fetch_tags(document, 'img');=0A=
+	for (var i =3D 0; i < imgs.length; i++)=0A=
+	{=0A=
+		if (!imgs[i].title && imgs[i].alt !=3D '')=0A=
+		{=0A=
+			imgs[i].title =3D imgs[i].alt;=0A=
+		}=0A=
+	}=0A=
+=0A=
+	// finalize popup menus=0A=
+	if (typeof vBmenu =3D=3D 'object')=0A=
+	{=0A=
+		// close all menus on document click=0A=
+		if (window.attachEvent && !is_saf)=0A=
+		{=0A=
+			document.attachEvent('onclick', vbmenu_hide);=0A=
+			window.attachEvent('onresize', vbmenu_hide);=0A=
+		}=0A=
+		else if (document.addEventListener && !is_saf)=0A=
+		{=0A=
+			document.addEventListener('click', vbmenu_hide, false);=0A=
+			window.addEventListener('resize', vbmenu_hide, false);=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			window.onclick =3D vbmenu_hide;=0A=
+			window.onresize =3D vbmenu_hide;=0A=
+		}=0A=
+=0A=
+		// add popups to pagenav elements=0A=
+		var pagenavs =3D fetch_tags(document, 'td');=0A=
+		for (var n =3D 0; n < pagenavs.length; n++)=0A=
+		{=0A=
+			if (pagenavs[n].hasChildNodes() && pagenavs[n].firstChild.name && =
+pagenavs[n].firstChild.name.indexOf('PageNav') !=3D -1)=0A=
+			{=0A=
+				var addr =3D pagenavs[n].title;=0A=
+				pagenavs[n].title =3D '';=0A=
+				pagenavs[n].innerHTML =3D '';=0A=
+				pagenavs[n].id =3D 'pagenav.' + n;=0A=
+				var pn =3D vBmenu.register(pagenavs[n].id);=0A=
+				if (is_saf)=0A=
+				{=0A=
+					pn.controlobj._onclick =3D pn.controlobj.onclick;=0A=
+					pn.controlobj.onclick =3D vBpagenav.prototype.controlobj_onclick;=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+=0A=
+		// process the pagenavs popup form=0A=
+		if (typeof addr !=3D 'undefined')=0A=
+		{=0A=
+			fetch_object('pagenav_form').addr =3D addr;=0A=
+			fetch_object('pagenav_form').gotopage =3D =
+vBpagenav.prototype.form_gotopage;=0A=
+			fetch_object('pagenav_ibtn').onclick =3D =
+vBpagenav.prototype.ibtn_onclick;=0A=
+			fetch_object('pagenav_itxt').onkeypress =3D =
+vBpagenav.prototype.itxt_onkeypress;=0A=
+		}=0A=
+=0A=
+		// activate the menu system=0A=
+		vBmenu.activate(true);=0A=
+	}=0A=
+=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*\=0A=
+|| ####################################################################=0A=
+|| # Downloaded: 02:53, Sat Oct 1st 2005=0A=
+|| # CVS: $RCSfile: vbulletin_global.js,v $ - $Revision: 1.148 $=0A=
+|| ####################################################################=0A=
+\*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/clientscript/vbulletin_menu.js
+
+/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*\=0A=
+|| #################################################################### =
+||=0A=
+|| # vBulletin 3.5.0=0A=
+|| # ---------------------------------------------------------------- # =
+||=0A=
+|| # Copyright =A92000-2005 Jelsoft Enterprises Ltd. All Rights =
+Reserved. ||=0A=
+|| # This file may not be redistributed in whole or significant part. # =
+||=0A=
+|| # ---------------- VBULLETIN IS NOT FREE SOFTWARE ---------------- # =
+||=0A=
+|| # http://www.vbulletin.com | http://www.vbulletin.com/license.html # =
+||=0A=
+|| #################################################################### =
+||=0A=
+\*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/=0A=
+=0A=
+/**=0A=
+* vBulletin popup menu example usage:=0A=
+*=0A=
+* To create a new popup menu:=0A=
+* 	<element id=3D"x">Click me <script type=3D"text/javascript"> =
+vBmenu.register('x'); </script></element>=0A=
+*=0A=
+* To create a dynamic popup menu with a title and two options:=0A=
+* 	<element id=3D"x">Click me</element>=0A=
+* 	<script type=3D"text/javascript">=0A=
+* 	menu =3D new vB_Menu_Builder('x');=0A=
+* 	menu.set_title('My Menu');=0A=
+* 	menu.add_option('Option 1', 'script.php?opt=3D1');=0A=
+* 	menu.add_option('Option 2', 'script.php?opt=3D2');=0A=
+* 	menu.build();=0A=
+* 	</script>=0A=
+*/=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// vB_Popup_Handler=0A=
+// =
+#########################################################################=
+####=0A=
+=0A=
+/**=0A=
+* vBulletin popup menu registry=0A=
+*/=0A=
+function vB_Popup_Handler()=0A=
+{=0A=
+	/**=0A=
+	* Options:=0A=
+	*=0A=
+	* @var	integer	Number of steps to use in sliding menus open=0A=
+	* @var	boolean	Use opacity face in menu open?=0A=
+	*/=0A=
+	this.open_steps =3D 10;=0A=
+	this.open_fade =3D false;=0A=
+=0A=
+	this.active =3D false;=0A=
+=0A=
+	this.menus =3D new Array();=0A=
+	this.activemenu =3D null;=0A=
+=0A=
+	this.hidden_selects =3D new Array();=0A=
+}=0A=
+=0A=
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=0A=
+// vB_Popup_Handler methods=0A=
+=0A=
+/**=0A=
+* Activate / Deactivate the menu system=0A=
+*=0A=
+* @param	boolean	Active state for menus=0A=
+*/=0A=
+vB_Popup_Handler.prototype.activate =3D function(active)=0A=
+{=0A=
+	this.active =3D active;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Register a control object as a menu control=0A=
+*=0A=
+* @param	string	ID of the control object=0A=
+* @param	boolean	Do not add an image (true)=0A=
+*=0A=
+* @return	vB_Popup_Menu=0A=
+*/=0A=
+vB_Popup_Handler.prototype.register =3D function(controlkey, noimage)=0A=
+{=0A=
+	this.menus[controlkey] =3D new vB_Popup_Menu(controlkey, noimage);=0A=
+=0A=
+	return this.menus[controlkey];=0A=
+}=0A=
+=0A=
+/**=0A=
+* Hide active menu=0A=
+*/=0A=
+vB_Popup_Handler.prototype.hide =3D function()=0A=
+{=0A=
+	if (this.activemenu !=3D null)=0A=
+	{=0A=
+		//this.activemenu.hide();=0A=
+		this.menus[this.activemenu].hide();=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// initialize menu registry=0A=
+=0A=
+vBmenu =3D new vB_Popup_Handler();=0A=
+=0A=
+/**=0A=
+* Function to allow anything to hide all menus=0A=
+*=0A=
+* @param	event	Event object=0A=
+*=0A=
+* @return	mixed=0A=
+*/=0A=
+function vbmenu_hide(e)=0A=
+{=0A=
+	if (e && e.button && e.button !=3D 1 && e.type =3D=3D 'click')=0A=
+	{=0A=
+		return true;=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		vBmenu.hide();=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// vB_Popup_Menu=0A=
+// =
+#########################################################################=
+####=0A=
+=0A=
+/**=0A=
+* vBulletin popup menu class constructor=0A=
+*=0A=
+* Manages a single menu and control object=0A=
+* Initializes control object=0A=
+*=0A=
+* @param	string	ID of the control object=0A=
+*/=0A=
+function vB_Popup_Menu(controlkey, noimage)=0A=
+{=0A=
+	this.controlkey =3D controlkey;=0A=
+	this.menuname =3D this.controlkey.split('.')[0] + '_menu';=0A=
+=0A=
+	this.init_control(noimage);=0A=
+=0A=
+	if (fetch_object(this.menuname))=0A=
+	{=0A=
+		this.init_menu();=0A=
+	}=0A=
+=0A=
+	this.slide_open =3D (is_opera ? false : true);=0A=
+	this.open_steps =3D vBmenu.open_steps;=0A=
+}=0A=
+=0A=
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=0A=
+// vB_Popup_Menu methods=0A=
+=0A=
+/**=0A=
+* Initialize the control object=0A=
+*/=0A=
+vB_Popup_Menu.prototype.init_control =3D function(noimage)=0A=
+{=0A=
+	this.controlobj =3D fetch_object(this.controlkey);=0A=
+	this.controlobj.state =3D false;=0A=
+=0A=
+	if (this.controlobj.firstChild && (this.controlobj.firstChild.tagName =
+=3D=3D 'TEXTAREA' || this.controlobj.firstChild.tagName =3D=3D 'INPUT'))=0A=
+	{=0A=
+		// do nothing=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		if (!noimage && !(is_mac && is_ie))=0A=
+		{=0A=
+			var space =3D document.createTextNode(' ');=0A=
+			this.controlobj.appendChild(space);=0A=
+=0A=
+			var img =3D document.createElement('img');=0A=
+			img.src =3D IMGDIR_MISC + '/menu_open.gif';=0A=
+			img.border =3D 0;=0A=
+			img.title =3D '';=0A=
+			img.alt =3D '';=0A=
+			this.controlobj.appendChild(img);=0A=
+		}=0A=
+=0A=
+		this.controlobj.unselectable =3D true;=0A=
+		if (!noimage)=0A=
+		{=0A=
+			this.controlobj.style.cursor =3D pointer_cursor;=0A=
+		}=0A=
+		this.controlobj.onclick =3D =
+vB_Popup_Events.prototype.controlobj_onclick;=0A=
+		this.controlobj.onmouseover =3D =
+vB_Popup_Events.prototype.controlobj_onmouseover;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Init the popup menu object=0A=
+*/=0A=
+vB_Popup_Menu.prototype.init_menu =3D function()=0A=
+{=0A=
+	this.menuobj =3D fetch_object(this.menuname);=0A=
+=0A=
+	if (this.menuobj && !this.menuobj.initialized)=0A=
+	{=0A=
+		this.menuobj.initialized =3D true;=0A=
+		this.menuobj.onclick =3D e_by_gum;=0A=
+		this.menuobj.style.position =3D 'absolute';=0A=
+		this.menuobj.style.zIndex =3D 50;=0A=
+=0A=
+		// init popup filters (ie only)=0A=
+		if (is_ie && !is_mac)=0A=
+		{=0A=
+			this.menuobj.style.filter +=3D =
+"progid:DXImageTransform.Microsoft.alpha(enabled=3D1,opacity=3D100)";=0A=
+			this.menuobj.style.filter +=3D =
+"progid:DXImageTransform.Microsoft.shadow(direction=3D135,color=3D#8E8E8E=
+,strength=3D3)";=0A=
+		}=0A=
+=0A=
+		this.init_menu_contents();=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Init the popup menu contents=0A=
+*/=0A=
+vB_Popup_Menu.prototype.init_menu_contents =3D function()=0A=
+{=0A=
+	var tds =3D fetch_tags(this.menuobj, 'td');=0A=
+	for (var i =3D 0; i < tds.length; i++)=0A=
+	{=0A=
+		if (tds[i].className =3D=3D 'vbmenu_option')=0A=
+		{=0A=
+			if (tds[i].title && tds[i].title =3D=3D 'nohilite')=0A=
+			{=0A=
+				// not an active cell=0A=
+				tds[i].title =3D '';=0A=
+			}=0A=
+			else=0A=
+			{=0A=
+				// create a reference back to the menu class=0A=
+				tds[i].controlkey =3D this.controlkey;=0A=
+=0A=
+				// handle mouseover / mouseout highlighting events=0A=
+				tds[i].onmouseover =3D =
+vB_Popup_Events.prototype.menuoption_onmouseover;=0A=
+				tds[i].onmouseout =3D =
+vB_Popup_Events.prototype.menuoption_onmouseout;=0A=
+=0A=
+				if (typeof tds[i].onclick =3D=3D 'function')=0A=
+				{=0A=
+					// allow onclick events from <td> elements to override <a> elements =
+inside=0A=
+					tds[i].ofunc =3D tds[i].onclick;=0A=
+					tds[i].onclick =3D =
+vB_Popup_Events.prototype.menuoption_onclick_function;=0A=
+				}=0A=
+				else=0A=
+				{=0A=
+					// attempt to emulate a click on internal <a> elements=0A=
+					tds[i].onclick =3D =
+vB_Popup_Events.prototype.menuoption_onclick_link;=0A=
+				}=0A=
+=0A=
+				// wondering what this was supposed to do actually...=0A=
+				if (!is_saf && !is_kon)=0A=
+				{=0A=
+					try=0A=
+					{=0A=
+						links =3D fetch_tags(tds[i], 'a');=0A=
+						for (var j =3D 0; j < links.length; j++)=0A=
+						{=0A=
+							if (typeof links[j].onclick  =3D=3D 'undefined')=0A=
+							{=0A=
+								links[j].onclick =3D e_by_gum;=0A=
+							}=0A=
+						}=0A=
+					}=0A=
+					catch(e)=0A=
+					{=0A=
+						// hmmm...=0A=
+					}=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Show the menu=0A=
+*=0A=
+* @param	object	The control object calling the menu=0A=
+* @param	boolean	Use slide (false) or open instantly? (true)=0A=
+*/=0A=
+vB_Popup_Menu.prototype.show =3D function(obj, instant)=0A=
+{=0A=
+	if (!vBmenu.active)=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+	else if (!this.menuobj)=0A=
+	{=0A=
+		this.init_menu();=0A=
+	}=0A=
+=0A=
+	if (!this.menuobj)=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+=0A=
+	if (vBmenu.activemenu !=3D null)=0A=
+	{=0A=
+		vBmenu.menus[vBmenu.activemenu].hide();=0A=
+	}=0A=
+=0A=
+	vBmenu.activemenu =3D this.controlkey;=0A=
+=0A=
+	this.menuobj.style.display =3D '';=0A=
+	if (vBmenu.slide_open)=0A=
+	{=0A=
+		this.menuobj.style.clip =3D 'rect(auto, auto, auto, auto)';=0A=
+	}=0A=
+	this.pos =3D this.fetch_offset(obj);=0A=
+	this.leftpx =3D this.pos['left'];=0A=
+	this.toppx =3D this.pos['top'] + obj.offsetHeight;=0A=
+=0A=
+	if ((this.leftpx + this.menuobj.offsetWidth) >=3D =
+document.body.clientWidth)=0A=
+	{=0A=
+		this.leftpx =3D this.leftpx + obj.offsetWidth - =
+this.menuobj.offsetWidth;=0A=
+		this.direction =3D 'right';=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		this.direction =3D 'left'=0A=
+	}=0A=
+=0A=
+	this.menuobj.style.left =3D this.leftpx + 'px';=0A=
+	this.menuobj.style.top  =3D this.toppx + 'px';=0A=
+=0A=
+	if (!instant && this.slide_open)=0A=
+	{=0A=
+		this.intervalX =3D Math.ceil(this.menuobj.offsetWidth / =
+this.open_steps);=0A=
+		this.intervalY =3D Math.ceil(this.menuobj.offsetHeight / =
+this.open_steps);=0A=
+		this.slide((this.direction =3D=3D 'left' ? 0 : =
+this.menuobj.offsetWidth), 0, 0);=0A=
+	}=0A=
+	else if (this.menuobj.style.clip && vBmenu.slide_open)=0A=
+	{=0A=
+		this.menuobj.style.clip =3D 'rect(auto, auto, auto, auto)';=0A=
+	}=0A=
+=0A=
+	// deal with IE putting <select> elements on top of everything=0A=
+	this.handle_overlaps(true);=0A=
+=0A=
+	if (this.controlobj.editorid)=0A=
+	{=0A=
+		this.controlobj.state =3D true;=0A=
+		//this.controlobj.editor.menu_context(this.controlobj, 'mousedown');=0A=
+		vB_Editor[this.controlobj.editorid].menu_context(this.controlobj, =
+'mousedown');=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Hide the menu=0A=
+*/=0A=
+vB_Popup_Menu.prototype.hide =3D function(e)=0A=
+{=0A=
+=0A=
+	if (e && e.button && e.button !=3D 1)=0A=
+	{=0A=
+		// get around some context menu issues etc.=0A=
+		return true;=0A=
+	}=0A=
+=0A=
+	this.stop_slide();=0A=
+=0A=
+	this.menuobj.style.display =3D 'none';=0A=
+=0A=
+	this.handle_overlaps(false);=0A=
+=0A=
+	if (this.controlobj.editorid)=0A=
+	{=0A=
+		this.controlobj.state =3D false;=0A=
+		//this.controlobj.editor.menu_context(this.controlobj, 'mouseout');=0A=
+		vB_Editor[this.controlobj.editorid].menu_context(this.controlobj, =
+'mouseout');=0A=
+	}=0A=
+=0A=
+	vBmenu.activemenu =3D null;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Hover behaviour for control object=0A=
+*/=0A=
+vB_Popup_Menu.prototype.hover =3D function(obj)=0A=
+{=0A=
+	if (vBmenu.activemenu !=3D null)=0A=
+	{=0A=
+		if (vBmenu.menus[vBmenu.activemenu].controlkey !=3D this.id)=0A=
+		{=0A=
+			this.show(obj, true);=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Simulate clicking an option in a menu=0A=
+*=0A=
+* @param	event	Event object=0A=
+* @param	object	Clicked object=0A=
+*/=0A=
+vB_Popup_Menu.prototype.choose =3D function(e, obj)=0A=
+{=0A=
+	var links =3D fetch_tags(obj, 'a');=0A=
+	if (links[0])=0A=
+	{=0A=
+		if (is_ie)=0A=
+		{=0A=
+			// use this in IE to send HTTP_REFERER=0A=
+			links[0].click();=0A=
+			window.event.cancelBubble =3D true;=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			// other browsers can use this=0A=
+			if (e.shiftKey)=0A=
+			{=0A=
+				window.open(links[0].href);=0A=
+				e.stopPropagation();=0A=
+				e.preventDefault();=0A=
+			}=0A=
+			else=0A=
+			{=0A=
+				window.location =3D links[0].href;=0A=
+				e.stopPropagation();=0A=
+				e.preventDefault();=0A=
+			}=0A=
+		}=0A=
+=0A=
+		this.hide();=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Slides menu open=0A=
+*=0A=
+* @param	integer	Clip X=0A=
+* @param	integer	Clip Y=0A=
+* @param	integer	Opacity (0-100)=0A=
+*/=0A=
+vB_Popup_Menu.prototype.slide =3D function(clipX, clipY, opacity)=0A=
+{=0A=
+	if (this.direction =3D=3D 'left' && (clipX < this.menuobj.offsetWidth =
+|| clipY < this.menuobj.offsetHeight))=0A=
+	{=0A=
+		if (vBmenu.open_fade && is_ie)=0A=
+		{=0A=
+			opacity +=3D 10;=0A=
+			this.menuobj.filters.item('DXImageTransform.Microsoft.alpha').opacity =
+=3D opacity;=0A=
+		}=0A=
+=0A=
+		clipX +=3D this.intervalX;=0A=
+		clipY +=3D this.intervalY;=0A=
+=0A=
+		this.menuobj.style.clip =3D "rect(auto, " + clipX + "px, " + clipY + =
+"px, auto)";=0A=
+		this.slidetimer =3D =
+setTimeout("vBmenu.menus[vBmenu.activemenu].slide(" + clipX + ", " + =
+clipY + ", " + opacity + ");", 0);=0A=
+	}=0A=
+	else if (this.direction =3D=3D 'right' && (clipX > 0 || clipY < =
+this.menuobj.offsetHeight))=0A=
+	{=0A=
+		if (vBmenu.open_fade && is_ie)=0A=
+		{=0A=
+			opacity +=3D 10;=0A=
+			menuobj.filters.item('DXImageTransform.Microsoft.alpha').opacity =3D =
+opacity;=0A=
+		}=0A=
+=0A=
+		clipX -=3D this.intervalX;=0A=
+		clipY +=3D this.intervalY;=0A=
+=0A=
+		this.menuobj.style.clip =3D "rect(auto, " + this.menuobj.offsetWidth + =
+"px, " + clipY + "px, " + clipX + "px)";=0A=
+		this.slidetimer =3D =
+setTimeout("vBmenu.menus[vBmenu.activemenu].slide(" + clipX + ", " + =
+clipY + ", " + opacity + ");", 0);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		this.stop_slide();=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Abort menu slider=0A=
+*/=0A=
+vB_Popup_Menu.prototype.stop_slide =3D function()=0A=
+{=0A=
+	clearTimeout(this.slidetimer);=0A=
+=0A=
+	this.menuobj.style.clip =3D 'rect(auto, auto, auto, auto)';=0A=
+=0A=
+	if (vBmenu.open_fade && is_ie)=0A=
+	{=0A=
+		this.menuobj.filters.item('DXImageTransform.Microsoft.alpha').opacity =
+=3D 100;=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Fetch offset of an object=0A=
+*=0A=
+* @param	object	The object to be measured=0A=
+*=0A=
+* @return	array	The measured offsets left/top=0A=
+*/=0A=
+vB_Popup_Menu.prototype.fetch_offset =3D function(obj)=0A=
+{=0A=
+	var left_offset =3D obj.offsetLeft;=0A=
+	var top_offset =3D obj.offsetTop;=0A=
+=0A=
+	while ((obj =3D obj.offsetParent) !=3D null)=0A=
+	{=0A=
+		left_offset +=3D obj.offsetLeft;=0A=
+		top_offset +=3D obj.offsetTop;=0A=
+	}=0A=
+=0A=
+	return { 'left' : left_offset, 'top' : top_offset };=0A=
+}=0A=
+=0A=
+/**=0A=
+* Detect an overlap of an object and a menu=0A=
+*=0A=
+* @param	object	Object to be tested for overlap=0A=
+* @param	array	Array of dimensions for menu object=0A=
+*=0A=
+* @return	boolean	True if overlap=0A=
+*/=0A=
+vB_Popup_Menu.prototype.overlaps =3D function(obj, m)=0A=
+{=0A=
+	var s =3D new Array();=0A=
+	var pos =3D this.fetch_offset(obj);=0A=
+	s['L'] =3D pos['left'];=0A=
+	s['T'] =3D pos['top'];=0A=
+	s['R'] =3D s['L'] + obj.offsetWidth;=0A=
+	s['B'] =3D s['T'] + obj.offsetHeight;=0A=
+=0A=
+=0A=
+	if (s['L'] > m['R'] || s['R'] < m['L'] || s['T'] > m['B'] || s['B'] < =
+m['T'])=0A=
+	{=0A=
+		return false;=0A=
+	}=0A=
+	return true;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Handle IE overlapping <select> elements=0A=
+*=0A=
+* @param	boolean	Hide (true) or show (false) overlapping <select> =
+elements=0A=
+*/=0A=
+vB_Popup_Menu.prototype.handle_overlaps =3D function(dohide)=0A=
+{=0A=
+	if (is_ie)=0A=
+	{=0A=
+		var selects =3D fetch_tags(document, 'select');=0A=
+=0A=
+		if (dohide)=0A=
+		{=0A=
+			var menuarea =3D new Array(); menuarea =3D {=0A=
+				'L' : this.leftpx,=0A=
+				'R' : this.leftpx + this.menuobj.offsetWidth,=0A=
+				'T' : this.toppx,=0A=
+				'B' : this.toppx + this.menuobj.offsetHeight=0A=
+			};=0A=
+=0A=
+			for (var i =3D 0; i < selects.length; i++)=0A=
+			{=0A=
+				if (this.overlaps(selects[i], menuarea))=0A=
+				{=0A=
+					var hide =3D true;=0A=
+					var s =3D selects[i];=0A=
+					while (s =3D s.parentNode)=0A=
+					{=0A=
+						if (s.className =3D=3D 'vbmenu_popup')=0A=
+						{=0A=
+							hide =3D false;=0A=
+							break;=0A=
+						}=0A=
+					}=0A=
+=0A=
+					if (hide)=0A=
+					{=0A=
+						selects[i].style.visibility =3D 'hidden';=0A=
+						array_push(vBmenu.hidden_selects, i);=0A=
+					}=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			while (true)=0A=
+			{=0A=
+				var i =3D array_pop(vBmenu.hidden_selects);=0A=
+				if (typeof i =3D=3D 'undefined' || i =3D=3D null)=0A=
+				{=0A=
+					break;=0A=
+				}=0A=
+				else=0A=
+				{=0A=
+					selects[i].style.visibility =3D 'visible';=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+// =
+#########################################################################=
+####=0A=
+// Menu event handler functions=0A=
+=0A=
+/**=0A=
+* Class containing menu popup event handlers=0A=
+*/=0A=
+function vB_Popup_Events()=0A=
+{=0A=
+}=0A=
+=0A=
+/**=0A=
+* Handles control object click events=0A=
+*/=0A=
+vB_Popup_Events.prototype.controlobj_onclick =3D function(e)=0A=
+{=0A=
+	do_an_e(e);=0A=
+	if (vBmenu.activemenu =3D=3D null || =
+vBmenu.menus[vBmenu.activemenu].controlkey !=3D this.id)=0A=
+	{=0A=
+		vBmenu.menus[this.id].show(this);=0A=
+	}=0A=
+	else=0A=
+	{=0A=
+		vBmenu.menus[this.id].hide();=0A=
+	}=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles control object mouseover events=0A=
+*/=0A=
+vB_Popup_Events.prototype.controlobj_onmouseover =3D function(e)=0A=
+{=0A=
+	do_an_e(e);=0A=
+	vBmenu.menus[this.id].hover(this);=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles menu option click events for options with onclick events=0A=
+*/=0A=
+vB_Popup_Events.prototype.menuoption_onclick_function =3D function(e)=0A=
+{=0A=
+	this.ofunc(e);=0A=
+	vBmenu.menus[this.controlkey].hide();=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles menu option click events for options containing links=0A=
+*/=0A=
+vB_Popup_Events.prototype.menuoption_onclick_link =3D function(e)=0A=
+{=0A=
+	vBmenu.menus[this.controlkey].choose(e, this);=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles menu option mouseover events=0A=
+*/=0A=
+vB_Popup_Events.prototype.menuoption_onmouseover =3D function(e)=0A=
+{=0A=
+	this.className =3D 'vbmenu_hilite';=0A=
+};=0A=
+=0A=
+/**=0A=
+* Handles menu option mouseout events=0A=
+*/=0A=
+vB_Popup_Events.prototype.menuoption_onmouseout =3D function(e)=0A=
+{=0A=
+	this.className =3D 'vbmenu_option';=0A=
+};=0A=
+=0A=
+/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*\=0A=
+|| ####################################################################=0A=
+|| # Downloaded: 02:53, Sat Oct 1st 2005=0A=
+|| # CVS: $RCSfile: vbulletin_menu.js,v $ - $Revision: 1.39 $=0A=
+|| ####################################################################=0A=
+\*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/pphlogger.js
+
+/* -----------------------------------------------=0A=
+   POWER PHLOGGER - v.2.2.5=0A=
+   (c) 2000-2003 www.phpee.com=0A=
+   contact: webmaster@phpee.com=0A=
+  ------------------------------------------------ */=0A=
+  =0A=
+id =3D "forums";=0A=
+=0A=
+// define some defaults -------------------------------------=0A=
+if(showme=3D=3Dnull) var showme=3D'n';=0A=
+if(st=3D=3Dnull)     var st=3D'js';    // st means show-type=0A=
+=0A=
+=0A=
+// get the user agent name ----------------------------------=0A=
+v =3D navigator.appName;=0A=
+=0A=
+// get the screen resolution --------------------------------=0A=
+c=3D0;=0A=
+if (v !=3D "Netscape") c =3D screen.colorDepth;=0A=
+else c =3D screen.pixelDepth;=0A=
+=0A=
+// get the screen size --------------------------------------=0A=
+s =3D screen.width+"x"+screen.height;=0A=
+=0A=
+// get the document's title ---------------------------------=0A=
+t =3D escape(document.title);=0A=
+=0A=
+// get the document's referrer -------------------------------=0A=
+var f =3D "";=0A=
+=0A=
+// if pp_frames is true then try getting the framed referral (without =
+error checking)=0A=
+if (typeof(pp_frames) !=3D "undefined")=0A=
+	if (pp_frames)=0A=
+		f =3D top.document.referrer;=0A=
+=0A=
+// get the referral for non-multi-domained-framed sites using a Netscape =
+browser=0A=
+if ((f =3D=3D "") || (f =3D=3D "[unknown origin]") || (f =3D=3D =
+"unknown") || (f =3D=3D "undefined"))=0A=
+	if (document["parent"] !=3D null) =0A=
+		if (parent["document"] !=3D null) // ACCESS ERROR HERE!=0A=
+			if (parent.document["referrer"] !=3D null) =0A=
+				if (typeof(parent.document) =3D=3D "object")=0A=
+					f =3D parent.document.referrer; =0A=
+=0A=
+// get the referral for the current document if a framed referral wasn't =
+found=0A=
+if ((f =3D=3D "") || (f =3D=3D "[unknown origin]") || (f =3D=3D =
+"unknown") || (f =3D=3D "undefined"))=0A=
+	if (document["referrer"] !=3D null) =0A=
+		f =3D document.referrer;=0A=
+=0A=
+// convert all the unknown's into blank=0A=
+if ((f =3D=3D "") || (f =3D=3D "[unknown origin]") || (f =3D=3D =
+"unknown") || (f =3D=3D "undefined"))=0A=
+	f =3D "";=0A=
+=0A=
+// escape the referral=0A=
+f =3D escape(f);=0A=
+=0A=
+// getting data ready to send -------------------------------=0A=
+r=3D"?id=3D"+id+"&referer=3D"+f+"&r=3D"+s+"&c=3D"+c+"&showme=3D"+showme+"=
+&st=3D"+st+"&title=3D"+t;=0A=
+=0A=
+// adding logid if called by st=3D'phpjs'=0A=
+if(jslogid=3D=3Dnull) var jslogid =3D 0;=0A=
+else r =3D r + "&jslogid=3D"+jslogid;=0A=
+=0A=
+=0A=
+if (st=3D=3D'js') { // calling PowerPhlogger by JavaScript-tag=0A=
+	if (v !=3D "Microsoft Internet Explorer") {=0A=
+		r =3D r+"&url=3D"+document.URL; // $HTTP_REFERER problem with NS,...=0A=
+	}=0A=
+	document.open();=0A=
+	document.write("<script type=3D\"text/javascript\" =
+src=3D\"http://www.desilva.biz/logger/pphlogger.php"+r+"\"></script>");=0A=
+	document.close();=0A=
+} else { // calling PowerPhlogger by IMG-tag=0A=
+	rand =3D Math.round(1000*Math.random());=0A=
+	r =3D r+"&b=3D"+rand;  //force the page to load the IMG=0A=
+	document.open();=0A=
+	document.write("<img =
+src=3D\"http://www.desilva.biz/logger/pphlogger.php"+r+"\" alt=3D\"\" =
+border=3D\"0\">");=0A=
+	document.close();=0A=
+}=0A=
+=0A=
+// stuff=0A=
+function _gidrd( id )=0A=
+{=0A=
+	var _gidauf =3D document.frmGIDAAT;=0A=
+	_gidauf.action	=3D "http://www.gidnetwork.com/gidrd.php";=0A=
+	_gidauf.i.value	=3D id;=0A=
+	_gidauf.target	=3D "_blank";=0A=
+	_gidauf.submit();=0A=
+}=0A=
+function _gidhs()=0A=
+{=0A=
+	window.status =3D '';=0A=
+}=0A=
+function _gidss( url )=0A=
+{=0A=
+	window.status =3D 'http://' + url;=0A=
+	return( true );=0A=
+}=0A=
+=0A=
+function gtcb( url )=0A=
+{=0A=
+	var gf =3D document.gidadcbform;=0A=
+	gf.action =3D "http://www.gidnetwork.com/gidcontext-r.php?p=3Dcb";=0A=
+	gf.iRD.value =3D url;=0A=
+	gf.iB.value =3D 0;=0A=
+	gf.iL.value =3D "";=0A=
+	gf.target =3D "_blank";=0A=
+	gf.submit();=0A=
+}
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: base64
+Content-Location: http://partner.googleadservices.com/gampad/google_service.js
+
+H4sIAAAAAAAC/5VYW1fbuhJ+51ckWl2uVKtO6H6q3SGLtkAppbTQ7l6SlCXbiuMQ7GzbAbpJ/vuZ
+sRzHocA55yWRNJrRXL4ZjbzFR/MkKOI04eL2SmWtESTz6VRewEhNc+2tqK0pV+K2GMe5U8Dt0jOj
+OMB9K34lA6nFrQbd0y5P9HXrrSq0cCJdfIkvNRcVU18Noa9lMGxI4SwvVFYwOZJKLEmPSyAJU+86
+TsL02jnYPZ/kRXwZJxHckrjMncppqkL3cunFI/7nNnH755oTku73rMew7dGpSdMcXwbGJxoUqu0P
+ZUgDp1SVDtWWxcPFIhAi08U8S+qN/S7tDdpwlcZhq9sL3JCW9PPw3tMzPUuz4oGjGfOUM8aTtA3M
+YjZORKlrqYwcQ2gUkhn0hzKln8gbpRmPWnHSCgXqGbWh8q9loa1JqG9ORpydM9GGrjknhrAfDfvb
+Qy/uhf14aFmpM5vnYx7ZzGE26RRJIqAdQrioT/YHXYhlqKe60K1w7SNfkC50xIT08UVlxsRmwGy/
+PxmWxijoB+gmNi6KmdvpBHnsRCgDseEE6SXNmWS9K/gL/6wcOe+JuJMni8UWi9QlEzazVOlMYFI5
+ibrUMnWmOomKcY9ZcYESUmeSxglHgcJl+MukRtkYByazNWlYDZmQfgnJw0sVaZnDfSiy7fvCG/bz
+Ifie76QJIRZooLMszaCRe5XnHmBfIneeBaA8H0ZehTa1XJa+mwHlkfxnA0AmrJiR4JewzWfTuOAY
+K+EFECwWM6/NCZQYk0BYVuDoGx2cBVk8KzZnnJEgZtNm4a2COfbCyp2IzBKD43hUcCE80V5TdBvq
+FOiPh6BdPBsH5cwtl26XSzlvaG709qFYl54A3bMMnFmWFmnxe4YWrceYGxd35ut9FK7A+OgKOr94
+f3D9fGgPHPHMDG9fyKXgA7ffff5yaIvek468vuNERHBbrdLbL0VhFJxLVQRjfiVWoUDsontc3xx2
+I38DK+snk//ChdyFG/gNwIpsrlmPfl2amh29C/ffkut1Ew6V3GtOyJzNfRXmDkIhnftTHUyxYjqJ
+Lpgw573d8N8qRD4oLMnQRdyeFRkiCXORSs1UBZp3fvUH+eBGdYf2oh496USYBqKBFalWvOr/59Vw
+rIox+uqG+xUkMBfNQCAou4hE6FpW+Ep7oW2byI/B74fDxQLtzkCthimc6mjvZsYZHwzCZxi0wdtn
+Al0T4TnRI0QvTKv6lpaY5mOxWPRNujM2lBOIzHq2sU6VK8aIVtqWak425sLPtLqoABFj4VyTel13
+prJcHyYFJ4rc7gosGJMHN01WmwJ4wwOZoypvkPNFY7ucNKdb3XpLSRDL63E81Zz8KZYrTC7lmz/R
+rF75FZyfb3saAdiixZ3VYmt7Bemuwdae3JcH8p08vAedMyysV3GkijTrNcbOPNfZbqSTwh0tvXdw
+APuwB8ZX78mz7+EQK4VJdAUNTm8P3q/vp5OZzhQTaJO3D+09y2rQjs8O9+j6QiMO7tK+af8oLirq
+u5LaPrAsvywN4TwoMPcOdHCRsrLTCBTsySPYlx/gnQwVHMhjb0u5pXof8fqVJ6RzoCxr5qSkkiDK
+J6hmzpXOcnSL/AhUdNIRkjC3K2ex3icu3E+1pz/0TqCTXQ1c3v81EB5WHT4QC0903COikFmD3P6D
+GOLpHOnGtEGHD85s0RHypNTlM5wYEJNbUY/Pvc+IKLzUSPEj4+hTeYYah2kwv8TAeKdw1jurp8dp
+qF1TqInldKeE5j7eVgX/iJE6XlWBU+GVuKe75xg+lv5TCo7lFyzk8iv9/A13OkoFL1eY+oq932LB
+6Q+OMPGr4zf0eGB5B7Ax9NpHi8Xf2EmSJxeLI2puOK21cRFvsQ/mxG/Atp2XzjbzvvS/0YH0B2/5
+N7FD+YEn4wp7yQyJBkjEv5IsvKro4jWvwhdOlKbRVOe/kzAOFJlFDQkzLZhWdxJsVXsD6nWUOPEn
+OijWN5IzVvnJdfIpI+QUv51ATafUN6Pqvplg/9sPhthJq6q2f9+o7WXDHGCPZ1pnn9rZdb3vYgFR
+WVT6LK+Khee/Cjzb9oVh6Nd0bFOHiO6l972h32TjtCpqhvOO7kjvrUQS1DblRDqewobg0piRuuem
+x4Y12FhW2K4y8kjZYJIjtOLKoZ64bn2coLJvp0s7V+MeEerezcYf22+0eZvUBmW57jYitVaN4bWr
+E7ykCXCYglWCK6B+mhIC1VT14YRGH2Ak0Moy4U0LVneKZ+cGS2c6u4oDfRjm5xgEugRHiMgAkLc+
+sEe9yw+Xfn/KxwUAusV3S+ghBCjejqqDj9cqqQ6Ai7jX3FrYyNB0vW8IaqkgWJZVSjU7zH84q4/d
+DcPd8IzUqxRgMlJi7bmx4usMUJQBjyi+cvFjtimEufG4326UVAq4ThR2QlwsNzTcK1d3p9NKSs7k
+GDXcqlWMScVHjqR2tCnwVOe62JAXNy2eqLrG1ZHDlgndPeqN3P9i2srHZjtjiE5lECk2dDjQBbLs
+p9ld50+aqlyoRsY+oaxpythHVWq+iybfdG3CE14bsU603ohyL6In0l2tsOXaUIzJaVNyUResEb5b
+yoGqK1dUNuffl1vN6lik5ppp3iA1noD1mW3E2awVh7nbYtIA3shuYt6nssAVPjUlNbE2mC2UbrQ4
+ZGuEl4XpyX11738MZKN2/ESFC1PIyycZmycXSXqdYIGZ85/C+9kw1iC4aWpD0I+7gtaBKS3RcIES
+fyC0fzwqkp4vhqEKsqcAq0F9w349/SDIUevmqWdMPA+1P8f+eae7WDSo1l2q6LFqCTU8D/3ImeTM
+bazR3KuqafW4Z/bqhs0KfAhXNyxZaJKsumB3UbGKKW9w5TqY40vkwSeRqHpyes97Gl5jt8A1aKyt
+D/NgH4AMPWoPx2lOHwde01NWgW+zTqQuZyrE85Ud4POb5eWzmHm1E6+zuNCcvcK7xn7aomc6e4qb
+n7KdV4OO2b3ztA4cPf/u/2JlWVv3PP/Lj13iHgJ9Syi/bACjIZMP7Wl+YMOC6T0CZ3TE49VRePhi
+Flv/AYexDEg3FAAA
+
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gidforums.com/clientscript/vbulletin_md5.js
+
+/*=0A=
+ * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message=0A=
+ * Digest Algorithm, as defined in RFC 1321.=0A=
+ * Version 2.1 Copyright (C) Paul Johnston 1999 - 2002.=0A=
+ * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet=0A=
+ * Distributed under the BSD License=0A=
+ * See http://pajhome.org.uk/crypt/md5 for more info.=0A=
+=0A=
+ * vBulletin Usage: md5hash(input,output)=0A=
+ * Recommend: input =3D password input field; output =3D hidden field=0A=
+=0A=
+ */=0A=
+=0A=
+/*=0A=
+ * Configurable variables. You may need to tweak these to be compatible =
+with=0A=
+ * the server-side, but the defaults work in most cases.=0A=
+ */=0A=
+var hexcase =3D 0;  /* hex output format. 0 - lowercase; 1 - uppercase   =
+     */=0A=
+var b64pad  =3D ""; /* base-64 pad character. "=3D" for strict RFC =
+compliance   */=0A=
+var chrsz   =3D 8;  /* bits per input character. 8 - ASCII; 16 - Unicode =
+     */=0A=
+=0A=
+/*=0A=
+ * These are the functions you'll usually want to call=0A=
+ * They take string arguments and return either hex or base-64 encoded =
+strings=0A=
+ */=0A=
+function hex_md5(s){ return binl2hex(core_md5(str2binl(s), s.length * =
+chrsz));}=0A=
+function b64_md5(s){ return binl2b64(core_md5(str2binl(s), s.length * =
+chrsz));}=0A=
+function str_md5(s){ return binl2str(core_md5(str2binl(s), s.length * =
+chrsz));}=0A=
+function hex_hmac_md5(key, data) { return binl2hex(core_hmac_md5(key, =
+data)); }=0A=
+function b64_hmac_md5(key, data) { return binl2b64(core_hmac_md5(key, =
+data)); }=0A=
+function str_hmac_md5(key, data) { return binl2str(core_hmac_md5(key, =
+data)); }=0A=
+=0A=
+/*=0A=
+ * Calculate the MD5 of an array of little-endian words, and a bit length=0A=
+ */=0A=
+function core_md5(x, len)=0A=
+{=0A=
+  /* append padding */=0A=
+  x[len >> 5] |=3D 0x80 << ((len) % 32);=0A=
+  x[(((len + 64) >>> 9) << 4) + 14] =3D len;=0A=
+=0A=
+  var a =3D  1732584193;=0A=
+  var b =3D -271733879;=0A=
+  var c =3D -1732584194;=0A=
+  var d =3D  271733878;=0A=
+=0A=
+  for(var i =3D 0; i < x.length; i +=3D 16)=0A=
+  {=0A=
+    var olda =3D a;=0A=
+    var oldb =3D b;=0A=
+    var oldc =3D c;=0A=
+    var oldd =3D d;=0A=
+=0A=
+    a =3D md5_ff(a, b, c, d, x[i+ 0], 7 , -680876936);=0A=
+    d =3D md5_ff(d, a, b, c, x[i+ 1], 12, -389564586);=0A=
+    c =3D md5_ff(c, d, a, b, x[i+ 2], 17,  606105819);=0A=
+    b =3D md5_ff(b, c, d, a, x[i+ 3], 22, -1044525330);=0A=
+    a =3D md5_ff(a, b, c, d, x[i+ 4], 7 , -176418897);=0A=
+    d =3D md5_ff(d, a, b, c, x[i+ 5], 12,  1200080426);=0A=
+    c =3D md5_ff(c, d, a, b, x[i+ 6], 17, -1473231341);=0A=
+    b =3D md5_ff(b, c, d, a, x[i+ 7], 22, -45705983);=0A=
+    a =3D md5_ff(a, b, c, d, x[i+ 8], 7 ,  1770035416);=0A=
+    d =3D md5_ff(d, a, b, c, x[i+ 9], 12, -1958414417);=0A=
+    c =3D md5_ff(c, d, a, b, x[i+10], 17, -42063);=0A=
+    b =3D md5_ff(b, c, d, a, x[i+11], 22, -1990404162);=0A=
+    a =3D md5_ff(a, b, c, d, x[i+12], 7 ,  1804603682);=0A=
+    d =3D md5_ff(d, a, b, c, x[i+13], 12, -40341101);=0A=
+    c =3D md5_ff(c, d, a, b, x[i+14], 17, -1502002290);=0A=
+    b =3D md5_ff(b, c, d, a, x[i+15], 22,  1236535329);=0A=
+=0A=
+    a =3D md5_gg(a, b, c, d, x[i+ 1], 5 , -165796510);=0A=
+    d =3D md5_gg(d, a, b, c, x[i+ 6], 9 , -1069501632);=0A=
+    c =3D md5_gg(c, d, a, b, x[i+11], 14,  643717713);=0A=
+    b =3D md5_gg(b, c, d, a, x[i+ 0], 20, -373897302);=0A=
+    a =3D md5_gg(a, b, c, d, x[i+ 5], 5 , -701558691);=0A=
+    d =3D md5_gg(d, a, b, c, x[i+10], 9 ,  38016083);=0A=
+    c =3D md5_gg(c, d, a, b, x[i+15], 14, -660478335);=0A=
+    b =3D md5_gg(b, c, d, a, x[i+ 4], 20, -405537848);=0A=
+    a =3D md5_gg(a, b, c, d, x[i+ 9], 5 ,  568446438);=0A=
+    d =3D md5_gg(d, a, b, c, x[i+14], 9 , -1019803690);=0A=
+    c =3D md5_gg(c, d, a, b, x[i+ 3], 14, -187363961);=0A=
+    b =3D md5_gg(b, c, d, a, x[i+ 8], 20,  1163531501);=0A=
+    a =3D md5_gg(a, b, c, d, x[i+13], 5 , -1444681467);=0A=
+    d =3D md5_gg(d, a, b, c, x[i+ 2], 9 , -51403784);=0A=
+    c =3D md5_gg(c, d, a, b, x[i+ 7], 14,  1735328473);=0A=
+    b =3D md5_gg(b, c, d, a, x[i+12], 20, -1926607734);=0A=
+=0A=
+    a =3D md5_hh(a, b, c, d, x[i+ 5], 4 , -378558);=0A=
+    d =3D md5_hh(d, a, b, c, x[i+ 8], 11, -2022574463);=0A=
+    c =3D md5_hh(c, d, a, b, x[i+11], 16,  1839030562);=0A=
+    b =3D md5_hh(b, c, d, a, x[i+14], 23, -35309556);=0A=
+    a =3D md5_hh(a, b, c, d, x[i+ 1], 4 , -1530992060);=0A=
+    d =3D md5_hh(d, a, b, c, x[i+ 4], 11,  1272893353);=0A=
+    c =3D md5_hh(c, d, a, b, x[i+ 7], 16, -155497632);=0A=
+    b =3D md5_hh(b, c, d, a, x[i+10], 23, -1094730640);=0A=
+    a =3D md5_hh(a, b, c, d, x[i+13], 4 ,  681279174);=0A=
+    d =3D md5_hh(d, a, b, c, x[i+ 0], 11, -358537222);=0A=
+    c =3D md5_hh(c, d, a, b, x[i+ 3], 16, -722521979);=0A=
+    b =3D md5_hh(b, c, d, a, x[i+ 6], 23,  76029189);=0A=
+    a =3D md5_hh(a, b, c, d, x[i+ 9], 4 , -640364487);=0A=
+    d =3D md5_hh(d, a, b, c, x[i+12], 11, -421815835);=0A=
+    c =3D md5_hh(c, d, a, b, x[i+15], 16,  530742520);=0A=
+    b =3D md5_hh(b, c, d, a, x[i+ 2], 23, -995338651);=0A=
+=0A=
+    a =3D md5_ii(a, b, c, d, x[i+ 0], 6 , -198630844);=0A=
+    d =3D md5_ii(d, a, b, c, x[i+ 7], 10,  1126891415);=0A=
+    c =3D md5_ii(c, d, a, b, x[i+14], 15, -1416354905);=0A=
+    b =3D md5_ii(b, c, d, a, x[i+ 5], 21, -57434055);=0A=
+    a =3D md5_ii(a, b, c, d, x[i+12], 6 ,  1700485571);=0A=
+    d =3D md5_ii(d, a, b, c, x[i+ 3], 10, -1894986606);=0A=
+    c =3D md5_ii(c, d, a, b, x[i+10], 15, -1051523);=0A=
+    b =3D md5_ii(b, c, d, a, x[i+ 1], 21, -2054922799);=0A=
+    a =3D md5_ii(a, b, c, d, x[i+ 8], 6 ,  1873313359);=0A=
+    d =3D md5_ii(d, a, b, c, x[i+15], 10, -30611744);=0A=
+    c =3D md5_ii(c, d, a, b, x[i+ 6], 15, -1560198380);=0A=
+    b =3D md5_ii(b, c, d, a, x[i+13], 21,  1309151649);=0A=
+    a =3D md5_ii(a, b, c, d, x[i+ 4], 6 , -145523070);=0A=
+    d =3D md5_ii(d, a, b, c, x[i+11], 10, -1120210379);=0A=
+    c =3D md5_ii(c, d, a, b, x[i+ 2], 15,  718787259);=0A=
+    b =3D md5_ii(b, c, d, a, x[i+ 9], 21, -343485551);=0A=
+=0A=
+    a =3D safe_add(a, olda);=0A=
+    b =3D safe_add(b, oldb);=0A=
+    c =3D safe_add(c, oldc);=0A=
+    d =3D safe_add(d, oldd);=0A=
+  }=0A=
+  return Array(a, b, c, d);=0A=
+=0A=
+}=0A=
+=0A=
+/*=0A=
+ * These functions implement the four basic operations the algorithm =
+uses.=0A=
+ */=0A=
+function md5_cmn(q, a, b, x, s, t)=0A=
+{=0A=
+  return safe_add(bit_rol(safe_add(safe_add(a, q), safe_add(x, t)), =
+s),b);=0A=
+}=0A=
+function md5_ff(a, b, c, d, x, s, t)=0A=
+{=0A=
+  return md5_cmn((b & c) | ((~b) & d), a, b, x, s, t);=0A=
+}=0A=
+function md5_gg(a, b, c, d, x, s, t)=0A=
+{=0A=
+  return md5_cmn((b & d) | (c & (~d)), a, b, x, s, t);=0A=
+}=0A=
+function md5_hh(a, b, c, d, x, s, t)=0A=
+{=0A=
+  return md5_cmn(b ^ c ^ d, a, b, x, s, t);=0A=
+}=0A=
+function md5_ii(a, b, c, d, x, s, t)=0A=
+{=0A=
+  return md5_cmn(c ^ (b | (~d)), a, b, x, s, t);=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Calculate the HMAC-MD5, of a key and some data=0A=
+ */=0A=
+function core_hmac_md5(key, data)=0A=
+{=0A=
+  var bkey =3D str2binl(key);=0A=
+  if(bkey.length > 16) bkey =3D core_md5(bkey, key.length * chrsz);=0A=
+=0A=
+  var ipad =3D Array(16), opad =3D Array(16);=0A=
+  for(var i =3D 0; i < 16; i++)=0A=
+  {=0A=
+    ipad[i] =3D bkey[i] ^ 0x36363636;=0A=
+    opad[i] =3D bkey[i] ^ 0x5C5C5C5C;=0A=
+  }=0A=
+=0A=
+  var hash =3D core_md5(ipad.concat(str2binl(data)), 512 + data.length * =
+chrsz);=0A=
+  return core_md5(opad.concat(hash), 512 + 128);=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Add integers, wrapping at 2^32. This uses 16-bit operations internally=0A=
+ * to work around bugs in some JS interpreters.=0A=
+ */=0A=
+function safe_add(x, y)=0A=
+{=0A=
+  var lsw =3D (x & 0xFFFF) + (y & 0xFFFF);=0A=
+  var msw =3D (x >> 16) + (y >> 16) + (lsw >> 16);=0A=
+  return (msw << 16) | (lsw & 0xFFFF);=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Bitwise rotate a 32-bit number to the left.=0A=
+ */=0A=
+function bit_rol(num, cnt)=0A=
+{=0A=
+  return (num << cnt) | (num >>> (32 - cnt));=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Convert a string to an array of little-endian words=0A=
+ * If chrsz is ASCII, characters >255 have their hi-byte silently =
+ignored.=0A=
+ */=0A=
+function str2binl(str)=0A=
+{=0A=
+  var bin =3D new Array();=0A=
+  var mask =3D (1 << chrsz) - 1;=0A=
+  for(var i =3D 0; i < str.length * chrsz; i +=3D chrsz)=0A=
+    bin[i>>5] |=3D (str.charCodeAt(i / chrsz) & mask) << (i%32);=0A=
+  return bin;=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Convert an array of little-endian words to a string=0A=
+ */=0A=
+function binl2str(bin)=0A=
+{=0A=
+  var str =3D "";=0A=
+  var mask =3D (1 << chrsz) - 1;=0A=
+  for(var i =3D 0; i < bin.length * 32; i +=3D chrsz)=0A=
+    str +=3D String.fromCharCode((bin[i>>5] >>> (i % 32)) & mask);=0A=
+  return str;=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Convert an array of little-endian words to a hex string.=0A=
+ */=0A=
+function binl2hex(binarray)=0A=
+{=0A=
+  var hex_tab =3D hexcase ? "0123456789ABCDEF" : "0123456789abcdef";=0A=
+  var str =3D "";=0A=
+  for(var i =3D 0; i < binarray.length * 4; i++)=0A=
+  {=0A=
+    str +=3D hex_tab.charAt((binarray[i>>2] >> ((i%4)*8+4)) & 0xF) +=0A=
+           hex_tab.charAt((binarray[i>>2] >> ((i%4)*8  )) & 0xF);=0A=
+  }=0A=
+  return str;=0A=
+}=0A=
+=0A=
+/*=0A=
+ * Convert an array of little-endian words to a base-64 string=0A=
+ */=0A=
+function binl2b64(binarray)=0A=
+{=0A=
+  var tab =3D =
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";=0A=
+  var str =3D "";=0A=
+  for(var i =3D 0; i < binarray.length * 4; i +=3D 3)=0A=
+  {=0A=
+    var triplet =3D (((binarray[i   >> 2] >> 8 * ( i   %4)) & 0xFF) << =
+16)=0A=
+                | (((binarray[i+1 >> 2] >> 8 * ((i+1)%4)) & 0xFF) << 8 )=0A=
+                |  ((binarray[i+2 >> 2] >> 8 * ((i+2)%4)) & 0xFF);=0A=
+    for(var j =3D 0; j < 4; j++)=0A=
+    {=0A=
+      if(i * 8 + j * 6 > binarray.length * 32) str +=3D b64pad;=0A=
+      else str +=3D tab.charAt((triplet >> 6*(3-j)) & 0x3F);=0A=
+    }=0A=
+  }=0A=
+  return str;=0A=
+}=0A=
+=0A=
+function str_to_ent(str)=0A=
+{=0A=
+	var result =3D '';=0A=
+	var i;=0A=
+=0A=
+	for (i =3D 0; i < str.length; i++)=0A=
+	{=0A=
+		var c =3D str.charCodeAt(i);=0A=
+		var tmp =3D '';=0A=
+=0A=
+		if (c > 255)=0A=
+		{=0A=
+=0A=
+			while (c >=3D 1)=0A=
+			{=0A=
+				tmp =3D "0123456789" . charAt(c % 10) + tmp;=0A=
+				c =3D c / 10;=0A=
+			}=0A=
+=0A=
+			if (tmp =3D=3D '')=0A=
+			{=0A=
+				tmp =3D "0";=0A=
+			}=0A=
+			tmp =3D "#" + tmp;=0A=
+			tmp =3D "&" + tmp;=0A=
+			tmp =3D tmp + ";";=0A=
+=0A=
+			result +=3D tmp;=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			result +=3D str.charAt(i);=0A=
+		}=0A=
+	}=0A=
+	return result;=0A=
+}=0A=
+=0A=
+function trim(s)=0A=
+{=0A=
+	while (s.substring(0, 1) =3D=3D ' ')=0A=
+	{=0A=
+		s =3D s.substring(1, s.length);=0A=
+	}=0A=
+	while (s.substring(s.length-1, s.length) =3D=3D ' ')=0A=
+	{=0A=
+		s =3D s.substring(0, s.length-1);=0A=
+	}=0A=
+	return s;=0A=
+}=0A=
+=0A=
+function md5hash(input, output_html, output_utf, skip_empty)=0A=
+{=0A=
+=0A=
+	if (navigator.userAgent.indexOf("Mozilla/") =3D=3D 0 && =
+parseInt(navigator.appVersion) >=3D 4)=0A=
+	{=0A=
+		var md5string =3D hex_md5(str_to_ent(trim(input.value)));=0A=
+		output_html.value =3D md5string;=0A=
+		if (output_utf)=0A=
+		{=0A=
+			md5string =3D hex_md5(trim(input.value));=0A=
+			output_utf.value =3D md5string;=0A=
+		}=0A=
+		if (!skip_empty)=0A=
+		{=0A=
+			// implemented like this to make sure un-updated templates behave as =
+before=0A=
+			input.value =3D '';=0A=
+		}=0A=
+	}=0A=
+=0A=
+	return true;=0A=
+}
+------=_NextPart_000_0000_01CB79B8.62918B40
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://ctxt.tribalfusion.com/ctxt/textlinks.js
+
+if(undefined=3D=3Dtf_ad_call){=0A=
+	var tf_ad_call=3D1;=0A=
+	var tf_version =3D '91';=0A=
+	function tf_adscript(u){=0A=
+		try{=0A=
+			if(navigator.appVersion.indexOf('MSIE')>=3D0 && =
+('uninitialized'=3D=3Ddocument.readyState||'interactive'=3D=3Ddocument.re=
+adyState||'loading'=3D=3Ddocument.readyState)){=0A=
+				document.write('<s'+'cript language=3D"javascript" =
+src=3D"'+u+'"></s'+'cript>');=0A=
+			}else{=0A=
+				var spt=3Ddocument.createElement("script");=0A=
+				spt.type=3D"text/javascript";=0A=
+				spt.src=3Du;=0A=
+				if(document.getElementsByTagName("head")[0]){=0A=
+					document.getElementsByTagName("head")[0].appendChild(spt);=0A=
+				}else{=0A=
+					document.getElementsByTagName("body")[0].appendChild(spt);=0A=
+				}=0A=
+			}=0A=
+		}catch(e){}=0A=
+	}=0A=
+=0A=
+	if(typeof tf_pubSiteId !=3D 'undefined' && tf_pubSiteId !=3D null && =
+tf_pubSiteId !=3D 157 && tf_pubSiteId !=3D 101963) {=0A=
+		=
+tf_adscript("http://ctxtad.tribalfusion.com/ctxtad/markerserve?siteId=3D"=
++tf_pubSiteId);=0A=
+	}=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CB79B8.62918B40--

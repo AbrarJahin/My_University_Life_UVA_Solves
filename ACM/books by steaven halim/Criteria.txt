@@ -1,0 +1,10 @@
+1: Very very easy, 5 minutes should be enough.
+2: Very easy.
+3: Easy.
+4: Getting harder.
+5: Standard problem, estimated time needed: 30 minutes - 2 hour.
+6: A very hard thinking / a lot of effort to solve it.
+7: I still don't 100% understand the algorithm (Somebody help me with the algo)
+8: Understand the problem, but cannot code it (don't have the correct/fast enough algo).
+9: Don't understand the problem and therefore, cannot code it.
+*: I haven't read it yet.

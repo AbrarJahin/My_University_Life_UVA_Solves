@@ -1,0 +1,904 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: C++ sample code - To find the BFS and DFS of the given graph - Source code examples
+Date: Tue, 2 Nov 2010 10:20:56 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0004_01CB7A77.A3505980"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cplusplus.happycodings.com/Data_Structures/code37.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>C++ sample code - To find the BFS and DFS of the =
+given graph - Source code examples</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3DHappyCodings name=3DAuthor>
+<META content=3D"index, follow" name=3DRobots>
+<META=20
+content=3D"To find the BFS and DFS of the given graph sample code source =
+code examples"=20
+name=3DDescription>
+<META content=3D"Computer Programming" name=3DClassification>
+<META content=3DAll name=3DRating>
+<META=20
+content=3D"c++, c++ code, c++ code examples, c++ program code, c++ =
+codes, c++ programming, c++ coding, visual c++,&#10;c++ source, cpp =
+code, arrays c++, c++ using, string c++, c++ game programming, c++ =
+implementation, c++ data structures, c++ sample code"=20
+name=3DKeywords><LINK href=3D"http://www.happycodings.com/style.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV class=3Dcontainer><A href=3D"http://www.happycodings.com/"><IMG=20
+alt=3D"Happy Codings" =
+src=3D"http://www.happycodings.com/images/happy.gif"=20
+border=3D0></A> <BR><BR><NOBR><A=20
+href=3D"http://www.asp.happycodings.com/index.html"><IMG=20
+alt=3D"Asp Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/2.gif" border=3D0></A> <A=20
+href=3D"http://www.aspnet.happycodings.com/index.html"><IMG=20
+alt=3D"Asp.Net Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/3.gif" border=3D0></A> <A=20
+href=3D"http://www.assembly.happycodings.com/index.html"><IMG=20
+alt=3D"Assembly Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/4.gif" border=3D0></A> <A=20
+href=3D"http://www.c.happycodings.com/index.html"><IMG=20
+alt=3D"C Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/5.gif" border=3D0></A> <A=20
+href=3D"http://www.cplusplus.happycodings.com/index.html"><IMG=20
+alt=3D"C++ Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/7.gif" border=3D0></A> <A=20
+href=3D"http://www.java.happycodings.com/index.html"><IMG=20
+alt=3D"Java Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/8.gif" border=3D0></A> <A=20
+href=3D"http://www.php.happycodings.com/index.html"><IMG=20
+alt=3D"Php Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/9.gif" border=3D0></A> <A=20
+href=3D"http://www.visualbasic.happycodings.com/index.html"><IMG=20
+alt=3D"Visual Basic Sample Source Codes, Code Examples"=20
+src=3D"http://www.happycodings.com/images/10.gif" border=3D0></A> <A=20
+href=3D"http://www.happycodings.com/Links/index.html"><IMG alt=3DLinks=20
+src=3D"http://www.happycodings.com/images/11.gif" border=3D0></A> =
+</NOBR><BR><BR>
+<DIV class=3Dstylebody>
+<DIV class=3Dstylebodyrow>
+<DIV class=3Dstyleleft>
+<SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-5832108353566940";=0A=
+/* 160x90, happycodings1 olu=FEturulma 23.04.2010 */=0A=
+google_ad_slot =3D "5855413629";=0A=
+google_ad_width =3D 160;=0A=
+google_ad_height =3D 90;=0A=
+//-->=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+<BR><BR>
+<DIV class=3Dlefthead>C++ Codes</DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Algorithms/index.html">Algo=
+rithms</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Data-Structures-and-Algorit=
+hm-Analysis-in-C++/index.html">Algorithm=20
+Analysis in C++</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Beginners_Lab_Assignments/i=
+ndex.html">Beginners</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/code_snippets/index.html">C=
+ode=20
+Snippets</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Computer_Graphics/index.htm=
+l">Graphics</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Data_Structures/index.html"=
+>Data=20
+Structures</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/File-Manipulation/index.htm=
+l">File=20
+Manipulation</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Games/index.html">Games</A>=
+</DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Mathematics/index.html">Mat=
+hematics</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Miscellaneous/index.html">M=
+iscellaneous</A></DIV>
+<DIV class=3Dleftpart><A class=3Dstyle2=20
+href=3D"http://www.cplusplus.happycodings.com/Visual-C++-5.0-Standard-C++=
+-Library/index.html">Visual=20
+C++ Library</A></DIV></DIV></DIV>
+<DIV class=3Dstylebodyrow>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </DIV>
+<DIV class=3Dstylebodyrow>
+<SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-5832108353566940";=0A=
+/* 336x280, happycodings2 olu=FEturulma 23.04.2010 */=0A=
+google_ad_slot =3D "6175050167";=0A=
+google_ad_width =3D 336;=0A=
+google_ad_height =3D 280;=0A=
+//-->=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-5832108353566940";=0A=
+/* 336x280, happycodings3 olu=FEturulma 23.04.2010 */=0A=
+google_ad_slot =3D "9619197611";=0A=
+google_ad_width =3D 336;=0A=
+google_ad_height =3D 280;=0A=
+//-->=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+ <BR><BR>
+<DIV class=3Dline></DIV>
+<H1 class=3Dstyle>C++ &gt; Data Structures sample source codes</H1>
+<H2 class=3Dstyle><IMG alt=3D"To find the BFS and DFS of the given =
+graph"=20
+src=3D"http://happycodings.com/images/list1.PNG" border=3D0> &nbsp;To =
+find the BFS=20
+and DFS of the given graph</H2>
+<SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-5832108353566940";=0A=
+/* 728x15, happycodings4 olu=FEturulma 23.04.2010 */=0A=
+google_ad_slot =3D "8275118910";=0A=
+google_ad_width =3D 728;=0A=
+google_ad_height =3D 15;=0A=
+//-->=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+<BR><TEXTAREA rows=3D40 readOnly cols=3D85>To find the BFS and DFS of =
+the given graph
+
+
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+
+#define size 20
+
+int a[10][10],vertex[10],n,e;
+
+/*STACK FUNCTIONS*/
+#define bottom -1
+
+int stack[size],top=3Dbottom;
+int stackempty()
+{
+	return(top=3Dbottom) ? 1:0;
+}
+int stackfull()
+{
+	return(top=3D=3Dsize-1) ? 1:0;
+}
+
+void push(int item)
+{
+	if(stackfull())
+		printf("7
+
+ STACK IS FULL");
+	else
+		stack[++top]=3Ditem;
+}
+
+int pop()
+{
+	if(stackempty())
+	{
+		printf("7
+
+ STACK IS EMPTY");
+		return -1;
+	}
+	else
+		return stack[top--];
+}
+
+int peep()
+{
+	if(stackempty())
+	{
+		printf("7
+
+ STACK IS EMPTY");
+		return -1;
+	}
+	else
+		return stack[top];
+}
+
+/* QUEUE FUNCTIONS */
+#define start -1
+
+int q[size];
+int f=3Dstart,r=3Dstart;
+
+int qempty(){ return(f=3D=3Dr)?1:0; }
+int qfull(){ return(r=3D=3Dsize-1)?1:0;}
+
+void addq(int c)
+{
+if(qfull())
+	printf("7
+
+QUEUE IS FULL");
+else
+	q[++r]=3Dc;
+}
+
+int delq()
+{
+if(qempty())
+	{
+	printf("7
+
+QUEUE IS EMPTY");
+	return -1;
+	}
+else
+	return q[++f];
+}
+// j is unvisited adjecent vertex to i
+int adjvertex(int i)
+{
+int j;
+for(j=3D0;j&lt;n;j++)
+	if(a[i][j]=3D=3D1&amp;&amp;vertex[j]=3D=3D0)
+		return j;
+	return n;
+}
+
+int  visitall()
+{
+int i;
+for(i=3D0;i&lt;n;i++)
+	if(vertex[i]=3D=3D0)
+		return 0;
+	return 1;
+}
+
+/*FUNCTION FOR BFS*/
+void bfs()
+{
+int i,j,k,cur=3D0;//current vertex is startting vertex
+for(i=3D0;i&lt;n;i++)
+	vertex[i]=3D0;//not visited
+printf("
+
+BFS path =3D&gt; V%d ",cur+1);
+addq(cur);
+vertex[cur]=3D1;//marking visited vertex
+	while(!visitall())
+		{
+		if(qempty())
+			{
+			printf("7
+
+GRAPH IS DISCONNECTED");
+			break;
+			}
+		cur=3Ddelq();
+		//visit all vertices which are adjecent to current vertex
+		for(j=3D0;j&lt;n;j++)
+			{
+			//adjecent are not visited
+			if(a[cur][j]=3D=3D1&amp;&amp;vertex[j]=3D=3D0)
+				{
+				printf("V%d ",j+1);
+				addq(j);
+				//marking visited vertex
+				vertex[j]=3D1;
+				}
+			}
+		}
+}
+
+/*FUNCTION FOR DFS*/
+void dfs()
+{
+int i,j,k,cur=3D0;//current vertex is startting vertex
+for(i=3D0;i&lt;n;i++)
+	vertex[i]=3D0;//not visited
+printf("
+
+DFS path =3D&gt; V%d ",cur+1);
+push(cur);
+vertex[cur]=3D1;//marking visited vertex
+	while(!visitall())
+		{
+		do
+			{
+			cur=3Dadjvertex(peep());
+			if(cur=3D=3Dn) pop();
+			}
+		while(cur=3D=3Dn&amp;&amp;!stackempty());
+		if(stackempty())
+			{
+			printf("7
+
+GRAPH IS DISCONNECTED");
+			break;
+			}
+		if(cur!=3Dn)
+			{
+			printf(" V%d ",cur+1);
+			push(cur);
+			vertex[cur]=3D1;//marking visited vertex
+			}
+		}
+}
+
+/*MAIN PROGRAM*/
+void main()
+{
+	int i,j,k;
+	clrscr();
+	for(i=3D0;i&lt;10;i++)
+	for(j=3D0;j&lt;10;j++)
+	a[i][j]=3D0;
+
+	printf("
+ENTER NO OF VERTICES &amp; EDGES OF UNDIRECTED GRAPH : ");
+	scanf("%d%d",&amp;n,&amp;e);
+
+	printf("
+ENTER EDGES AS PAIR OF VERTICES
+
+");
+	for(k=3D1;k&lt;=3De;k++)
+		{
+		printf("EDGE %d =3D&gt;",k);
+		scanf("%d%d",&amp;i,&amp;j);
+		//for undirected graph
+		a[i-1][j-1]=3D1;
+		}
+
+	dfs();
+	bfs();
+	getch();
+}
+
+
+
+
+</TEXTAREA><BR><BR>
+<DIV class=3Dstylesearch><BR>
+<FORM id=3Dcse-search-box action=3Dhttp://www.google.com/cse>
+<DIV><INPUT type=3Dhidden =
+value=3Dpartner-pub-5832108353566940:o2idnt-jbap name=3Dcx>=20
+<INPUT type=3Dhidden value=3DISO-8859-1 name=3Die> <INPUT size=3D64 =
+name=3Dq> <INPUT type=3Dsubmit value=3DSearch name=3Dsa> </DIV></FORM>
+<SCRIPT=20
+src=3D"http://www.google.com/coop/cse/brand?form=3Dcse-search-box&amp;lan=
+g=3Den"=20
+type=3Dtext/javascript></SCRIPT>
+</DIV>
+<DIV class=3Dline></DIV>
+<SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-5832108353566940";=0A=
+/* 728x90, happycodings5 olu=FEturulma 23.04.2010 */=0A=
+google_ad_slot =3D "3252992853";=0A=
+google_ad_width =3D 728;=0A=
+google_ad_height =3D 90;=0A=
+//-->=0A=
+</SCRIPT>
+
+<SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+<BR><BR>
+<DIV class=3Dline></DIV><A class=3Dstyle3=20
+href=3D"http://happycodings.com/privacy-policy.html">Privacy Policy</A> =
+| <A=20
+class=3Dstyle3 href=3D"http://happycodings.com/link-to-us.html">Link to =
+Us</A> | <A=20
+class=3Dstyle3 =
+href=3D"http://happycodings.com/Links/index.html">Links</A>=20
+<BR><BR></DIV></DIV></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://ssl." : "http://www.");=0A=
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' type=3D'text/javascript'%3E%3C/script%3E"));=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+var pageTracker =3D _gat._getTracker("UA-3063297-2");=0A=
+pageTracker._initData();=0A=
+pageTracker._trackPageview();=0A=
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/happy.gif
+
+R0lGODlhuAFQAPcAAPDw8QGZ/zOt/onP/qrd/93x/+74/+ns7ujr7QKX9RKg/iOn/Dyw90a0+02r
+6VW6/GPA/GzD+nLG+3fJ/3nI+nfF9H7L/YTN+5HS+5nW/om/4Z7Y/KTb/qfb/ajc/ava+a/e/Lvk
+/7Ta8brd88vi8NPm8gCS5gGM2hCd8Rig6ySl7i+q8j2g21yt3WW/8HrF73/J9Hu+5YLG7IzN9IvH
+6ZnR8pbM66TY96LV8ajP5sHg8rfU5cXb59Xh6N3n7eXv9Qma6DSr6z2v7Eez6la57m/C72295oPL
+8qnZ863Z8KrS5+br7QDvAADgAAP7AxLkEhn8GR/iHyLmIif8Jzf9NzLoMj3uPT3iPT3dPUf9R0Hp
+QVj8WFXpVWb8ZmDuYHX9dXHvcYP5g3rnepP8k4noiZDykJrymqL+oqH4oaD0oJnnmaj3qKXypa/9
+r6vsq7j9uLf1t7TqtMH3wdD10Mbmxtfp1+L04u/979/s3/H68fzsq/Hr0/Ty6ero4Oy7Cf7LDf/R
+KP7VPP7bVf3eaf7heOvSePzkiP3omOzdqPXqwOviwvXw3ejk1vPq6f0AAPQAAOcAAN0AAP8NDesP
+D/8VFf8cHO4fH/8jI9geHv8rK/YuLv8xMe8uLv82Nv87O/Y+Pv9DQ+U9Pf9MTPBNTf9UVOJMTP9c
+XPJbW/9jY+lcXP5ra/1wcPJtbetqav12duFra/58fPF7e/6Dg/eCguh6ev6Li/WLi/2UlOaJifKT
+k/2bm/+kpPOcnOmZmfakpP+trfarq+mpqfG0tPa8vPTDw/HKyvHU1OrY2Pbk5O3g4Pnw8P////39
+/fv7+/j4+Pb29vX19fLy8u/v7+zs7Orq6unp6efn5+Xl5ePj4wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAuAFQAAAI/wCXCRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0CDCh1KtKjRo0iTKl3KtKlTn2GqyClYporVq1qmEoyqdWDVq1azLrsDBqxVLncI
+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
+r/1asA1bsd3agAAAOw==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/2.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISMBBwmJhOQhomWJgEBA5aFmIwiASIjASBpIKmpHGYTIByqIBaeoIoTAScEEwK5
+rQIBApObIwQgmwHCnJa1hySmZqIiZsYhaAMkxQHYZ6WzjMyFHMpnmpXiJiPpIyKzxqdn7pDggZrH
+9p0WA+ojA8DZ79OefXO0SBSJWKlKmCpV6YyzbNvM9PO2aJ6fWwIaorl1whiySb9yefy4qZM8godc
+UUwDa4IFhO+oxVpZEaUnPPFunrGok03OO548ewpt1Geo0T02jyplE3Tp0TkUChiYSrWq1atYs2rd
+yrXr1gcHGCBYQLas2bNo06pdy7atW7YKEgQBADs=
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/3.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydIRvJCYijGeRJRNqJCSUiW8gAaAWlAQmoCeYaCYmcJp3nW4CAhMBq2gWILi4qBwc
+ubhtqiIBp6m1BBO+ZsgnJ8mNfW0jASEEwtRmwrQmJ6CYpcMmAqAca6rVw6iktdkn3yQc36rmz49r
+FrRnsajbaCAm5KVEKQswoNw6dGbmCbh0RpioeXscuSkRQCCBTyPMUCQxouOIaxATGivWEOG8AALk
+bQsAQp0riWw+gZo5U5SIAR5HcJsU0qWar5DCTp0U4UuXT1LkBMFcI64oiBD4Amw6MytjwDP3ClbL
+KDJN0HZmFqIR1pLfRZb02EibpGZtqZSqQFH7lpJbgKSlzvQ8h4+vKm4Hhw178ypNLzbIyDkVqKpX
+LjSHzfBa0yup5FwWjz0mvJTR3lF+Ci/6DDqP6NKoEXVOzfoltNaw4ZyOTTvNHAoFDOjezbu379/A
+gwsfTlz4gwMMECxYzry58+fQo0ufTr36dAUJggAAOw==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/4.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydIRpHCYmE4yBIiZtJiJ2iWomAQEDlYAjAW0BI5yOaiIBIqUgkCCzs2i0sxxoFrS5
+ZhMgHLwEv7RnpcS1Z6i/FroglGedZxMBJ8MC1mcloJICAZgT3gKSoKkEA9yfrgQgoN+gJ/DizaXp
+oCRmy99on9Bm0mZIBIhFoNWmfPjOXGIXIASaAfgsoEJTQgDDhAxLQOOwDhaaUs0mtiLYzly0VWc4
+ijrTL5+AETBh5uJoIuYIEc3anZDUzVQ77IL5TBKYWCrNz6HmBFgk0BINQHXu3ImaMIJETBLeLFgY
+YBOdxZ+3ah1VJpSoKVsDkZoJ4aqkGmmtSIQFsW1WQzRsQRxDI5CAxINmtjEEqpYsgVIOjQUIafJT
+U6coqQnwN60atWqS4i1u961nNoHjTHhLNTYoGrP2Qpk2w1noyT7M2ASbgIwWtF1hjdr29cxWszMg
+mu0KRus3O+ME4lF+/WiU8zhsXTN/Tv3Np2xrAFbfDrwXG+3cwzfqI768IJTm06eZQ6GAgffw48uf
+T7++/fv4899/cIABggUABijggAQWaOCBCCaoIIIKJBAEADs=
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/5.gif
+
+R0lGODlhXAAZANUAAAAAAP////vMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZHsZT
+HL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPejevit
+ifm3mPzWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACYALAAAAABcABkAAAbaQE7H
+Qywaj8ikcslsOpmaSAZzqVqv2Kx2y+16v11Iw0IZmM/otHrNbrvfcDfjQY7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISMbB8CJJSVJCGQb4mZahUBJSAfoqIjAR+cbJuoZyGmnQEiq2qqsiKusnuOuGa2
+ErtwtKu2Fb+auru2p2kSsMUDwaggAQJqtpjF0KgkAdzd3cTYx78bo+XOZtnn6unqzuztv+/wuPLz
+q/X2nHMTBAX+/wADChxIsKDBgwgNOjCw4ICChxAjSpxIsaLFixgzXkyAIAgAOw==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/7.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evisiPitifm3mPzWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISMBCADJpSVJiOQiI6ZFgEnISChoSUBIGcWFmmomWiJkCOlap0kZyS0aLasZ66M
+JLFvubi3uryLvhNtHJQCApQiy80mHKzFir6pwMNmwcSbkL6maRMBw9zb2pnVhyEBA2q+mGahafO6
+BOqHJgH7/PzY9m/wHeIgqiBAOwIPKhTkbaHDgA0fSlSTcKLDihYVYswIcA6FAgZCihxJsqTJkyhT
+qlyZ8sEBBggWyJxJs6bNmzhz6tzJU6eCAwRBAAA7
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/8.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISMBCImkIqJlCMBlIeWkJhnFiChIBwEEyATaSAWZqKhqJWOmp4EmAEmJgEBJBO2
+aJinuScmJ7mrm7GXmQTDaCWZIgEgZrwDBCABIWccASOwfYEcpL7Kkre3xGYCJ2YDAasWA+Ymzt3H
+34C3aZ7bJSKhIuisBRCxrR49USS4eXsEyJk0MxYECBCY7UzCMyYEZHzF7AyveoY4AbqWq6RCXgGE
+4cqlLZeIM7XO5QJZSCQgU62MlWo16qEZSw4+f7YCqrMmMk1Ijd5LyjSPzaZQ4TyNSnXN1KpYzVzN
+WnUOhQIGwoodS7as2bNo06pdm/bBAQYIFsidS7eu3bt48+rdy1evggRBAAA7
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/9.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPzWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACcALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISHHCWSk5IkIQSRHIyIjosgAQMjoqMCARafIJt5iYqoaiIBIKgcsqlnILS1mqqs
+h65pI7GfAQEmJcQjZsQBksQmE5u9hp+ho6LEE9TQZiQByiXbBJ8i0Z2txZSVl79mwcrJaAHwi9KF
+7Gr37gTyafyM9YHupcnnbR+4M7DI/TPnK1YbgsqclSj1rFyfQ9nCqcmI5tS7WrhUEQAoMo6/kmZI
+onRzEqXKlTDfvIxJU83MmjhHMszJE80cKAoFDAgdSrSo0aNIkypdylTpgwMMECyYSrWq1atYs2rd
+yrXrVgUJggAAOw==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/10.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PvMtfJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZ
+HsZTHL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpkbiSaDqVqv2Kx2y+16v92I41IhmM/otHrNbrvfcHcDQo7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydIRwIyYWayUlHCaYmZglIIEmIouJcSABJWoiASKkAyOtrgIBE4AjnYqicQMBtWYT
+AQIEpLtnI7q8IMfHaBbIx7LAk2bLxxx+t3AWASZoJAEhwMVoEyUBk6TZJrAnZqjnJwGxBAEjBBMm
+7ybu3XnWkKnR2WbMvRt4zwwxZwRQdcKHBoQJavIS+uMlQBsefm96/SIwjto3VcxAcAMFooQme53G
+kXA1wlu8ecTScPB4B+MbVLQCDDgTTA22oHkBToAMMa6TCFau3IGKGBPNzH2O9MCyB+2bsHX+ApBA
+E6KY1nARI6ICRdHUxah5ukbkSbCtAFn2KqJ7t9BXpnfe1to7hxdqnzzNwoVERhMYMw4gnA2GBqLq
+BGbV0DKaPNkm5ct/LGPeXFMy589n/4IeDUcz6dNm5lAoYKC169ewY8ueTbu27du1HxxggGCB79/A
+gwsfTry48ePIjStIEAQAOw==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.happycodings.com/images/11.gif
+
+R0lGODlhXAAZANUAAAAAAP////718PJlIuZgIMhUHLpOGrJKGadGF6RFF51BFtpbH9lbH9VZHsZT
+HL5PG/NrK/NtLvNvMfNwMvNyNfR6P/R9RPR9RfR/R/SCTPSDTPWGUvWOXfaPX/aQYPaSYvaYbPej
+evitifm3mPrBp/zWxPzg0/3q4v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACgALAAAAABcABkAAAb/wI7n
+Qywaj8ikcslsOpmbSAZzqVqv2Kx2y+16v11Iw0IZmM/otHrNbrvfcDfjQY7b7/h8fF7X+/+AbXxl
+gYWGeoOHiotydISAJCRsJiJvIiaMcImBJphrIyBvIwGZb5uAnWwgFQMVqyCwoWajZxKwZhyxt4en
+f6lrASMDowEBJgIBAqy0AyHIlSXFnciehb1+v2rBwwGVuNujFSYBJRJmAZJnl7yOhdlp4KRo8cWy
+5wIj+fkc7H2o1fCEMTsTjwQ5cwMkjCChjwQyVtbacQI4T6A8ghYHgEAWQmOAjmdCBLAH6JqeccVS
+GhsQLyA3MxIMltBQ7ESnE8UgBjKZJ5cuVFj8VrUiqZGVKzS5Ktj6iTCiv1JQDfGMShXP1KpYTUnM
+ynXP1q5g2VwNC3bOBAIF0qpdy7at27dw48qdG9eBgQUHFOjdy7ev37+AAwseTFhwAgRBAAA7
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://happycodings.com/images/list1.PNG
+
+iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAIAAADZrBkAAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAA2NJREFU
+OE9jvP3p9qRbk378/fHlz5dvf779+f/n59+fDAwMQMa///+A5K9/v/4z/P/97zdQ/MevHyK/ReY5
+zGPIO5M3+ebkGbdndF/vrrtUV3a+rOBsQdbprPRT6QnHE6KORoUfCQ84FOC539Nut53hVkOlpUoG
+UwwYgNKzbs9acG/B1FtTW6+01l6sLT1fCtSZczon5WQKUGf0seiQwyG+B3yd9jqZbzfXWKYh2ibK
+EHMspvd6L1BP17Wuuosg23LP5KadTNv+bPv////9Dvr5HPBx2+fmuMfRepe1yVYT7ZXaku2SDECT
+Gi41tF1tq79UX3KuJPt0dtKJpOij0UA9EABUbb7T3GSHifF2Y6OtRrordWU7ZRmA5pWfL6+5WAO1
+51Ra7PHYsCNhfof84Dr1tutBkME2A6A2uS45Bo/9HkBXFZ8rzj+bn3EqI/FEYtSxqKDDQV4HvKz2
+WMF1au7Q1Nmho79dX2e1jly3HIP7Pneg14FBB9STfCI57nhc2FGQVe4H3C32WRjuNUTo3KOpu0tX
+e522bK8sg+1uW2CoADXApfEwtPZraW7SlJ4ozWC50xIYKkCdxGhTP6quul1VYooEg9F2I9+DvsAw
+iDwSGXk0MvxoeNCRIL+jfl7HvWzP2ppdNIMbp3RRSemMkuIeRZEZIgxqm9WA0Q9MBMAgBYZE4OFA
+38O+vsd8vU572V+1h+tReKwg/UBa4rqEyBERntk8DPIb5M12mgFTAFAnMCn4HPTxPuTtdczL47QH
+XI/aMzXZ57Jij8UEbwnyHuflmMvBILlOUm+bntUuK6BOYGpw2+/metDV9agrXI/OYx2VZyrSL6SF
+nghx3+JmP87OMo+FQWStCNCdhtsNLXZaAF1rt9fObp+d3SG75c+WA3Xq3dJTva8q90gOaBXvA172
+G+wsR1iYZjMx8C3nk1kro75RXX+zvvFWY5NtJsB0ZLLHxOiAkfYZbdVLqvLX5cVviQOdx3Gdg+Uc
+C+MORsaJjAyaizRF5otILZBSXKqoulRVfbm66gpV1dWqKhtU5HfLSx2UEjssJnhMkPsEN+tRVqZd
+TIxLGRUmKDBceHFBc5ImTyOPQLOAcIuwWKuYSJuISJeISL8I/3R+YKBxzeNin83OuoCVaS4T4xRG
+hUkK55+cBwADnvy1m7DjXQAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.happycodings.com/style.css
+
+BODY {
+	TEXT-ALIGN: center
+}
+DIV.container {
+	MARGIN: 0px auto; WIDTH: 1000px; TEXT-ALIGN: left
+}
+DIV.stylebody {
+	CLEAR: left
+}
+DIV.stylebodyrow {
+	FLOAT: left
+}
+DIV.styletext {
+	FONT-SIZE: 10px; WIDTH: 750px; FONT-FAMILY: Verdana
+}
+DIV.styleads {
+	FONT-SIZE: 10px; WIDTH: 750px; FONT-FAMILY: Arial
+}
+DIV.stylesearch {
+	BORDER-RIGHT: #dadada 0px solid; BORDER-TOP: #3d81ee 1px solid; =
+BORDER-LEFT: #dadada 0px solid; WIDTH: 701px; BORDER-BOTTOM: #dadada 0px =
+solid
+}
+DIV.styleleft {
+	WIDTH: 160px
+}
+DIV.leftpart {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; BACKGROUND: #008844; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 3px; HEIGHT: 15px
+}
+DIV.lefthead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: =
+12px; BACKGROUND: #2ba94f; PADDING-BOTTOM: 0px; COLOR: white; =
+PADDING-TOP: 1px; FONT-FAMILY: Arial; HEIGHT: 18px; TEXT-DECORATION: =
+underline
+}
+DIV.line {
+	BORDER-RIGHT: #dadada 0px solid; BORDER-TOP: #3d81ee 1px solid; =
+BACKGROUND: #f9f9f9; BORDER-LEFT: #dadada 0px solid; WIDTH: 701px; =
+BORDER-BOTTOM: #dadada 0px solid; HEIGHT: 20px
+}
+DIV.stylelistrow {
+	FLOAT: left
+}
+DIV.stylelist {
+	CLEAR: left; HEIGHT: 23px
+}
+H1.style {
+	FONT-WEIGHT: normal; FONT-SIZE: 24px
+}
+H2.style {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; FONT-FAMILY: Courier New
+}
+A.style {
+	FONT-SIZE: 14px; COLOR: black; FONT-FAMILY: Courier New; =
+TEXT-DECORATION: none
+}
+A.style:visited {
+	COLOR: black
+}
+A.style:hover {
+	FONT-SIZE: 15px; COLOR: blue
+}
+A.style2 {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Arial; TEXT-DECORATION: =
+underline
+}
+A.style2:visited {
+	COLOR: white
+}
+A.style2:hover {
+	FONT-SIZE: 12px; COLOR: white; TEXT-DECORATION: underline
+}
+A.style3 {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Verdana; TEXT-DECORATION: =
+underline
+}
+A.style3:visited {
+	COLOR: black
+}
+A.style3:hover {
+	FONT-SIZE: 12px; COLOR: black
+}
+A.style4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: blue; FONT-FAMILY: Arial; =
+TEXT-DECORATION: underline
+}
+A.style4:visited {
+	COLOR: blue
+}
+A.style4:hover {
+	FONT-SIZE: 14px; COLOR: blue; TEXT-DECORATION: underline
+}
+
+------=_NextPart_000_0004_01CB7A77.A3505980
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en
+
+H4sIAAAAAAAC/41UW2/bNhR+969gEcCSm4VuM2BDrXkBVrSAH9oNTbs+eG5AiUcyEYqUScpWMPi/
+7xxdbCVouxIQyHP0nftlEue1yYKyJp6xfyd74VjOlkzarC7BBF5AeKOBnn88rGQcZR6uPAiXba9S
+20SzZKJyFj/LSfi7gp0QytxJKC0JHlvRnE2nLF9Hu2gzOLBDPR0naWmDtBF7VYhgXcfSyNI2E+R4
+x/E1SfWxsFMw9dinzIEI0LsVR8pUdSBPCLgfAwfVPNjb4JQp4h4FjfIB6VsVoHbkxTy+Waxvphvf
+cZazeP1lerF5PptzaCCL932Knki2/pFJyKyETx9WTwHrl5s2R2RVglblykhoUGLPFb3+zONoMZ8P
+FRhBfl+yF4P6Pfd16rsQRpBL1spyDaYI258Q1r1aizU3ogQUjvqYogR5e6FrYu6JCA9VC9gqKcHg
+/5yLqgIjX2+VlnFNejq/DP143+pD/DuVOettHtjKBHAGAnvTVNo6cNFQMU915JVwWIj3mBuekU56
+ebRjHYsJpRD1IsHrN+Z755G6vCQtrD9k36/VhhsUPvlw+/rD6q+PEbbdCUinBYqAqUrrAH4deZdF
+mx9DtQb+7hK0ZLUBn4kK4mgbQrX4p7l+S9/hcOCFtYXGiGxJnMzaqr090JU6YeQNRlguH08Z/vxF
+C1MsMdWzcYDoT02deaZT7PD7M+M4Gd9HBtrDSf4se5y012RImuGVFoE8aTP2WZmfr6Oz4R334YHC
+8P4jNIEaIbVOgluwl1XDvNVKsotf4ZVMXyWsElJi+y3YddUk0dcNHrCl7YFvcQKse+D9sOMAvsPE
+ng1/F0ZuYGIrZKQaHhuijklH+yE+6yTzu6G7UUU0TvAQaSqy+8LZ2kiycvG2PQxHI/6/EnelVSZo
+usG0VCkK8PTqwHdZjQGVd13F7w64o1wp3D0vFO5VDTguxl45qHB7RcnjkibnAPOvB/iNGPL2DGnq
+1ey4NTkuwXYGkxMr1bVDTpo8Kduz+Xp6s9ktceNt5hznIcSad1GM+jQ9txl9xxnR/wGQsUoheAYA
+AA==
+
+------=_NextPart_000_0004_01CB7A77.A3505980--

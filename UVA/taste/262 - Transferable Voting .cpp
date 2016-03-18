@@ -1,0 +1,19 @@
+/*////////////////////////////////////////////////////////////////////
+	UVA 262 - Transferable Voting 
+////////////////////////////////////////////////////////////////////*/
+
+
+#include<iostream>
+#include<cstdio>
+#include<cstring>
+using namespace std;
+
+typedef struct tag
+{
+	char name[]
+}
+
+int main()
+{
+	return 0;
+}

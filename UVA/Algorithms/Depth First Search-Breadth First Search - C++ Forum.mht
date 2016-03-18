@@ -1,0 +1,4076 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Depth First Search/Breadth First Search - C++ Forum
+Date: Tue, 2 Nov 2010 11:54:23 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CB7A84.B11F6E90"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cplusplus.com/forum/general/1866/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Depth First Search/Breadth First Search - C++ =
+Forum</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3DUTF-8"><LINK=20
+href=3D"/favicon.ico" type=3Dimage/x-icon rel=3D"shortcut icon"><LINK=20
+href=3D"http://www.cplusplus.com/main29f.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<SCRIPT src=3D"http://www.cplusplus.com/main29f.js" =
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+new LoginBox('CH_boxLogin',1);function NavFor(us) =
+{document.getElementById('CH_subnav').innerHTML=3Dus.ok?'<table =
+class=3D"box"><tr><th><a =
+href=3D"/user/'+us.uniqid+'/">'+us.user+'</a></th></tr><tr><td><a =
+href=3D"/forum/myposts.cgi">My =
+topics</a></td></tr></table>':'';}onPrint(function(){onSession(NavFor)});=
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3DCH_header><A href=3D"http://www.cplusplus.com/"><IMG =
+height=3D75=20
+alt=3Dcplusplus.com src=3D"http://www.cplusplus.com/img/cpp-logo.png" =
+width=3D198></A>=20
+
+<DIV id=3DCH_bar><B><A href=3D"http://www.cplusplus.com/">C++</A> : <A=20
+href=3D"http://www.cplusplus.com/forum/">Forum</A> : <A=20
+href=3D"http://www.cplusplus.com/forum/general/">General C++ =
+Programming</A> :=20
+Depth First Search/Breadth First Search </B></DIV>
+<DIV id=3DCH_searchbox>
+<FORM id=3Dsearch action=3D/search.do method=3Dget>Search: <INPUT =
+class=3Dtxt size=3D13=20
+name=3Dq> <INPUT class=3Dbtn type=3Dsubmit value=3DSearch> </FORM></DIV>
+<DIV id=3DCH_boxLogin>
+<DIV class=3Dloginmessage>&nbsp;<IMG=20
+src=3D"http://www.cplusplus.com/img/waitblue.gif"></DIV></DIV></DIV>
+<DIV id=3DCH_container>
+<TABLE id=3DCH_containertbl>
+  <TBODY>
+  <TR>
+    <TD id=3DCH_nav>
+      <TABLE class=3Dbox>
+        <THEAD>
+        <TR>
+          <TH><A=20
+        =
+href=3D"http://www.cplusplus.com/">cplusplus.com</A></TH></TR></THEAD>
+        <TBODY>
+        <TR>
+          <TD class=3Dfolder><A=20
+            =
+href=3D"http://www.cplusplus.com/info/">Information</A></TD></TR>
+        <TR>
+          <TD class=3Dfolder><A=20
+            =
+href=3D"http://www.cplusplus.com/doc/">Documentation</A></TD></TR>
+        <TR>
+          <TD class=3Dfolder><A=20
+            =
+href=3D"http://www.cplusplus.com/reference/">Reference</A></TD></TR>
+        <TR>
+          <TD class=3Dfolder><A=20
+            =
+href=3D"http://www.cplusplus.com/articles/">Articles</A></TD></TR>
+        <TR>
+          <TD class=3D"folder selected"><A=20
+            =
+href=3D"http://www.cplusplus.com/forum/">Forum</A></TD></TR></TBODY></TAB=
+LE>
+      <TABLE class=3Dbox>
+        <THEAD>
+        <TR>
+          <TH><A=20
+href=3D"http://www.cplusplus.com/forum/">Forum</A></TH></TR></THEAD>
+        <TBODY>
+        <TR>
+          <TD><A=20
+            =
+href=3D"http://www.cplusplus.com/forum/beginner/"><B>Beginners</B></A></T=
+D></TR>
+        <TR>
+          <TD><A =
+href=3D"http://www.cplusplus.com/forum/windows/"><B>Windows=20
+            Programming</B></A></TD></TR>
+        <TR>
+          <TD><A =
+href=3D"http://www.cplusplus.com/forum/unices/"><B>UNIX/Linux=20
+            Programming</B></A></TD></TR>
+        <TR>
+          <TD class=3Dselected><A=20
+            href=3D"http://www.cplusplus.com/forum/general/"><B>General =
+C++=20
+            Programming</B></A></TD></TR>
+        <TR>
+          <TD><A=20
+            =
+href=3D"http://www.cplusplus.com/forum/lounge/"><B>Lounge</B></A></TD></T=
+R>
+        <TR>
+          <TD><A=20
+        =
+href=3D"http://www.cplusplus.com/forum/jobs/"><B>Jobs</B></A></TD></TR></=
+TBODY></TABLE>
+      <DIV id=3DCH_subnav></DIV><BR>
+      <SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-7688470879129516";=0A=
+/* single square */=0A=
+google_ad_slot =3D "7465536459";=0A=
+google_ad_width =3D 125;=0A=
+google_ad_height =3D 125;=0A=
+//-->=0A=
+</SCRIPT>
+
+      <SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+    </TD>
+    <TD id=3DCH_main>
+      <SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-7688470879129516";=0A=
+google_ad_slot =3D "7973859818";=0A=
+google_ad_width =3D 728;=0A=
+google_ad_height =3D 90;=0A=
+//-->=0A=
+</SCRIPT>
+
+      <SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+      <BR>
+      <H2><IMG title=3Dquestion height=3D16 alt=3Dquestion=20
+      src=3D"http://www.cplusplus.com/ico/forum_question.png" =
+width=3D16> Depth=20
+      First Search/Breadth First Search - Graph Theory</H2><SPAN=20
+      id=3DCH_edttl></SPAN><SPAN class=3DrootdatPost=20
+      title=3D1866,root,0,-1,11,0></SPAN>
+      <DIV id=3DCH_PostList>
+      <DIV class=3DC_forPost id=3Dmsg6719><SPAN =
+title=3D6719,9331,1023,27,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/9zwAC542/"><B>bgbnbigben</B>=20
+            (27)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg6719"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTmefa021c7d6=20
+            title=3D"Sat, 10 May 2008 11:56:58 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTmefa021c7d6');</SCRIPT>
+            <NOSCRIPT>May 10, 2008 at 11:56am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i6719 colSpan=3D2>Ok, so here's =
+where I'm=20
+            at.<BR>Im trying to write a program that will use a DFS =
+algorithm.=20
+            Minor problem - i cant seem to construct a working one.<BR>I =
+can get=20
+            as far as the first tree. (I.e untill it gets to the end of =
+the=20
+            graph) but the algorithm wont backtrack.<BR>Now, technically =
+this=20
+            isnt homework. Its what i do in my free time. So, bearing =
+that in=20
+            mind, this is currently the sample data I have.<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR></T=
+T></TD>
+                <TD class=3Dsource><PRE><CODE>9
+2 3 3 4=20
+4 1 5 2=20
+6 3 7 2=20
+0 0 0 0=20
+0 0 0 0
+8 1 9 1
+0 0 0 0
+0 0 0 0
+0 0 0 0</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR>where the=20
+            first line is the number of vertices in the graph, and each =
+other=20
+            line is in the format a x b y, where a and b are line =
+numbers and x=20
+            and y is the length from one point to the next (weighted =
+graphs,=20
+            people)<BR>and again, let me emphasise that this is NOT my =
+homework.=20
+            I dont even know that they make assigments like this.<BR>(i =
+only=20
+            added that part because i know someone will say that this is =
+my h/w=20
+            and they cant help me with it, etc. etc. )<BR>Anyway, this =
+is what=20
+            ive got so far.<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR>11<=
+BR>12<BR>13<BR>14<BR>15<BR>16<BR>17<BR>18<BR>19<BR>20<BR>21<BR>22<BR>23<B=
+R>24<BR>25<BR>26<BR>27<BR>28<BR>29<BR>30<BR>31<BR>32<BR>33<BR>34<BR>35<BR=
+>36<BR>37<BR>38<BR>39<BR>40<BR>41<BR>42<BR>43<BR></TT></TD>
+                <TD class=3Dsource><PRE><CODE><DFN>#include =
+&lt;cstdio&gt; </DFN><CITE>// I USE PRINTF/FPRINTF AND SCANF/FSCANF, NOT =
+SLOW STREAMS</CITE>
+<DFN>#include &lt;vector&gt;</DFN>
+<DFN>#include &lt;cstdlib&gt; </DFN>
+<CITE>// I THINK I MIGHT NEED TO INCLUDE ALGORITHM SOMEWHERE IN HERE, =
+TOO.</CITE>
+<VAR>using</VAR> <VAR>namespace</VAR> std;
+<VAR>int</VAR> main () {
+    FILE* in =3D fopen(<KBD>"sculptin.txt"</KBD>, <KBD>"r"</KBD>); =
+<CITE>//MY INPUT AND OUTPUT FILES</CITE>
+    FILE* out =3D fopen(<KBD>"sculptout.txt"</KBD>, <KBD>"w"</KBD>);
+    <VAR>int</VAR> n; <CITE>//number of apples.</CITE>
+    fscanf(in,<KBD>"%d"</KBD>, &amp;n);
+    <VAR>int</VAR> a, x, b, y;
+    <VAR>int</VAR> z;
+    z =3D n*4; <CITE>// n number of vertices, but there are 4 things per =
+line.</CITE>
+    vector&lt;<VAR>int</VAR>&gt; applearray(z);
+    <VAR>int</VAR> f;
+    f =3D 0;=20
+    <VAR>for</VAR> (;f&lt;applearray.size();f =3D f+4){
+    fscanf(in, <KBD>"%d %d %d %d"</KBD>, &amp;applearray[f], =
+&amp;applearray[f+1], &amp;applearray[f+2], &amp;applearray[f+3]);}  =20
+    <VAR>int</VAR> c, d, g;
+    <VAR>int</VAR> h, t, u; <CITE>// NOT USED CURRENTLY, I ALREADY KNOW =
+THIS.</CITE>
+    vector&lt;<VAR>int</VAR>&gt; treesize(n);
+    f =3D 1; <CITE>//CURRENTLY ONLY FOR DEBUGGING PURPOSES, THIS WILL BE =
+REPLACED WITH SOMETHING MORE RELAVANT IN THE NEAR FUTURE.</CITE>
+    g =3D 0;=20
+    c =3D 0;
+    <VAR>if</VAR> (f =3D=3D 1){ <CITE>// THIS IF LOOP IS ONLY FOR DEBUG =
+PURPOSES AT THE MOMENT.</CITE>
+         treesize[g] =3D applearray[f];
+         <VAR>while</VAR> (applearray[f] !=3D 0){
+               c =3D treesize[g]; <CITE>// USE BECOMES APPARANT LATER =
+ON.</CITE>
+               f--;
+               d =3D applearray[f]; <CITE>// THIS IS ONLY USEFULL FOR =
+THE NEXT LINE.</CITE>
+               f =3D applearray[f]*3 - (4 - d); <CITE>// THIS IS A WAY =
+OF MOVING FROM ONE LINE TO THE NEXT SPECIFIED LINE - THIS FORMULA WORKS =
+FOR ANY NUMBER AND ANY LINE. BEAR IN MIND THAT THE VECTOR COUNTS FROM 0, =
+NOT 1</CITE>
+               f =3D g; <CITE>// I'M USING G SO THAT NEXT TIME THIS LOOP =
+RUNS, IT DOESNT TRACK THE SAME POINT, BUT THATS BECAUSE I DONT KNOW =
+ANYOTHER WAYS TO WRITE DFS ALGORITHMS.</CITE>
+               f++;
+               treesize[g] =3D c + applearray[f];
+               printf(<KBD>"%d - size of treesize."</KBD>, treesize[0]); =
+<CITE>// GOOD TO GO FOR ONE LINE.</CITE>
+               system(<KBD>"pause"</KBD>); <CITE>//ONLY SO I CAN READ =
+THE SIZE OF TREESIZE.</CITE>
+               }
+         g++;}        =20
+       =20
+        <CITE>//now, i know that i currently dont have any output to a =
+file. there is more i need to add, but i first need a bit of advice on a =
+DFS algorithm and its construction.</CITE>
+
+<VAR>return</VAR> 0;   =20
+}</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR><BR>So, i also=20
+            know what a DFS does. But i dont know how to construct one=20
+            (entirely).<BR>And there a no good tutorials on the =
+web.<BR>Now, a=20
+            few digressions before i go on:<BR>1. that code was only =
+included to=20
+            show what im trying to do. For all you know, this isnt even =
+my code,=20
+            but i still want to create a DFS on it.<BR>2. THIS ISNT MY=20
+            HOMEWORK!.<BR>anyway, going on.<BR>Any ideas on how to get =
+the=20
+            algorithm to backtrack and reach the other tops of the =
+graph, like a=20
+            DFS should?<BR>Many Thanks,<BR>Ben </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Dsedited>Last edited on =
+<SPAN=20
+            id=3DCH_zTm313495153c title=3D"Sat, 10 May 2008 12:09:45 =
++0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm313495153c');</SCRIPT>
+            <NOSCRIPT>May 10, 2008 at 12:09pm UTC</NOSCRIPT></SPAN> =
+<SPAN=20
+            class=3Ddbtn =
+id=3DCH_btn6719></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg6752><SPAN =
+title=3D6752,9110,1023,5690,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/i8vCpfjN/"><B>Duoas</B>=20
+            (5690)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg6752"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm52865b7b5a=20
+            title=3D"Sun, 11 May 2008 02:19:46 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm52865b7b5a');</SCRIPT>
+            <NOSCRIPT>May 11, 2008 at 2:19am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i6752 colSpan=3D2>You've got way too =
+much stuff=20
+            swimming around there.<BR><BR>First off, you need to =
+back-off from=20
+            the code a bit first. (Don't feel like I'm talking down to =
+you. This=20
+            is the very same technique I use both before beginning an =
+algorithm=20
+            and whenever I get confused writing it. People never believe =
+me that=20
+            pulling out the construction paper and crayons and drawing =
+stuff=20
+            makes a difference, but they are always amazed at my=20
+            results...)<BR><BR>I recommend drawing your graph. You'll =
+notice it=20
+            is a weighted, directed, acyclic, unconnected graph. (That =
+is, a=20
+            forest with one-way edges and no loops.)<BR><BR>Next, you =
+might want=20
+            to take a look at the Wikipedia article:<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD class=3Drownum><TT>&nbsp;</TT></TD>
+                <TD =
+class=3Dsource><PRE><CODE>http:<CITE>//en.wikipedia.org/wiki/Depth_first_=
+search </CITE></CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR>(it=20
+            has both recursive and iterative versions) and review your =
+own texts=20
+            on graph theory.<BR><BR>When writing your algorithm, start =
+with the=20
+            basic structure. Decide what data structures best represent =
+each=20
+            kind of data. For example, a directed tree might best be =
+represented=20
+            as a <U>list of edges</U>, where an edge is a pair of =
+(<U>source=20
+            node, target node, length</U>). So far you've got a=20
+            <B>std::vector</B> or <B>std::list</B> to represent the =
+graph and a=20
+            <B>struct</B> to represent an edge.<BR><BR>Once you have a =
+solid=20
+            data structure, make your input file match. Currently, your =
+input=20
+            file attempts to represent one node per line, with two edges =
+coming=20
+            from each node. Since you don't actually need to represent=20
+            individual <I>nodes</I> there actually is no need to worry =
+about=20
+            line numbers. Just make your input a list of edges:<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR></T=
+T></TD>
+                <TD class=3Dsource><PRE><CODE>9 nodes (starting at 1)
+edges as (source, target, length):
+1 2 3
+1 3 4
+2 4 1
+2 5 2
+3 6 3
+3 7 2
+6 8 1
+6 9 1</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR>This structure=20
+            makes it very easy to read the list of edges directly in =
+from file.=20
+            It also removes limitations on the number of edges leaving a =
+given=20
+            node.<BR><BR>Penultimately, make yourself the necessary =
+functions to=20
+            manipulate the graph (list of edges) easily: add, find, =
+remove, etc.=20
+            This uncomplicates the main algorithm, which should be your =
+final=20
+            effort. <BR><BR><BR>Some comments on your code and=20
+            commentary:<BR><BR>Your algorithm looks to be an iterative =
+attempt,=20
+            but you have confused searching for and tracking =
+edges.<BR><BR>Also,=20
+            watch your indentation. Your outer loop does not appear to =
+be there=20
+            (to the eye). I know you know it is there, but it will help =
+you to=20
+            make it obvious what is inside and outside the loop. Also, =
+you need=20
+            to only document what it is that the code is doing, and what =
+
+            individual variables represent.<BR><BR>For example, your =
+code might=20
+            have comments along the following lines:<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR></T=
+T></TD>
+                <TD class=3Dsource><PRE><CODE><CITE>// 'applearray' =
+represents the data in the nodes of the weighted graph.</CITE>
+<CITE>// Every four elements are a x b y, where a and b are node numbers =
+and x and y are distances from the indexed node.</CITE>
+<CITE>// (Remember: node number - 1 =3D index into vector of =
+node)</CITE>
+vector&lt; <VAR>int</VAR> &gt; applearray( n*4 );
+
+<CITE>// 'f' iterates through all the nodes in the list</CITE>
+<CITE>// Each iteration we are doing &lt;explain what is =
+happening&gt;</CITE>
+<VAR>for</VAR> (<VAR>int</VAR> f =3D 0; f &lt; applearray.size(); f +=3D =
+4) {
+   ...
+   }</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR><BR>Lastly,=20
+            forget about the "standard streams are slow" crap. Whoever =
+told you=20
+            that doesn't know what he is talking about. There are =
+<I>very</I>=20
+            few applications where the difference in speed between C and =
+C++ I/O=20
+            methods is significant. For a program like this, you won't =
+even=20
+            notice. Using the standard streams makes it easier to code, =
+codes in=20
+            fewer lines, and improves type safety, error checking, and=20
+            security.<BR><BR>Hope this helps. Post back once you get =
+further=20
+            along. </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Dsedited>Last edited on =
+<SPAN=20
+            id=3DCH_zTmd5a7e4d333 title=3D"Sun, 11 May 2008 02:20:56 =
++0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTmd5a7e4d333');</SCRIPT>
+            <NOSCRIPT>May 11, 2008 at 2:20am UTC</NOSCRIPT></SPAN> <SPAN =
+
+            class=3Ddbtn =
+id=3DCH_btn6752></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg6842><SPAN =
+title=3D6842,9331,1023,27,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/9zwAC542/"><B>bgbnbigben</B>=20
+            (27)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg6842"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm381ed865f6=20
+            title=3D"Tue, 13 May 2008 08:53:47 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm381ed865f6');</SCRIPT>
+            <NOSCRIPT>May 13, 2008 at 8:53am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i6842 colSpan=3D2>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd>Don't feel like I'm talking down to=20
+              you</TD></TR></TBODY></TABLE><BR>No, i wouldnt feel that =
+way. Im=20
+            quite often told that one, but have never managed to get =
+that=20
+            specific method to work for me. I usually have to not =
+actually think=20
+            about the problem for a while and the answer just appears so =
+obvious=20
+            after that<BR><BR>The commentary wasnt really what i had, i =
+just=20
+            added it as i added it to this site, so someone else could =
+read it -=20
+            i generally dont code with that many comments, because they =
+seem to=20
+            get lost and then i cant find them. That, and i rarely read =
+them=20
+            anyway.<BR>Yeah, im trying to attempt an iterative attempt =
+of a DFS,=20
+            however because the edges are already defined in the input =
+file (as=20
+            x and y) i knew that i could find them at every odd interval =
+in=20
+            (applearray), i.e=20
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD class=3Drownum><TT>1<BR>2<BR></TT></TD>
+                <TD class=3Dsource><PRE><CODE>applearray[1]  <CITE>// =
+this is an edge</CITE>
+applearray[5] <CITE>// this is another edge =
+</CITE></CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR>and=20
+            shouldnt need to redo the input file. that, and the input =
+file you=20
+            suggest, although it is good, is just a repackaged version =
+of the=20
+            current one that ive got, which takes too much effort to =
+redo the=20
+            input and then the method of input.<BR>that, and im too lazy =
+to=20
+            recode it anyway :)<BR><BR>Although your advice is great and =
+does=20
+            actually help me in working out what im trying to achieve, =
+the=20
+            problem im having is getting the algorithm to backtrack once =
+it=20
+            reaches the end of part of the graph. I still cant come up =
+with a=20
+            solution to that.<BR><BR>Ive seen many examples where they =
+change=20
+            the "colour" of each vertex that has been visited, but im =
+not that=20
+            adept at programming, so i still dont know how to do =
+that.<BR>I=20
+            could also manage the vertex to get to the farthest point =
+from node=20
+            2 and node 3 (which is great if i only had a 2 tree graph), =
+but it=20
+            still wont backtrack, and thats the biggest problem that ive =
+got at=20
+            the moment.<BR><BR>And with the standard streams, they can =
+get slow=20
+            when you have to input data that ranges up to 25,000=20
+            numbers/characters/whatevers, process them with an algorithm =
+and=20
+            provide output to a file in UNDER 1 second :)<BR>and my =
+compiler=20
+            doesnt seem to want to accept cout and an ofstream in the =
+same=20
+            program<BR>i dont know why though, and so it makes using the =
+c++ I/O=20
+            method too hard to navigate when i also want to=20
+            debug.<BR><BR>however, ive still made no actual progress on =
+the code=20
+            itself, so i cant show much for the past few days. =
+</TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Dsedited>Last edited on =
+<SPAN=20
+            id=3DCH_zTmbbad5c7088 title=3D"Tue, 13 May 2008 08:54:48 =
++0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTmbbad5c7088');</SCRIPT>
+            <NOSCRIPT>May 13, 2008 at 8:54am UTC</NOSCRIPT></SPAN> <SPAN =
+
+            class=3Ddbtn =
+id=3DCH_btn6842></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg6863><SPAN =
+title=3D6863,9110,1023,5690,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/i8vCpfjN/"><B>Duoas</B>=20
+            (5690)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg6863"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm58b4fe8cd1=20
+            title=3D"Tue, 13 May 2008 15:47:47 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm58b4fe8cd1');</SCRIPT>
+            <NOSCRIPT>May 13, 2008 at 3:47pm UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i6863 colSpan=3D2>OK, now I'm going =
+to talk down=20
+            just a little (but with no malicious intent):<BR><BR>Only =
+really=20
+            easy academic stuff for beginners is obvious after sleeping =
+on it.=20
+            Everything else you have to work for.<BR><BR>First, as for=20
+            backtracking, I addressed that for you with the reference to =
+
+            Wikipedia and your textbooks. As a further hint, look up =
+"FIFO".=20
+            You'll need one.<BR><BR>Secondly, I offer advice so that you =
+may=20
+            improve, not so you can perpetuate being lazy. As an =
+experienced and=20
+            capable programmer and teacher I can justly boast that I =
+know a=20
+            little something about programming your brain to work with =
+the=20
+            computer.<BR><BR>Don't dismiss "repackaging". It makes a =
+tremendous=20
+            amount of difference.<BR><BR>The "color" of a vertex is just =
+some=20
+            silly way of visualizing setting a flag somewhere. In other =
+words,=20
+            each one of your vertices will need a boolean variable in =
+there=20
+            indicating whether or not it has been touched. That or you =
+will have=20
+            to keep a separate array of boolean variables --one for each =
+
+            vertex.<BR><BR>Finally, I don't know who is feeding you the =
+anti-STL=20
+            nonsense, but that's all it is: nonsense. (At least with a =
+proper=20
+            compiler. What on earth could you be using that won't permit =
+cout=20
+            and ofstream together? Both are ostreams! Make sure you have =
+a=20
+            modern compiler: MSVC++, BCB++, GCC, etc.)<BR><BR>The STL is =
+
+            intimidating to a lot of people, especially when they first =
+deal=20
+            with it, but it has very specific performance =
+characteristics (as=20
+            part of its specification) and it makes programming I/O =
+<I>much</I>=20
+            easier and <I>significantly</I> less error-prone. The vast =
+majority=20
+            of problems assigned to the STL are actually caused by =
+improperly=20
+            using it (i.e. <I>programmer error</I>).<BR><BR>Most =
+programmer=20
+            error is caused by sitting down and typing and compiling and =
+
+            retyping (so-called "debugging") and compiling and so on. =
+You can't=20
+            build a bridge by just showing up with a bunch of materials =
+and=20
+            jumping into the hammering and sawing. You might be able to =
+cobble=20
+            together something that looks kind of like a bridge, but it =
+won't=20
+            ever be right. You <I>have to have</I> a specific plan and a =
+
+            complete understanding of it <I>first</I>.<BR><BR>Alas. I'm =
+not=20
+            forcing you to change anything. You asked for advice; and =
+this is=20
+            it: you need to study and get a basic understanding of how =
+the graph=20
+            traversal algorithms work before you can make the computer =
+do it.=20
+            There is unfortunately no way around that. </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        id=3DCH_btn6863></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7147><SPAN =
+title=3D7147,9331,1023,27,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/9zwAC542/"><B>bgbnbigben</B>=20
+            (27)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7147"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm253e87817d=20
+            title=3D"Sat, 17 May 2008 01:23:51 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm253e87817d');</SCRIPT>
+            <NOSCRIPT>May 17, 2008 at 1:23am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7147 colSpan=3D2>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd>Only really easy academic stuff for =
+beginners is=20
+                  obvious after sleeping on it. =
+</TD></TR></TBODY></TABLE><BR>i=20
+            disagree<BR><A=20
+            =
+href=3D"http://pos-psych.com/news/david-j-pollay/20070502224">http://pos-=
+psych.com/news/david-j-pollay/20070502224</A><BR>Although=20
+            pulling out the construction paper and crayons may be ONE of =
+the=20
+            many ways that enhance algorithm design, there is increasing =
+
+            evidence that using the subconscious mind by completely =
+dropping=20
+            your subject is one of the more efficient ways to go about =
+this.<BR>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd>Finally, I don't know who is feeding you =
+the=20
+                  anti-STL nonsense, but that's all it is: nonsense.=20
+              </TD></TR></TBODY></TABLE><BR>I was using an older version =
+of=20
+            Borland Turbo, but traded it for Dev C++, which now allows =
+both=20
+            fstream and iostream.<BR>I ran a little test of my own,=20
+            too.<BR>Using printf (and this code), i get a time of =
+roughly 2-2.5=20
+            minutes.<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR>11<=
+BR>12<BR>13<BR>14<BR>15<BR>16<BR>17<BR>18<BR>19<BR>20<BR></TT></TD>
+                <TD class=3Dsource><PRE><CODE><DFN>#include =
+&lt;iostream&gt;</DFN>
+<DFN>#include &lt;ctime&gt;</DFN>
+<DFN>#include &lt;cstdlib&gt;</DFN>
+<VAR>using</VAR> <VAR>namespace</VAR> std;
+
+<VAR>int</VAR> main()
+{
+  FILE* out =3D fopen(<KBD>"printfout.txt"</KBD>, <KBD>"w"</KBD>);
+  clock_t start;
+  <VAR>double</VAR> diff;
+
+  start =3D clock();
+  <VAR>for</VAR> ( <VAR>int</VAR> i =3D 0; i &lt; 10000000; i++ )
+    printf ( <KBD>"a"</KBD> );
+  diff =3D ( clock() - start ) / (<VAR>double</VAR>)CLOCKS_PER_SEC;
+
+  fprintf(out, <KBD>"printf: %.12lf"</KBD>, diff);
+  fclose(out);
+  <VAR>return</VAR> 0;
+}</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR><BR><BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR>11<=
+BR>12<BR>13<BR>14<BR>15<BR>16<BR>17<BR>18<BR>19<BR>20<BR></TT></TD>
+                <TD class=3Dsource><PRE><CODE><DFN>#include =
+&lt;iostream&gt;</DFN>
+<DFN>#include &lt;fstream&gt;</DFN>
+<DFN>#include &lt;ctime&gt;</DFN>
+<VAR>using</VAR> <VAR>namespace</VAR> std;
+<VAR>int</VAR> main()
+{
+  ofstream out(<KBD>"cout.txt"</KBD>);
+  clock_t start;
+  <VAR>double</VAR> diff;
+ =20
+  cout.sync_with_stdio ( <VAR>false</VAR> );
+
+  start =3D clock();
+  <VAR>for</VAR> ( <VAR>int</VAR> i =3D 0; i &lt; 10000000; i++ )
+    cout&lt;&lt;<KBD>"a"</KBD>;
+  diff =3D ( clock() - start ) / (<VAR>double</VAR>)CLOCKS_PER_SEC;
+
+  out&lt;&lt;<KBD>"cout:   "</KBD>&lt;&lt; diff &lt;&lt;<KBD>'\n'</KBD>;
+  <VAR>return</VAR> 0;
+}</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR>on the other hand,=20
+            this gets about 11 seconds. <BR>Bearing in mind that this is =
+a 10=20
+            million sequence of a's (which can really be changed to =
+whatever you=20
+            want), i think you're right about the STL<BR>my =
+bad......<BR><BR>As=20
+            for the DFS, ive decided to go with a BFS. although its not =
+optimal=20
+            for what im trying to achieve, at the moment, it will have =
+to=20
+            do.<BR>Plus, its something that i can actually code.<BR>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd><BR>First, as for backtracking, I =
+addressed that=20
+                  for you with the reference to Wikipedia and your=20
+                textbooks.<BR></TD></TR></TBODY></TABLE><BR><BR>Well, =
+wikipedia was=20
+            my textbook. as well as some of the bibliography references =
+and a=20
+            little help from google. Im not doing this as part of a =
+school/uni=20
+            course. Its my own "free-time killer". Although i try to =
+take it=20
+            much more seriously than that, but because its not a subject =
+that im=20
+            taught from a textbook, i dont have a textbook. My knowledge =
+is=20
+            scavenged from free sites on the web, plus that of a few =
+friends.=20
+            which i probably should cut back on, since one of them was =
+adamant=20
+            that fprintf/printf was faster than an iostream<BR><BR>I =
+know/knew=20
+            how graph traversal algorithms work. However, i'm primarily =
+a=20
+            mathematician, and not a programmer. So i could know how to =
+solve P=20
+            vs NP, but still not know how to tell the computer to do the =
+same=20
+            thing<BR>Thats the advantage to me of using the BFS. Using =
+any input=20
+            file, either with your or my way, i can quite easily get it =
+to track=20
+            the verticies just with a simple for loop<BR><BR>And i =
+finally=20
+            realised what you mean about confusing tracking and finding=20
+            vertices. That also helps a tremendous amount in creating =
+both the=20
+            DFS and the BFS.<BR><BR>Finally, <BR>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd>You can't build a bridge by just showing =
+up with=20
+                  a bunch of materials and jumping into the hammering =
+and=20
+                sawing.</TD></TR></TBODY></TABLE><BR>nope, you most =
+certainly=20
+            can<BR>no more than 25 bamboo skewers and a bit of PVA glue, =
+and my=20
+            systems tech assignment scored me about 45 kilos of weight. =
+Not bad,=20
+            really ;)<BR><BR>Thanks for all the help,<BR>Ben </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Dsedited>Last edited on =
+<SPAN=20
+            id=3DCH_zTm8f71e5c9d0 title=3D"Sat, 17 May 2008 01:25:25 =
++0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm8f71e5c9d0');</SCRIPT>
+            <NOSCRIPT>May 17, 2008 at 1:25am UTC</NOSCRIPT></SPAN> <SPAN =
+
+            class=3Ddbtn =
+id=3DCH_btn7147></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7162><SPAN =
+title=3D7162,8377,1023,17,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/Lvb7M4Gy/"><B>awhite1159</B>=20
+            (17)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7162"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm64f1e0259d=20
+            title=3D"Sat, 17 May 2008 09:29:38 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm64f1e0259d');</SCRIPT>
+            <NOSCRIPT>May 17, 2008 at 9:29am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7162 colSpan=3D2>Interesting =
+discussion.=20
+            Perhaps I initiated this with my previous post on an =
+undirected=20
+            acyclic graph algorithm? Let me start off by saying I am not =
+a=20
+            student but instead some nutcase who does this for fun. I =
+can try to=20
+            describe how it works in plain language but maybe a portion =
+of the=20
+            code will explain itself. The output below is from an =
+undirected=20
+            acyclic graph of 9 vertices. I first link the nine vertices =
+with=20
+            edges all in a row like a bi-directional list. I then =
+connect the=20
+            9th to the 7th, and the 9th to the 4th. I can post the code=20
+            separately if anyone is interested in seeing it.<BR><BR>(IP=20
+            addresses are used so I can take real world data from a =
+Tivoli=20
+            Storage Manager Server.)<BR><BR>Network Backup Simulator =
+(BkupSim)=20
+            (c) 2008 AW Systems Inc. (Just kidding.)<BR><BR>&lt;3&gt; =
+linked to=20
+            &lt;2&gt;<BR>&lt;4&gt; linked to &lt;3&gt;<BR>&lt;5&gt; =
+linked to=20
+            &lt;4&gt;<BR>&lt;6&gt; linked to &lt;5&gt;<BR>&lt;7&gt; =
+linked to=20
+            &lt;6&gt;<BR>&lt;8&gt; linked to &lt;7&gt;<BR>&lt;9&gt; =
+linked to=20
+            &lt;8&gt;<BR>Less costly route for &lt;9&gt;-Edge to =
+&lt;2&gt; found=20
+            and substituted.<BR>Less costly route for &lt;9&gt;-Edge to=20
+            &lt;3&gt; found and substituted.<BR>Less costly route for=20
+            &lt;9&gt;-Edge to &lt;4&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;9&gt;-Edge to &lt;5&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;9&gt;-Edge to &lt;6&gt; found and=20
+            substituted.<BR>Less costly route for &lt;9&gt;-Edge to =
+&lt;7&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;2&gt;-Edge to=20
+            &lt;9&gt; found and substituted.<BR>Less costly route for=20
+            &lt;3&gt;-Edge to &lt;9&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;4&gt;-Edge to &lt;9&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;5&gt;-Edge to &lt;9&gt; found and=20
+            substituted.<BR>Less costly route for &lt;6&gt;-Edge to =
+&lt;9&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;7&gt;-Edge to=20
+            &lt;9&gt; found and substituted.<BR>&lt;9&gt; linked to=20
+            &lt;7&gt;<BR>Less costly route for &lt;8&gt;-Edge to =
+&lt;2&gt; found=20
+            and substituted.<BR>Less costly route for &lt;7&gt;-Edge to=20
+            &lt;2&gt; found and substituted.<BR>Less costly route for=20
+            &lt;8&gt;-Edge to &lt;2&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;9&gt;-Edge to &lt;2&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;8&gt;-Edge to &lt;3&gt; found and=20
+            substituted.<BR>Less costly route for &lt;7&gt;-Edge to =
+&lt;3&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;8&gt;-Edge to=20
+            &lt;3&gt; found and substituted.<BR>Less costly route for=20
+            &lt;9&gt;-Edge to &lt;3&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;9&gt;-Edge to &lt;5&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;2&gt;-Edge to &lt;7&gt; found and=20
+            substituted.<BR>Less costly route for &lt;3&gt;-Edge to =
+&lt;7&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;4&gt;-Edge to=20
+            &lt;7&gt; found and substituted.<BR>Less costly route for=20
+            &lt;2&gt;-Edge to &lt;8&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;3&gt;-Edge to &lt;8&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;4&gt;-Edge to &lt;8&gt; found and=20
+            substituted.<BR>Less costly route for &lt;8&gt;-Edge to =
+&lt;4&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;7&gt;-Edge to=20
+            &lt;4&gt; found and substituted.<BR>Less costly route for=20
+            &lt;8&gt;-Edge to &lt;4&gt; found and substituted.<BR>Less =
+costly=20
+            route for &lt;9&gt;-Edge to &lt;4&gt; found and =
+substituted.<BR>Less=20
+            costly route for &lt;2&gt;-Edge to &lt;9&gt; found and=20
+            substituted.<BR>Less costly route for &lt;3&gt;-Edge to =
+&lt;9&gt;=20
+            found and substituted.<BR>Less costly route for =
+&lt;5&gt;-Edge to=20
+            &lt;9&gt; found and substituted.<BR>Less costly route for=20
+            &lt;4&gt;-Edge to &lt;9&gt; found and =
+substituted.<BR>&lt;9&gt;=20
+            linked to=20
+            =
+&lt;4&gt;<BR>Name......:&lt;2&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:2<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.002.000|=20
+            192.168.002.000| 192.168.002.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.3.0=20
+            via &lt;3&gt; (Hop/Cost=3D&gt;1)<BR>192.168.4.0 via =
+&lt;3&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.5.0 via &lt;3&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.6.0 via &lt;3&gt;=20
+            (Hop/Cost=3D&gt;4)<BR>192.168.7.0 via &lt;3&gt;=20
+            (Hop/Cost=3D&gt;4)<BR>192.168.8.0 via &lt;3&gt;=20
+            (Hop/Cost=3D&gt;4)<BR>192.168.9.0 via &lt;3&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;3&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:4<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.003.000|=20
+            192.168.003.000| 192.168.003.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;2&gt; (Hop/Cost=3D&gt;1)<BR>192.168.4.0 via =
+&lt;4&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.5.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.6.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.7.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.8.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.9.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;4&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:6<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.004.000|=20
+            192.168.004.000| 192.168.004.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;3&gt; (Hop/Cost=3D&gt;2)<BR>192.168.3.0 via =
+&lt;3&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.5.0 via &lt;5&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.6.0 via &lt;5&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.7.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.8.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.9.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;5&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:8<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.005.000|=20
+            192.168.005.000| 192.168.005.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;4&gt; (Hop/Cost=3D&gt;3)<BR>192.168.3.0 via =
+&lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.4.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.6.0 via &lt;6&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.7.0 via &lt;6&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.8.0 via &lt;6&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.9.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;6&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:10<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.006.000|=20
+            192.168.006.000| 192.168.006.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;5&gt; (Hop/Cost=3D&gt;4)<BR>192.168.3.0 via =
+&lt;5&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.4.0 via &lt;5&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.5.0 via &lt;5&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.7.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.8.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.9.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;7&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:12<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.007.000|=20
+            192.168.007.000| 192.168.007.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;9&gt; (Hop/Cost=3D&gt;4)<BR>192.168.3.0 via =
+&lt;9&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.4.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.5.0 via &lt;6&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.6.0 via &lt;6&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.8.0 via &lt;8&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.9.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;8&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:14<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.008.000|=20
+            192.168.008.000| 192.168.008.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;9&gt; (Hop/Cost=3D&gt;4)<BR>192.168.3.0 via =
+&lt;9&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.4.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.5.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;3)<BR>192.168.6.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.7.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.9.0 via &lt;9&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            =
+Count.:1<BR><BR>Name......:&lt;9&gt;-Edge<BR>Type......:ROUTER<BR>Node=20
+            =
+ID...:16<BR>Thruput...:16000000<BR>IP/NM/NET.:192.168.009.000|=20
+            192.168.009.000| 192.168.009.000=20
+            =
+Locked:0<BR>Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D&gt;<BR>192.168.2.0=20
+            via &lt;4&gt; (Hop/Cost=3D&gt;3)<BR>192.168.3.0 via =
+&lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.4.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.5.0 via &lt;4&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.6.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;2)<BR>192.168.7.0 via &lt;7&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>192.168.8.0 via &lt;8&gt;=20
+            (Hop/Cost=3D&gt;1)<BR>End=20
+            =
+Routes=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&gt;=
+<BR>MaxTPKB...:16000000<BR>Use=20
+            Count.:1<BR><BR><BR><BR></TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        id=3DCH_btn7162></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7163><SPAN =
+title=3D7163,8377,1023,17,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/Lvb7M4Gy/"><B>awhite1159</B>=20
+            (17)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7163"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm975b045fa4=20
+            title=3D"Sat, 17 May 2008 09:39:56 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm975b045fa4');</SCRIPT>
+            <NOSCRIPT>May 17, 2008 at 9:39am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7163 colSpan=3D2>A portion of the =
+code that=20
+            builds the undirected acyclic graph:<BR>
+            <DIV class=3Dauto>
+            <TABLE class=3Dsnippet>
+              <TBODY>
+              <TR>
+                <TD=20
+                  =
+class=3Drownum><TT>1<BR>2<BR>3<BR>4<BR>5<BR>6<BR>7<BR>8<BR>9<BR>10<BR>11<=
+BR>12<BR>13<BR>14<BR>15<BR>16<BR>17<BR>18<BR>19<BR>20<BR>21<BR>22<BR>23<B=
+R>24<BR>25<BR>26<BR>27<BR>28<BR>29<BR>30<BR>31<BR>32<BR>33<BR>34<BR>35<BR=
+>36<BR>37<BR>38<BR>39<BR>40<BR>41<BR>42<BR>43<BR>44<BR>45<BR>46<BR>47<BR>=
+48<BR>49<BR>50<BR>51<BR>52<BR>53<BR>54<BR>55<BR>56<BR>57<BR>58<BR>59<BR>6=
+0<BR>61<BR>62<BR>63<BR>64<BR>65<BR>66<BR>67<BR>68<BR>69<BR>70<BR>71<BR>72=
+<BR>73<BR>74<BR>75<BR>76<BR>77<BR>78<BR>79<BR>80<BR>81<BR></TT></TD>
+                <TD class=3Dsource><PRE><CODE><CITE>// Exchange routes, =
+build return routes, and then link. This code prevents cycles,</CITE>
+<CITE>// evaluates costs, recursively conducts depth first search via =
+propagateRetRoute()</CITE>
+<CITE>// Prior to linking, the two vertices being linked are assumed to =
+have predecessors</CITE>
+<CITE>// and are treated like separate networks.</CITE>
+<VAR>void</VAR> NetSuper::linkNetworks(<VAR>const</VAR> string&amp; src, =
+<VAR>const</VAR> string&amp; dst) {=20
+	Net net_src(src);
+	Net net_dst(dst);
+	h_DM&amp; src_h =3D *(findNetwork(net_src));
+	h_DM&amp; dst_h =3D *(findNetwork(net_dst));
+	map&lt;Net, <VAR>int</VAR>&gt;::iterator cost;
+
+<CITE>// Exchange routes making h_DM the link partner. Existing cost of =
+partner must be added</CITE>
+	setCost(0);
+	map&lt;Net, h_DM&gt;::iterator dst_edges =3D =
+dst_h-&gt;getOut()-&gt;node_list_begin();
+	<VAR>while</VAR>(dst_edges !=3D dst_h-&gt;getOut()-&gt;node_list_end()) =
+{
+		setCost(dst_h-&gt;getOut()-&gt;findCost(dst_edges-&gt;first));
+		NetSuper::propagateRetRoute(dst_edges-&gt;first, dst_h, src_h);
+		++dst_edges;
+	}
+	setCost(0);
+	map&lt;Net, h_DM&gt;::iterator src_edges =3D =
+src_h-&gt;getOut()-&gt;node_list_begin();
+	<VAR>while</VAR>(src_edges !=3D src_h-&gt;getOut()-&gt;node_list_end()) =
+{
+		setCost(src_h-&gt;getOut()-&gt;findCost(src_edges-&gt;first));
+		NetSuper::propagateRetRoute(src_edges-&gt;first, src_h, dst_h);
+		++src_edges;
+	}
+=09
+<CITE>// Must also add my new neighbor</CITE>
+	setCost(0);
+	NetSuper::propagateRetRoute(net_dst, dst_h, src_h);
+<CITE>// Also add myself to my new neighbor</CITE>
+	setCost(0);
+	NetSuper::propagateRetRoute(net_src, src_h, dst_h);
+	std::cout &lt;&lt; src_h-&gt;getName() &lt;&lt; <KBD>" linked to =
+"</KBD> &lt;&lt; dst_h-&gt;getName() &lt;&lt; std::endl;
+}
+
+
+<VAR>void</VAR> NetSuper::propagateRetRoute(<VAR>const</VAR> Net&amp; =
+net, <VAR>const</VAR> h_DM&amp; prev_h,
+	<VAR>const</VAR> h_DM&amp; current_h) {
+	<CITE>// No need for route to self</CITE>
+	<VAR>if</VAR>(net.compare_net(current_h-&gt;getNet()))
+		<VAR>return</VAR>;
+	<CITE>// Cycle protection to prevent recursive calls from =
+backtracking</CITE>
+	<VAR>if</VAR>(current_h-&gt;getNet().locked())
+		<VAR>return</VAR>;
+	current_h-&gt;getNet().lock();
+	incCost();
+	map&lt;Net, h_DM&gt;::iterator current_edges =3D =
+current_h-&gt;getOut()-&gt;node_list_begin();
+	<VAR>while</VAR>(current_edges !=3D =
+current_h-&gt;getOut()-&gt;node_list_end()) {
+		NetSuper::propagateRetRoute(net, current_h, current_edges-&gt;second);
+		++current_edges;
+	}
+	current_h-&gt;getOut()-&gt;addNode(net, prev_h, getCost());
+	current_h-&gt;getNet().unlock();
+	decCost();
+}=09
+
+<CITE>// Add route with its cost to the route list. The map does not =
+allow duplicates so this</CITE>
+<CITE>// condition forces a check against the cost of the alternate =
+route and if is less costly, </CITE>
+<CITE>// it replaces the existing route.</CITE>
+<VAR>void</VAR> BkupRouter::addNode(<VAR>const</VAR> Net&amp; n, =
+<VAR>const</VAR> h_DM&amp; h, <VAR>int</VAR> cost) {=20
+	Net tmp(n);
+	pair&lt;map&lt;Net, h_DM&gt;::iterator, <VAR>bool</VAR>&gt; r;
+	r =3D route_list.insert(pair&lt;<VAR>const</VAR> Net, h_DM&gt;(n, h));
+	route_cost.insert(pair&lt;<VAR>const</VAR> Net, <VAR>int</VAR>&gt;(n, =
+cost));
+	<VAR>if</VAR>(r.second =3D=3D <VAR>false</VAR>) {
+		<CITE>// Route already exists. If this new route has less cost, =
+replace.</CITE>
+		<VAR>int</VAR> oldcost =3D findCost(n);
+		<VAR>if</VAR>(cost &lt; oldcost) {
+			vector&lt;h_DM&gt;::iterator dst_h =3D NetSuper::findNetwork(n);
+			std::cout &lt;&lt; <KBD>"Less costly route for "</KBD> &lt;&lt; =
+getName() &lt;&lt; <KBD>" to "</KBD> &lt;&lt; (*dst_h)-&gt;getName() =
+&lt;&lt;
+			<KBD>" found and substituted."</KBD> &lt;&lt; std::endl;
+			map&lt;Net, h_DM&gt;::iterator oldroute_iter =3D findNode(n);
+			map&lt;Net, <VAR>int</VAR>&gt;::iterator oldcost_iter =3D =
+route_cost.find(n);
+			route_list.erase(oldroute_iter);
+			route_cost.erase(oldcost_iter);
+			route_list.insert(pair&lt;<VAR>const</VAR> Net, h_DM&gt;(n, h));
+			route_cost.insert(pair&lt;<VAR>const</VAR> Net, <VAR>int</VAR>&gt;(n, =
+cost));
+		}
+	}
+}</CODE></PRE></TD></TR></TBODY></TABLE></DIV><BR><BR></TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        id=3DCH_btn7163></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7209><SPAN =
+title=3D7209,9331,1023,27,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/9zwAC542/"><B>bgbnbigben</B>=20
+            (27)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7209"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm840e0e480a=20
+            title=3D"Sun, 18 May 2008 07:44:45 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm840e0e480a');</SCRIPT>
+            <NOSCRIPT>May 18, 2008 at 7:44am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7209 colSpan=3D2>
+            <TABLE class=3Dquote>
+              <TBODY>
+              <TR>
+                <TD class=3Dqd>Interesting discussion. Perhaps I =
+initiated this=20
+                  with my previous post on an undirected acyclic graph=20
+                  algorithm? </TD></TR></TBODY></TABLE><BR>nope. It was =
+actually=20
+            started due to a problem i had coding an informatics =
+solution.=20
+            Funny, i too am one of those nutjobs.<BR>The problem with =
+your=20
+            solution, still being a solution, is that its too costly to =
+run as=20
+            an informatics solution. i was trying to create a simple =
+iterated=20
+            version of a DFS algorithm, but still couldnt figure out how =
+to=20
+            backtrack it. Well, i lie. I couldnt ENTIRELY figure out how =
+to back=20
+            track it. i could go about 2 steps back, but thats still as =
+good as=20
+            useless.<BR>instead, i just used a BFS, which is easy to get =
+to go=20
+            anywhere, because its made quite simply when iterated. Duoas =
+was=20
+            right, its weighted and directed, which makes using a BFS =
+quite=20
+            simple.<BR>Although far from optimal for what im trying to =
+do.=20
+</TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        id=3DCH_btn7209></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7220><SPAN =
+title=3D7220,8377,1023,17,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/Lvb7M4Gy/"><B>awhite1159</B>=20
+            (17)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7220"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm7d06af026c=20
+            title=3D"Sun, 18 May 2008 12:38:33 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm7d06af026c');</SCRIPT>
+            <NOSCRIPT>May 18, 2008 at 12:38pm UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7220 colSpan=3D2>Glad to hear you =
+made=20
+            progress. If you don't mind me asking, what is an =
+informatics=20
+            solution? </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        id=3DCH_btn7220></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7235><SPAN =
+title=3D7235,9110,1023,5690,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/i8vCpfjN/"><B>Duoas</B>=20
+            (5690)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7235"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTmeae0a1ddf7=20
+            title=3D"Sun, 18 May 2008 16:25:16 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTmeae0a1ddf7');</SCRIPT>
+            <NOSCRIPT>May 18, 2008 at 4:25pm UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7235 colSpan=3D2>Its a software =
+program that=20
+            analyzes the behavior of a system, and models suggested =
+changes to=20
+            that system. Basically, it is a management tool.<BR><BR>A =
+simple=20
+            example would be to study how a city's semaphores affect =
+traffic,=20
+            and adjust specific areas to have specific characteristics. =
+You want=20
+            a high-speed route to be timed so that drivers rarely have =
+to stop=20
+            at the lights. But in an urban environment you may want to =
+stop=20
+            drivers very often to keep their speed down. Etc. </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Dsedited>Last edited on =
+<SPAN=20
+            id=3DCH_zTm8075f367a7 title=3D"Sun, 18 May 2008 16:25:34 =
++0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm8075f367a7');</SCRIPT>
+            <NOSCRIPT>May 18, 2008 at 4:25pm UTC</NOSCRIPT></SPAN> <SPAN =
+
+            class=3Ddbtn =
+id=3DCH_btn7235></SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
+      <DIV class=3DC_forPost id=3Dmsg7285><SPAN =
+title=3D7285,9331,1023,27,0></SPAN>
+      <TABLE class=3Dbox>
+        <TBODY>
+        <TR class=3Drtop>
+          <TD class=3Ddwho><A=20
+            =
+href=3D"http://www.cplusplus.com/user/9zwAC542/"><B>bgbnbigben</B>=20
+            (27)</A></TD>
+          <TD class=3Ddwhen><A title=3D"Link to this post"=20
+            =
+href=3D"http://www.cplusplus.com/forum/general/1866/#msg7285"><IMG=20
+            height=3D8 src=3D"http://www.cplusplus.com/img/link.png" =
+width=3D16></A>=20
+            <SPAN id=3DCH_zTm4bc2de199d=20
+            title=3D"Mon, 19 May 2008 05:27:00 +0000"></SPAN>
+            <SCRIPT =
+type=3Dtext/javascript>WhenId('CH_zTm4bc2de199d');</SCRIPT>
+            <NOSCRIPT>May 19, 2008 at 5:27am UTC</NOSCRIPT></TD></TR>
+        <TR>
+          <TD class=3Ddwhat id=3DCH_i7285 colSpan=3D2>yeah, something =
+like that.=20
+            Basically, you're given a set of data, and told what it =
+should do=20
+            with it. a very, very basic example is to get input from a =
+file and=20
+            add one to it, then output the answer. hmm, when i put it =
+that way,=20
+            all of these problems sound so simple.<BR>Hence another =
+reason why i=20
+            couldnt change the input file - it was given in the form a x =
+b y, so=20
+            i couldnt repackage it. i could have got the program to do =
+that for=20
+            me, but that starts to get too costly in runtime and stack =
+memory=20
+            (because they are both also limited). </TD></TR>
+        <TR>
+          <TD class=3Ddhow colSpan=3D2>
+            <DIV class=3Ddedit><SPAN class=3Ddbtn=20
+        =
+id=3DCH_btn7285></SPAN></DIV></TD></TR></TBODY></TABLE></DIV></DIV>
+      <DIV class=3DrootinsMore></DIV>
+      <DIV class=3DrootbtnMore></DIV>
+      <DIV class=3DrootinsNew></DIV>
+      <DIV class=3DrootbtnNew></DIV>
+      <DIV id=3DCH_insNew></DIV>
+      <DIV id=3DCH_reply>Topic archived. No new replies allowed.</DIV>
+      <DIV id=3DCH_subscription></DIV>
+      <DIV class=3DrootedtNew></DIV>
+      <SCRIPT type=3Dtext/javascript>new =
+for_PostList(1866,1,9331,0,'CH_PostList','CH_subscription','CH_reply','CH=
+_insNew','CH_edttl','/forum/thread.cgi','/forum/post.cgi','/forum/myposts=
+.cgi',64,32,512,256,1024,16);</SCRIPT>
+
+      <P>
+      <SCRIPT type=3Dtext/javascript><!--=0A=
+google_ad_client =3D "pub-7688470879129516";=0A=
+google_ad_slot =3D "7973859818";=0A=
+google_ad_width =3D 728;=0A=
+google_ad_height =3D 90;=0A=
+//-->=0A=
+</SCRIPT>
+
+      <SCRIPT src=3D"" type=3Dtext/javascript>=0A=
+</SCRIPT>
+      </P></TD></TR></TBODY></TABLE></DIV>
+<DIV id=3DCH_footer><A href=3D"http://www.cplusplus.com/">Home page</A> =
+| <A=20
+href=3D"http://www.cplusplus.com/privacy.do">Privacy =
+policy</A><BR>=C2=A9=20
+cplusplus.com, 2000-2011 - All rights reserved - <I>v2.9b</I><BR><A=20
+href=3D"http://www.cplusplus.com/contact.do?referrer=3Dhttp%3A%2F%2Fwww.c=
+plusplus.com%2Fforum%2Fgeneral%2F1866%2F">Spotted=20
+an error? contact us</A> </DIV>
+<SCRIPT src=3D"http://www.google-analytics.com/urchin.js"=20
+type=3Dtext/javascript>=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+onPrint.print();=0A=
+var gso =3D new Session ('ssn29','rel29',14400,86400,1320171515);=0A=
+_uacct =3D "UA-521783-1";=0A=
+urchinTracker();=0A=
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cplusplus.com/img/cpp-logo.png
+
+iVBORw0KGgoAAAANSUhEUgAAAMYAAABLCAMAAAAcawhpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAwBQTFRFiM1n/PX/8ev/i8yFg3upJzqHqeVp/vv+Dw8Uy+SqccM34+S3
+uuuV5N//WFdui4O0dIqxTU5S6uX+1tfXKSn5qbq5mM2KapeOGSaCtba7x8fH5eXmeslDzMn/Kyww
+ot2LtNiXmJiZZrgztuuGiLR0yNDSnJPKldlZpcyZlbqoT4hZQlqTfHWhNjRFFhbvwLzq3tr/1tL/
+2tb/0s7/9fP29vD/AQFmVmhUl4/DMDSgo5nShYuOpJ2+q7LYbLVL1tLktKvmLi9oAQGq5uH/pKOm
+AgKABgbM7ej/u7bWqaLbvb3ESIwXlZuieHGbxsPVmZW4eH9/c26ZRkypkYm7ZWpzqaPKV4ww0Mrh
+ycPu0dHRZGKGsqzKEhJjh4OsQUFR4tzxJyfMfXqFFhmXr66y3NfxGxsgr7/PbHR9n627iZeiq7nJ
+DhKEM0uK2Oerhch4h9NWdrx31+OzjNF1esdWxtyx/ezCfMJuh8SY4+qsg8tbTGuVjdZj9uq6qeV2
+fM9OqtSnYH+g7u6yo9x3f8GIltloZq1ocsBV6ObE9vOymdSXq+SYVIOJl9d4mM2kyuO4nN9sbrdo
+xeqZttqpbsJEWmOtlMmZgctLW6JnquSFlc53gZmzbbN1eLtlsN+FP0I/d7yTvMrLosym6vWmqteZ
+u+Slq9a1iNNJ0O6gtet6YWVohbuExOyId6uIapdzt9u7mteGZqp22PWVntxijaO5w96c0vSKwex6
+u8e4V6NUc6t3YbYf4/qc3vGixveHpLTClL2XmaXLiraUhaeueLqGaHJm9PqpnL60WY1uqMe9jKGE
+bbSHnKSsscKulNhPaJNNbHa5jZfI1OrKrLvLu/J6QEttX6Ezd6Gcmp3RiI3Dha2Ui7Omo7SdksBb
+2fK6yvKV4/XVnKiVUnNvd6VhbbCUnraCRFxGXKwVsq3TAQGZfK2l7vfD1uHj+/PD7fjmIiMocG51
+7/DmY12Dbm2yOTn84t3p29jg8fvVY11/1ND0GBhXkY6c5+LxFRQbsMDQ////AAAAvek7vAAAIMpJ
+REFUeNrUmnlAU/e27zcEkzDIZAlaUoJEDSCp1gkwSmtbq6I9glC1+tCe2hStkgQSAxETNGEQZJ6R
+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
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cplusplus.com/img/waitblue.gif
+
+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
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cplusplus.com/ico/forum_question.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAqBJREFUeNqkU89PE0EUfrO73S7bbSsFgRKiaLHUYIOIMR6UaDRKYiOJ
+R/8CE7mY6MWbiXcSjCcPmvgHGIiIR2MlMSSaINIARVH5UaEUum13t3RnZ50ZWionD07y7bx9733f
+vn3zBrmuC/+zJP6IvwZAAoAg0jfUBgglqHGOoqOat0oxDa5LE93fQBy6EcCziT2Bv9ag2iDdPXu6
+ozsaaW7VfF4fK7BU2jUWvmUvff6yNmRa9lOa9/ZABTVyKKg8vJWI9xGHaBuZLGzUY4HosVAg0hkK
+j0/OBXfyJtREqgJuWFXE4aHBk30FvajpegEmnsQPlPZgJA1rOVm7drmrb/zN12Gr7MxQd0bgUeIk
+ek+FuwuFomYYJrDGjr5McUwmMzwldlQGFtu1LC0aCXUzzn4FroPPt7dprXq+sP/FsfcGJwz05qBF
+XYf0Uh5SKR1ESYRgsLGVcWjas71fILhDFEB1HAcwdkAvlMC0ytAfU+D29UZILZvw6p0JguQFdui2
+jVXGqfeAYIQxRtYuBr1YBkIQIFGCR3eO8PDjFxsgebX96giSEOPUBRy8mtu2TKMiaqLsA7GaePP+
+T77LauOBhtrlisk4zK42EU+v/MptKmoAZMXPgehgTT0/w8Hsmp8hnytmGacu4OCxlcXlNK3N8CgB
+8Hj9IMlqfVypzXwM2AZja2V1kXHqv+CSTMUyR2eTyWDPwNV4g/+QT1I0uDL8nYf9h4/z3dR3jIWP
+U7O4bI7Ssefni9iZI0SbJncBeC7e8Kixe+2x3hMtXT1NajDUsEfctjaX5nLr8zNp25wfATs54VaW
++LzUBFglTRTNIHS2gdB/AVB7D1UMV9uWAXd9DsinD0B+bFJHlmKLcnFNgPVCrUL6xw2mVxEMVhjl
+kj8CDACjgCwmCe75iAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cplusplus.com/img/link.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAMAAADHqI+lAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAALdQTFRFxMTEj4+PiYmJvr7CkJCRkZGRhYWFhoaGmZmZq6uro6Ojmpqa
+y8vR////iIiIpqam6+vrwsLC6+v8oqKioKCg3Nzc5ubm2dnZj4+QgICAuLi45ub1xsbGvb298vLy
+19fX2tra29vbw8PCz8/P6enpr6+1qqqwv7/Iu7vEz8/bp6enra2tzMzLtbW07u7uz8/c9fX11NTU
+3t7e4uLi7e3tvr6+gYGBv7+/1tbWqampenp64+Pj5eXl0FAO4wAAAH9JREFUeNocxVUSwyAUAMAX
+d3dr6q4EAgTuf67OZH8WApQQQmGagBKSoACK4SdwPKrqYcLxbiigZVQxPO663DMUylpwWFaGr6fE
+aB+WGXOA+1puW2bTmJadaz6HXj990u5a1+db2l30HjaPeVmWOYrW7kf4CiGlFFW1tn3/BRgAKgcQ
+9gvhGk8AAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cplusplus.com/main29f.css
+
+BODY {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+TABLE {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: =
+verdana,arial,helvetica,sans-serif
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #d7d7d7
+}
+H1 {
+	FONT-SIZE: 24px
+}
+H2 {
+	FONT-SIZE: 20px
+}
+H3 {
+	FONT-SIZE: 18px
+}
+H4 {
+	FONT-SIZE: 16px
+}
+H5 {
+	FONT-SIZE: 14px
+}
+H6 {
+	FONT-SIZE: 12px
+}
+H1 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+H2 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+H3 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+H4 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+H5 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+H6 {
+	MARGIN-TOP: 12px; MARGIN-BOTTOM: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: =
+0px
+}
+A:link {
+	COLOR: #000070; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000070; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000070; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0000a0; TEXT-DECORATION: underline
+}
+.center {
+	TEXT-ALIGN: center
+}
+.centertext {
+	TEXT-ALIGN: center
+}
+.right {
+	TEXT-ALIGN: right
+}
+.floatleft {
+	FLOAT: left
+}
+.u {
+	TEXT-DECORATION: underline
+}
+.centerblock {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.wideblock {
+	WIDTH: 728px
+}
+.sixteen {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: =
+url(/ico/treevline.png) repeat-y; PADDING-BOTTOM: 0px; MARGIN: 0px; =
+VERTICAL-ALIGN: top; WIDTH: 16px; PADDING-TOP: 0px
+}
+.nospace {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: =
+0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: =
+0px; BORDER-BOTTOM: 0px
+}
+.nospace TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+TABLE.boxed {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.boxed TH {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: =
+#e0e0e0; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TABLE.boxed TD {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+#CH_header {
+	BACKGROUND: url(img/cpp-headerbg.png) #fff repeat-x; COLOR: #fff; =
+LINE-HEIGHT: 20px; HEIGHT: 75px
+}
+#CH_header IMG {
+	VERTICAL-ALIGN: bottom
+}
+#CH_header A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_header A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_header A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_header A:hover {
+	COLOR: yellow; TEXT-DECORATION: none
+}
+#CH_header .txt {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; BORDER-LEFT: 1px inset; =
+BORDER-BOTTOM: 1px inset; HEIGHT: 18px; BACKGROUND-COLOR: #c0c0ff
+}
+#CH_header .btn {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; FONT-SIZE: 9px; =
+BORDER-LEFT: 1px outset; BORDER-BOTTOM: 1px outset; HEIGHT: 18px; =
+BACKGROUND-COLOR: #c0c0ff
+}
+#CH_header .chk {
+	VERTICAL-ALIGN: middle
+}
+#CH_header #CH_topline {
+	LEFT: 230px; COLOR: #000; POSITION: absolute; TOP: 0px
+}
+#CH_header #CH_topline A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+#CH_header #CH_topline A:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+#CH_header #CH_bar {
+	LEFT: 210px; POSITION: absolute; TOP: 18px
+}
+#CH_header #CH_searchbox {
+	LEFT: 210px; POSITION: absolute; TOP: 38px
+}
+#CH_header #CH_boxLogin {
+	RIGHT: 10px; POSITION: absolute; TOP: 19px
+}
+#CH_header #CH_boxLogin TABLE {
+	FONT-SIZE: 9px; COLOR: #fff; LINE-HEIGHT: 16px; BORDER-COLLAPSE: =
+collapse
+}
+#CH_header #CH_boxLogin .right {
+	TEXT-ALIGN: right
+}
+#CH_header .loginmessage {
+	VERTICAL-ALIGN: middle; WIDTH: 150px; HEIGHT: 37px; TEXT-ALIGN: center
+}
+#CH_container {
+	BACKGROUND: url(/img/cpp-contbg.png) #fff repeat-y; BORDER-COLLAPSE: =
+collapse
+}
+#CH_container #CH_containertbl {
+	BORDER-COLLAPSE: collapse
+}
+#CH_container #CH_nav {
+	PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; WIDTH: 165px; TEXT-ALIGN: =
+center
+}
+#CH_container #CH_nav .box {
+	BORDER-RIGHT: #00007f 1px solid; BORDER-TOP: #00007f 1px solid; =
+MARGIN-TOP: 5px; FONT-SIZE: 10px; BACKGROUND: white; MARGIN-LEFT: 2px; =
+BORDER-LEFT: #00007f 1px solid; WIDTH: 160px; BORDER-BOTTOM: #00007f 1px =
+solid; BORDER-COLLAPSE: collapse
+}
+#CH_container #CH_nav .box TD {
+	COLOR: #000070; TEXT-ALIGN: left
+}
+#CH_container #CH_nav .box TH {
+	BACKGROUND: url(/img/blue.gif) blue; COLOR: #fff; HEIGHT: 14px
+}
+#CH_container #CH_nav .box TH A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_container #CH_nav .box TH A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_container #CH_nav .box TH A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#CH_container #CH_nav .box TH A:hover {
+	COLOR: yellow; TEXT-DECORATION: none
+}
+#CH_container #CH_nav .selected {
+	BACKGROUND: #e0e0e0
+}
+#CH_container #CH_nav .folder {
+	FONT-WEIGHT: bold
+}
+#CH_container #CH_nav .indent {
+	TEXT-INDENT: 5px
+}
+#CH_container #CH_main {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top
+}
+#CH_container #CH_content {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+#CH_btns {
+	VERTICAL-ALIGN: middle; LINE-HEIGHT: 25px; HEIGHT: 30px
+}
+#CH_btns .bt {
+	BORDER-RIGHT: #e0e0c0 1px solid; BORDER-TOP: #e0e0c0 1px solid; =
+BACKGROUND: #ffffe0; BORDER-LEFT: #e0e0c0 1px solid; MARGIN-RIGHT: 5px; =
+BORDER-BOTTOM: #e0e0c0 1px solid
+}
+#CH_btns .bt:hover {
+	BACKGROUND: #ffff70; TEXT-DECORATION: none
+}
+#CH_footer {
+	CLEAR: both; BORDER-TOP: black 1px solid; FONT-SIZE: 9px; BACKGROUND: =
+#d7d7d7; PADDING-BOTTOM: 5px; TEXT-ALIGN: center
+}
+.auto .split {
+	WIDTH: 100%
+}
+.auto .split .source {
+	WIDTH: 50%
+}
+.auto .split .output {
+	WIDTH: 50%
+}
+.auto .rownum {
+	VERTICAL-ALIGN: top; COLOR: #a0a0a0; TEXT-ALIGN: right; min-width: 20px
+}
+.auto .source {
+	BORDER-RIGHT: #c0c0d0 1px solid; BORDER-TOP: #c0c0d0 1px solid; =
+BACKGROUND: #efefff; VERTICAL-ALIGN: top; BORDER-LEFT: #c0c0d0 1px =
+solid; BORDER-BOTTOM: #c0c0d0 1px solid
+}
+.auto .source VAR {
+	COLOR: #0000b0; FONT-STYLE: normal
+}
+.auto .source DFN {
+	COLOR: #500070; FONT-STYLE: normal
+}
+.auto .source CITE {
+	COLOR: #007000; FONT-STYLE: normal
+}
+.auto .source KBD {
+	COLOR: #600030; FONT-STYLE: normal
+}
+.auto .output {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; =
+BACKGROUND: #e7e7e7; VERTICAL-ALIGN: top; BORDER-LEFT: #c0c0c0 1px =
+solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+.C_schres {
+	MARGIN-TOP: 20px; WIDTH: 640px; FONT-FAMILY: arial,sans-serif
+}
+.C_schres .title {
+	FONT-SIZE: 16px; TEXT-DECORATION: underline
+}
+.C_schres .sub {
+	FONT-SIZE: 10px
+}
+.C_schres .url {
+	COLOR: #007000
+}
+.C_schres .bot {
+	BORDER-TOP: #a0a0a0 1px dashed; BACKGROUND: #ffffd0; TEXT-ALIGN: right
+}
+.C_bigletters {
+	TEXT-ALIGN: center
+}
+.C_bigletters STRONG {
+	FONT-SIZE: 16px
+}
+.C_doctop {
+	WIDTH: 100%; BORDER-BOTTOM: #000080 2px solid
+}
+.C_docright {
+	FLOAT: right; TEXT-ALIGN: right
+}
+.C_docdate {
+	FONT-SIZE: 9px
+}
+.C_warning {
+	BORDER-RIGHT: #807070 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#807070 1px solid; PADDING-LEFT: 3px; BACKGROUND: #ffe0e0; =
+PADDING-BOTTOM: 3px; MARGIN: 3px; BORDER-LEFT: #807070 1px solid; WIDTH: =
+95%; PADDING-TOP: 3px; BORDER-BOTTOM: #807070 1px solid; TEXT-ALIGN: =
+left
+}
+.C_warning .title {
+	FONT-WEIGHT: bold
+}
+.C_message {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: =
+white; MARGIN: 1.12em 0px; BORDER-LEFT: black 1px solid; WIDTH: 728px; =
+BORDER-BOTTOM: black 1px solid
+}
+.C_message .mhead {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.C_message .mbody {
+	MARGIN: 3px
+}
+.C_message .mfoot {
+	TEXT-ALIGN: center
+}
+.C_deco {
+	BORDER-RIGHT: #00007f 1px solid; BORDER-TOP: #00007f 1px solid; MARGIN: =
+1.12em 0px; BORDER-LEFT: #00007f 1px solid; WIDTH: 728px; BORDER-BOTTOM: =
+#00007f 1px solid
+}
+.C_deco TH {
+	BORDER-RIGHT: #00007f 1px solid; BORDER-TOP: #00007f 1px solid; =
+BACKGROUND: url(/img/blue.gif) blue; BORDER-LEFT: #00007f 1px solid; =
+COLOR: #fff; BORDER-BOTTOM: #00007f 1px solid
+}
+.C_deco TH A:link {
+	COLOR: white
+}
+.C_deco TH A:visited {
+	COLOR: white
+}
+.C_deco TH A:active {
+	COLOR: white
+}
+.C_deco TH A:hover {
+	COLOR: yellow
+}
+.C_deco TR TD {
+	BORDER-RIGHT: #707080 1px solid; BORDER-TOP: #707080 1px solid; =
+BACKGROUND: #f0f0ff; BORDER-LEFT: #707080 1px solid; BORDER-BOTTOM: =
+#707080 1px solid
+}
+.C_deco TR.odd TD {
+	BACKGROUND: #e0e0ff
+}
+.C_deco TR TD TD {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: =
+0px
+}
+.C_deco TR.separator TD {
+	FONT-WEIGHT: bold; BACKGROUND: white
+}
+.C_deco .field {
+	FONT-WEIGHT: bold; TEXT-ALIGN: right
+}
+.C_deco .value {
+	FONT-FAMILY: courier,monospace
+}
+.C_deco TEXTAREA {
+	FONT-FAMILY: courier,monospace
+}
+.C_deco .description {
+	FONT-SIZE: 10px
+}
+.C_deco .number {
+	TEXT-ALIGN: center
+}
+.C_deco .txt {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; =
+BACKGROUND-COLOR: #fffff0
+}
+.C_deco SELECT {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; =
+BACKGROUND-COLOR: #fffff0
+}
+.C_deco TEXTAREA {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; =
+BACKGROUND-COLOR: #fffff0
+}
+.C_deco .buttons {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+.C_usrPM .box {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#808080 1px solid; PADDING-LEFT: 3px; BACKGROUND: #f7f7f7; =
+PADDING-BOTTOM: 3px; MARGIN: 5px; BORDER-LEFT: #808080 1px solid; WIDTH: =
+716px; PADDING-TOP: 3px; BORDER-BOTTOM: #808080 1px solid; =
+BORDER-COLLAPSE: collapse
+}
+.C_usrPM .rtop {
+	BORDER-BOTTOM: #c0c0c0 1px dashed; HEIGHT: 20px; BACKGROUND-COLOR: =
+#f0f0ff
+}
+.C_usrPM .dwho {
+	FONT-SIZE: 10px
+}
+.C_usrPM .dwhen {
+	FONT-SIZE: 10px; TEXT-ALIGN: right
+}
+.C_usrPM .dwhat {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+.C_usrPM .dwhat .quote TH.qh {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-STYLE: italic; TEXT-ALIGN: =
+left
+}
+.C_usrPM .dwhat .quote TD.qd {
+	BORDER-RIGHT: #c0c0c0 1px dotted; BORDER-TOP: #c0c0c0 1px dotted; =
+BACKGROUND: #efefef; BORDER-LEFT: #c0c0c0 1px dotted; BORDER-BOTTOM: =
+#c0c0c0 1px dotted
+}
+.C_commTop {
+	FONT-WEIGHT: bold; BACKGROUND: url(/ico/bg728blue.png) blue; WIDTH: =
+728px; COLOR: white
+}
+.C_commBottom {
+	FONT-WEIGHT: bold; BACKGROUND: url(/ico/bg728blue.png) blue; WIDTH: =
+728px; COLOR: white
+}
+.C_commTop A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.C_commTop A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.C_commTop A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.C_commTop A:hover {
+	COLOR: yellow; TEXT-DECORATION: none
+}
+.C_commC {
+	BORDER-RIGHT: blue 1px dotted; BORDER-TOP: blue 1px dotted; =
+BORDER-LEFT: blue 1px dotted; WIDTH: 726px; BORDER-BOTTOM: blue 1px =
+dotted
+}
+.C_CommPost .box {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#808080 1px solid; PADDING-LEFT: 3px; BACKGROUND: #f7f7f7; =
+PADDING-BOTTOM: 3px; MARGIN: 5px; BORDER-LEFT: #808080 1px solid; WIDTH: =
+716px; PADDING-TOP: 3px; BORDER-BOTTOM: #808080 1px solid; =
+BORDER-COLLAPSE: collapse
+}
+.C_CommPost .box .box {
+	BORDER-RIGHT: #404040 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#404040 1px solid; PADDING-LEFT: 3px; BACKGROUND: #fff; PADDING-BOTTOM: =
+3px; MARGIN-LEFT: 15px; BORDER-LEFT: #404040 1px solid; WIDTH: 672px; =
+MARGIN-RIGHT: 15px; PADDING-TOP: 3px; BORDER-BOTTOM: #404040 1px solid; =
+BORDER-COLLAPSE: collapse
+}
+.C_CommPost .rtop {
+	BORDER-BOTTOM: #c0c0c0 1px dashed; HEIGHT: 20px; BACKGROUND-COLOR: =
+#f0f0ff
+}
+.C_CommPost .dwho {
+	FONT-SIZE: 10px
+}
+.C_CommPost .dbtn {
+	TEXT-ALIGN: right
+}
+.C_CommPost .dwhen {
+	FONT-SIZE: 10px; TEXT-ALIGN: right
+}
+.C_CommPost .dwhat {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+.C_CommPost .dwhat .quote TH.qh {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-STYLE: italic; TEXT-ALIGN: =
+left
+}
+.C_CommPost .dwhat .quote TD.qd {
+	BORDER-RIGHT: #c0c0c0 1px dotted; BORDER-TOP: #c0c0c0 1px dotted; =
+BACKGROUND: #efefef; BORDER-LEFT: #c0c0c0 1px dotted; BORDER-BOTTOM: =
+#c0c0c0 1px dotted
+}
+.C_CommPost .sedited {
+	FONT-SIZE: 10px; FONT-STYLE: italic
+}
+.C_CommPost .dedit {
+	HEIGHT: 20px; TEXT-ALIGN: right
+}
+.C_CommPost .dreply {
+	TEXT-ALIGN: right
+}
+.C_CommPost .rbottom {
+	HEIGHT: 20px; BACKGROUND-COLOR: #d0d0d0
+}
+.C_CommPost .reported {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; =
+BACKGROUND: #fffaf7; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: =
+#a0a0a0 1px solid
+}
+.C_CommPost .box .reported {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; =
+BACKGROUND: #fffaf7; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: =
+#a0a0a0 1px solid
+}
+.C_CommPost .reported .rtop {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.C_CommPost .box .reported .rtop {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.C_buttonzone {
+	BACKGROUND: silver; MARGIN: 3px
+}
+A.C_b75 {
+	BACKGROUND: url(/ico/button75x20.png); WIDTH: 75px; LINE-HEIGHT: 21px; =
+HEIGHT: 20px
+}
+A.C_b100 {
+	BACKGROUND: url(/ico/button100x20.png); WIDTH: 100px; LINE-HEIGHT: =
+21px; HEIGHT: 20px
+}
+.C_b75off {
+	BACKGROUND: url(/ico/button75x20off.png); WIDTH: 75px; LINE-HEIGHT: =
+21px; HEIGHT: 20px
+}
+.C_b100off {
+	BACKGROUND: url(/ico/button100x20off.png); WIDTH: 100px; LINE-HEIGHT: =
+21px; HEIGHT: 20px
+}
+A.C_b75 {
+	DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 9px; OVERFLOW: =
+hidden; COLOR: #fff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.C_b100 {
+	DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 9px; OVERFLOW: =
+hidden; COLOR: #fff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.C_b75off {
+	DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 9px; OVERFLOW: =
+hidden; COLOR: #fff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.C_b100off {
+	DISPLAY: inline-block; FONT-WEIGHT: bold; FONT-SIZE: 9px; OVERFLOW: =
+hidden; COLOR: #fff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.C_b75 IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; BORDER-LEFT: 0px; =
+WIDTH: 16px; BORDER-BOTTOM: 0px; HEIGHT: 16px
+}
+A.C_b100 IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; BORDER-LEFT: 0px; =
+WIDTH: 16px; BORDER-BOTTOM: 0px; HEIGHT: 16px
+}
+.C_b75off IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; BORDER-LEFT: 0px; =
+WIDTH: 16px; BORDER-BOTTOM: 0px; HEIGHT: 16px
+}
+.C_b100off IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FLOAT: left; BORDER-LEFT: 0px; =
+WIDTH: 16px; BORDER-BOTTOM: 0px; HEIGHT: 16px
+}
+A.C_b75:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.C_b100:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.C_b75:hover {
+	BACKGROUND-POSITION: 0px -20px; COLOR: yellow; TEXT-DECORATION: none
+}
+A.C_b100:hover {
+	BACKGROUND-POSITION: 0px -20px; COLOR: yellow; TEXT-DECORATION: none
+}
+A.C_b75:active {
+	BACKGROUND-POSITION: 0px -20px; COLOR: yellow; POSITION: relative; TOP: =
+1px; TEXT-DECORATION: none
+}
+A.C_b100:active {
+	BACKGROUND-POSITION: 0px -20px; COLOR: yellow; POSITION: relative; TOP: =
+1px; TEXT-DECORATION: none
+}
+.C_pages A {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #000 1px =
+solid; PADDING-LEFT: 3px; BACKGROUND: #d0d0f0; PADDING-BOTTOM: 3px; =
+MARGIN: 2px; BORDER-LEFT: #000 1px solid; COLOR: black; PADDING-TOP: =
+3px; BORDER-BOTTOM: #000 1px solid
+}
+.C_pages SPAN {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #000 1px =
+solid; PADDING-LEFT: 3px; BACKGROUND: #d0d0f0; PADDING-BOTTOM: 3px; =
+MARGIN: 2px; BORDER-LEFT: #000 1px solid; COLOR: black; PADDING-TOP: =
+3px; BORDER-BOTTOM: #000 1px solid
+}
+.C_pages A {
+	BACKGROUND: #f0f0f0
+}
+.CH_pages A:link {
+	COLOR: black
+}
+.CH_pages A:visited {
+	COLOR: black
+}
+.CH_pages A:active {
+	COLOR: black
+}
+.CH_pages A:hover {
+	BACKGROUND: yellow; TEXT-DECORATION: none
+}
+.C_pages {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; BACKGROUND: =
+url(/ico/bg728blue.png) #00f no-repeat; PADDING-BOTTOM: 1px; MARGIN: =
+5px; WIDTH: 728px; COLOR: white; PADDING-TOP: 1px
+}
+.C_Score {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN: 3px =
+auto; BORDER-LEFT: black 1px solid; WIDTH: 250px; BORDER-BOTTOM: black =
+1px solid
+}
+.C_Score .top {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; BACKGROUND: =
+#8080a0; PADDING-BOTTOM: 2px; MARGIN: auto; COLOR: #fff; PADDING-TOP: =
+2px; TEXT-ALIGN: center
+}
+.C_Score .bot {
+	TEXT-ALIGN: center
+}
+.C_Score .vote {
+	FONT-SIZE: 9px; MARGIN: 3px auto; WIDTH: 180px; TEXT-ALIGN: center
+}
+.C_docLink {
+	WIDTH: 728px
+}
+.C_docLink TD {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; LEFT: 2%; =
+BORDER-LEFT: silver 1px solid; BORDER-BOTTOM: silver 1px solid; =
+POSITION: relative
+}
+.C_docLink .tit {
+	WIDTH: 160px
+}
+.C_docLink .typ {
+	FONT-SIZE: x-small; COLOR: green
+}
+.C_docLink IMG {
+	FLOAT: left
+}
+.C_docPrevNext {
+	BORDER-TOP: #000080 2px solid; MARGIN-TOP: 12px; WIDTH: 100%
+}
+.C_docPrevNext .prev {
+	WIDTH: 49%; TEXT-ALIGN: right
+}
+.C_docPrevNext .prev IMG {
+	FLOAT: right
+}
+.C_docPrevNext .index {
+	TEXT-ALIGN: center
+}
+.auto .docnext .next {
+	WIDTH: 49%
+}
+.C_docPrevNext .next IMG {
+	FLOAT: left
+}
+.C_forMonths {
+	WIDTH: 728px; TEXT-ALIGN: right
+}
+.C_forThread .box {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; MARGIN: =
+2px; BORDER-LEFT: #808080 1px solid; WIDTH: 728px; BORDER-BOTTOM: =
+#808080 1px solid; BORDER-COLLAPSE: collapse
+}
+.C_forThread .participated {
+	BACKGROUND-COLOR: #f0f0ff
+}
+.C_forThread .top IMG {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; VERTICAL-ALIGN: middle
+}
+.C_forThread .thright {
+	FLOAT: right
+}
+.C_forThread .cont {
+	PADDING-LEFT: 5px; FONT-SIZE: xx-small
+}
+.C_forThread .bot {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: xx-small; =
+PADDING-BOTTOM: 0px; COLOR: #707070; PADDING-TOP: 0px; BACKGROUND-COLOR: =
+#f7f7ff
+}
+.C_forThread .bot A {
+	COLOR: #707070
+}
+.C_forThread .bot .auth {
+	COLOR: #000070
+}
+.C_forThread .pages {
+	FONT-SIZE: 10px
+}
+.C_forThread .status {
+	FONT-SIZE: 9px; COLOR: white; LINE-HEIGHT: 10px; BACKGROUND-COLOR: =
+#808080
+}
+.C_forThread .status A:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+.C_forThread .status A:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+.C_forThread .status A:active {
+	COLOR: white; TEXT-DECORATION: none
+}
+.C_forThread .status A:hover {
+	COLOR: yellow
+}
+.C_forPost .box {
+	BORDER-RIGHT: #808080 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#808080 1px solid; PADDING-LEFT: 3px; BACKGROUND: #fff; PADDING-BOTTOM: =
+3px; MARGIN: 5px; BORDER-LEFT: #808080 1px solid; WIDTH: 716px; =
+PADDING-TOP: 3px; BORDER-BOTTOM: #808080 1px solid; BORDER-COLLAPSE: =
+collapse
+}
+.C_forPost .rtop {
+	BORDER-BOTTOM: #c0c0c0 1px dashed; HEIGHT: 20px; BACKGROUND-COLOR: =
+#f0f0ff
+}
+.C_forPost .dwho {
+	FONT-SIZE: 10px
+}
+.C_forPost .dbtn {
+	TEXT-ALIGN: right
+}
+.C_forPost .dwhen {
+	FONT-SIZE: 10px; TEXT-ALIGN: right
+}
+.C_forPost .dwhat {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px
+}
+.C_forPost .dwhat .quote TH.qh {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-STYLE: italic; TEXT-ALIGN: =
+left
+}
+.C_forPost .dwhat .quote TD.qd {
+	BORDER-RIGHT: #c0c0c0 1px dotted; BORDER-TOP: #c0c0c0 1px dotted; =
+BACKGROUND: #efefef; BORDER-LEFT: #c0c0c0 1px dotted; BORDER-BOTTOM: =
+#c0c0c0 1px dotted
+}
+.C_forPost .sedited {
+	FONT-SIZE: 10px; FONT-STYLE: italic
+}
+.C_forPost .dedit {
+	HEIGHT: 20px; TEXT-ALIGN: right
+}
+.C_forPost .rbottom {
+	HEIGHT: 20px; BACKGROUND-COLOR: #d0d0d0
+}
+.C_forPost .reported {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; =
+BACKGROUND: #fffaf7; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: =
+#a0a0a0 1px solid
+}
+.C_forPost .box .reported {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; =
+BACKGROUND: #fffaf7; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: =
+#a0a0a0 1px solid
+}
+.C_forPost .reported .rtop {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.C_forPost .box .reported .rtop {
+	BACKGROUND-COLOR: #f0f0f0
+}
+TABLE.C_artlist {
+	WIDTH: 728px
+}
+.C_artList TR:hover TD {
+	BACKGROUND: #f7f7ff
+}
+.C_artList TH {
+	BACKGROUND: #c0c0ff
+}
+.CH_artList TH IMG {
+	VERTICAL-ALIGN: middle
+}
+.C_artList TD {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; BORDER-LEFT: =
+#000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+.C_artList .title {
+	FONT-WEIGHT: bold
+}
+.C_artList .cat {
+	FONT-SIZE: 9px
+}
+.C_artList .author {
+	FLOAT: right
+}
+.C_artList .date {
+	WIDTH: 150px; TEXT-ALIGN: center
+}
+.C_artList .date .updated {
+	FONT-SIZE: 9px
+}
+.C_artList .votes {
+	FONT-SIZE: 10px; WIDTH: 110px; TEXT-ALIGN: center
+}
+.C_artList .status {
+	TEXT-ALIGN: center
+}
+.C_artList .elem IMG {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; FLOAT: left; =
+BORDER-LEFT: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+.C_artLabels {
+	WIDTH: 728px
+}
+.C_artLabels TD {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; LEFT: 2%; =
+BORDER-LEFT: silver 1px solid; BORDER-BOTTOM: silver 1px solid; =
+POSITION: relative
+}
+.C_artLabels .tit {
+	FONT-WEIGHT: bold
+}
+.C_artLabelNOs TD {
+	BORDER-RIGHT: #e0e0e0 1px solid; BORDER-TOP: #e0e0e0 1px solid; =
+BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 33%; BORDER-BOTTOM: #e0e0e0 1px =
+solid
+}
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cplusplus.com/main29f.js
+
+if(!this.JSON){this.JSON=3D{};JSON.parse=3Dfunction(t){return =
+eval("("+t+")")}}CFG=3D{ajaxlogin:"/login.do",ckssn:"ssn29",ckvis:"vis29"=
+,ckal:"rel29",ssnttl:14400,ssnmax:84600};function =
+bindFunction(a,b){return function(){return =
+b.apply(a,arguments)}}function =
+T(a){if((typeof(ST)!=3D"undefined")&&(ST[a])){return ST[a]}else{return =
+a}}function When(b){var c=3Dnew =
+Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","=
+Dec");var a=3Dnew Date(b*1000);document.write(c[a.getMonth()]+" =
+"+a.getDate()+", =
+"+(a.getYear()+(a.getYear()<1900?1900:0)));document.write(" at =
+"+((a.getHours()%12)=3D=3D0?12:a.getHours()%12)+":"+(a.getMinutes()<10?"0=
+":"")+a.getMinutes()+(a.getHours()<12?"am":"pm"))}function WhenId(b){var =
+c=3Ddocument.getElementById(b);var e=3Dnew =
+Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","=
+Dec");var d=3Dnew Date(Date.parse(c.title));var a=3De[d.getMonth()]+" =
+"+d.getDate()+", "+(d.getYear()+(d.getYear()<1900?1900:0));a+=3D" at =
+"+((d.getHours()%12)=3D=3D0?12:d.getHours()%12)+":"+(d.getMinutes()<10?"0=
+":"")+d.getMinutes()+(d.getHours()<12?"am":"pm");c.innerHTML=3Da}function=
+ WhenAll(){var b=3Ddocument.getElementsByTagName("span");for(var =
+a=3D0;a<b.length;a++){if(b[a].id.substr(0,6)=3D=3D"CH_zTm"){WhenId(b[a].i=
+d)}}}function fmtButton(f,e,d,b,c){var a=3D(d?'<img src=3D"'+d+'" =
+width=3D"16" height=3D"16" =
+alt=3D"ico">':"");if(!c){c=3D"100"}if(b){return'<a href=3D"'+b+'" =
+class=3D"C_b'+c+'"'+(e?' =
+title=3D"'+(e)+'"':"")+">"+a+f+"</a>"}else{return'<span =
+class=3D"C_b'+c+'off"'+(e?' =
+title=3D"'+(e)+'"':"")+">"+a+f+"</span>"}}function =
+domButton(e,g,f,d,c){el=3Ddocument.createElement("span");var =
+b=3D(d?'<img src=3D"'+d+'" width=3D"16" height=3D"16" =
+alt=3D"ico">':"");var a=3Dnew String;if(c){a=3D'<a href=3D"'+c+'" =
+class=3D"'+e+'"'+(f?' =
+title=3D"'+(f)+'"':"")+">"+b+g+"</a>"}else{a=3D'<span =
+class=3D"'+e+'"'+(f?' =
+title=3D"'+(f)+'"':"")+">"+b+g+"</span>"}el.innerHTML=3Da;return =
+el}function urlUser(a){return httpprofile+a.replace(" =
+","_")+"/"}function cookieGet(c){var b=3Ddocument.cookie;var =
+e=3Dc+"=3D";var d=3Db.indexOf("; =
+"+e);if(d=3D=3D-1){d=3Db.indexOf(e);if(d!=3D0){return =
+null}}else{d+=3D2}var =
+a=3Ddocument.cookie.indexOf(";",d);if(a=3D=3D-1){a=3Db.length}var =
+g=3Dunescape(b.substring(d+e.length,a));var =
+f=3Dg.split("+");g=3Df.join(" ");return g}function =
+cookieSet(a,b){document.cookie=3Da+"=3D"+escape(b)+"; path=3D/"}function =
+xhrRequest(){var a;if(window.XMLHttpRequest){a=3Dnew =
+XMLHttpRequest()}else{if(window.ActiveXObject){try{a=3Dnew =
+ActiveXObject("Msxml2.XMLHTTP.6.0")}catch(b){try{a=3Dnew =
+ActiveXObject("Msxml2.XMLHTTP.3.0")}catch(b){try{a=3Dnew =
+ActiveXObject("Microsoft.XMLHTTP")}catch(b){}}}}}return a}function =
+xhrAsync(c,f,g){var =
+e=3DxhrRequest();if(e){e.open(g?"POST":"GET",c,true);e.onreadystatechange=
+=3Dfunction(){if(e.readyState=3D=3D4){if(e.status=3D=3D200){f(e.responseT=
+ext)}}};if(g){var b=3Dnew Array();for(var =
+d=3D0;d<g.length;d++){if(((g[d].type=3D=3D"checkbox")||(g[d].type=3D=3D"r=
+adio"))&&(!g[d].checked)){}else{if(g[d]){b.push(escape(g[d].name)+"=3D"+e=
+ncodeURIComponent(g[d].value))}}}var =
+a=3Db.join("&");e.setRequestHeader("Content-type","application/x-www-form=
+-urlencoded");e.send(a)}else{e.send()}}return e}function =
+domIdContent(a,b){if(document.getElementById(a)){document.getElementById(=
+a).innerHTML=3Db;return true}else{return false}}function =
+domByClass(d,f){if(d.getElementsByClassName){return =
+d.getElementsByClassName(f)}var a=3Dnew Array();var e=3D" "+f+" =
+";if(d.hasChildNodes){for(var b=3D0;b<d.childNodes.length;++b){var g=3D" =
+"+d.childNodes[b].className+" =
+";if(g.indexOf(e)!=3D-1){a.push(d.childNodes[b])}else{if(d.childNodes[b].=
+hasChildNodes){a=3Da.concat(domByClass(d.childNodes[b],f))}}}}return =
+a}function domByClassFirst(d,f){if(d.getElementsByClassName){return =
+d.getElementsByClassName(f)[0]}var e=3D" "+f+" =
+";if(d.hasChildNodes){for(var b=3D0;b<d.childNodes.length;++b){var g=3D" =
+"+d.childNodes[b].className+" ";if(g.indexOf(e)!=3D-1){return =
+d.childNodes[b]}else{if(d.childNodes[b].hasChildNodes){var =
+a=3DdomByClassFirst(d.childNodes[b],f);if(a){return a}}}}}return =
+null}function =
+bbTag(b,c){if(b.setSelectionRange){b.value=3Db.value.substring(0,b.select=
+ionStart)+"["+c+"]"+b.value.substring(b.selectionStart,b.selectionEnd)+"[=
+/"+c+"]"+b.value.substring(b.selectionEnd,b.value.length)}else{if(documen=
+t.selection&&document.selection.createRange){b.focus();var =
+a=3Ddocument.selection.createRange();a.text=3D"["+c+"]"+a.text+"[/"+c+"]"=
+}else{b.value+=3D"["+c+"][/"+c+"]"}}}function =
+BBEdit(elParent,fields,action,hiddens,onOk,onCancel){this.action=3Daction=
+;this.onOk=3DonOk;this.onCancel=3D(typeof(onCancel)!=3D"undefined"?onCanc=
+el:onOk);if(!BBEdit.count){BBEdit.count=3D0}BBEdit.count++;this.objName=3D=
+"editbox"+BBEdit.count;eval(this.objName+"=3Dthis;");var txt=3Dnew =
+String();txt+=3D'<form name=3D"CH_fedit" action=3D"'+action+'" =
+method=3D"post" onsubmit=3D"return =
+false;"><table>';txt+=3D'<tr><td><textarea name=3D"content" cols=3D"100" =
+rows=3D"15" onfocus=3D"'+this.objName+'.editCount()" =
+onkeydown=3D"'+this.objName+'.editCount()" =
+onkeyup=3D"'+this.objName+'.editCount()"></textarea></td>';txt+=3D"<td><i=
+>"+T("Format")+":</i><br><br>";txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'code\')"><img =
+src=3D"/ico/text_code.png" width=3D"16" height=3D"16" alt=3D"code" =
+title=3D"'+T("Source code")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'output\')"><img =
+src=3D"/ico/text_output.png" width=3D"16" height=3D"16" alt=3D"output" =
+title=3D"'+T("Program output")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'quote\')"><img =
+src=3D"/ico/text_quote.png" width=3D"16" height=3D"16" alt=3D"quote" =
+title=3D"'+T("Quotation")+'"></a>';txt+=3D"<br>";txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'b\')"><img =
+src=3D"/ico/text_b.png" width=3D"16" height=3D"16" alt=3D"bold" =
+title=3D"'+T("Bold")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'i\')"><img =
+src=3D"/ico/text_i.png" width=3D"16" height=3D"16" alt=3D"italics" =
+title=3D"'+T("Italics")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'u\')"><img =
+src=3D"/ico/text_u.png" width=3D"16" height=3D"16" alt=3D"underline" =
+title=3D"'+T("Underline")+'"></a>';txt+=3D"<br>";txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'center\')"><img =
+src=3D"/ico/text_center.png" width=3D"16" height=3D"16" alt=3D"center" =
+title=3D"'+T("Center")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'s\')"><img =
+src=3D"/ico/text_s.png" width=3D"16" height=3D"16" alt=3D"striketrhough" =
+title=3D"'+T("Strikethrough")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'tt\')"><img =
+src=3D"/ico/text_tt.png" width=3D"16" height=3D"16" alt=3D"teletype" =
+title=3D"'+T("Teletype (fixed font)")+'"></a>';txt+=3D"<br>";txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'small\')"><img =
+src=3D"/ico/text_small.png" width=3D"16" height=3D"16" alt=3D"small" =
+title=3D"'+T("Small font")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'sub\')"><img =
+src=3D"/ico/text_sub.png" width=3D"16" height=3D"16" alt=3D"subscript" =
+title=3D"'+T("Subscript")+'"></a>';txt+=3D'<a =
+href=3D"javascript:'+this.objName+'.editTag(\'sup\')"><img =
+src=3D"/ico/text_sup.png" width=3D"16" height=3D"16" alt=3D"superscript" =
+title=3D"'+T("Superscript")+'"></a>';txt+=3D"<br>";txt+=3D"</td>";txt+=3D=
+"</tr>";txt+=3D'<tr><td colspan=3D"2">Length: <input readonly =
+type=3D"text" name=3D"CH_edtCount" size=3D"4" maxlength=3D"4" =
+style=3D"text-align:right; background-color:#E0E0E0" value=3D""> =
+'+T("(max=3D8192)");txt+=3D' &nbsp; &nbsp; <a =
+href=3D"javascript:'+this.objName+'.editPreview()" class=3D"C_b75" =
+title=3D"'+T("Preview message")+'"><img src=3D"/ico/16eye.png" =
+width=3D"16" height=3D"16" alt=3D"eye">'+T("Preview")+"</a>";txt+=3D' <a =
+href=3D"javascript:'+this.objName+'.editSend()" class=3D"C_b75" =
+title=3D"'+T("Submit")+'"><img src=3D"/ico/16ok.png" width=3D"16" =
+height=3D"16" alt=3D"ok">'+T("Submit")+"</a>";txt+=3D' <a =
+href=3D"javascript:'+this.objName+'.editCancel()" class=3D"C_b75" =
+title=3D"'+T("Cancel")+'"><img src=3D"/ico/16cancel.png" width=3D"16" =
+height=3D"16" alt=3D"X">'+T("Cancel")+"</a>";for(var k in =
+hiddens){txt+=3D'<input type=3D"hidden" name=3D"'+k+'" =
+value=3D"'+hiddens[k]+'">'}txt+=3D' <input type=3D"hidden" name=3D"y" =
+value=3D"1">';txt+=3D"</td></tr></table></form>";txt+=3D'<form =
+name=3D"CH_prevpost" action=3D"'+action+'" target=3D"previewing" =
+method=3D"post"><input type=3D"hidden" name=3D"content" =
+value=3D""><input type=3D"hidden" name=3D"w" =
+value=3D"preview"></form>';this.el=3Ddocument.createElement("div");this.e=
+l.innerHTML=3Dtxt;elParent.appendChild(this.el);this.elForm=3Dthis.el.fir=
+stChild;this.elContent=3Dthis.elForm.getElementsByTagName("textarea")[0];=
+this.elCount=3Dthis.elForm.getElementsByTagName("input")[0];this.elPrevFo=
+rm=3Dthis.el.getElementsByTagName("form")[1];this.elPrevContent=3Dthis.el=
+PrevForm.getElementsByTagName("input")[0];this.elContent.focus();if(typeo=
+f(fields.content)!=3D"undefined"){this.elContent.value=3Dfields.content}}=
+BBEdit.prototype.editCount=3Dfunction(){this.elCount.value=3Dthis.elConte=
+nt.value.length};BBEdit.prototype.editTag=3Dfunction(c){var =
+b=3Dthis.elContent;if(b.setSelectionRange){b.value=3Db.value.substring(0,=
+b.selectionStart)+"["+c+"]"+b.value.substring(b.selectionStart,b.selectio=
+nEnd)+"[/"+c+"]"+b.value.substring(b.selectionEnd,b.value.length)}else{if=
+(document.selection&&document.selection.createRange){b.focus();var =
+a=3Ddocument.selection.createRange();a.text=3D"["+c+"]"+a.text+"[/"+c+"]"=
+}else{b.value+=3D"["+c+"][/"+c+"]"}}};BBEdit.prototype.editCancel=3Dfunct=
+ion(){this.el.parentNode.removeChild(this.el);this.onCancel()};BBEdit.pro=
+totype.editPreview=3Dfunction(){this.elPrevContent.value=3Dthis.elContent=
+.value;this.elPrevForm.submit()};BBEdit.prototype.editSend=3Dfunction(){v=
+ar =
+a=3DbindFunction(this,function(b){this.el.parentNode.removeChild(this.el)=
+;this.onOk(b)});xhrAsync(this.action,a,this.elForm.elements);this.el.inne=
+rHTML=3D"Sending. Please wait..."};function =
+onPrint(b,d,a){if(typeof(onPrint.register)=3D=3D"undefined"){onPrint.regi=
+ster=3Dnew Array()}var c=3Dnew =
+onPrint_Callback(b,d);if(a){c.args=3DArray.prototype.slice.call(arguments=
+,2)}onPrint.register.push(c);c.invoke();return =
+c}onPrint.print=3Dfunction(){onPrint.printed=3Dtrue;if(typeof(onPrint.reg=
+ister)!=3D"undefined"){for(var =
+a=3D0;a<onPrint.register.length;a++){onPrint.register[a].invoke()}}};func=
+tion =
+onPrint_Callback(a,b){this.fn=3Da;this.obj=3Db}onPrint_Callback.prototype=
+.invoke=3Dfunction(){if(typeof(onPrint.printed)=3D=3D"undefined"){return}=
+if(this.args){this.fn.apply(this.obj,this.args)}else{if(this.obj){this.fn=
+.call(this.obj)}else{this.fn()}}};function =
+onSession(b,d,a){if(typeof(onSession.register)=3D=3D"undefined"){onSessio=
+n.register=3Dnew Array()}var c=3Dnew =
+onSession_Callback(b,d);if(a){c.args=3DArray.prototype.slice.call(argumen=
+ts,2)}onSession.register.push(c);c.invoke();return =
+c}onSession.imbue=3Dfunction(b){onSession.session=3Db;if(typeof(onSession=
+.register)!=3D"undefined"){for(var =
+a=3D0;a<onSession.register.length;a++){onSession.register[a].invoke()}}};=
+function =
+onSession_Callback(a,b){this.fn=3Da;this.obj=3Db}onSession_Callback.proto=
+type.invoke=3Dfunction(){if(typeof(onSession.session)=3D=3D"undefined"){r=
+eturn}if(this.args){var =
+a=3Dthis.args;a.splice(0,0,onSession.session);this.fn.apply(this.obj,a)}e=
+lse{if(this.obj){this.fn.call(this.obj,onSession.session)}else{this.fn(on=
+Session.session)}}};function =
+Session(){this.sessionid=3D"";this.userid=3D0;this.access=3D0;this.visite=
+d=3D0;this.seen=3D0;this.last=3D0;this.npms=3D0;this.uniqid=3D"";this.use=
+r=3D"";this.ok=3Dfalse;this.autoArray=3Dnew =
+Array();this.setFromCookie(CFG.ckssn,CFG.ckal,CFG.ssnttl,CFG.ssnmax);glob=
+al_session=3Dthis}Session.prototype.doInit=3Dfunction(){var =
+a=3Dthis;onSession.imbue(a)};Session.prototype.setFromCookie=3Dfunction(f=
+,e,c,a){var d=3DcookieGet(f);if((typeof =
+d=3D=3D"string")&&(d.length>0)){var g=3Dnew Array();var =
+b=3D0;this.sessionid=3Dd.substring(b,b+=3D16);this.userid=3DparseInt(d.su=
+bstring(b,b+=3D8),16);this.access=3DparseInt(d.substring(b,b+=3D8),16);th=
+is.visited=3DparseInt(d.substring(b,b+=3D8),16);this.seen=3DparseInt(d.su=
+bstring(b,b+=3D8),16);this.last=3DparseInt(d.substring(b,b+=3D8),16);this=
+.npms=3DparseInt(d.substring(b,b+=3D8),16);this.uniqid=3Dd.substring(b,b+=
+=3D8);this.user=3Dnew =
+String();while(b<d.length-1){if(d.substring(b,b+2)=3D=3D"00"){break}else{=
+this.user+=3Dunescape("%"+d.substring(b,b+=3D2))}}this.ok=3D(this.user.le=
+ngth>0)}if(!this.ok){d=3DcookieGet(e);if((typeof =
+d=3D=3D"string")&&(d.length>0)){xhrAsync(CFG.ajaxlogin+"?w=3Dauto",bindFu=
+nction(this,this.setFromCookieXHR));return}}this.doInit()};Session.protot=
+ype.setFromCookieXHR=3Dfunction(c){var a=3Dnew =
+Object();try{a=3DJSON.parse(c)}catch(b){a.success=3Dfalse}if(a.success){t=
+his.set(a)}};Session.prototype.set=3Dfunction(a){if(a.user){this.sessioni=
+d=3Da.sessionid;this.userid=3Da.userid;this.access=3Da.access;this.visite=
+d=3Da.visited;this.seen=3Da.seen;this.last=3Da.last;this.uniqid=3Da.uniqi=
+d;this.user=3Da.user;this.npms=3Da.npms}else{this.sessionid=3D"";this.use=
+rid=3D0;this.access=3D0;this.visited=3D0;this.seen=3D0;this.last=3D0;this=
+.uniqid=3D"";this.user=3D"";this.npms=3D0}this.ok=3D(a.user.length>0);thi=
+s.doInit()};Session.prototype.auth=3Dfunction(c,a){if((typeof(a)!=3D"unde=
+fined")&&(a=3D=3Dthis.userid)){return =
+true}if(typeof(c)=3D=3D"string"){var =
+b=3D{admin:32768,member:2,post:64,report:32,filter:512,approve:1024};bm=3D=
+b[c]}else{bm=3Dc}if((bm)&&((this.access&bm)=3D=3Dbm)){return =
+true}else{return false}};function =
+LoginBox(elid,bAjax,redirto){this.elid=3Delid;this.ajax=3DbAjax;this.time=
+out=3Dnull;this.redirto=3D(redirto)?redirto:window.location.href;this.obj=
+Name=3D"el"+elid;eval(this.objName+"=3Dthis;");this.cb_drawBox=3DonSessio=
+n(this.drawBox,this)}LoginBox.prototype.httpaccess=3D"/user/access.cgi";L=
+oginBox.prototype.drawBox=3Dfunction(b){this.session=3Db;if(this.timeout)=
+{clearTimeout(this.timeout);this.timeout=3Dnull}var a=3Dnew =
+String();a+=3D'<div class=3D"C_LoginBox">';if(b.ok){a+=3D'<form =
+name=3D"CH_frmLogin" id=3D"CH_frmLogin" =
+action=3D"'+this.httpaccess+'"'+(this.ajax?' =
+onsubmit=3D"'+this.objName+'.send(); return false;"':"")+' =
+method=3D"post">';a+=3D"<table>";a+=3D'<tr><td colspan=3D"2">Logged in =
+as: <b>'+b.user+"</b></td></tr>";a+=3D'<tr><td class=3D"right"><input =
+type=3D"hidden" name=3D"w" value=3D"logout"><input type=3D"hidden" =
+name=3D"y" value=3D"1"><input type=3D"hidden" name=3D"to" =
+value=3D"'+this.redirto.replace('"',"")+'"><input class=3D"btn" =
+value=3D"log out" type=3D"submit"></td>';a+=3D'<td>[<b><a =
+href=3D"/user/">user =
+cp</a></b>]';if((b.npms>0)&&(b.npms!=3D1000000)){a+=3D'[<a =
+href=3D"/user/pm.cgi">'+b.npms+'<img src=3D"/img/newmail.gif" alt=3D"You =
+have '+b.npms+' new PMs" title=3D"You have '+b.npms+' new =
+PMs"></a>]'}a+=3D"</td></tr>";a+=3D"</table>";a+=3D"</form>";a+=3D'<div =
+id=3D"CH_insLogin"></div>'}else{a+=3D'<form name=3D"CH_frmLogin" =
+id=3D"CH_frmLogin" action=3D"'+this.httpaccess+'"'+(this.ajax?' =
+onsubmit=3D"'+this.objName+'.send(); return false;"':"")+' =
+method=3D"post">';a+=3D"<table>";a+=3D"<tr><td></td>";a+=3D'<td =
+class=3D"right"><b>login:</b></td><td><input type=3D"hidden" name=3D"w" =
+value=3D"login"><input type=3D"hidden" name=3D"y" value=3D"1"><input =
+type=3D"hidden" name=3D"to" =
+value=3D"'+this.redirto.replace('"',"")+'"><input class=3D"txt" =
+name=3D"l" size=3D"4" type=3D"text" title=3D"Type user =
+name"></td><td><input class=3D"txt" name=3D"p" size=3D"4" =
+type=3D"password" title=3D"Type password"></td><td><input class=3D"btn" =
+value=3D"sign in" type=3D"submit"></td></tr>';a+=3D'<tr><td>sign in =
+using:<a =
+href=3D"'+this.httpaccess+"?w=3Dlogin&y=3D1&pr=3Dgoogle&to=3D"+encodeURIC=
+omponent(window.location.pathname)+'" title=3D"Sign in using your google =
+account"><img src=3D"/ico/16google.png" width=3D"16" =
+height=3D"16"></a><a =
+href=3D"'+this.httpaccess+"?w=3Dlogin&y=3D1&pr=3Dyahoo&to=3D"+encodeURICo=
+mponent(window.location.pathname)+'" title=3D"Sign in using your Yahoo! =
+account"><img src=3D"/ico/16yahoo.png" width=3D"16" =
+height=3D"16"></a></td>';a+=3D'<td colspan=3D"4" class=3D"right"><label =
+for=3D"rememberme">remember me<input class=3D"chk" name=3D"rememberme" =
+id=3D"rememberme" value=3D"1" type=3D"checkbox"> &nbsp; [<a =
+href=3D"'+this.httpaccess+'?w=3Dsignup">register</a>]</td></tr>';a+=3D"</=
+table>";a+=3D"</form>";a+=3D'<div =
+id=3D"CH_insLogin"></div>'}document.getElementById(this.elid).innerHTML=3D=
+a;a+=3D"</div>";document.getElementById("CH_frmLogin").style.display=3D"b=
+lock"};LoginBox.prototype.send=3Dfunction(){var a;var =
+b;args=3Ddocument.getElementById("CH_frmLogin").elements;if((args[0].name=
+=3D=3D"w")&&(args[0].value=3D=3D"logout")){ltext=3D"Logging =
+out"}else{ltext=3D"Logging =
+in"}document.getElementById("CH_frmLogin").style.display=3D"none";documen=
+t.getElementById("CH_insLogin").innerHTML=3D'<table =
+class=3D"loginmessage"><tr><td><b>'+ltext+'</b><br><img =
+src=3D"/img/waitblue.gif"><br>please =
+wait</td></tr></table>';this.timeout=3DsetTimeout(this.objName+'.error("L=
+ogin timeout")',30000);var =
+c=3Dthis;a=3DbindFunction(this,function(g){var d=3Dnew =
+Object();try{d=3DJSON.parse(g)}catch(f){d.success=3Dfalse}if(d.success){c=
+.session.set(d)}else{this.error("login =
+failed")}});xhrAsync(CFG.ajaxlogin,a,args);return =
+false};LoginBox.prototype.error=3Dfunction(a){document.getElementById("CH=
+_frmLogin").style.display=3D"none";document.getElementById("CH_insLogin")=
+.innerHTML=3D'<table =
+class=3D"loginmessage"><tr><td>'+a+"</td></tr></table>";if(this.timeout){=
+clearTimeout(this.timeout)}this.timeout=3DsetTimeout(this.objName+".cb_dr=
+awBox.invoke()",3000)};function =
+usr_Menu(b,d,a,c){this.elid=3Db;this.scr=3Dd;this.httpuser=3Da;this.acces=
+suseradmin=3Dc;onSession(this.drawUBox,this)}usr_Menu.prototype.drawUBox=3D=
+function(a){st=3D'<table class=3D"box">';if(a.ok){st+=3D'<tr><th><a =
+href=3D"'+this.httpuser+'account.cgi">'+a.user+"</a></th></tr>";if(this.s=
+cr=3D=3D"account.cgi"){st+=3D'<tr><td class=3D"selected">My =
+account</td></tr>'}else{st+=3D'<tr><td><a =
+href=3D"'+this.httpuser+'account.cgi">My =
+account</a></td></tr>'}if(this.scr=3D=3D"profile.cgi"){st+=3D'<tr><td =
+class=3D"selected">My profile</td></tr>'}else{st+=3D'<tr><td><a =
+href=3D"'+this.httpuser+'profile.cgi">My =
+profile</a></td></tr>'}if(this.scr=3D=3D"pm.cgi"){st+=3D'<tr><td =
+class=3D"selected">Private Messages =
+('+a.npms+")</td></tr>"}else{st+=3D'<tr><td><a =
+href=3D"'+this.httpuser+'pm.cgi">Private Messages</a> =
+('+a.npms+")</td></tr>"}if(a.auth(this.accessuseradmin)){st+=3D'<tr><td =
+class=3D"folder">Admin =
+options:</td></tr>';if(this.scr=3D=3D"admin.cgi"){st+=3D'<tr><td =
+class=3D"indent selected">Admin</td></tr>'}else{st+=3D'<tr><td =
+class=3D"indent"><a =
+href=3D"'+this.httpuser+'admin.cgi">Admin</a></td></tr>'}}}else{st+=3D'<t=
+r><th><a =
+href=3D"'+this.httpuser+'">Users</a></th></tr>';if(this.scr=3D=3D"signup.=
+cgi"){st+=3D'<tr><td class=3D"selected">Create =
+account</td></tr>'}else{st+=3D'<tr><td><a =
+href=3D"'+this.httpuser+'signup.cgi">Create =
+account</a></td></tr>'}if(this.scr=3D=3D"lostpass.cgi"){st+=3D'<tr><td =
+class=3D"selected">Lost password</td></tr>'}else{st+=3D'<tr><td><a =
+href=3D"'+this.httpuser+'lostpass.cgi">Lost =
+password</a></td></tr>'}}st+=3D"</table>";document.getElementById(this.el=
+id).innerHTML=3Dst};function =
+Score(parentid,httpscore,unique){this.parentid=3Dparentid;this.httpscore=3D=
+httpscore;this.unique=3Dunique;this.el=3Ddocument.createElement("div");th=
+is.el.className=3D"C_Score";this.elTop=3Ddocument.createElement("div");th=
+is.elTop.className=3D"top";this.el.appendChild(this.elTop);this.elBot=3Dd=
+ocument.createElement("div");this.elBot.className=3D"bot";this.el.appendC=
+hild(this.elBot);this.elVote=3Ddocument.createElement("div");this.elVote.=
+className=3D"vote";this.el.appendChild(this.elVote);this.objName=3D"score=
+"+unique;eval(this.objName+"=3Dthis;");document.getElementById(this.paren=
+tid).appendChild(this.el);onSession(this.onSession,this)}Score.prototype.=
+alts=3Dnew Array("not =
+rated","poor","weak","normal","great","recommended");Score.prototype.onSe=
+ssion=3Dfunction(a){this.session=3Da;xhrAsync(this.httpscore+"?w=3Dget&uq=
+=3D"+this.unique,bindFunction(this,this.drawVoteXHR))};Score.prototype.dr=
+awVoteXHR=3Dfunction(f){try{ret=3DJSON.parse(f)}catch(g){return}var =
+h;if(ret.success){h=3Dret.score}if(isNaN(h)){h=3D0}var =
+b,d;if(h){if((this.session.ok)&&(h!=3D-1)){b=3D"Change your =
+rating:";d=3D"You rated this with "+h+" star"+(h!=3D1?"s":"")+" =
+("+this.alts[h]+")"}else{b=3D"Rate this article";d=3D"You have already =
+rated this."}}else{b=3D"Rate this";d=3D"Please, choose stars to =
+award:"}this.elTop.innerHTML=3Db;this.elBot.innerHTML=3Dd;if((this.sessio=
+n.ok)||(!h)){var a=3Dnew String();for(var c=3D1;c<=3D5;c++){a+=3D'<img =
+src=3D"/ico/24star.png" alt=3D"*" width=3D"24" height=3D"24" =
+id=3D"CH_Star'+this.unique+"_"+c+'" title=3D"'+c+" =
+star"+(c!=3D1?"s":"")+": "+this.alts[c]+'" =
+onmouseover=3D"'+this.objName+".updateStars("+c+',true)" =
+onmouseout=3D"'+this.objName+".updateStars("+h+',false)" =
+onclick=3D"'+this.objName+".submitVote("+c+')">'}this.elVote.innerHTML=3D=
+a+"<br>(hover mouse and click)"}else{this.elVote.innerHTML=3D"Please, =
+log in to change your current rating, or sign up to create a new =
+account."}this.updateStars(h,false)};Score.prototype.submitVote=3Dfunctio=
+n(a){this.elBot.innerHTML=3D"Thanks for your =
+feedback";this.elVote.innerHTML=3D'<img =
+src=3D"/ico/progress.gif"><br>... Please wait =
+...';xhrAsync(this.httpscore+"?w=3Dvote&uq=3D"+this.unique+"&q=3D"+a,bind=
+Function(this,this.drawVoteXHR))};Score.prototype.updateStars=3Dfunction(=
+c,a){for(var =
+b=3D1;b<=3D5;b++){if(elStar=3Ddocument.getElementById("CH_Star"+this.uniq=
+ue+"_"+b)){if(b<=3Dc){if(a){elStar.src=3D"/ico/24star.png"}else{elStar.sr=
+c=3D"/ico/24star-gray.png"}}else{elStar.src=3D"/ico/24star-empty.png"}}}}=
+;function =
+doc_Page(elid,httpdoc,itemid,folder,haschildren,accessadmin){this.elid=3D=
+elid;this.httpdoc=3Dhttpdoc,this.itemid=3Ditemid;this.folder=3Dfolder;thi=
+s.haschildren=3Dhaschildren;this.accessadmin=3Daccessadmin;this.objName=3D=
+"page"+itemid;eval(this.objName+"=3Dthis;");this.drawButtons=3Dfunction(u=
+s){el=3Ddocument.getElementById(this.elid);el.innerHTML=3D"";if(us.auth(t=
+his.accessadmin)&&this.folder){el.appendChild(domButton("C_b100","New =
+Page","New =
+Page","/ico/16new.png",this.httpdoc+"?w=3Dnew&parent=3D"+this.itemid))}if=
+(us.auth(this.accessadmin)){el.appendChild(domButton("C_b100","Edit =
+Page","Edit =
+Page","/ico/16edit.png",this.httpdoc+"?w=3Dedit&id=3D"+this.itemid))}if(u=
+s.auth(this.accessadmin)&&(!this.haschildren)){el.appendChild(domButton("=
+C_b100","Delete Page","Delete =
+Page","/ico/16delete.png","javascript:"+this.objName+".del()"))}};onSessi=
+on(this.drawButtons,this);this.del=3Dfunction(us){if(confirm("WARNING: =
+You are about to delete this page. =
+Confirm?")){window.location=3Dthis.httpdoc+"?w=3Ddel&id=3D"+this.itemid}}=
+}function =
+art_List(elid,httpart,unique,accesspublish,accessadmin){this.elid=3Delid;=
+this.httpart=3Dhttpart;this.unique=3Dunique;this.accesspublish=3Daccesspu=
+blish;this.accessadmin=3Daccessadmin;this.objName=3D"art"+unique;eval(thi=
+s.objName+"=3Dthis;");this.drawButtons=3Dfunction(us){el=3Ddocument.getEl=
+ementById(this.elid);el.innerHTML=3D"";if(us.auth(this.accessadmin)){el.a=
+ppendChild(domButton("C_b100","Edit this","Edit =
+this","/ico/16edit.png",this.httpart+"?w=3Dedit&uq=3D"+this.unique));el.a=
+ppendChild(domButton("C_b100","New label","New =
+label","/ico/16tag.png",this.httpart+"?w=3Dnew&type=3Dl"))}if(us.auth(thi=
+s.accesspublish)){el.appendChild(domButton("C_b100","New article","New =
+article","/ico/16docnew.png",this.httpart+"?w=3Dnew"))}else{el.innerHTML=3D=
+"Registered users can publish =
+here."}};onSession(this.drawButtons,this)}function =
+art_Show(elid,eliddraft,httpart,unique,authoruniqid,itype,accesspublish,a=
+ccessadmin){this.elid=3Delid;this.eliddraft=3Deliddraft;this.httpart=3Dht=
+tpart;this.unique=3Dunique;this.authoruniqid=3Dauthoruniqid,this.itype=3D=
+itype;this.accesspublish=3Daccesspublish;this.accessadmin=3Daccessadmin;t=
+his.objName=3D"art"+unique;eval(this.objName+"=3Dthis;");this.drawButtons=
+=3Dfunction(us){var =
+el=3Ddocument.getElementById(this.elid);el.innerHTML=3D"";var =
+eldraft=3Ddocument.getElementById(this.eliddraft);eldraft.innerHTML=3D"";=
+if((!us.auth(this.accessadmin))&&((us.uniqid!=3Dthis.authoruniqid)||(!us.=
+auth(this.accesspublish)))){return}el.appendChild(domButton("C_b100","Edi=
+t article","Edit this version of the =
+article","/ico/16edit.png",httpart+"?w=3Dedit&uq=3D"+this.unique));if(us.=
+uniqid=3D=3Dthis.authoruniqid){if(this.itype=3D=3D"d"){eldraft.appendChil=
+d(domButton("C_b100","Submit article","Submit article for =
+approval","/ico/16envelopesend.png",httpart+"?w=3Dtype&type=3Dw&uq=3D"+th=
+is.unique))}else{if((this.itype=3D=3D"w")||(this.itype=3D=3D"r")){eldraft=
+.appendChild(domButton("C_b100","Redraft article","Bring back to draft =
+ststus","/ico/16recycle.png",httpart+"?w=3Dtype&type=3Dd&uq=3D"+this.uniq=
+ue))}}}if(us.auth(this.accessadmin)){if(this.itype=3D=3D"a"){el.appendChi=
+ld(domButton("C_b100","Delete article","Delete this =
+article","/ico/16delete.png","javascript:"+this.objName+".del()"))}else{e=
+l.appendChild(domButton("C_b100","Approve","Approve =
+article","/ico/16docok.png",httpart+"?w=3Dok&uq=3D"+this.unique));el.appe=
+ndChild(domButton("C_b100","Reject","Reject =
+article","/ico/16doccancel.png",httpart+"?w=3Dtype&type=3Dr&uq=3D"+this.u=
+nique))}}if(this.itype!=3D"a"){el.appendChild(domButton("C_b100","Drop =
+version","This will delete this version of the article =
+forever","/ico/16delete.png","javascript:"+this.objName+".del()"))}};this=
+.del=3Dfunction(us){if(confirm("WARNING: You are about to delete this =
+page. =
+Confirm?")){window.location=3Dthis.httpart+"?w=3Ddel&uq=3D"+this.unique}}=
+;onSession(this.drawButtons,this)}function =
+for_ThreadList(elid,cookiename,now,httpbookmark){this.threadlistcookienam=
+e=3Dcookiename;this.now=3Dnow;this.httpbookmark=3Dhttpbookmark;this.thids=
+=3Dnew Array();this.thtms=3Dnew =
+Array();this.objName=3D"threadlist";eval(this.objName+"=3Dthis;");var =
+el=3Ddocument.getElementById(elid);if((el)&&(el.hasChildNodes)){for(var =
+i=3D0;i<el.childNodes.length;++i){if((" "+el.childNodes[i].className+" =
+").indexOf("C_forThread")!=3D-1){if(el.childNodes[i].hasChildNodes()){var=
+ =
+data=3Del.childNodes[i].firstChild.title.split(",");this.thids.push(data[=
+0]);this.thtms.push(data[1])}}}}if(cookiename){this.cb_drawNewLabels=3Don=
+Session(this.drawNewLabels,this)}if(httpbookmark){onSession(this.drawBook=
+marks,this)}}for_ThreadList.prototype.drawNewLabels=3Dfunction(c){this.vi=
+ds=3Dnew Array();this.vtms=3Dnew Array();var =
+d=3DcookieGet(this.threadlistcookiename);if(d){for(b=3D0;b<d.length-15;b+=
+=3D16){this.vids.push(parseInt(d.substring(b,b+8),16));this.vtms.push(par=
+seInt(d.substring(b+8,b+16),16))}}for(var =
+b=3D0;b<this.thids.length;++b){seen=3Dtrue;if((c.ok)&&(c.visited>0)&&(thi=
+s.thtms[b]>c.last)){seen=3Dfalse;for(var =
+a=3D0;a<this.vids.length;a++){if((this.thids[b]=3D=3Dthis.vids[a])&&(this=
+.vtms[a]>=3Dthis.thtms[b])){seen=3Dtrue}}}document.getElementById("CH_new=
+"+this.thids[b]).innerHTML=3D(seen?"":'<img src=3D"/img/new.gif" =
+border=3D"0" alt=3D"New post! (click to mark as read)" title=3D"New =
+post! (click to mark as read)" =
+onclick=3D"'+this.objName+".mark("+this.thids[b]+')">')}};for_ThreadList.=
+prototype.mark=3Dfunction(b){var =
+d=3DcookieGet(this.threadlistcookiename);if(!d){d=3D""}var =
+c=3Db.toString(16);while(c.length<8){c=3D"0"+c}var =
+a=3Dthis.now.toString(16);while(a.length<8){a=3D"0"+a}d+=3Dc+a;cookieSet(=
+this.threadlistcookiename,d);this.cb_drawNewLabels.invoke()};for_ThreadLi=
+st.prototype.drawBookmarks=3Dfunction(a){xhrAsync(this.httpbookmark+"?w=3D=
+get&tt=3D"+this.thids.join("+"),bindFunction(this,this.drawBookmarksXHR))=
+};for_ThreadList.prototype.drawBookmarksXHR=3Dfunction(b){try{var =
+a=3DJSON.parse(b)}catch(c){return}if(a.success){for(i=3D0;i<a.data.length=
+;i++){this.drawOneBookmark(a.data[i])}}else{for(i=3D0;i<this.thids.length=
+;++i){this.drawOneBookmark({threadid:this.thids[i]})}}return};for_ThreadL=
+ist.prototype.drawOneBookmark=3Dfunction(a){document.getElementById("CH_t=
+hread"+a.threadid).className=3Da.participated?"box =
+participated":"box";document.getElementById("CH_icos"+a.threadid).innerHT=
+ML=3D"";document.getElementById("CH_bm"+a.threadid).innerHTML=3D"";icos=3D=
+"";el=3Ddocument.getElementById("CH_bm"+a.threadid);if(a.participated){ic=
+os+=3D'<img src=3D"/ico/16userpencil.png" width=3D"16" height=3D"16" =
+title=3D"You have participated in this topic"> =
+';document.getElementById("CH_thread"+a.threadid).className=3D"box =
+participated"}if(a.notify){icos+=3D'<img src=3D"/ico/16mailreceive.png" =
+width=3D"16" height=3D"16" title=3D"You are subscribed to this topic"> =
+';el.appendChild(domButton("c_b100","Unsubscribe","Remove =
+subscription","/ico/16mailno.png","javascript:"+this.objName+".bookmark("=
++a.threadid+",-1)"))}if(a.bookmark){icos+=3D'<img =
+src=3D"/ico/16bookmark.png" width=3D"16" height=3D"16" title=3D"You have =
+bookmarked this topic"> =
+';el.appendChild(domButton("c_b100","Remove","Remove =
+bookmark","/ico/16bookmarkno.png","javascript:"+this.objName+".bookmark("=
++a.threadid+",-1)"))}document.getElementById("CH_icos"+a.threadid).innerH=
+TML=3Dicos};for_ThreadList.prototype.bookmark=3Dfunction(b,a){document.ge=
+tElementById("CH_bm"+b).innerHTML=3D"Please =
+wait...";xhrAsync(this.httpbookmark+"?w=3Dbookmark&t=3D"+b+"&q=3D"+a,bind=
+Function(this,this.drawBookmarksXHR))};function =
+for_PostList(threadid,threadarchived,threadauthor,threadsolved,elidPosts,=
+elidSubscription,elidReply,elidInsNew,elidAuthor,httpthreads,httpposts,ht=
+tpbookmark,accesspost,accessreport,accessfilter,accesstrusted,accessmod,a=
+ccessbookmark){this.threadid=3Dthreadid;this.threadarchived=3Dthreadarchi=
+ved;this.threadauthor=3Dthreadauthor;this.threadsolved=3Dthreadsolved;thi=
+s.elidPosts=3DelidPosts;this.elidSubscription=3DelidSubscription;this.eli=
+dReply=3DelidReply;this.elidInsNew=3DelidInsNew;this.elidAuthor=3DelidAut=
+hor;this.httpthreads=3Dhttpthreads;this.httpposts=3Dhttpposts;this.httpbo=
+okmark=3Dhttpbookmark;this.accesspost=3Daccesspost;this.accessfilter=3Dac=
+cessfilter;this.accesstrusted=3Daccesstrusted;this.accessmod=3Daccessmod;=
+this.accessbookmark=3Daccessbookmark;this.objName=3D"thread"+threadid;eva=
+l(this.objName+"=3Dthis;");if(elidPosts){var elPosts=3Dnew Array();var =
+el=3Ddocument.getElementById(elidPosts);if((el)&&(el.hasChildNodes)){for(=
+var i=3D0;i<el.childNodes.length;++i){if((" =
+"+el.childNodes[i].className+" =
+").indexOf("C_forPost")!=3D-1){elPosts.push(el.childNodes[i])}}}for(i=3D0=
+;i<elPosts.length;i++){if((i=3D=3DelPosts.length-1)&&(elidReply)){new =
+for_Post(elPosts[i],httpposts,accesspost,accessreport,accessfilter,access=
+trusted,accessmod,threadarchived,true)}else{new =
+for_Post(elPosts[i],httpposts,accesspost,accessreport,accessfilter,access=
+trusted,accessmod,threadarchived)}}}if(elidSubscription){this.elSubscript=
+ion=3Ddocument.getElementById(elidSubscription);onSession(this.drawSubscr=
+iption,this)}if(elidReply){this.elReply=3Ddocument.getElementById(this.el=
+idReply);this.originalReply=3Dthis.elReply.innerHTML;this.cb_drawReply=3D=
+onSession(this.drawReply,this)}if((!this.threadarchived)&&(this.elidAutho=
+r)){this.cb_drawAuthorOptions=3DonSession(this.drawAuthorOptions,this)}}f=
+or_PostList.prototype.drawAuthorOptions=3Dfunction(b){var =
+a=3Ddocument.getElementById(this.elidAuthor);if(!a){return}while(a.hasChi=
+ldNodes()){a.removeChild(a.lastChild)}if((this.threadarchived)&&(!b.auth(=
+this.accessmod))){return}if(b.auth(this.accessmod)||(b.userid=3D=3Dthis.t=
+hreadauthor)){a.appendChild(domButton("C_b100","Edit topic","Edit this =
+topic","/ico/16edit.png",this.httpthreads+"?w=3Dedit&t=3D"+this.threadid)=
+);if(this.threadsolved){a.appendChild(domButton("C_b100","Remove =
+solved","Removed solved =
+mark","/ico/16delete.png","javascript:"+this.objName+".solved(0)"))}else{=
+a.appendChild(domButton("C_b100","Mark as solved","Mark this topic as =
+solved","/ico/forum_solved.png","javascript:"+this.objName+".solved(1)"))=
+}}};for_PostList.prototype.solved=3Dfunction(a){xhrAsync(this.httpthreads=
++"?w=3Dsolved&t=3D"+this.threadid+"&n=3D"+a,bindFunction(this,this.solved=
+XHR))};for_PostList.prototype.solvedXHR=3Dfunction(c){try{var =
+a=3DJSON.parse(c)}catch(b){alert(c);return}if(a.success){this.threadsolve=
+d=3Da.solved;this.cb_drawAuthorOptions.invoke();window.location.href=3Dwi=
+ndow.location.href}};for_PostList.prototype.drawReply=3Dfunction(a){if((!=
+this.threadarchived)&&(a.auth(this.accesspost))){while(this.elReply.hasCh=
+ildNodes()){this.elReply.removeChild(this.elReply.lastChild)}this.elButto=
+n=3Dthis.elReply.appendChild(domButton("C_b100","Reply","Post a new =
+reply","/ico/16postreply.png","javascript:"+this.objName+".reply()"))}els=
+e{this.elReply.innerHTML=3Dthis.originalReply}};for_PostList.prototype.re=
+ply=3Dfunction(){if(this.elButton){this.elButton.parentNode.removeChild(t=
+his.elButton);this.elButton=3Dnull}new =
+BBEdit(this.elReply,{content:""},this.httpposts,{w:"reply",t:this.threadi=
+d},bindFunction(this,this.replyXHR))};for_PostList.prototype.replyXHR=3Df=
+unction(b){if(b){if(b.substr(0,5).toLowerCase()=3D=3D"error"){alert(b);re=
+turn}var =
+a=3Ddocument.createElement("div");a.innerHTML=3Db;a=3Ddocument.getElement=
+ById(this.elidInsNew).appendChild(a);if(a.hasChildNodes){new =
+for_Post(a.firstChild,this.httpposts,this.accesspost,this.accessreport,th=
+is.accessfilter,this.accesstrusted,this.accessmod,this.threadarchived,tru=
+e)}}this.cb_drawReply.invoke();WhenAll()};for_PostList.prototype.drawSubs=
+cription=3Dfunction(a){if((a.ok)&&(a.auth(this.accessbookmark))){this.elS=
+ubscription.innerHTML=3D"Loading tracking =
+options...";xhrAsync(this.httpbookmark+"?w=3Dget&tt=3D"+this.threadid,bin=
+dFunction(this,this.drawSubscriptionXHR))}else{this.elSubscription.innerH=
+TML=3D""}};for_PostList.prototype.drawSubscriptionXHR=3Dfunction(b){try{v=
+ar =
+a=3DJSON.parse(b)}catch(c){alert(b);return}if(a.success){data=3Da.data[0]=
+;tx=3D'<form name=3D"fm">Tracking options for this topic: <select =
+name=3D"bmk" =
+onchange=3D"'+this.objName+'.bookmark(fm.bmk.options[fm.bmk.selectedIndex=
+].value,fm.bmk.options[fm.bmk.selectedIndex].text)">';tx+=3D'<option =
+value=3D""></option>';if(data.bookmark){tx+=3D'<option =
+value=3D"-1">Remove bookmark</option>'}else{tx+=3D'<option =
+value=3D"0">Bookmark (Add to "my topics" =
+list)</option>'}if(data.notify){tx+=3D'<option =
+value=3D"-1">Unsubscribe</option>'}else{if(!this.threadarchived){tx+=3D'<=
+option value=3D"1">Subscribe (Receive an email on new =
+replies)</option>'}}tx+=3D"</select></form>";this.elSubscription.innerHTM=
+L=3Dtx}};for_PostList.prototype.bookmark=3Dfunction(b,a){if(confirm("Are =
+you sure do you want to =
+"+a+"?")){this.elSubscription.innerHTML=3D"Please =
+wait...";xhrAsync(this.httpbookmark+"?w=3Dbookmark&t=3D"+this.threadid+"&=
+q=3D"+b,bindFunction(this,this.drawSubscriptionXHR))}};function =
+for_Post(el,httpcgi,accesspost,accessreport,accessfilter,accesstrusted,ac=
+cessmod,threadarchived,lastpostinthread){this.el=3Del;this.httpcgi=3Dhttp=
+cgi;this.accesspost=3Daccesspost;this.accessreport=3Daccessreport;this.ac=
+cessfilter=3Daccessfilter;this.accesstrusted=3Daccesstrusted;this.accessm=
+od=3Daccessmod;this.threadarchived=3Dthreadarchived;this.lastpostinthread=
+=3Dlastpostinthread;this.parseHTML();this.objName=3D"post"+this.postid;ev=
+al(this.objName+"=3Dthis;");this.cb_onSession=3DonSession(this.onSession,=
+this)}for_Post.prototype.parseHTML=3Dfunction(){if(this.el.hasChildNodes(=
+)){var =
+a=3Dthis.el.firstChild.title.split(",");this.postid=3Da[0];this.author=3D=
+a[1];this.authoraccess=3Da[2];this.authornposts=3Da[3];this.poststatus=3D=
+a[4];this.eledtEdit=3Ddocument.getElementById("CH_i"+this.postid);this.el=
+Buttons=3Ddocument.getElementById("CH_btn"+this.postid)}};for_Post.protot=
+ype.onSession=3Dfunction(c){var =
+a=3Dthis.elButtons;if(a){while(a.hasChildNodes()){a.removeChild(a.lastChi=
+ld)}if((this.threadarchived)&&(!c.auth(this.accessmod))){return}if(c.ok){=
+if((c.auth(this.accessmod))||((c.auth(this.accesspost))&&(c.userid=3D=3Dt=
+his.author))){a.appendChild(domButton("C_b75","Edit","Edit =
+post","/ico/16edit.png","javascript:"+this.objName+".edit()"))}if(this.po=
+ststatus=3D=3D-1){if(c.auth(this.accessmod)){a.appendChild(domButton("C_b=
+75","Approve","Approve =
+post","/ico/16stamp.png","javascript:"+this.objName+".approve()"))}else{a=
+.appendChild(domButton("C_b75off","Reported","This message has been =
+reported","/ico/16reported.png"))}}if(((this.authoraccess&this.accesstrus=
+ted)!=3Dthis.accesstrusted)&&(c.auth(this.accessfilter))&&(!c.auth(this.a=
+ccessmod))){a.appendChild(domButton("C_b75","Report","Report post as =
+abusive (this will delete the =
+post)","/ico/16report.png","javascript:"+this.objName+".filter()"))}else{=
+if((this.poststatus=3D=3D0)&&(c.auth(this.accessreport))){a.appendChild(d=
+omButton("C_b75","Report","Report post as =
+abusive","/ico/16report.png","javascript:"+this.objName+".report()"))}}if=
+((c.auth(this.accessmod))||(this.lastpostinthread&&(c.userid=3D=3Dthis.au=
+thor))){a.appendChild(domButton("C_b75","Delete","Delete =
+post","/ico/16delete.png","javascript:"+this.objName+".del()"))}}}};for_P=
+ost.prototype.edit=3Dfunction(){this.backup=3Dthis.eledtEdit.innerHTML;th=
+is.eledtEdit.innerHTML=3DT("Loading data. Please =
+wait...");this.elButtons.style.display=3D"none";var =
+a=3DbindFunction(this,function(b){this.eledtEdit.innerHTML=3D"";new =
+BBEdit(this.eledtEdit,{content:b},this.httpcgi,{w:"edit",p:this.postid},b=
+indFunction(this,this.editXHR))});xhrAsync(this.httpcgi+"?w=3Dtext&p=3D"+=
+this.postid,a)};for_Post.prototype.editXHR=3Dfunction(a){if((!a)||(!this.=
+redraw(a))){this.eledtEdit.innerHTML=3Dthis.backup;this.elButtons.style.d=
+isplay=3D""}};for_Post.prototype.report=3Dfunction(){var =
+a=3Dprompt(T("REPORTING ABUSE: Please, describe the problem with this =
+message:"),"");if(a){xhrAsync(this.httpcgi+"?w=3Dreport&p=3D"+this.postid=
++"&why=3D"+escape(a),bindFunction(this,this.redraw))}};for_Post.prototype=
+.approve=3Dfunction(){var a=3Dprompt(T("APPROVE MESSAGE: Please, enter =
+the reason =
+(optional):"),"");xhrAsync(this.httpcgi+"?w=3Dapprove&p=3D"+this.postid+"=
+&why=3D"+escape(a),bindFunction(this,this.redraw))};for_Post.prototype.fi=
+lter=3Dfunction(){var a=3Dprompt(T("WARNING: This action will remove =
+this post from the forum until a moderator can check at the issue.\n\n =
+Please, describe the problem with this =
+message:"),"");if(a){xhrAsync(this.httpcgi+"?w=3Dfilter&p=3D"+this.postid=
++"&why=3D"+escape(a),bindFunction(this,this.redraw))}};for_Post.prototype=
+.del=3Dfunction(){if(confirm("You are about to delete a =
+post")){xhrAsync(this.httpcgi+"?w=3Ddel&p=3D"+this.postid,bindFunction(th=
+is,this.redraw))}};for_Post.prototype.redraw=3Dfunction(c){if(c){if(c.sub=
+str(0,5).toLowerCase()=3D=3D"error"){alert(c);return false}else{var =
+b=3Ddocument.createElement("div");b.innerHTML=3Dc;var =
+a=3Db.firstChild;this.el.parentNode.replaceChild(a,this.el);this.el=3Da;t=
+his.parseHTML();this.cb_onSession.invoke();WhenAll();return true}}};
+------=_NextPart_000_0000_01CB7A84.B11F6E90
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google-analytics.com/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"query";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"yandex";	_uOkw[20]=3D"text";=0A=
+_uOsr[21]=3D"najdi";	_uOkw[21]=3D"q";=0A=
+_uOsr[22]=3D"aol";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"club-internet"; _uOkw[23]=3D"query";=0A=
+_uOsr[24]=3D"mama";	_uOkw[24]=3D"query";=0A=
+_uOsr[25]=3D"seznam";	_uOkw[25]=3D"q";=0A=
+_uOsr[26]=3D"search";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"wp";	_uOkw[27]=3D"szukaj";=0A=
+_uOsr[28]=3D"onet";	_uOkw[28]=3D"qt";=0A=
+_uOsr[29]=3D"netsprint";	_uOkw[29]=3D"q";=0A=
+_uOsr[30]=3D"google.interia";	_uOkw[30]=3D"q";=0A=
+_uOsr[31]=3D"szukacz";	_uOkw[31]=3D"q";=0A=
+_uOsr[32]=3D"yam";	_uOkw[32]=3D"k";=0A=
+_uOsr[33]=3D"pchome";	_uOkw[33]=3D"q";=0A=
+_uOsr[34]=3D"kvasir";	_uOkw[34]=3D"searchExpr";=0A=
+_uOsr[35]=3D"sesam";	_uOkw[35]=3D"q";=0A=
+_uOsr[36]=3D"ozu"; _uOkw[36]=3D"q";=0A=
+_uOsr[37]=3D"terra"; _uOkw[37]=3D"query";=0A=
+_uOsr[38]=3D"nostrum"; _uOkw[38]=3D"query";=0A=
+_uOsr[39]=3D"mynet"; _uOkw[39]=3D"q";=0A=
+_uOsr[40]=3D"ekolay"; _uOkw[40]=3D"q";=0A=
+_uOsr[41]=3D"search.ilse"; _uOkw[41]=3D"search_for";=0A=
+_uOsr[42]=3D"bing"; _uOkw[42]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1.4";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0,nv=3D0;=0A=
+ var nx=3D" expires=3D"+_uNx()+";";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh+".");=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+   b =3D _uGC(dc,"__utmb=3D"+_udh,";");=0A=
+   b =3D ("-" =3D=3D b) ? _udh : b;  =0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else {=0A=
+   a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+   nv=3D1;=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ var wc=3Dwindow;=0A=
+ var c=3D_ubd.cookie;=0A=
+ if(wc && wc.gaGlobal && wc.gaGlobal.dh=3D=3D_udh){=0A=
+  var g=3Dwc.gaGlobal;=0A=
+  var ua=3Dc.split("__utma=3D"+_udh+".")[1].split(";")[0].split(".");=0A=
+  if(g.sid)ua[3]=3Dg.sid;=0A=
+  if(nv>0){=0A=
+   ua[2]=3Dua[3];=0A=
+   if(g.vid){=0A=
+    var v=3Dg.vid.split(".");=0A=
+    ua[0]=3Dv[0];=0A=
+    ua[1]=3Dv[1];=0A=
+   }=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+_udh+"."+ua.join(".")+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uGH() {=0A=
+ var hid;=0A=
+ var wc=3Dwindow;=0A=
+ if (wc && wc.gaGlobal && wc.gaGlobal.hid) {=0A=
+  hid=3Dwc.gaGlobal.hid;=0A=
+ } else {=0A=
+  hid=3DMath.round(Math.random()*0x7fffffff);=0A=
+  if (!wc.gaGlobal) wc.gaGlobal=3D{};=0A=
+  wc.gaGlobal.hid=3Dhid;=0A=
+ }=0A=
+ return hid;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ s+=3D"&utmhid=3D"+_uGH();=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh+".");=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh+".",";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh+".",";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uGCse() {=0A=
+ var h,p;=0A=
+ h=3Dp=3D_ur.split("://")[1];=0A=
+ if(h.indexOf("/")>-1) {=0A=
+  h=3Dh.split("/")[0];=0A=
+  p=3Dp.substring(p.indexOf("/")+1,p.length);=0A=
+ }=0A=
+ if(p.indexOf("?")>-1) {=0A=
+  p=3Dp.split("?")[0];=0A=
+ }=0A=
+ if(h.toLowerCase().indexOf("google")>-1) {=0A=
+  if(_ur.indexOf("?q=3D")>-1 || _ur.indexOf("&q=3D")>-1) {=0A=
+   if (p.toLowerCase().indexOf("cse")>-1) {=0A=
+    return true;=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+  if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else {=0A=
+  var fl;=0A=
+  try {=0A=
+   fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+   f =3D fl.GetVariable("$version");=0A=
+  } catch(e) {}=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+    f =3D "WIN 6,0,21,0";=0A=
+    fl.AllowScriptAccess =3D "always";=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f !=3D "-") {=0A=
+   f =3D f.split(" ")[1].split(",");=0A=
+   f =3D f[0] + "." + f[1] + " r" + f[2];=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinkerUrl(l,h) {=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ var iq =3D l.indexOf("?");=0A=
+ var ih =3D l.indexOf("#");=0A=
+ var url=3Dl;=0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh+".",";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh+".",";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh+".",";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { url=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) url=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) url=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) url=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else url=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return url;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink || !l || l=3D=3D"") return;=0A=
+ _udl.href=3D__utmLinkerUrl(l,h);=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink || !f || !f.action) return;=0A=
+ f.action=3D__utmLinkerUrl(f.action, h);=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3D"+_uNx()+";"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ _udn =3D _udn.toLowerCase(); =0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh+".",s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh+".",";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/' && =
+_udn.indexOf("google.org")=3D=3D-1) {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D_uNx()+";";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10 && _utk.indexOf("=3D")=3D=3D-1) =
+{=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+=0A=
+function _uNx() {=0A=
+  return (new Date((new Date()).getTime()+63072000000)).toGMTString();=0A=
+}=0A=
+
+------=_NextPart_000_0000_01CB7A84.B11F6E90--

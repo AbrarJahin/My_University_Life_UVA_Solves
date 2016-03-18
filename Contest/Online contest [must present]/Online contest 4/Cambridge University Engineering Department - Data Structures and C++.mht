@@ -1,0 +1,1954 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Cambridge University Engineering Department - Data Structures and C++
+Date: Mon, 1 Nov 2010 11:32:19 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0037_01CB79B8.72027C60"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Cambridge University =
+Engineering Department - Data Structures and C++</TITLE>
+<META content=3DC++ name=3Dkeywords><LINK=20
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<STYLE type=3Dtext/css>.fragments {
+	MARGIN-LEFT: 10%; COLOR: maroon; MARGIN-RIGHT: 10%; FONT-FAMILY: =
+monospace; WHITE-SPACE: pre; BACKGROUND-COLOR: #dddddd
+}
+.programs {
+	MARGIN-LEFT: 10%; COLOR: blue; MARGIN-RIGHT: 10%; FONT-FAMILY: =
+monospace; WHITE-SPACE: pre; BACKGROUND-COLOR: #eeeeee
+}
+.output {
+	MARGIN-LEFT: 20%; COLOR: white; MARGIN-RIGHT: 20%; FONT-FAMILY: =
+monospace; WHITE-SPACE: pre; BACKGROUND-COLOR: black
+}
+TT {
+	COLOR: blue
+}
+H2 {
+	BACKGROUND: #99ccff; COLOR: #003366; MARGIN-RIGHT: 30%; FONT-FAMILY: =
+sans-serif
+}
+H3 {
+	BACKGROUND: #bbeeff; MARGIN-RIGHT: 70%; FONT-FAMILY: sans-serif
+}
+</STYLE>
+<!-- CUED header: cued-h.html -->
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><LINK=20
+href=3D"http://www-h.eng.cam.ac.uk/global/styles/camstyle.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet><LINK=20
+href=3D"http://www-h.eng.cam.ac.uk/global/styles/cuedglobal.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#cc3333 aLink=3D#cc0000 link=3D#003399 =
+bgColor=3D#ffffff>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+summary=3D"navigation bar"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dnull width=3D"100%" bgColor=3D#0099cc><IMG height=3D16 =
+alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif"=20
+    width=3D1></TD>
+    <TD class=3Dnull align=3Dright width=3D53 rowSpan=3D2>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D53=20
+      summary=3D"navigation bar insert" border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dnull><A=20
+            =
+href=3D"http://web-search.cam.ac.uk/?qp=3Durl%3aeng.cam.ac.uk"><IMG=20
+            height=3D18 alt=3DSearch=20
+            =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/search.gif"=20
+            width=3D53 border=3D0></A></TD><!--=0A=
+ <td class=3D"null"><a href=3D"http://www.cam.ac.uk/global/az.html"><img =
+src=3D"/global/images/camstyle/az.gif"  width=3D"53" height=3D"18" =
+border=3D"0" alt=3D"A-Z index" /></a></td>=0A=
+-->
+          <TD class=3Dnull><A =
+href=3D"http://www.eng.cam.ac.uk/people/"><IMG=20
+            height=3D18 alt=3D"Contact information"=20
+            =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/contact.gif"=20
+            width=3D53 =
+border=3D0></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=3Dnull bgColor=3D#cccccc><IMG height=3D2 alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif"=20
+    width=3D1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+summary=3D"departmental header"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD><A href=3D"http://www.cam.ac.uk/"><IMG=20
+      alt=3D"University of Cambridge Home"=20
+      src=3D"http://www-h.eng.cam.ac.uk/global/images/uniban-s.gif"=20
+    border=3D0></A></TD>
+    <TD class=3Ddeptitle vAlign=3Dbottom align=3Dright>Department of=20
+  Engineering</TD></TR>
+  <TR>
+    <TD class=3Dnull bgColor=3D#0099cc colSpan=3D2><IMG height=3D4 =
+alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif"=20
+    width=3D1></TD></TR>
+  <TR>
+    <TD class=3Dnull bgColor=3D#cccccc colSpan=3D2><IMG height=3D2 =
+alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif"=20
+    width=3D1></TD></TR></TBODY></TABLE><!-- end CUED header --><!-- =
+begin group breadcrumb -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+summary=3D"breadcrumb navigation"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD><A class=3Dbread=20
+      =
+href=3D"http://www.cam.ac.uk/">University&nbsp;of&nbsp;Cambridge</A>&nbsp=
+;&gt;&nbsp;=20
+      <A class=3Dbread href=3D"http://www.eng.cam.ac.uk/">Engineering=20
+      Department</A>&nbsp;&gt;&nbsp; <A class=3Dbread=20
+      href=3D"http://www-h.eng.cam.ac.uk/">computing =
+help</A>&nbsp;&gt;&nbsp; <A=20
+      class=3Dbread=20
+      =
+href=3D"http://www-h.eng.cam.ac.uk/help/languages.html">Languages</A>&nbs=
+p;&gt;&nbsp;=20
+      <A class=3Dbread=20
+      =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/languages/C++.html">C++</A>=20
+  </TD></TR></TBODY></TABLE><!-- end group breadcrumb --><!-- C O N T E =
+N T -->
+<H1>Trees, Graphs and C++</H1>
+<BLOCKQUOTE><I>This document aims to provide enough background =
+information to=20
+  encourage you to write graph-related C++ code. First some Standard =
+Containers=20
+  are shown in action, and their use extended to deal with user-defined =
+classes.=20
+  Then some Tree and Graph concepts are introduced. Finally =
+implementation ideas=20
+  are given to help tackle some exercises, building on C++'s supplied=20
+  containers. </I></BLOCKQUOTE>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Introduc=
+tiontotheSTL">Introduction=20
+  to Standard Containers</A>
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Developi=
+ng">Developing=20
+  Containers</A>=20
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Queues">=
+Queues</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Trees">T=
+rees</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#TreeTrav=
+ersal">Tree=20
+  Traversal</A>=20
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Graphs">=
+Graphs</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#GraphTra=
+versal">Graph=20
+  Traversal</A>=20
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Implemen=
+tingGraphAlgorithms">Implementing=20
+  Graph Algorithms</A>=20
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Referenc=
+es">References</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Exercise=
+s">Exercises</A>=20
+  </LI></UL>
+<H2><A name=3DIntroductiontotheSTL>Introduction to Standard=20
+Containers</A></H2>Many books exist dealing with sorting and organising =
+data.=20
+With the emergence of languages that support data abstraction, people =
+tried to=20
+generalise data structures. The Smalltalk language introduced some =
+useful ideas.=20
+These have been developed and brought into the mainstream with C++'s =
+Standard=20
+Library. The <A=20
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++.html">Standard =
+Library</A>=20
+includes <I>containers</I> that hold data. Containers are grouped into 3 =
+types=20
+<UL>
+  <LI>Sequential - the order of the elements matter (e.g. vector)=20
+  <LI>Associative - the order of the elements doesn't matter (e.g. set)=20
+  <LI>Adapters - containers that are modifications of other containers =
+(e.g.=20
+  stack) </LI></UL>These containers have many member functions in =
+common. For=20
+example, <TT>s.size()</TT> gives the number of elements in the container =
+s if s=20
+is a set, a list or even a string of characters. The Standard Library =
+also=20
+includes <I>algorithms</I> that operate on the containers. To be of =
+maximum use=20
+these algorithms need to be able to operate on as many types of =
+containers as=20
+possible, so each container has member functions that give algorithms =
+access to=20
+the data. For example, <TT>s.begin()</TT> will always return an =
+<I>Iterator</I>=20
+(like a pointer) to the first element of a container s. By hiding the=20
+implementation details of containers in this way, high-level generic =
+algorithms=20
+can be written which will not only work with the standard containers but =
+also=20
+with any new containers that a programmer might write.=20
+<P>The Standard Library doesn't contain a tree container, but if you =
+wrote one=20
+so that it had the standard hooks that algorithms require, then =
+algorithms like=20
+<TT>copy</TT> etc. should work with it. Clearly a tree container would =
+require=20
+some special routines that other containers wouldn't support, but C++ =
+makes it=20
+easy to add functionality in, building on what you already have.=20
+<H2><A name=3DDeveloping>Developing Containers</A></H2>Ways to extend =
+the basic=20
+use of containers include=20
+<UL>
+  <LI>Using standard containers to store user-defined objects (see =
+later)=20
+  <LI>Creating completely new containers (see the <A=20
+  =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Referenc=
+es">References</A>=20
+  section for examples)=20
+  <LI>Building new containers from existing ones (note however that =
+containers=20
+  weren't designed to be inherited from - they don't have a virtual =
+destructor=20
+  for example - so take care) </LI></UL>
+<H2><A name=3DQueues>Queues</A></H2>Before we look at trees, let's see =
+how to use=20
+some simpler containers. <FONT color=3D#0000ff><PRE>#include =
+&lt;deque&gt;                                                      =20
+#include &lt;algorithm&gt;                                           =20
+#include &lt;iostream&gt;                                                =
+       =20
+using namespace std;                                                   =20
+                                                                      =20
+int main()                                                               =
+ =20
+{                                                            =20
+deque&lt;int&gt; Q;       //  An empty, elastic, container ready to hold =
+ints.
+// A deque is a double-ended queue. Queues (unlike lists) are
+// data structures where you wouldn't expect to insert new items
+// anywhere else but at the ends
+
+Q.push_back(0);     //  Many containers have a push_back
+                    //  routine. It's a way to add elements
+                    //  to a container in a safe way - the
+                    //  container will grow if it's not big enough.
+Q.push_back(2);                                                          =
+
+Q.push_back(1);    =20
+
+for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+}
+cout &lt;&lt;endl;
+
+// Now let's sort!         =20
+sort(Q.begin(), Q.end());
+// the arguments we've given to sort mean that the whole queue
+// will be sorted, and that the result will be copied back to
+// the original queue. sort uses the default sorting criterium
+// for integers, and can use the swap function of Q to switch
+// elements around.=20
+
+for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+}
+cout &lt;&lt;endl;
+// Output: 0 1 2
+                   =20
+}
+</PRE></FONT>To create a queue of strings rather than a queue of =
+integers, we=20
+don't need to change much. This ease of coping with different data types =
+will be=20
+useful when we come to create trees. <FONT color=3D#0000ff><PRE>#include =
+&lt;deque&gt;                                                      =20
+#include &lt;string&gt; // added so that we can use strings
+#include &lt;algorithm&gt;                                           =20
+#include &lt;iostream&gt;                                                =
+       =20
+using namespace std;                                                   =20
+                                                                      =20
+int main()                                                               =
+ =20
+{                                                            =20
+deque&lt;string&gt; Q;       // changed
+
+Q.push_back("standard");          =20
+Q.push_back("template");                                                 =
+      =20
+Q.push_back("library");    =20
+
+for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+}
+cout &lt;&lt;endl;
+
+// Now let's sort!         =20
+sort(Q.begin(), Q.end());
+// sort uses the default sorting criterium for strings - alphabetical
+
+for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+}
+cout &lt;&lt;endl;
+}
+</PRE></FONT>As well as being able to have queues of standard items like =
+strings=20
+and integers, we can also invent our own types and have queues of those. =
+The=20
+main problem is that when we sort we have to specify the sort criteria =
+for our=20
+own types. It's sufficient to specify what the '&lt;' operator should do =
+for=20
+your own type. Here's an example <FONT color=3D#0000ff><PRE>#include =
+&lt;deque&gt;                                                      =20
+#include &lt;algorithm&gt;                                           =20
+#include &lt;iostream&gt;                                                =
+       =20
+using namespace std;                                                   =20
+
+class simple {
+public:
+  int value;
+  // redefine the '&lt;' operator, so when 2 simple objects are
+  // compared, the 'value' fields of the objects are compared.
+  const bool operator&lt;(const simple &amp;rhs) const
+        { return this-&gt;value &lt; rhs.value; }
+};
+                                                                      =20
+int main()                                                               =
+ =20
+{                                                            =20
+ deque&lt;simple&gt; Q;       //  An empty, elastic, container.
+
+ simple s;
+ s.value=3D0;
+ Q.push_back(s);=20
+ s.value=3D2;
+ Q.push_back(s);  =20
+ s.value=3D1;                                         =20
+ Q.push_back(s);    =20
+
+ for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+ }
+ cout &lt;&lt;endl;
+ // Output: 0 2 1
+
+ // Now let's sort! sort uses the '&lt;' operator that we created in the =
+'simple' class  =20
+ sort(Q.begin(), Q.end());
+
+ for(int i=3D0;i&lt;Q.size(); i++){
+   cout &lt;&lt; Q[i].value; cout &lt;&lt; " ";
+ }
+ cout &lt;&lt;endl;=20
+ // Output: 0 1 2
+}
+</PRE></FONT>
+<H2><A name=3DTrees>Trees</A></H2>There are many types of tree =
+structures (<A=20
+href=3D"http://www.cs.queensu.ca/home/dalamb/courses/235/slides/thread.ht=
+ml">threaded=20
+trees</A>, Splay trees, 2-3 trees, etc). The choice depends on many =
+factors -=20
+how dynamic the data is, whether best-case or worst-case behaviour is =
+the most=20
+important, whether you want to avoid recursion, etc. Trees are often a =
+natural=20
+choice (e.g. when writing a chess program) but they are also effective =
+in many=20
+situations where data that's received sequentially can be beneficially =
+stored in=20
+a more organised fashion - e.g. parsing mathematical expressions, =
+parsing=20
+sentences, reading words that later need to be searched, or retrieved in =
+
+alphabetical order.=20
+<P>Binaries trees (where each node has at most 2 children) are commonly =
+used -=20
+not because they most closely model reality, but because they're =
+computationally=20
+and mathematically more easy to deal with.=20
+<P>Suppose that a program were to be given 10,000 words (non-unique) and =
+had to=20
+list the unique words used. Suppose also that memory was at a premium, =
+so that=20
+storing every non-unique word is to be avoided. Each time a word is read =
+the=20
+program needs to check if the word's new and store it only if it is. If =
+the=20
+words are stored in an array alphabetically, searching will be faster, =
+but=20
+adding a word to the start of the array will be slow because subsequent =
+words=20
+will have to be shifted.=20
+<P>Using a binary tree will speed things up. Each time a word is read, =
+the=20
+program starts at the top of the tree. If the node is empty, the word is =
+stored=20
+there, otherwise the left or right branch is taken according to whether =
+the word=20
+comes before or after the word stored in the node. For example, suppose =
+the=20
+first 5 words were "standard", "template", "library", "data" and =
+"structures".=20
+"standard" would be stored in the top node. "template" would be stored =
+in the=20
+right-child node of the top node. "library" would be stored in the =
+left-child=20
+node of the top node. <FONT color=3D#0000ff><PRE>              standard
+               /   \
+          library  template
+</PRE></FONT>"data" comes before "standard" so the left link will be =
+taken.=20
+"data" comes before "library", so "data" will be stored in the =
+left-child node=20
+of "library". The final tree looks like this <FONT color=3D#0000ff><PRE> =
+             standard
+               /   \
+          library  template
+             /      /
+           data   structures
+</PRE></FONT>If this tree remains balanced, then it could fit 10,000 =
+words=20
+within 15 layers, so a word-search would require only 15 comparisons at =
+most.=20
+Insertions (new nodes) are cheap too. Contrast this with the worst case =
+array=20
+scenario, where 10,000 comparisons might need to be made before a search =
+is=20
+complete! <BR>However, if the words are supplied in alphabetical order, =
+this=20
+tree-based method suffers - each new word will add a right-node, =
+deepening the=20
+tree each time, making searching as slow as with arrays. Various =
+techniques=20
+exist to combat this. The benefits of these techniques are so enormous =
+that=20
+simple binary trees aren't used in big programs - see the <A=20
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#APPENDIX=
+">appendix</A>.=20
+
+<H2><A name=3DTreeTraversal>Tree Traversal</A></H2>There are 2 basic =
+approaches to=20
+brute-force tree searching - breadth-first and depth-first. With =
+breadth-first=20
+you start at the top node then visit all its childen before visiting its =
+
+children's childen - i.e. you explore the tree layer by layer. With =
+depth-first=20
+searching you keep going down, backtracking when you can go no further. =
+The=20
+purpose of the search and the shape of the tree affect the choice of =
+approach.=20
+For example, if you're playing chess and you don't have much time to =
+think, it's=20
+better to do a breadth-first search rather than looking at one move =
+(which might=20
+be bad anyway) at great depth.=20
+<P>With either method there's a choice of ways to order operations on =
+the node.=20
+<UL>
+  <LI><I>pre-order</I> - node, left-branch, right-branch=20
+  <LI><I>in-order</I> - left-branch, node, right-branch=20
+  <LI><I>post-order</I> - left-branch, right-branch, node </LI></UL>As =
+an example=20
+consider the following tree, which represents a mathematical expression. =
+<FONT=20
+color=3D#0000ff><PRE>             -
+           /   \
+          *     *
+         / \   / \
+        2   + 3   -
+           / \   / \
+          x   5 y   4
+</PRE></FONT>If you do a depth-first search, processing each left-branch =
+and=20
+right-branch of a node before printing the node's contents you'll get =
+<FONT=20
+color=3D#0000ff><PRE>      2 x 5 + * 3 y 4 - * -
+</PRE></FONT>(check to see if you agree with this!) which is the =
+expression in=20
+post-fix notation but if you deal with nodes differently (still =
+depth-first=20
+search, but this time processing the left-branch, printing the contents =
+of the=20
+node, then processing the right-branch) you'll get something much closer =
+to the=20
+normal representation.=20
+<P>The depth-first algorithm can be described more formally as follows=20
+<OL>
+  <LI>Form one element queue Q consisting of the root node=20
+  <LI>Until the Q is empty or the goal has been reached, determine if =
+the first=20
+  element in Q is the goal.=20
+  <OL>
+    <LI>If it is, do nothing=20
+    <LI>If is isn't, remove the first element from Q and add the first =
+element's=20
+    children, if any, to the <I>front</I> of the queue (so that children =
+are=20
+    searched before siblings) </LI></OL>
+  <LI>If the goal is reached, success; else failure </LI></OL>Try this =
+algorithm=20
+by hand on the following tree <FONT color=3D#0000ff><PRE>             A
+           /   \
+          B     C
+         / \   / \
+        D   E F   G
+           / \   / \
+          H   I J   K
+</PRE></FONT>The Standard Library makes it relatively easy to translate =
+this=20
+algorithm into code nearly line-by-line. If each vertex has a list of=20
+sub-vertices called <TT>child</TT> then <FONT color=3D#0000ff><PRE>   =20
+    list&lt;Vertex &gt; q;
+    q.push_back( start );=20
+</PRE></FONT>creates and initialises a list, and <FONT =
+color=3D#0000ff><PRE>     while( !q.empty( ) ){
+         Vertex v =3D q.front( ); // get the first item
+         if (!v.goal_reached()) {=20
+            q.pop_front( );      // remove it from the list
+            for( int i =3D 0; i &lt; v.child.size( ); i++ )
+               q.push_front(v.child[i]); // push each child to the front =
+of the queue
+         }
+     }
+</PRE></FONT>modifies the list.=20
+<P>It's sometimes possible to sort this list of nodes to be visited so =
+that the=20
+most promising nodes are visited first.=20
+<UL>
+  <LI><I>Hill climbing</I> - This method tries the locally-best =
+candidate. It's=20
+  like trying to find the highest peak in the highlands by always taking =
+the=20
+  steepest slope from your present location. In terms of the algorithm =
+above, it=20
+  means sorting the children before adding them to the front of the =
+queue.=20
+  <LI><I>Best-first</I> - With this method, it's not just the children =
+which are=20
+  sorted; the whole queue is sorted. </LI></UL>
+<CENTER><IMG alt=3D"[a landscape]"=20
+src=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/hill.png"> =
+</CENTER>Suppose you=20
+started at point A of this 2D landscape.=20
+<UL>
+  <LI>With the <I>Hill climbing</I> algorithm you'd first go to B (the =
+highest=20
+  available point) then C then D, before backtracking to A and going to =
+E then=20
+  F.=20
+  <LI>With the <I>Best-first</I> algorithm you'd first go to B, but then =
+you'd=20
+  go to E then F. </LI></UL>The code for these methods follows the =
+stages of the=20
+algorithm closely. We've seen earlier how <TT>sort</TT> can be used to =
+sort a=20
+list of data structures like <TT>Vertex</TT> <FONT color=3D#0000ff><PRE> =
+    deque&lt;Vertex&gt; q;
+     deque&lt;Vertex&gt; new_wave;
+     while( !q.empty( ) ){
+         Vertex v =3D q.front( ); // get the first item
+         if (!v.goal_reached()) {=20
+            q.pop_front( );      // remove it from the list
+            for( int i =3D 0; i &lt; v.child.size( ); i++ )
+               new_wave.push_front(v.child[i]); // push each child onto =
+a queue
+            // Now decide whether to sort this new queue before adding
+            // it to the main queue, or add it to the main queue before
+            // sorting the whole queue
+            if (mode=3D=3Dhill_climbing) {
+              sort(new_wave.begin(),new_wave.end());
+              while(!new_wave.empty()){
+                 q.push_front(new_wave.back( ));
+                 new_wave.pop_back( );
+              }
+            }
+            else {
+              while(!new_wave.empty()){
+                 q.push_front(new_wave.back( ));
+                 new_wave.pop_back( );
+              }
+              sort(q.begin(),q.end());
+            }
+         }
+     }
+</PRE></FONT><I>Branch and Bound</I> methods break the set of feasible =
+solutions=20
+into smaller subsets, and find for each subset a lower bound (as high as =
+
+possible) on the function one's trying to maximise in the hope of =
+isolating the=20
+optimal solution. These subsets often take the form of subtrees. If the =
+subsets=20
+are well chosen, and if the bounds are easy to calculate, these methods =
+can=20
+greatly reduce the number of nodes that need to be explicitly searched.=20
+<P>Many tree traversal strategies require the program to remember =
+previous nodes=20
+in the path so that backtracking is possible. This (and recursion) can =
+use up a=20
+lot of memory. With <I>threaded trees</I> each node knows its sucessor - =
+with a=20
+depth-first search parents lead to their first child which in turn leads =
+to=20
+siblings. The last sibling leads to the next node to be visited. =
+Maintaining=20
+such a tree requires more work when nodes are added or removed, and =
+makes=20
+traversal less flexible but with each node having a successor, it =
+becomes more=20
+possible to treat the Graph as a container on which iterators can =
+operate.=20
+<H2><A name=3DGraphs>Graphs</A></H2>A tree is a special case of the more =
+general=20
+<I>graph</I> (or net). Graphs have many uses from network analysis to=20
+spreadsheet operation. Graphs have vertices (or nodes) and edges (which =
+can be=20
+one-way or undirected). Edges can have a cost associated with them, and =
+the cost=20
+may depend on the direction taken along the edge. Popular graph-related =
+puzzles=20
+include=20
+<UL>
+  <LI>Finding whether one can traverse all edges without traversing any =
+twice=20
+  (an Euler Path).=20
+  <LI>The Travelling Salesman Problem - how to visit all the nodes at a =
+minimal=20
+  cost=20
+  <LI>Finding the shortest (least cost) path between 2 vertices=20
+  <LI>Finding the "minimal spanning tree" - finding a tree (with the =
+least-cost=20
+  edges) that includes all nodes </LI></UL>More formally, a graph is a =
+pair (V,E),=20
+where V is a finite set and E is a binary relation on V. V is called a =
+<I>vertex=20
+set</I> whose elements are called vertices. E is a collection of edges, =
+where an=20
+edge is a pair (u,v) with u,v in V. In a <I>directed graph</I>, edges =
+are=20
+ordered pairs, connecting a source vertex to a target vertex. In an=20
+<I>undirected graph</I> edges are unordered pairs and connect the two =
+vertices=20
+in both directions, hence in an undirected graph (u,v) and (v,u) are two =
+ways of=20
+writing the same edge.=20
+<P>If some edge (u,v) is in graph , then vertex v is <I>adjacent</I> to =
+vertex=20
+u. In a directed graph, edge (u,v) is an <I>out-edge</I> of vertex u and =
+an=20
+<I>in-edge</I> of vertex v. In an undirected graph edge (u,v) is =
+<I>incident</I>=20
+on vertices u and v. In a directed graph, the number of out-edges of a =
+vertex is=20
+its <I>out-degree</I> and the number of in-edges is its =
+<I>in-degree</I>. For an=20
+undirected graph, the number of edges incident to a vertex is its =
+<I>degree</I>.=20
+
+<P>A <I>path</I> is a sequence of edges in a graph such that the target =
+vertex=20
+of each edge is the source vertex of the next edge in the sequence. If =
+there is=20
+a path starting at vertex u and ending at vertex v we say that v is=20
+<I>reachable</I> from u. A path is <I>simple</I> if none of the vertices =
+in the=20
+sequence are repeated. A path is a <I>cycle</I> if the first and last =
+vertex in=20
+the path are the same. A graph with no cycles is <I>acyclic</I>.=20
+<H2><A name=3DGraphTraversal>Graph Traversal</A></H2>Graphs can be =
+traversed much=20
+as trees can (depth-first, breadth-first, etc), but care must be taken =
+not to=20
+get stuck in a loop - trees by definition don't have cycles, and in a =
+tree=20
+there's always only one path from the root to a node whereas in a graph =
+there=20
+may be many paths between any pair of nodes.=20
+<P>The following directed graph has 6 nodes. The Dijkstra-Moore =
+algorithm can be=20
+used to find the shortest path from a given node to each of the others =
+as long=20
+as costs aren't negative. A breadth-first search from the first node =
+radiates=20
+out across the graph. If it reaches an unvisited node, it sets its =
+distance from=20
+the first node to be the distance of the previous node from the first =
+node, plus=20
+the length of the edge from the previous node. If a node's already been =
+visited,=20
+it will already have been given a distance from the first node, but this =
+might=20
+not be the shortest distance - the current path might be shorter. So a=20
+comparison is done, and the node's distance is set to the minimum.=20
+<P>For example, in the graph below, suppose that A was the source node. =
+In the=20
+first stage, node B's distance would be set to 7 and node C's distance =
+to 1.=20
+During the second stage, routes from nodes B and C would be explored. =
+When node=20
+B is reached from node C, the distance is 1+5, so node B's distance from =
+A is=20
+reset to 6 from its original 7. As the algorithm progresses, node B's =
+distance=20
+will later be reset to 5, which is the final value for node B's =
+distance. The=20
+algorithm terminates after 5 stages because by then all of the routes =
+will have=20
+been traversed - routes can't have more than <I>number_of_vertices - =
+1</I>=20
+edges.=20
+<CENTER><IMG alt=3D"[a weighted digraph]"=20
+src=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/graph1.png"> </CENTER>
+<H2><A name=3DImplementingGraphAlgorithms>Implementing Graph=20
+Algorithms</A></H2>Graphs provide useful source material for practising =
+C++ -=20
+inheritance provides a useful mechanism for integrating node, edge and =
+graph=20
+structures, and the Standard Library takes away much of the chore. Some =
+issues=20
+to bear in mind are=20
+<UL>
+  <LI>You could start by writing some tree-traversal code to deal with =
+the=20
+  earlier examples, but don't forget that trees are a subset of graphs =
+and that=20
+  your code should be generalisable.=20
+  <LI>Think about how the tree/graph information will be set-up. If =
+files are to=20
+  be read in, what format should the files have?=20
+  <LI>As with the standard containers and algorithms, it might be worth =
+trying=20
+  to separate the graph information from the operations to be performed =
+on the=20
+  graph. </LI></UL>See the <A=20
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/talks/C++graphs.html#Referenc=
+es">References</A>=20
+below for a list of books and online courses. Below is one way that =
+graph=20
+algorithms could be implemented, showing sample input and output.=20
+<UL>
+  <LI>A graph is a Standard Library vector of vertices. Each vertex has =
+an=20
+  Standard Library vector of edges. The vertices and edges can have =
+associated=20
+  information (cost, names, etc).=20
+  <LI>For flexibility the details of the search task are separate from =
+the=20
+  configuration of the graph. <FONT color=3D#0000ff><PRE>enum ordering =
+{preorder, inorder, postorder};
+enum search_mode {breadth_first, depth_first, hill_climbing, best_first, =
+Astar, shortest_paths, min_spanning_tree};
+class Search_Description
+{
+public:
+  ordering order;
+  search_mode searching;
+  string startnode;
+  string goalnode;
+  bool printnode;        // whether the visited node-name is printed
+};
+</PRE></FONT>
+  <LI>The graph and search specifications can be read from a file or be=20
+  specified interactively. The minimum-distance problem above can be set =
+up=20
+  using the following file <FONT color=3D#0000ff><PRE>A B 7 anon=20
+A C 1 anon=20
+B D 4 anon
+B F 1 anon
+C B 5 anon
+C E 2 anon
+C F 7 anon
+E B 2 anon
+E D 5 anon
+F E 3 anon=20
+SEARCHMODE shortest
+STARTNODE  A
+</PRE></FONT>Most of these lines specify directed edges with weights =
+(the=20
+  "anon" means that in this case the edges don't have names). Vertices =
+are=20
+  automatically created on demand. </LI></UL>When this file is fed into =
+the=20
+program the output is <FONT color=3D#0000ff><PRE>B is 5 from the source.
+Shortest path is A to C to E to B
+C is 1 from the source.
+Shortest path is A to C
+D is 8 from the source.
+Shortest path is A to C to E to D
+F is 6 from the source.
+Shortest path is A to C to E to B to F
+E is 3 from the source.
+Shortest path is A to C to E
+</PRE></FONT>The program works with trees too. The hill climbing problem =
+above=20
+can be set up with the following file <FONT color=3D#0000ff><PRE>A B 1 =
+anon
+B C 1 anon
+C D 1 anon
+A E 1 anon
+E F 1 anon
+NODEVALUE A 0
+NODEVALUE B 2
+NODEVALUE C 0
+NODEVALUE D 1
+NODEVALUE E 1
+NODEVALUE F 3
+// For best-first change the next line to  SEARCHMODE bestfirst
+SEARCHMODE hill
+STARTNODE A
+GOALNODE F
+</PRE></FONT>Graph member functions include=20
+<UL>
+  <LI><TT>shortestpaths( const string &amp; startnodename)</TT> - lists =
+shortest=20
+  paths from given node.=20
+  <LI><TT>min_spanning_tree()</TT> - prints the edges of the minimum =
+weight=20
+  spanning tree=20
+  <LI><TT>astarsearch(const string &amp; startName, const string &amp;=20
+  goalnode)</TT> - Uses an A* search to find the goal node. Each node is =
+assumed=20
+  to have been given x and y coordinates (by using the =
+<TT>NODECOORDS</TT>=20
+  directive in the input file). The admissable heuristic used is =
+<I>distance=20
+  travelled so far + euclidean distance from current node to specified =
+goal=20
+  node</I>=20
+  <LI><TT>cyclecheck()</TT> - checks if the graph contains a cycle=20
+  <LI><TT>traverse(const search_mode &amp; traverse_mode, const string =
+&amp;=20
+  sourceName, const string &amp;goalnode)</TT> - performs bread-first =
+and=20
+  depth-first traversals=20
+  <LI><TT>informedsearch(const search_mode &amp;,const string &amp; =
+sourceName,=20
+  const string &amp;goalnode) </TT>- does hill-climbing and best-first.=20
+</LI></UL>Graphs can also be created programatically rather than being =
+read in=20
+from a file. Here's an example which creates a 6-node graph then works =
+out the=20
+shortest paths from node "B" - <FONT color=3D#0000ff><PRE>#include =
+"graphs.cc"
+
+int main( int argc, char *argv[ ] )
+{
+    Graph g;
+    Search_Description s;
+    vector&lt;string&gt; nodenames;
+
+    nodenames.push_back("A");
+    nodenames.push_back("B");
+    nodenames.push_back("C");
+    nodenames.push_back("D");
+    nodenames.push_back("E");
+    nodenames.push_back("F");
+
+    for (int i=3D0;i&lt;6;i++)
+       for (int j=3Di+1;j&lt;6;j++)
+          g.addEdge(nodenames[i],nodenames[j],i+j,"anon");
+
+    g.shortestpaths("B");
+    return 0;
+}
+</PRE></FONT>
+<H2><A name=3DExercises>Exercises</A></H2>
+<UL>
+  <LI>Design (without writing code) a class for binary trees, describing =
+the=20
+  variables and member functions. </LI></UL>
+<H2><A name=3DReferences>References</A></H2>Note that the STL (Standard =
+Template=20
+Library) has been subsumed into C++'s Standard Library.=20
+<H3>Books</H3>
+<UL>
+  <LI>"Designing Components with the C++ STL: A New Approach to =
+Programming",=20
+  2/e, Ulrich Breymann, Publisher: Addison Wesley, ISBN: 0-201-67488-2. =
+In=20
+  section III (BEYOND THE STL: COMPONENTS AND APPLICATIONS) it develops =
+a Graph=20
+  class along with some algorithms.=20
+  <LI>"Data Structures with STL", Murray and Pappas, Publisher: Prentice =
+Hall,=20
+  ISBN: 0-13-028927-2. Ends with graphs, looking at Depth-First and=20
+  Breadth-First searching, Floyd's Algorithm Implementation with STL =
+Vectors,=20
+  etc.=20
+  <LI>"Graphs and Algorithms", Gondran and Minoux, Wiley, 1984. (in the =
+CUED=20
+  library). Maths.=20
+  <LI>"Data Structures via C++", Berman, A.M., OUP, 1997. (in the CUED =
+library).=20
+  No STL, but has trees and graphs. </LI></UL>
+<H3>Code and documentation</H3>
+<UL>
+  <LI><A =
+href=3D"http://people.freenet.de/Emden-Weinert/graphs.html">Theory -=20
+  Algorithms - Complexity</A>=20
+  <LI><A href=3D"http://www.boost.org/libs/graph/doc/">The Boost Graph =
+Library</A>=20
+  - a sophisticated STL-based library complete with documentation=20
+  <LI><A =
+href=3D"http://www.xatlantis.ch/examples/graph_example.html">Graph=20
+  examples </A>(Zeus-Framework)=20
+  <LI><A href=3D"http://www.graphviz.org/">Graphviz - Graph =
+Visualization=20
+  Software</A>=20
+  <LI><A=20
+  =
+href=3D"http://www.mrs.umn.edu/~mcphee/Courses/1996_97/Spring/CSci_3190/A=
+ssignments/Graph/">http://www.mrs.umn.edu/~mcphee/Courses/1996_97/Spring/=
+CSci_3190/Assignments/Graph/</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www-ca.informatik.uni-tuebingen.de/dagstuhl/gpdag_28.html"=
+>http://www-ca.informatik.uni-tuebingen.de/dagstuhl/gpdag_28.html</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www.bioinformatics.ucla.edu/events/202/background.html">ht=
+tp://www.bioinformatics.ucla.edu/events/202/background.html</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www.cs.hope.edu/~alganim/ccaa/graph.html">http://www.cs.ho=
+pe.edu/~alganim/ccaa/graph.html</A>=20
+
+  <LI><A=20
+  =
+href=3D"http://www.student.seas.gwu.edu/~idsv/">http://www.student.seas.g=
+wu.edu/~idsv/</A>=20
+
+  <LI>"A Language and a Program for stating and solving combinatorial =
+problems",=20
+  Lauri=E8re, J.L., Artificial Intelligence, Vol. 10, n. 1, pp. 29-127 =
+(1978) -=20
+  describing ALICE, a language and system that can solve a wide range of =
+
+  problems ("Missionaries and Cannibals", "8 Queens problem", =
+"Travelling=20
+  Salesman Problem", puzzles like "Donald+Gerald=3DRobert").=20
+  <LI>See CUED's <A=20
+  href=3D"http://www.eng.cam.ac.uk/teaching/courses/y3/3i1.html">3I1 =
+lecture=20
+  notes</A>. </LI></UL>
+<H3>See Also</H3>
+<UL>
+  <LI>From <A =
+href=3D"http://www.stlport.org/resources/StepanovUSA.html">An=20
+  interview with A. Stepanov</A> - co-writer of the STL<BR>Question: =
+<I>Could=20
+  you explain to a modest C++ programmer what Generic Programming is, =
+what is=20
+  the relation of Generic Programming with C++ and STL, and how did you =
+come to=20
+  use Generic Programming in a C++ context? </I>
+  <P>Answer: Generic programming is a programming method that is based =
+in=20
+  finding the most abstract representations of efficient algorithms. =
+That is,=20
+  you start with an algorithm and find the most general set of =
+requirements that=20
+  allows it to perform and to perform efficiently. The amazing thing is =
+that=20
+  many different algorithms need the same set of requirements and there =
+are=20
+  multiple implementations of these requirements. The analogous fact in=20
+  mathematics is that many different theorems depend on the same set of =
+axioms=20
+  and there are many different models of the same axioms. Abstraction =
+works!=20
+  Generic programming assumes that there are some fundamental laws that =
+govern=20
+  the behavior of software components and that it is possible to design=20
+  interoperable modules based on these laws. It is also possible to use =
+the laws=20
+  to guide our software design. STL is an example of generic =
+programming. C++ is=20
+  a language in which I was able to produce a convincing example.=20
+  <P>Question:<I> I think STL and Generic Programming mark a definite =
+departure=20
+  from the common C++ programming style, which I find is almost =
+completely=20
+  derived from SmallTalk. Do you agree? </I>
+  <P>Answer: Yes. STL is not object oriented. I think that object =
+orientedness=20
+  is almost as much of a hoax as Artificial Intelligence. </P></LI></UL>
+<H2><A name=3DAPPENDIX>Appendix</A></H2>
+<UL>
+  <LI><I>red-black trees</I> are used internally by the Standard Library =
+as a=20
+  basis for the associative container classes. <BR>A red-black tree is a =
+binary=20
+  search tree with one extra attribute for each node: the colour, which =
+is=20
+  either red or black. It has the following red-black properties:=20
+  <UL>
+    <LI>Every node is either red or black.=20
+    <LI>Every leaf is black.=20
+    <LI>If a node is red, then both its children are black.=20
+    <LI>Every simple path from a node to a descendant leaf contains the =
+same=20
+    number of black nodes. </LI></UL>Such trees can remain balanced - =
+and thus=20
+  guarantee O(logn) search times - in a dynamic environment. Or more=20
+  importantly, since any tree can be re-balanced - but at considerable =
+cost -=20
+  can be re-balanced in O(logn) time.=20
+  <LI><I>AVL trees</I> are a kind of balanced binary search trees, =
+allowing for=20
+  logarithmic time element find, insert, and delete operations. AVL =
+trees are=20
+  thoroughly discussed in D.E. Knuth's The Art of Computer Programming =
+Vol. III,=20
+  6.2.3, pp 465ff. (from <A=20
+  =
+href=3D"http://www.enteract.com/~bradapp/ftp/src/libs/C++/AvlTrees.html">=
+http://www.enteract.com/~bradapp/ftp/src/libs/C++/AvlTrees.html</A>)=20
+  <BR>An AVL tree is a special type of binary tree that is always =
+"partially"=20
+  balanced. The criteria that is used to determine the "level" of=20
+  "balanced-ness" is the difference between the heights of subtrees of a =
+root in=20
+  the tree. In an AVL tree the difference between the height of the =
+right and=20
+  left subtrees (or the root node) is never more than one. Whenever an =
+item is=20
+  inserted or deleted, a check is made to see if the tree has become =
+unbalanced.=20
+  If it has, balance is restored by performing a set of manipulations =
+(called=20
+  "rotations") on the tree. These rotations come in two flavors: single=20
+  rotations and double rotations (and each flavor has its corresponding =
+"left"=20
+  and "right" versions). </LI></UL><!-- F O O T E R --><!-- begin CUED =
+footer line: cued-line.html --><IMG=20
+class=3Dblock height=3D15 alt=3D""=20
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif" =
+width=3D1=20
+border=3D0>=20
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" summary=3D"" =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"98%" bgColor=3D#0099cc><IMG class=3Dblock height=3D4 =
+alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif" =
+width=3D1=20
+      border=3D0></TD></TR>
+  <TR>
+    <TD width=3D"98%" bgColor=3D#cccccc><IMG class=3Dblock height=3D2 =
+alt=3D""=20
+      =
+src=3D"http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif" =
+width=3D1=20
+      border=3D0></TD></TR></TBODY></TABLE><!--  end CUED footer line =
+--><!-- footer links table --><!-- delete this section if you do not =
+want to add any links -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"98%" =
+summary=3D"information footer"=20
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dfooterlinks vAlign=3Dtop align=3Dmiddle width=3D"98%">| =
+<A=20
+      =
+href=3D"http://www-h.eng.cam.ac.uk/help/tpl/languages/C++.html">C++</A> =
+| <A=20
+      =
+href=3D"http://www-h.eng.cam.ac.uk/help/languages.html">Languages</A> | =
+<A=20
+      href=3D"http://www-h.eng.cam.ac.uk/">computing help</A> |=20
+</TD></TR></TBODY></TABLE><!-- end footer links table --><!-- add your =
+email and last updated date below --><SPAN=20
+class=3Dfootercued><A=20
+href=3D"http://www.eng.cam.ac.uk/copyright.html">=A9</A>&nbsp;Cambridge =
+University=20
+Engineering Dept<BR>Information provided by <A=20
+href=3D"http://www.eng.cam.ac.uk/contact_addresses.shtml">Tim Love=20
+(tpl)</A><BR>Last updated: February 2008 </SPAN><!-- src is =
+~tpl/SRC/data_structures --></BODY></HTML>
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/global/images/camstyle/pixel.gif
+
+R0lGODlhAQABAIAAAP///wAAACH5BAUUAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/global/images/camstyle/search.gif
+
+R0lGODlhNQASALMAAABmmZC80////1CWuczMzLDQ3yB5ptDj7P4BAgAAAAAAAAAAAAAAAAAAAAAA
+AAAAACH5BAQUAP8ALAAAAAA1ABIAAAS9UIBJq704ayy3/6DVhaQ2GNtYrpVQpGxMubAVCPhAFXiw
+4weUoTAQHACDQ25i5Al0IksxkAwCeIMp8ll8FY1UV1KAyn0vqq0ggAIYxFXK4OalXcnutnHCQ1+c
+RgZfODhqPHU+d2gvilFSgjxsaxNQewA0WndCJ5eMfY4UN1Q3OkpzkzmHW4ldA1idfGmXFzc9E0O2
+SEoFPIKTlEpPTJ6ysjLHoMjKLcvNM87OAgTT1NXW19jZ2tjS297f4NYRADs=
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/global/images/camstyle/contact.gif
+
+R0lGODlhNQASALMAAP////j4+e7u8djY4MzMzMLCzqenuZaWq4CAmWpqiFRUdj4+ZSgoUxISQQgI
+OQAAMyH5BAQUAP8ALAAAAAA1ABIAAATnELxJq704ayy3/6DVhWQpmhtjmGo1ohcwmLJbNQIAINSh
+C4zJYIDQJR6+2qPwa0wUAUBggdTNJi8A0AAIMhGMnHMgY0QdCikvAVgsAIUHA2AIS9IBHpbCpj6c
+DnQTgStkE0VBShMLPjNMgw5YV3uHXRVzeg81hg+ImldpMpsvkjYTbAqHDYSDgpyeSlqlTJEOCZGK
+mi4CjDsPZGBivx2wAQyBbVwzcwUMZInGkboUODoHFFxaTsOVQUUADVB0jw/iAamdOtukMO0Z7O7x
+FPDy8fT17QAE+/z9/v8AAwoEqG+gwYMI/UUAADs=
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/global/images/uniban-s.gif
+
+R0lGODlh3AAuAPcAAAAAACkpKTEpADExMUIxMUI5OUJCQkpCAEpKSlIQEFIhCFIhEFIpGFI5OVJK
+AFJSUlopKVoxMVpCAFpaWmMhIWMpCGM5CGM5OWNSUmNaWmNjY2sYEGspKWsxGGs5CGs5EGtCQmtK
+CGtSAGtjWmtjY2tra3MYEHMxEHNKCHNaAHNaWnNjY3Nra3Nzc3sYEHs5CHt7e4QhGIQxMYRKCIRj
+AIRzAIRzc4R7e4SEhIwpIYw5CIxSCIyEhJQpGJRaCJRjCJRrY5R7AJR7e5SMjJSUlJwhGJwpIZwx
+EJxKEJxSUpxzCJyEAJyUc5ycnKUpGKUxGKV7CKWEEKWMjKWUlKWcUqWcnKWlpa0hGK0xGK2UAK2c
+nK2trbUpIbU5GLVjELWECLWMCLWMjLWUCLWUlLWcALWclLWcnLWlpbW1tb0pIb0xIb05Ib1CGL1S
+Ur1aEL1zCL2EhL2cCL2lpb2trb21nL21rb21tb29vcYpIcZSSsZ7c8acCMalCMa1tcbGxs45Ic5S
+Us5aWs6Ee86cCM6lCM6lhM6tCM7OztZSIdZjWtZjY9aMhNaMjNatCNa1CNbGxtbW1t6UlN7GCN7G
+xt7Oxt7Ozt7e3uelpefOCOfOzufe3ufn5++1te/OCO/W1u/e3u/n5/fW1vfv7/f39//eCP/e3v/n
+5//39///////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////ywAAAAA3AAuAAAI/gBRCRxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPBU6dQjQoJUiTJkCNRlUy58qRJlR5jypxJE+Oj
+MVqmaME55cycn0CDCgVqZmfOnXNG1VzKtGlTKQlcxJC6wUUOI1ixhrnDlaudJFmN5JhKVioBUE7T
+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
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/help/tpl/talks/hill.png
+
+iVBORw0KGgoAAAANSUhEUgAAALoAAAB4CAIAAADKTH8ZAAAACXBIWXMAAAxNAAAMTQHSzq1OAAAA
+HnRFWHRTb2Z0d2FyZQBBRlBMIEdob3N0c2NyaXB0IDYuNTChD4/4AAAEI0lEQVR4nO2d25KcMAxE
+xVb+/5fJAykyy9wQWHK31OcxVdnFmqM2g212WdfVhDjHz+wLEEz8mX0BApRlWQ7/sq6rdCnLsiw3
+7zSe/7smI+FA6VKT+9Fiv+ej7adJF/GWXbjdG01G4ju7N9KlIENmopdIF/GWZVkOX6ejNBSziIsW
+U7oIF9KlFKHRYtJFuKjw3OXl6saUK5lLdLRYDV22Gj0WK6FwPdFkVIScDqmQLjv7rKRoCaJUuqzr
+uk9Ms68llbTJt5QuG4qWOArq0o3M+/oi9y7b7NNtDspHXzi5SX5koMlIOJAuxOQ/jZQuwoF0YWXK
+Qod0EQ6ki3AgXSiZteQuXYQD6cLHxN080kU4kC5kzN0oKF2EA+nCxPQ9yNJFOJAuNEyPFiugi7ZE
+ZcKty9ZwHYxBiBZj10UkQ6zL3nDlAwYkWoxaF5EPqy6HhiscMDjRYry6iClQ6vKy4UoGDFS0GKku
+YhZ8unxouGIBgxYtxqiLmAiZLl8brljAoEGmSx8AZyLj0uVkBRUwcfx/YYfeH4kDZrTYIV3WBwxs
+b4CrggqYIN5ORph2dwA2Wozl3gW5gq3g0OUCpPMReGMQ6AJewVa81YWxNQ/QBQx+Y/x68+XzX/ac
+Dn4FW/Ffl5KfyhYwFEOjuE7oexeKCrYCWpchUNzBsDQGri4sFWwFri4DAQ8YosYA1YWogq0A1WU4
+sAHD1RiIunBVsBWIugQBGDB0jfFjYM/76SrYih+DbLsgoEbK2Bj/FgFAHpYjXEMOJ0eKtiP215pR
+h08LYZjejaShF+PiuFd3YlZP/xRzoB7m8U93IjRfNBPHeOH3HhoY7kWpUzKmvKN2dYyPZzOm8/q5
+C9Q3CLGBIM2ngyNpxuRHS34/jBrj3Db+9GfHO9zH5HCnjFD3Lt+HEW3MRCNzfnWllvu+ZqT7mDtU
+csVOLjHGGTO3mtGdUMwVO78irYzxUs8Vc21gGG4MQkGD2gBhaBH49rsoY85Q1RW7sD1qlDE4NR3b
+AzjjiuDKbjplzDtqu2KXN1/eNAatrGqAk1zfq6sSH0DrgQhube2+ZgxmWYvlZRB3TwIoY6yNKzbk
+4IjLGOTKVgrLIMacM2qbMa1csYHH0s4Yg1/cMkkZxMhTjK0ypqErNvzQ6wdjWOpbIyaDGH9GunzG
+tHXFgo7UPxtTpsRlBnKNqDcwUGcM9cWHEvjCjr3oZTqyzEAuE/t+F942LTyf3uHTwZEh1CixXNlo
+9PYoL/Um0/tIly/IlUdUC+FA6SIcSBfhQLoIB9JFOAh/7rKD9hJHcYEkXTZXHv0gfdrbnLzJ6JAl
+ihZGdO/iQIkoXc4iV0y6uOBdYB9Fni7P+wHSfvV9uK42jrw1I6g3OHrZFxqfv+K1Iu+5C3uJFTCm
+FekzHPYwdA4Y3eqe4jlaeobNXz7lef6+uUhCAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www-h.eng.cam.ac.uk/help/tpl/talks/graph1.png
+
+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
+F4kJcN5/Aa7Wmh7SW0N3AAAAAElFTkSuQmCC
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex.css
+
+H1 {
+	FONT-SIZE: 36pt
+}
+H2 {
+	BACKGROUND: #99ccff; COLOR: #003366; MARGIN-RIGHT: 30%; FONT-FAMILY: =
+sans-serif
+}
+H3 {
+	BACKGROUND: #bbeeff; MARGIN-RIGHT: 70%
+}
+H4 {
+	MARGIN-LEFT: 10%
+}
+H5 {
+	FONT-SIZE: 24pt; BACKGROUND: green; COLOR: white; FONT-FAMILY: =
+sans-serif
+}
+H6 {
+	FONT-SIZE: 18pt; BACKGROUND: red; MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%; =
+TEXT-ALIGN: center
+}
+.footer {
+	BACKGROUND: #dddddd; MARGIN-LEFT: 20%; MARGIN-RIGHT: 20%
+}
+.bigblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: blue
+}
+.logo {
+	FONT-SIZE: 64px; Z-INDEX: 1; LEFT: 30px; VISIBILITY: visible; COLOR: =
+#008000; FONT-FAMILY: times; POSITION: absolute; TOP: 80%
+}
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-h.eng.cam.ac.uk/help/tpl/talks/import.css
+
+.hplist UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.hplist UL LI {
+	PADDING-TOP: 0em
+}
+.hplist UL LI UL LI {
+	PADDING-LEFT: 1em; FONT-SIZE: 90%; LIST-STYLE-TYPE: none
+}
+.hplist UL LI UL LI UL LI {
+	PADDING-LEFT: 1em; FONT-SIZE: 85%; LIST-STYLE-TYPE: none
+}
+.nstlist UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.nstlist UL LI {
+	PADDING-TOP: 6px
+}
+.nstlist UL LI UL LI {
+	PADDING-LEFT: 1em; FONT-SIZE: 90%; LIST-STYLE-TYPE: none
+}
+.nstlist UL LI UL LI UL LI {
+	PADDING-LEFT: 1em; FONT-SIZE: 85%; LIST-STYLE-TYPE: none
+}
+.hplist P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.forlist UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: =
+0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+.forlist UL LI {
+	PADDING-TOP: 0em
+}
+.navlist UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.navlist UL LI {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 90%
+}
+.navlist UL LI UL LI {
+	PADDING-LEFT: 1em; LINE-HEIGHT: 90%; PADDING-TOP: 2px; LIST-STYLE-TYPE: =
+none
+}
+.list UL {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: 90%; =
+PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-TOP: 20px; LIST-STYLE-TYPE: =
+none; TEXT-ALIGN: right
+}
+.list UL LI {
+	PADDING-TOP: 0em
+}
+.llist UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 95%; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.llist UL LI {
+	PADDING-TOP: 4px
+}
+.llist UL LI UL LI {
+	PADDING-LEFT: 1em; FONT-SIZE: 85%; PADDING-TOP: 2px; LIST-STYLE-TYPE: =
+none
+}
+.foot {
+	FLOAT: left
+}
+.rfoot {
+	FLOAT: right
+}
+TABLE.index {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 24px; BORDER-LEFT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE.index TD {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: =
+#cccccc 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 90%; BACKGROUND: =
+#ffffff; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; BORDER-LEFT: =
+#cccccc 1px solid; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+TABLE.index TD.active {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: black =
+2px solid; PADDING-LEFT: 2px; FONT-SIZE: 90%; BACKGROUND: #0099cc; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; BORDER-LEFT: black 1px =
+solid; COLOR: #ffffff; PADDING-TOP: 2px
+}
+TABLE.index TD.blank {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 90%; BACKGROUND: #ffffff; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; =
+TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE.index TD.blue {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 90%; BACKGROUND: #0099cc; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+BORDER-RIGHT-WIDTH: 0px
+}
+TABLE.index TD.grey {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 90%; BACKGROUND: #cccccc; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+BORDER-RIGHT-WIDTH: 0px
+}
+H1.indexns {
+	DISPLAY: none
+}
+P.indexns {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-h.eng.cam.ac.uk/global/styles/camstyle.css
+
+@import url( import.css );
+BODY {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+P {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+UL {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+OL {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+LI {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+TABLE {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+TD {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+DT {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+DD {
+	FONT-FAMILY: Arial, Helvetica,
+sans-serif
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 3px
+}
+PRE {
+	FONT-SIZE: 90%; FONT-FAMILY: Courier, monospace
+}
+TT {
+	FONT-SIZE: 90%; FONT-FAMILY: Courier, monospace
+}
+.noshow {
+	DISPLAY: none
+}
+.noshowsmall {
+	DISPLAY: none
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #003399; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A:visited {
+	COLOR: #cc3333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+UNKNOWN {
+	COLOR: #cc0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.bread {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%
+}
+A.small {
+	FONT-SIZE: 80%
+}
+A.univbread {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%
+}
+P.small {
+	FONT-SIZE: 90%
+}
+P.smallc {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; TEXT-ALIGN: center
+}
+P.bread {
+	MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+P.foot {
+	FONT-SIZE: 110%; TEXT-ALIGN: center
+}
+DIV.c3 {
+	TEXT-ALIGN: center
+}
+P.colour {
+	FONT-SIZE: 110%; BACKGROUND: #99ccff; WIDTH: 100%; BORDER-TOP-STYLE: =
+none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: =
+none
+}
+.bigb {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%
+}
+.small {
+	FONT-SIZE: 90%
+}
+.deptitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #000000
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%; COLOR: #990000
+}
+.center {
+	TEXT-ALIGN: center
+}
+.footer {
+	FONT-SIZE: 80%; MARGIN: 6px 0px
+}
+.smallc {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; TEXT-ALIGN: center
+}
+.smallb {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%
+}
+.smallr {
+	FONT-SIZE: 90%; TEXT-ALIGN: right
+}
+.cpage {
+	MARGIN: auto
+}
+.widthlimit {
+	WIDTH: 200px
+}
+.position {
+	MARGIN: 0px 10px
+}
+.flash {
+	FONT-SIZE: 90%; BACKGROUND: #ffff66
+}
+.current {
+	BORDER-RIGHT: #330066 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: =
+#330066 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 90%; PADDING-BOTTOM: =
+2px; BORDER-LEFT: #330066 2px solid; PADDING-TOP: 2px; BORDER-BOTTOM: =
+#330066 2px solid
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #990000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; COLOR: #333333; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+H2.lsp {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; MARGIN: 6px 0px 2px; COLOR: =
+#333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2.nst {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; MARGIN: 12px 0px -6px; COLOR: =
+#333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2.col {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; BACKGROUND: #0099cc; MARGIN: 1px =
+0px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #333333; FONT-STYLE: italic; =
+FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #333333; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #333333; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; MARGIN: 12px 0px 0px; COLOR: =
+#333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+P.nav {
+	FONT-SIZE: 80%
+}
+.nav {
+	FONT-SIZE: 80%
+}
+SPAN.activenav {
+	FONT-SIZE: 80%; COLOR: #000000
+}
+.null {
+	FONT-SIZE: 1px
+}
+.block {
+	DISPLAY: block
+}
+P.newnav {
+	FONT-SIZE: 80%; MARGIN: 0.5em 0px 0px
+}
+SPAN.newactivenav {
+	FONT-SIZE: 80%; MARGIN: 0.5em 0px 0px; COLOR: #000000
+}
+.alphaactivenav {
+	BACKGROUND: #99ccff
+}
+LI.sp {
+	MARGIN: 0.5em 0px 0px
+}
+H1.small {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #990000; LINE-HEIGHT: 100%; =
+FONT-FAMILY: arial, helvetica, sans-serif
+}
+.homeheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; MARGIN: 6px 0px 4px; COLOR: #990000; =
+FONT-FAMILY: arial, helvetica, sans-serif
+}
+A.homemenu {
+	FONT-WEIGHT: bold; FONT-FAMILY: arial, helvetica, sans-serif
+}
+A.homemenu2 {
+	FONT-SIZE: 80%; FONT-FAMILY: arial, helvetica, sans-serif
+}
+A.homemenulist {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; FONT-FAMILY: arial, helvetica, =
+sans-serif
+}
+P.homealert {
+	FONT-SIZE: 80%; COLOR: #990000; FONT-FAMILY: arial, helvetica, =
+sans-serif
+}
+P.homenews {
+	FONT-SIZE: 80%; FONT-FAMILY: arial, helvetica, sans-serif
+}
+UNKNOWN {
+	BACKGROUND: #003399; COLOR: #ffffff
+}
+A.cell {
+	FONT-FAMILY: sans-serif; TEXT-DECORATION: none
+}
+A.cell:link {
+	COLOR: #ffffff
+}
+A.cell:visited {
+	COLOR: #ffffff
+}
+A.cell:active {
+	COLOR: #ffff33
+}
+DIV.box {
+	BORDER-RIGHT: #0099cc 2px solid; PADDING-RIGHT: 10px; BORDER-TOP: =
+#0099cc 2px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; =
+BORDER-LEFT: #0099cc 2px solid; WIDTH: 90%; PADDING-TOP: 10px; =
+BORDER-BOTTOM: #0099cc 2px solid
+}
+DIV.leftbox {
+	BORDER-RIGHT: #0099cc 2px solid; PADDING-RIGHT: 10px; BORDER-TOP: =
+#0099cc 2px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; =
+BORDER-LEFT: #0099cc 2px solid; WIDTH: 160px; MARGIN-RIGHT: 20px; =
+PADDING-TOP: 0px; BORDER-BOTTOM: #0099cc 2px solid; TEXT-ALIGN: right
+}
+.hplist P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 3em; PADDING-TOP: 0px
+}
+.hpbox {
+	FONT-SIZE: 90%; MARGIN: 20px 5px 20px 50px; WIDTH: 250px; TEXT-ALIGN: =
+right
+}
+TABLE.index TD {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+H1.indexns {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #990000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif
+}
+P.ns {
+	FONT-SIZE: 90%
+}
+
+------=_NextPart_000_0037_01CB79B8.72027C60
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-h.eng.cam.ac.uk/global/styles/cuedglobal.css
+
+BODY {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+BACKGROUND-COLOR: #ffffff
+}
+H4 {
+	MARGIN-TOP: 0em; FONT-WEIGHT: bold; FONT-SIZE: 100%; MARGIN-BOTTOM: =
+0em; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-WEIGHT: normal; TEXT-ALIGN: left
+}
+TR {
+	FONT-FAMILY: arial, helvetica, sans-serif
+}
+TD {
+	FONT-FAMILY: arial, helvetica, sans-serif
+}
+TD.heading {
+	PADDING-LEFT: 0.1em; FONT-WEIGHT: bold; FONT-SIZE: 100%; BACKGROUND: =
+#0099cc; COLOR: #cccccc
+}
+TD.subheading {
+	PADDING-LEFT: 0.1em; FONT-WEIGHT: bold; FONT-SIZE: 100%; BACKGROUND: =
+#cccccc; COLOR: #0099cc
+}
+.deptitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 140%; COLOR: #000000
+}
+.newsbox {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; =
+BACKGROUND: #e6e6e6; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: =
+#cccccc 1px solid; TEXT-ALIGN: left
+}
+.blue {
+	COLOR: #153e7e; FONT-FAMILY: arial, helvetica, sans-serif
+}
+.red {
+	COLOR: #980000; FONT-FAMILY: arial, helvetica, sans-serif
+}
+.gray {
+	COLOR: #606060; FONT-FAMILY: arial, helvetica, sans-serif
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+OL {
+	LIST-STYLE-TYPE: decimal
+}
+LI.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LIST-STYLE-TYPE: none
+}
+LI.none {
+	LIST-STYLE-TYPE: none
+}
+.nomargin {
+	MARGIN-TOP: 0px
+}
+.nobmargin {
+	MARGIN-BOTTOM: 0px
+}
+.zeromargin {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+UL.none {
+	MARGIN-LEFT: 0.5em; LIST-STYLE-TYPE: none
+}
+OL.none {
+	MARGIN-LEFT: 0.5em; LIST-STYLE-TYPE: none
+}
+OL.roman {
+	LIST-STYLE-TYPE: upper-roman
+}
+OL.lroman {
+	LIST-STYLE-TYPE: lower-roman
+}
+OL.alpha {
+	LIST-STYLE-TYPE: upper-alpha
+}
+OL.lalpha {
+	LIST-STYLE-TYPE: lower-alpha
+}
+UL.newslist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 80%; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.menulist UL LI {
+	MARGIN: 0px; LINE-HEIGHT: 0.5em; LIST-STYLE-TYPE: none
+}
+.menulist2 UL LI UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.footercued {
+	MARGIN-TOP: 0em; FONT-SIZE: 80%; FLOAT: left; TEXT-ALIGN: left
+}
+.footerlinks {
+	MARGIN-TOP: 0em; FONT-SIZE: 80%; TEXT-ALIGN: center
+}
+.webadmin {
+	MARGIN-TOP: 0em; FONT-SIZE: 70%
+}
+FORM {
+	BORDER-TOP-WIDTH: 0em; BORDER-LEFT-WIDTH: 0em; BORDER-BOTTOM-WIDTH: =
+0em; MARGIN: 0.1em 0em 0em; BORDER-RIGHT-WIDTH: 0em
+}
+.formlinks {
+	FONT-SIZE: 70%
+}
+.newshead {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%; COLOR: #153e7e; FONT-FAMILY: arial, =
+helvetica, sans-serif
+}
+.date {
+	FONT-SIZE: 80%; MARGIN-LEFT: 1em; FONT-STYLE: italic; FONT-FAMILY: =
+arial, helvetica, sans-serif
+}
+.cap {
+	MARGIN-TOP: 0.1em; FONT-SIZE: 80%; COLOR: #808080; FONT-FAMILY: arial, =
+helvetica, sans-serif; TEXT-ALIGN: center
+}
+CODE {
+	BACKGROUND-COLOR: #ffffcc
+}
+BLOCKQUOTE {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SPAN {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.bread {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%
+}
+
+------=_NextPart_000_0037_01CB79B8.72027C60--

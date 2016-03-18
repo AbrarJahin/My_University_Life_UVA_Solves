@@ -1,0 +1,374 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: C++ Notes: Algorithms: STL sort for arrays
+Date: Tue, 2 Nov 2010 11:34:50 +0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CB7A81.F5D92650"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CB7A81.F5D92650
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.fredosaurus.com/notes-cpp/algorithms/sorting/stl-sort-arrays.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<?xml version=3D"1.0"?><HTML lang=3Den xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>C++ Notes: =
+Algorithms: STL sort for arrays</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"Fred Swartz (www.fredosaurus.com)" name=3Dauthor><LINK=20
+href=3D"http://www.fredosaurus.com/notes-cpp/notes.css" type=3Dtext/css=20
+rel=3Dstylesheet>
+<SCRIPT src=3D"http://www.fredosaurus.com/notes-cpp/notes.js"=20
+type=3Dtext/JavaScript></SCRIPT>
+
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY>
+<H1><A href=3D"http://www.fredosaurus.com/notes-cpp/index.html">C++ =
+Notes</A>:=20
+Algorithms: STL sort for arrays</H1>Never write your own sort! Use the =
+the sort=20
+in the Standard Template Library (STL). The STL has sorts that are =
+efficient and=20
+well tested.=20
+<H2>Basic syntax for calling <CODE>sort</CODE></H2>When calling the STL =
+sort,=20
+you need to pass two parameters: the address of the first element to =
+sort, and=20
+the address of <I>one past</I> the last element to sort. The address is =
+used for=20
+iterating across array elements. For other data structures (eg, a=20
+<CODE>vector</CODE>) you will have to do something a little different, =
+but for=20
+arrays we can simply express the beginning and ending points with the =
+array name=20
+and the addition of an integer. For example,
+<TABLE summary=3D"" border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop><PRE class=3Dexample2>  1=20
+  2=20
+  3=20
+  4=20
+  5=20
+  6=20
+  7=20
+  8=20
+  9=20
+ 10=20
+ 11=20
+ 12=20
+ 13=20
+ 14=20
+ 15=20
+ 16=20
+ 17=20
+ 18=20
+</PRE></TD>
+    <TD vAlign=3Dtop>
+      <DIV class=3Dexample><PRE>// sorting/stl-sort-array.cpp - Demo STL =
+sort of array.
+// Fred Swartz - 2003-09-26
+
+#include &lt;iostream&gt;
+<SPAN class=3Dhilite>#include &lt;algorithm&gt;</SPAN>
+using namespace std;
+
+int main() {
+    int a[7] =3D {23, 1, 33, -20, 6, 6, 9};
+   =20
+    <SPAN class=3Dhilite>sort(a, a+7);</SPAN>
+   =20
+    for (int i=3D0; i&lt;7; i++) {
+        cout &lt;&lt; a[i] &lt;&lt; " ";
+    }
+   =20
+    return 0;
+}
+</PRE></DIV></TD></TR></TBODY></TABLE>This prints the sorted values. =
+<PRE>   -20 1 6 6 9 23 33</PRE>
+<DL>
+  <DT>Include header=20
+  <DD>The <CODE>&lt;algorithm&gt;</CODE> header must be included.=20
+  <DT>Using plus to compute the address of an array element=20
+  <DD>An array variable is the address of the first element (eg, =
+<CODE>a</CODE>=20
+  is the address of <CODE>a[0]</CODE>), and the address of any element =
+may be=20
+  computed by adding an integer to the address of the first element. In =
+this=20
+  example, <CODE>a</CODE> is the address of the first element, and=20
+  <CODE>a+7</CODE> is the address of the eighth element (ie, the address =
+of=20
+  <CODE>a[7]</CODE>). How can we use <CODE>a+7</CODE> if last element of =
+the=20
+  array is <CODE>a[6]</CODE>? See below.=20
+  <DT>The element past the end=20
+  <DD>The <CODE>sort()</CODE> function requires the end to be indicated =
+with the=20
+  address of the element <CODE>beyond</CODE> the last element that is to =
+be=20
+  sorted. Even if there is no element in the array, the address of this=20
+  hypothetical element can be computed. Don't worry, <CODE>sort()</CODE> =
+never=20
+  tries to reference data at that position, it just uses that address as =
+a upper=20
+  limit. </DD></DL>
+<H2>Sorting predefined types</H2>There is no problem sorting any of the=20
+predefined types (eg, <CODE>int</CODE>, <CODE>float</CODE>, =
+<CODE>char</CODE>,=20
+...).=20
+<H2>Sorting class (struct) types</H2>If you define a new type using=20
+<CODE>struct</CODE> or <CODE>class</CODE>, <CODE>sort()</CODE> has no =
+idea how=20
+to compare two values. For example, if a new <CODE>Student</CODE> class =
+is=20
+defined, what would it mean to compare two elements?=20
+<TABLE cellSpacing=3D0 cellPadding=3D4 border=3D1>
+  <TBODY>
+  <TR>
+    <TH>Defined as class</TH>
+    <TH>Equivalent struct declaration</TH></TR>
+  <TR>
+    <TD><PRE>class Student {
+  <SPAN class=3Dhilite>public:</SPAN>
+    int    id;
+    string first_name;
+    string last_name;
+    float  gpa;
+};</PRE></TD>
+    <TD vAlign=3Dtop><PRE>struct Student {
+    int    id;
+    string first_name;
+    string last_name;
+    float  gpa;
+};</PRE></TD></TR></TBODY></TABLE>For the following discussion,=20
+<CODE>class</CODE> will be used instead of <CODE>struct</CODE>, but they =
+are=20
+completely equivalent except that all members of a <CODE>struct</CODE> =
+default=20
+to <CODE>public</CODE>.=20
+<H2>Comparison is not defined by default for class objects</H2>There are =
+very=20
+few operators which are defined by default for user-defined classes. =
+Assignment=20
+is defined, but none of the comparison operaters are defined.=20
+<P>For example, if we defined two students, what would it mean to =
+compare them?=20
+</P><PRE class=3Dfragment>Student betty;
+Student bob;
+. . .   // assign some values.
+if (betty &gt; bob) {  // ILLEGAL, ILLEGAL, ILLEGAL</PRE>
+<H2><CODE>sort()</CODE> needs comparison and assignment</H2>The STL=20
+<CODE>sort()</CODE> method needs to compare elements and assign them. It =
+uses=20
+the less-than (<CODE>&lt;</CODE>) operator to compare, but less-than =
+isn't=20
+defined for user types.=20
+<P>C++ will perform assignment between classes/structs, so for simple =
+structs=20
+that don't do dynamic allocation that generally isn't a problem. </P>
+<H2>You must define less-than for <CODE>sort()</CODE></H2>Overloading =
+less-than=20
+is fairly simple. For the <CODE>Student</CODE> class let's define the =
+comparison=20
+to be for the <CODE>gpa</CODE> field. We could also define it to be for =
+the=20
+<CODE>id</CODE> or the <CODE>name</CODE> or whatever just as easily.=20
+<DIV class=3Dexample><PRE>bool operator&lt;(const Student&amp; a, const =
+Student&amp; b) {
+    return a.score &lt; b.score;
+}
+</PRE></DIV>The keyword <CODE>operator</CODE> is prefixed to the =
+operator and=20
+the two parameters are passed as <CODE>const</CODE> (they won't be =
+changed)=20
+reference parameters. A <CODE>bool</CODE> value is returned. After this =
+function=20
+is defined, the STL <CODE>sort()</CODE> function may be used.=20
+<P>This is a very brief summary of how to define operators. See <A=20
+href=3D"http://www.fredosaurus.com/notes-cpp/oop-overloading/operoverload=
+ing.html">Operator=20
+Overloading</A> </P>
+<SCRIPT type=3Dtext/JavaScript>footer("2003");</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CB7A81.F5D92650
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.fredosaurus.com/notes-cpp/notes.css
+
+BODY {
+	FONT-SIZE: 90%; WIDTH: 800px; FONT-FAMILY: Verdana,Sans-serif
+}
+TD {
+	FONT-FAMILY: Verdana,Sans-serif
+}
+TH {
+	FONT-FAMILY: Verdana,Sans-serif
+}
+DT {
+	FONT-WEIGHT: bold
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 150%; MARGIN-LEFT: 1px; BORDER-BOTTOM: =
+thin solid; FONT-FAMILY: 'Trebuchet MS' , 'Lucida Grande' , Verdana, =
+Lucida, Geneva, Helvetica, Arial, sans-serif
+}
+H2 {
+	BORDER-RIGHT: #660000 0px solid; PADDING-RIGHT: 0.2em; BORDER-TOP: =
+#660000 0px solid; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+110%; PADDING-BOTTOM: 0.2em; MARGIN: 2em 1px 1px; BORDER-LEFT: #660000 =
+0px solid; COLOR: #600; PADDING-TOP: 0.2em; BORDER-BOTTOM: #660000 1px =
+solid
+}
+H3 {
+	MARGIN-TOP: 0.75em; FONT-WEIGHT: bold; FONT-SIZE: 100%; MARGIN-BOTTOM: =
+0px; PADDING-BOTTOM: 0px; COLOR: #055; PADDING-TOP: 0px
+}
+P {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+LI {
+	MARGIN-TOP: 0.5em
+}
+H4 {
+	PADDING-TOP: 1em; FONT-FAMILY: sans-serif
+}
+H5 {
+	PADDING-TOP: 1em; FONT-FAMILY: sans-serif
+}
+H6 {
+	PADDING-TOP: 1em; FONT-FAMILY: sans-serif
+}
+PRE {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; FONT-FAMILY: monospace
+}
+.code {
+	FONT-FAMILY: monospace
+}
+STRONG.color {
+	COLOR: blue
+}
+.hylyt {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: yellow
+}
+.hilite {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: yellow
+}
+.hilite-g {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #afa
+}
+.hilite-b {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #aaf
+}
+EM {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+UL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+OL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+DL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+LI.sec {
+	MARGIN-TOP: 0.5em
+}
+.answerspace {
+=09
+}
+.answer {
+	DISPLAY: none
+}
+.compact {
+	MARGIN-TOP: 0px
+}
+.file {
+	BORDER-RIGHT: solid; PADDING-RIGHT: 4px; BORDER-TOP: thin solid; =
+MARGIN-TOP: 0.5em; PADDING-LEFT: 4px; MARGIN-BOTTOM: 0.5em; =
+PADDING-BOTTOM: 4px; MARGIN-LEFT: 1em; BORDER-LEFT: thin solid; =
+PADDING-TOP: 4px; BORDER-BOTTOM: solid; BACKGROUND-COLOR: #ffd
+}
+.example {
+	PADDING-RIGHT: 4px; MARGIN-TOP: 0.5em; PADDING-LEFT: 4px; =
+MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 4px; MARGIN-LEFT: 1em; =
+BORDER-LEFT: thin solid; PADDING-TOP: 4px; BACKGROUND-COLOR: #ffd
+}
+.fragment {
+	PADDING-RIGHT: 4px; MARGIN-TOP: 0.5em; PADDING-LEFT: 4px; =
+MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 4px; MARGIN-LEFT: 1em; =
+BORDER-LEFT: thin solid; PADDING-TOP: 4px; BACKGROUND-COLOR: #ffd
+}
+.example2 {
+	PADDING-RIGHT: 4px; MARGIN-TOP: 0.5em; PADDING-LEFT: 4px; =
+MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 4px; MARGIN-LEFT: 0px; =
+PADDING-TOP: 4px
+}
+.footer {
+	BORDER-TOP: thin solid; MARGIN-TOP: 0.8em; FONT-SIZE: 70%; FONT-STYLE: =
+italic
+}
+.solidbox {
+	BORDER-RIGHT: thin solid; BORDER-TOP: thin solid; BORDER-LEFT: thin =
+solid; BORDER-BOTTOM: thin solid
+}
+.rowheader {
+	FONT-STYLE: italic; BACKGROUND-COLOR: #c0c0c0
+}
+.question {
+	MARGIN-TOP: 1em; page-break-inside: avoid
+}
+.mc {
+	LIST-STYLE-TYPE: lower-alpha
+}
+
+------=_NextPart_000_0000_01CB7A81.F5D92650
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.fredosaurus.com/notes-cpp/notes.js
+
+
+function footer(copyright) {
+    var today =3D new Date();
+    var last_change =3D new Date(document.lastModified);
+    // Change date to yyyy-mm-dd format
+    var d =3D last_change.getDate(); // day of month
+    var dd =3D ((d < 10)?"-0":"-") + d;
+    var m =3D last_change.getMonth() + 1; // getMonth returns range =
+0..11
+    var mm =3D ((m < 10)?"-0":"-") + m;
+    var yyyymmdd =3D last_change.getFullYear() +  mm + dd;
+
+    document.write("<div class=3D'footer'>");
+   =20
+    if (copyright !=3D "") {
+        document.write("<a =
+href=3D\"http://www.fredosaurus.com/copyleft.html\">Copyleft</a> " + =
+copyright);
+    }
+    document.write(" <a href=3D'../fred/index.html'>Fred Swartz</a>");
+    document.write(" Last update " + yyyymmdd + ", ");
+    document.write("URL=3D" + document.url);
+    document.write("</div>");
+}//endfunction
+
+function setActiveStyleSheet(title) {
+    var i, a;
+    for (i=3D0; (a =3D document.getElementsByTagName("link")[i]); i++) {
+        if (a.getAttribute("rel") &&
+                a.getAttribute("rel").indexOf("style") !=3D -1 &&
+                a.getAttribute("title")) {
+            a.disabled =3D (a.getAttribute("title") !=3D title);
+        }
+    }
+}
+
+------=_NextPart_000_0000_01CB7A81.F5D92650--

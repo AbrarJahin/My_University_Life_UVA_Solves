@@ -1,0 +1,22 @@
+Newcomers advice, by Shahriar Manzoor
+The one of the greatest programmer of  the site of acm.uva.es, 
+the proud of Bangladesh advises the  newcomers on his site. 
+he is now the judge of the site. He is now the elite panel 
+problem setter of the site acm.uva.es.  you can visit his 
+site by the using the  URL http://www.acm.org/crossroads/xrds7-5/
+
+
+
+
+Find the easier problems. Easier problems mean those problems
+ that don’t need a particular algorithm as I assumed you as a
+ programmer who don’t know many algorithms. Those problems are
+ called ADHOC problems. You can find the list of those problems
+ available in 24 OJ in S. Halim’s, acmbeginner’s, acmsolver’s
+ websites. Try to solve these problems and in that way you can 
+increase your programming capability. As far as I found, volume-4
+ of Valladolid OJ has many easy ADHOC problems.
+
+ 
+
+

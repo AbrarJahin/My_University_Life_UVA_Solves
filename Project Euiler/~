@@ -1,0 +1,13 @@
+#include<iostream>
+
+class number
+{
+	unsigned long long n;
+public:
+	
+}
+
+int main()
+{
+	return 0;
+}

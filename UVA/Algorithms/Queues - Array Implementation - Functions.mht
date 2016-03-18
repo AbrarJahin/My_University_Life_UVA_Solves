@@ -1,0 +1,408 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Queues - Array Implementation - Functions
+Date: Tue, 2 Nov 2010 11:40:25 +0600
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.bu.edu/teaching/c/queue/array/funcs.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Queues - Array Implementation - Functions</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY>
+<H1 align=3Dcenter>Queues - Array Implementation - Functions</H1>
+<HR>
+
+<P>
+<OL>
+  <LI><B>Review:</B>
+  <P>Recall, we decided to implement a <EM>queue</EM> as a fixed-sized =
+array.=20
+  The data types that we created for the queue where organized (in the =
+queue=20
+  module) as follows: <PRE>queue.h                         queue.c
+-------                         -------
+                                #include "queue.h"
+
+typedef char queueElementT;     #define MAX_QUEUE_SIZE  100
+
+typedef struct queueCDT         typedef struct queueCDT {
+        *queueADT;                queueElementT =
+contents[MAX_QUEUE_SIZE];
+                                  int front;
+                                  int count;
+                                } queueCDT;
+</PRE>
+  <P>In other words, things that need to be part of the =
+<EM>interface</EM> go in=20
+  <CODE>queue.h</CODE> and things that are hidden as part of the=20
+  <EM>implementation</EM> go in <CODE>queue.c</CODE>.=20
+  <P>Again, here is an example of how people will <EM>use</EM> queues:=20
+  <BLOCKQUOTE><PRE>#include "queue.h"
+
+<B>...</B>
+
+queueADT q1, q2;
+char ch;
+
+q1 =3D QueueCreate();
+q2 =3D QueueCreate();
+
+QueueEnter(q1, 'a');
+QueueEnter(q2, 'b');
+ch =3D QueueDelete(q1);
+
+QueueDestroy(q1);
+QueueDestroy(q2);
+</PRE></BLOCKQUOTE>
+  <P>You should be able to answer the following questions:=20
+  <P>
+  <UL>
+    <LI>Why do we use <CODE>queueElementT</CODE> and why must it be in =
+the=20
+    interface?=20
+    <LI>Why must we name the CDT using a structure <EM>tag name</EM>, as =
+in=20
+    <NOBR><CODE>struct <B>queueCDT</B></CODE></NOBR>?=20
+    <LI>Does the interface or people who are <EM>just using</EM> a queue =
+have=20
+    any information about what are the fields in the structure that is =
+the CDT?=20
+    Do they need to know what these fields are? Why or why not? =
+</LI></UL>
+  <P></P>
+  <LI><B>QueueCreate() function:</B>
+  <P>Here are the functions we need to implement...=20
+  <P>
+  <DL>
+    <DT>For general queue operations:=20
+    <DD>
+    <UL>
+      <LI>QueueEnter()=20
+      <LI>QueueDelete()=20
+      <LI>QueueIsEmpty() </LI></UL>
+    <P></P>
+    <DT>Because we are programming in C (setup/cleanup):=20
+    <DD>
+    <UL>
+      <LI>QueueCreate()=20
+      <LI>QueueDestroy() </LI></UL>
+    <P></P>
+    <DT>Because of our implementation (fixed-size implementation):=20
+    <DD>
+    <UL>
+      <LI>QueueIsFull() </LI></UL></DD></DL>
+  <P>Let's start with the function <CODE>QueueCreate()</CODE>, which =
+creates a=20
+  queue.=20
+  <P>Note that our use of the <CODE>queueADT</CODE> (a pointer) with =
+queue=20
+  functions differs from how we might use it if it was a =
+<CODE>struct</CODE>.=20
+  Notably,=20
+  <P>
+  <UL>
+    <LI>For a new queue, we do not just pass a queue we declare to some=20
+    <EM>initialization</EM> function, but rather, require a function to=20
+    <EM>create</EM> a queue, initialize it, and return it.=20
+    <LI>We pass the <CODE>queueADT</CODE> right to queue functions, not =
+its=20
+    address. </LI></UL>
+  <P>(Remember that from the queue user's end, a queue is a pointer, not =
+a=20
+  structure.)=20
+  <P>Now, let's think about the <CODE>QueueCreate()</CODE> function.=20
+  <P>
+  <OL>
+    <LI>Since a <CODE>queueADT</CODE> only gives us a pointer, how will=20
+    <CODE>QueueCreate()</CODE> create the <CODE>queueCDT</CODE>?=20
+    <LI>Once we have a <CODE>queueCDT</CODE>, what do we need to do to =
+its=20
+    fields: <CODE>contents</CODE>, <CODE>front</CODE> and =
+<CODE>count</CODE>?=20
+    <LI>How does the reference to the new <CODE>queueCDT</CODE> get out =
+of the=20
+    function <CODE>QueueCreate()</CODE> so that it can be used? =
+</LI></OL>
+  <P>Our solution becomes:=20
+  <BLOCKQUOTE><PRE>queueADT QueueCreate(void)
+{
+  queueADT queue;
+
+  queue =3D (queueADT)malloc(sizeof(queueCDT));
+
+  if (queue =3D=3D NULL) {
+    fprintf(stderr, "Insufficient Memory for new Queue.\n");
+    exit(ERROR_MEMORY);  /* Exit program, returning error code. */
+  }
+
+  queue-&gt;front =3D 0;
+  queue-&gt;count =3D 0;
+
+  return queue;
+}
+</PRE></BLOCKQUOTE>
+  <P>Here are the functions we have left:=20
+  <BLOCKQUOTE><PRE><EM>return-type</EM> =
+QueueDestroy(<EM>parameters</EM>);
+<EM>return-type</EM> QueueEnter(<EM>parameters</EM>);
+<EM>return-type</EM> QueueDelete(<EM>parameters</EM>);
+<EM>return-type</EM> QueueIsEmpty(<EM>parameters</EM>);
+<EM>return-type</EM> QueueIsFull(<EM>parameters</EM>);
+</PRE></BLOCKQUOTE>
+  <P>We want to be consistent in how we use a queue with queue =
+functions.=20
+  <CODE>QueueCreate()</CODE> is an exception since it must return a=20
+  <CODE>queueADT</CODE>....=20
+  <BLOCKQUOTE><PRE>queueADT QueueCreate(void);
+</PRE></BLOCKQUOTE>
+  <P><EM>Nonetheless, since most functions will require some way to =
+refer to the=20
+  queue that they are to operate on, what should these functions =
+take?</EM>=20
+  <P><B>Answer:</B> They should take <CODE>queueADT</CODE>s.=20
+  <P></P>
+  <LI><B>QueueDestroy() function:</B>
+  <P><CODE>QueueDestroy()</CODE> is a function that must deallocate any =
+memory=20
+  used by the queue. Since a queue is <EM>kept track of</EM> with a=20
+  <CODE>queueCDT</CODE>, this means any memory used <EM>directly or=20
+  indirectly</EM> by the CDT.=20
+  <P>Recall that a <CODE>queueCDT</CODE> is the following:=20
+  <BLOCKQUOTE><PRE>typedef struct queueCDT {
+  queueElementT contents[MAX_QUEUE_SIZE];
+  int front;
+  int count;
+} queueCDT;
+</PRE></BLOCKQUOTE>
+  <P>What about the <EM>parts</EM> of the CDT?=20
+  <P>
+  <UL>
+    <LI>the <CODE>front</CODE> and <CODE>count</CODE> are just ints, so =
+they=20
+    don't require dynamic allocation.=20
+    <LI>the <CODE>contents</CODE> is an <EM>array</EM> with a fixed =
+number of=20
+    elements, and thus, it doesn't require dynamic allocation.=20
+    <LI>the whole structure itself doesn't exist before a call to=20
+    <CODE>QueueCreate()</CODE>, and since it gets dynamically-allocated, =
+it must=20
+    be freed. </LI></UL>
+  <P>
+  <HR align=3Dleft width=3D"20%">
+  <B>Note:</B> The CDT was dynamically-allocated, but doing so =
+automatically=20
+  gave us all the fields in the CDT. That's why we don't say the fields =
+were=20
+  dynamically-allocated.=20
+  <HR align=3Dleft width=3D"20%">
+
+  <P>In conclusion, all <CODE>QueueDestroy()</CODE> has to do is free =
+the=20
+  structure which is the CDT, giving:=20
+  <BLOCKQUOTE><PRE>void QueueDestroy(queueADT queue)
+{
+  free(queue);
+}
+</PRE></BLOCKQUOTE>
+  <P></P>
+  <LI><B>QueueEnter() function:</B>
+  <P>Now, let's think about what <CODE>QueueEnter()</CODE> must do. In =
+general,=20
+  it must add an element to the rear of the queue.=20
+  <P>However, because of the specifics of our implementation, it must be =
+able to=20
+  deal with <EM>wrapping around the array</EM>, in other words, the end =
+of the=20
+  array may not be the end of the queue, as in the following case:=20
+  <BLOCKQUOTE><PRE>queue
+-----------------   -----   -----
+| e | b | c | d |   | 1 |   | 4 |
+-----------------   -----   -----
+  0   1   2   3     front   count
+contents
+</PRE></BLOCKQUOTE>
+  <P>where the contents of the <EM>queue</EM> are <B>b, c, d, e</B> =
+(from=20
+  <EM>front</EM> to <EM>rear</EM>).=20
+  <P>Here is a general outline of what <CODE>QueueEnter()</CODE> must =
+do:=20
+  <P>
+  <OL>
+    <LI>Make sure there is room in the array.=20
+    <LI>Calculate the index of where the new element will go and place =
+the=20
+    element there.=20
+    <LI>Increment the count. </LI></OL>
+  <P>Our solution is the following:=20
+  <BLOCKQUOTE><PRE>void QueueEnter(queueADT queue,
+                queueElementT element)
+{
+  int newElementIndex;
+
+  if (queue-&gt;count &gt;=3D MAX_QUEUE_SIZE) {
+    fprintf(stderr, "QueueEnter on Full Queue.\n");
+    exit(ERROR_QUEUE);  /* Exit program, returning error code. */
+  }
+
+  /*
+   * Calculate index at which to put
+   * next element.
+   */
+  newElementIndex =3D (queue-&gt;front
+                    + queue-&gt;count)
+                    % MAX_QUEUE_SIZE;
+  queue-&gt;contents[newElementIndex] =3D element;
+
+  queue-&gt;count++;
+}
+</PRE></BLOCKQUOTE>
+  <P></P>
+  <LI><B>QueueDelete() function:</B>
+  <P>Now, let's think about what <CODE>QueueDelete()</CODE> must do. In =
+general,=20
+  it must remove an element from the front of the queue.=20
+  <P>Again, our implementation requires us to deal with <EM>wrapping =
+around the=20
+  array</EM>. During deletion, the <EM>rear</EM> does not move, but the=20
+  <EM>front</EM> does. Thus, we have to worry about wrapping the front =
+in cases=20
+  like the following:=20
+  <BLOCKQUOTE><PRE>queue
+-----------------   -----   -----
+| j | k |   | i |   | 3 |   | 3 |
+-----------------   -----   -----
+  0   1   2   3     front   count
+contents
+</PRE></BLOCKQUOTE>
+  <P>Here, when we remove the value <B><CODE>'i'</CODE></B>, the front =
+should go=20
+  from the end of the array <EM>and wrap around</EM> to the first =
+position=20
+  <B>0</B> (zero).=20
+  <P>An outline for the function might be:=20
+  <P>
+  <OL>
+    <LI>Make sure there is at least one element to remove.=20
+    <LI>Make a note of where the element to be removed is or what its =
+value is.=20
+    <LI>Move the front.=20
+    <LI>Decrement the count.=20
+    <LI>Return the removed element. </LI></OL>
+  <P>Here is our implementation of the function:=20
+  <BLOCKQUOTE><PRE>queueElementT QueueDelete(queueADT queue)
+{
+  queueElementT oldElement;
+
+  if (queue-&gt;count &lt;=3D 0) {
+    fprintf(stderr, "QueueDelete on Empty Queue.\n");
+    exit(ERROR_QUEUE);  /* Exit program, returning error code. */
+  }
+
+  /* Save the element so we can return it. */
+  oldElement =3D queue-&gt;contents[queue-&gt;front];
+
+  /*
+   * Advance the index of the front,
+   * making sure it wraps around the
+   * array properly.
+   */
+  queue-&gt;front++;
+  queue-&gt;front %=3D MAX_QUEUE_SIZE;
+
+  queue-&gt;count--;
+
+  return oldElement;
+}
+</PRE></BLOCKQUOTE>
+  <P></P>
+  <LI><B>QueueIsEmpty() and QueueIsFull() functions:</B>
+  <P><CODE>QueueIsEmpty()</CODE> and <CODE>QueueIsFull()</CODE> simply =
+have to=20
+  return whether the queue has no elements or whether the queue's array =
+has no=20
+  more slots for elements (respectively). Their implementation is left =
+up to the=20
+  reader.=20
+  <P></P>
+  <LI><B>Completed code:</B>
+  <P>We've written the code for <A=20
+  =
+href=3D"http://www.cs.bu.edu/teaching/c/queue/array/download/queue.h"><CO=
+DE>queue.h</CODE></A>=20
+  and <A=20
+  =
+href=3D"http://www.cs.bu.edu/teaching/c/queue/array/download/queue.c"><CO=
+DE>queue.c</CODE></A>,=20
+  plus a sample testing program <A=20
+  =
+href=3D"http://www.cs.bu.edu/teaching/c/queue/array/download/queuetest.c"=
+><CODE>queuetest.c</CODE></A>=20
+  and a <A=20
+  =
+href=3D"http://www.cs.bu.edu/teaching/c/queue/array/download/Makefile"><C=
+ODE>Makefile</CODE></A>.=20
+
+  <P>The program demonstrates how each of the queue functions would be =
+used.=20
+  <EM>What should be the output of the program given that a queue =
+provides=20
+  <STRONG>FIFO</STRONG> ordering?</EM>=20
+  <P></P>
+  <LI><B>Something harder:</B>
+  <P>For those who want something more challenging, let's make our=20
+  implementation more difficult. Suppose we want to implement the queue =
+using an=20
+  array that grows when it is full and someone adds something to it.=20
+  <P><EM>First, what changes to the types for a queue will be necessary? =
+</EM>
+  <P><B>Answer:</B> Only <CODE>queueCDT</CODE> need change. The =
+<EM>array</EM>=20
+  must be changed to a pointer and we have to add a field telling us how =
+big the=20
+  array currently is, as in:=20
+  <BLOCKQUOTE><PRE>typedef struct queueCDT {
+  <FONT color=3D#ee0000>queueElementT *contents;
+  int curSize;</FONT>
+  int front;
+  int count;
+} queueCDT;
+</PRE></BLOCKQUOTE>
+  <P>Next, how will the function <CODE>QueueEnter()</CODE> be different? =
+Let's=20
+  start by looking at how the outline for the function changes:=20
+  <P>New outline for <CODE>QueueEnter()</CODE>:=20
+  <P>
+  <OL>
+    <LI>Make sure there is room in the array.=20
+    <P><FONT color=3D#ee0000>If not...=20
+    <OL>
+      <LI>Allocate a new array.<B>*</B>=20
+      <LI>Copy all the old elements into it.=20
+      <LI>Remove the old array, make the new array the current one.=20
+      <LI>Update where the <EM>front</EM> is, plus any other fields that =
+need to=20
+      be updated. </LI></OL></FONT>
+    <P></P>
+    <LI>Calculate the index of where the new element will go and place =
+the=20
+    element there.=20
+    <LI>Increment the count. </LI></OL>
+  <P><B>*</B> <EM>What size should the re-allocated array be? </EM>
+  <P>One choice would be to make it just big enough to hold the new =
+element;=20
+  however, a more efficient choice (requiring less re-allocation in the =
+future)=20
+  would be to make it <EM>bigger</EM> (e.g., twice its current size).=20
+</P></LI></OL>
+<P>
+<HR>
+
+<ADDRESS>BU CAS CS - Queues - Array Implementation - Functions =
+<BR>Copyright =C2=A9=20
+1993-2000 by <A target=3D_top>Robert I. Pitts</A> &lt;rip at bu dot =
+edu&gt;. All=20
+Rights Reserved. </ADDRESS></BODY></HTML>

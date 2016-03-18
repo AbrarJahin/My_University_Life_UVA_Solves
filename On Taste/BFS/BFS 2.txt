@@ -1,0 +1,32 @@
+*/ program of bfs*/
+void BFS(graph g,start vertex s);
+{
+queue q;
+int visited[num vertex s);
+vertex v,w;
+q=create queue[num vertex];
+make empty(q);
+enqueue(s,q);
+while(!isempty (q));
+{
+v=dequeue(q);
+visited[v]=true;
+for each w adjacent to v;
+{
+if(visited[w]=0&&w!=queue elements)
+enqueue(q);
+}
+}
+dispose queue(q);
+}
+
+
+
+*/program of dfs*/
+void DFs(vertex v)
+{
+visited[v]=true;
+for each w adjacent to v
+if(!visited[w])
+dfs(w);
+}

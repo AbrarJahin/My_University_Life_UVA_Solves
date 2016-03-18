@@ -1,0 +1,79 @@
+//-----------------------------------------------------------------------------
+#include <iostream.h>
+#include <stdlib.h>
+#include <LEDA/ugraph.h>
+#include <LEDA/graph_gen.h>
+#include <LEDA/node_array.h>
+#include <LEDA/queue.h>
+//-----------------------------------------------------------------------------
+const int TRUE = 1;
+const int FALSE = 0;
+
+void DFS(const ugraph &MyGraph);
+void DoDFS(const ugraph &MyGraph,const node NodeID,node_array<bool> &Visited);
+void BFS(const ugraph &MyGraph);
+//-----------------------------------------------------------------------------
+int main(int argc,char *argv[]) {
+
+int NumberOfNodes = atoi(argv[1]);
+int NumberOfEdges = atoi(argv[2]);
+
+ugraph MyGraph;
+
+cout << "Creating random graph with " << NumberOfNodes << " nodes and "
+     << NumberOfEdges << " edges" << endl;
+random_simple_undirected_graph(MyGraph,NumberOfNodes,NumberOfEdges);
+MyGraph.print();
+
+DFS(MyGraph);
+BFS(MyGraph);
+
+return(0);
+}
+//-----------------------------------------------------------------------------
+void DFS(const ugraph &MyGraph) {
+
+node_array<bool> Visited(MyGraph,FALSE);
+
+cout << "DFS from node ";
+MyGraph.print_node(MyGraph.first_node());
+cout << " : ";
+DoDFS(MyGraph,MyGraph.first_node(),Visited);
+cout << endl;
+}
+//-----------------------------------------------------------------------------
+void DoDFS(const ugraph &MyGraph,const node Node,node_array<bool> &Visited) {
+
+node AdjacentNode;
+
+MyGraph.print_node(Node);
+Visited[Node] = TRUE;
+forall_adj_nodes(AdjacentNode,Node)
+    if (!Visited[AdjacentNode])
+        DoDFS(MyGraph,AdjacentNode,Visited);
+}
+//-----------------------------------------------------------------------------
+void BFS(const ugraph &MyGraph) {
+
+node_array<bool> Visited(MyGraph,FALSE);
+queue<node> NodeQ;
+node Node,AdjacentNode;
+
+cout << "BFS from node ";
+MyGraph.print_node(MyGraph.first_node());
+cout << " : ";
+
+NodeQ.append(MyGraph.first_node());
+
+while (!NodeQ.empty()) {
+    Node = NodeQ.pop();
+    MyGraph.print_node(Node);
+    Visited[Node] = TRUE;
+    forall_adj_nodes(AdjacentNode,Node)
+        if (!Visited[AdjacentNode])
+            NodeQ.append(AdjacentNode);
+    }
+
+cout << endl;
+}
+//-----------------------------------------------------------------------------
